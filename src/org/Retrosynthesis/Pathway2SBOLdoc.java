@@ -61,17 +61,17 @@ public class Pathway2SBOLdoc {
         natives = me.run(metPaths);
     }
 
-    private void run(Pathway pathway) throws SBOLValidationException, SBOLConversionException, IOException {
+    void run (Pathway pathway, int i) throws SBOLValidationException, SBOLConversionException, IOException {
         List<Reaction> pathwayIn = pathway.getReactions();
         List<Chemical> metabolites = new ArrayList<>();
-        ModuleDefinition moduleDef = document.createModuleDefinition("pathway" + pathway.toString());
+        ModuleDefinition moduleDef = document.createModuleDefinition("pathway" + String.valueOf(i));
 
         int step = 0;
 
         for (Reaction r: pathwayIn){
-            ComponentDefinition genericEnzyme= document.createComponentDefinition("genericStep" + String.valueOf(step) + "enzyme", BIOPAX_BiochemicalRxn_uri);
+            ComponentDefinition genericEnzyme= document.createComponentDefinition(this.helper() + String.valueOf(step) + "enzyme", BIOPAX_BiochemicalRxn_uri);
             genericEnzyme.addRole(RoleBiochemicalRxnuri);
-            Interaction Reaction = moduleDef.createInteraction(r.getecnum(),InteractionBiochemicalRxnuri);
+            Interaction Reaction = moduleDef.createInteraction(this.helper(),InteractionBiochemicalRxnuri);
             for (Chemical c : r.getSubstrates()){
                 if (natives.contains(c.getName())&& !visitedChem.contains(c)){
                     ComponentDefinition sideReactant = visitedComponents.get(c.getName());
@@ -80,35 +80,35 @@ public class Pathway2SBOLdoc {
                     continue;
                 }
                 if (!visitedChem.contains(c) && !natives.contains(c.getName())){
-                    ComponentDefinition genericReactant= document.createComponentDefinition(c.getName(), BIOPAX_SmallMolecule_uri);
+                    ComponentDefinition genericReactant= document.createComponentDefinition(this.helper(), BIOPAX_SmallMolecule_uri);
                     visitedComponents.put(c.getName(), genericReactant);
-                    FunctionalComponent reactant = moduleDef.createFunctionalComponent(c.toString(), AccessType.PUBLIC, genericReactant.getPersistentIdentity(),DirectionType.NONE);
-                    Participation participation = Reaction.createParticipation(c.getName(),reactant.getPersistentIdentity(),ParticipationReactantUri);
+                    FunctionalComponent reactant = moduleDef.createFunctionalComponent(this.helper(), AccessType.PUBLIC, genericReactant.getPersistentIdentity(),DirectionType.INOUT);
+                    Participation participation = Reaction.createParticipation(this.helper(),reactant.getIdentity(),ParticipationReactantUri);
                     visitedChem.add(c);
-                    Sequence chemSmile =  document.createSequence(c.getName(),c.getSmiles(),SequenceSmilesURI);
+                    Sequence chemSmile =  document.createSequence(this.helper() + "_seq","OC12CC3CC(C1)C(=O)C(C3)C2",SequenceSmilesURI);
                     continue;
                 }
                 if (visitedChem.contains(c) && !natives.contains(c.getName())){
                     ComponentDefinition genericReactant = visitedComponents.get(c.getName());
-                    FunctionalComponent reactant = moduleDef.createFunctionalComponent(c.toString(), AccessType.PUBLIC, genericReactant.getPersistentIdentity(),DirectionType.NONE);
-                    Participation participation = Reaction.createParticipation(c.getName(),reactant.getPersistentIdentity(),ParticipationReactantUri);
+                    FunctionalComponent reactant = moduleDef.createFunctionalComponent(this.helper(), AccessType.PUBLIC, genericReactant.getPersistentIdentity(),DirectionType.NONE);
+                    Participation participation = Reaction.createParticipation(this.helper(),reactant.getPersistentIdentity(),ParticipationReactantUri);
                     continue;
                 }
             }
             for (Chemical c : r.getProducts()){
                 if (!visitedChem.contains(c) && !natives.contains(c.getName())){
-                    ComponentDefinition genericProduct= document.createComponentDefinition(c.getName(), BIOPAX_SmallMolecule_uri);
+                    ComponentDefinition genericProduct= document.createComponentDefinition(this.helper(), BIOPAX_SmallMolecule_uri);
                     visitedComponents.put(c.getName(), genericProduct);
-                    FunctionalComponent product = moduleDef.createFunctionalComponent(c.toString(), AccessType.PUBLIC, genericProduct.getPersistentIdentity(),DirectionType.NONE);
-                    Participation participation = Reaction.createParticipation(c.getName(),product.getPersistentIdentity(),ParticipationReactantUri);
+                    FunctionalComponent product = moduleDef.createFunctionalComponent(this.helper(), AccessType.PUBLIC, genericProduct.getPersistentIdentity(),DirectionType.NONE);
+                    Participation participation = Reaction.createParticipation(this.helper(),product.getPersistentIdentity(),ParticipationReactantUri);
                     visitedChem.add(c);
-                    Sequence chemSmile =  document.createSequence(c.getName(),c.getSmiles(),SequenceSmilesURI);
+                    Sequence chemSmile =  document.createSequence(this.helper(),"OC12CC3CC(C1)C(=O)C(C3)C2",SequenceSmilesURI);
                     continue;
                 }
                 if (visitedChem.contains(c) && !natives.contains(c.getName())){
                     ComponentDefinition genericProduct= visitedComponents.get(c.getName());
-                    FunctionalComponent product= moduleDef.createFunctionalComponent(c.toString(), AccessType.PUBLIC, genericProduct.getPersistentIdentity(),DirectionType.NONE);
-                    Participation participation = Reaction.createParticipation(c.getName(),product.getPersistentIdentity(),ParticipationProductUri);
+                    FunctionalComponent product= moduleDef.createFunctionalComponent(this.helper(), AccessType.PUBLIC, genericProduct.getPersistentIdentity(),DirectionType.NONE);
+                    Participation participation = Reaction.createParticipation(this.helper(),product.getPersistentIdentity(),ParticipationProductUri);
                     continue;
                 }
             }
@@ -118,6 +118,39 @@ public class Pathway2SBOLdoc {
 
     public void out(String filename) throws SBOLConversionException, IOException {
         document.write(filename);
+        System.out.println("Done converting SBOLdoc to" + filename);
     }
+//Generate random string for naming purposes right now
+//    need to be removed in the final version
+    private String helper(){
 
+
+                // create a string of all characters
+                String alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+
+                // create random string builder
+                StringBuilder sb = new StringBuilder();
+
+                // create an object of Random class
+                Random random = new Random();
+
+                // specify length of random string
+                int length = 4;
+
+                for(int i = 0; i < length; i++) {
+
+                    // generate random index number
+                    int index = random.nextInt(alphabet.length());
+
+                    // get character specified by index
+                    // from the string
+                    char randomChar = alphabet.charAt(index);
+
+                    // append the character to string builder
+                    sb.append(randomChar);
+                }
+
+                String randomString = sb.toString();
+                return randomString;
+    }
 }
