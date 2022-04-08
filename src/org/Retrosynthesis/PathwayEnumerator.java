@@ -12,8 +12,6 @@ import java.util.*;
  */
 
 public class PathwayEnumerator {
-    private HashMap<Chemical, Integer> chemicalToShell;
-    private HashMap<Chemical, Cascade> chemicalToCascade;
     private List<Chemical> allChems ;
     private HashMap<Chemical, Cascade> chemtoCascade;
     private HashMap<String, Chemical> chemMap;
@@ -26,8 +24,6 @@ public class PathwayEnumerator {
         re.initiate();
         MetaboliteExtractor me = new MetaboliteExtractor();
         me.initiate();
-        Synthesizer s = new Synthesizer();
-        s.initiate();
         ChemicalToCascade CC = new ChemicalToCascade();
         CC.initiate();
 
@@ -40,11 +36,7 @@ public class PathwayEnumerator {
         chemMap = ce.getChemicalHashMap();
         List<Reaction> allRxns = re.run(rxnpath, allChems);
         natives = me.run(metPaths);
-        HyperGraph hg = s.run(allRxns, allChems, natives);
         chemtoCascade = CC.run(allRxns,allChems);
-
-        chemicalToShell = hg.getChemicalToShell();
-        chemicalToCascade = hg.getChemicalToCascade();
     }
 
     public List<Pathway> run(Cascade cascade) throws Exception {
@@ -108,10 +100,7 @@ public class PathwayEnumerator {
 
 
     public HashMap<Chemical, Cascade>  getChemicalToCascade() {
-        return chemicalToCascade;
-    }
-    public List<Chemical> getAllChems() {
-        return allChems;
+        return chemtoCascade;
     }
 
     public Map<String, Chemical> getChemMaps() {
