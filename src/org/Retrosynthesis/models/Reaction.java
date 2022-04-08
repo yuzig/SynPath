@@ -30,11 +30,11 @@ public class Reaction {
         sb.append(ecnum).append("\t");
 
         for (Chemical c : substrates) {
-            sb.append(c.getId()).append("\t");
+            sb.append(c.getName()).append("\t");
         }
         sb.append("-->");
         for (Chemical c : products) {
-            sb.append(c.getId()).append("\t");
+            sb.append(c.getName()).append("\t");
         }
         String out = sb.toString();
         return out;

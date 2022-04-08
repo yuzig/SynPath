@@ -18,6 +18,10 @@ public class Cascade {
     public Set<Reaction> getRxnsThatFormPdt() {
         return rxnsThatFormPdt;
     }
+
+    public void addRxn(Reaction rxn){
+        rxnsThatFormPdt.add(rxn);
+    }
     
     //void addReaction(Reaction rxn) {
      //   rxnsThatFormPdt.add(rxn);

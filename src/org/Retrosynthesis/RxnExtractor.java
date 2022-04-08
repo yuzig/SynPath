@@ -31,7 +31,7 @@ public class RxnExtractor {
             try {
                 //Pull out the data for one reaction
                 String[] tabs = aline.trim().split("\t");
-                String ecnum = tabs[2];
+                String ecnum = tabs[1];
                 String substrates = tabs[2];
                 String products = tabs[3];
                 Set<Chemical> subs = handleChemIdList(substrates, idToChem);

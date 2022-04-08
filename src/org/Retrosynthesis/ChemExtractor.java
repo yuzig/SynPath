@@ -4,12 +4,13 @@ import org.Retrosynthesis.models.Chemical;
 import org.Utils.FileUtils;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
 
 public class ChemExtractor {
-
+    private HashMap<String, Chemical> chemicalHashMap;
     public void initiate() {
-
+        chemicalHashMap = new HashMap<>();
     }
 
     public List<Chemical> run(String chempath) throws Exception {
@@ -31,10 +32,15 @@ public class ChemExtractor {
             String smiles = tabs[3];
 
             Chemical achem = new Chemical(id, inchi, smiles, name);
+            chemicalHashMap.put(achem.getName(), achem);
             allChemicals.add(achem);
+
         }
         System.out.println("done populating chemicals");
         return allChemicals;
     }
 
+    public HashMap<String, Chemical> getChemicalHashMap() {
+        return chemicalHashMap;
+    }
 }

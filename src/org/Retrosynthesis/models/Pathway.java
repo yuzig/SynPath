@@ -22,6 +22,12 @@ public class Pathway {
     public List<Reaction> getReactions() {
         return Reactions;
     }
+    public void addRxn(Reaction rxn){
+        this.Reactions.add(rxn);
+    }
+    public void remove(Reaction rxn){
+        this.Reactions.remove(rxn);
+    }
 
     public String toString() {
         StringBuilder sb = new StringBuilder();
