@@ -3,7 +3,6 @@ package org.Retrosynthesis;
 import org.C5;
 import org.Retrosynthesis.models.*;
 
-import java.sql.Array;
 import java.util.*;
 
 /**
@@ -46,13 +45,18 @@ public class PathwayEnumerator {
         Set<String> visited = new HashSet<String>();
         visited.add(product.getInchi());
         depthSearch(product,enumPath, CurrPath, visited, 0);
-        System.out.println(enumPath);
+//        System.out.println(enumPath);
         return enumPath;
     }
 
     private void depthSearch(Chemical chem, List<Pathway> allPaths, List<Reaction> CurrPath, Set<String> visitedChem, int layer) {
         Cascade cascade = chemtoCascade.get(chem);
-        if (layer > 5) {
+        if (layer > 5){
+            return;
+         }
+        if (cascade.getRxnsThatFormPdt().size() == 0){
+            Pathway newPath = new Pathway(CurrPath);
+            allPaths.add(newPath);
             return;
         }
         for (Reaction r : cascade.getRxnsThatFormPdt()) {
@@ -62,18 +66,19 @@ public class PathwayEnumerator {
             if (allNatives(r.getSubstrates())){
                 Pathway path = new Pathway(helperlist);
                 allPaths.add(path);
-                return;
+                continue;
             } else {
                 for (Chemical c : r.getSubstrates()) {
                     if(isNatives(c)){
                         continue;
                     }
                     if (visitedChem.contains(c.getInchi())){
-                        continue;
+                        break;
                     } else {
                         visitedChem.add(c.getInchi());
                         depthSearch(c, allPaths, helperlist, visitedChem, layer + 1);
                         visitedChem.remove(c.getInchi());
+                        continue;
                     }
                 }
             }
