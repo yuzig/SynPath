@@ -1,40 +1,6 @@
-3.13.1.-	3,3'-Thiodipropionic acid	h2o	-->3-hydroxypropionate	3-mercaptopropionate	
-
 	undefined	h2o	-->3-hydroxypropionate	dimethylsulfide	CoenzymeA	h+	
 
-1.2.1.-	3-hydroxypropionaldehyde	h2o	NAD+	-->3-hydroxypropionate	nadh	h+	
-4.2.1.30	glycerol	-->3-hydroxypropionaldehyde	h2o	
-3.1.1.23	h2o	1-oleoyl-sn-glycerol	-->(9z)-octadecenoate	glycerol	h+	
-
-1.2.1.-	3-hydroxypropionaldehyde	h2o	NAD+	-->3-hydroxypropionate	nadh	h+	
-4.2.1.30	glycerol	-->3-hydroxypropionaldehyde	h2o	
-3.1.3.21	sn-glycerol 3-phosphate	sn-glyceryl phosphate	h2o	-->glycerol	hpo42-	
-3.1.4.44	h2o	undefined	-->sn-glyceryl phosphate	h+	myo-inositol	
-
-1.2.1.-	3-hydroxypropionaldehyde	h2o	NAD+	-->3-hydroxypropionate	nadh	h+	
-4.2.1.30	glycerol	-->3-hydroxypropionaldehyde	h2o	
-3.1.3.21	sn-glycerol 3-phosphate	sn-glyceryl phosphate	h2o	-->glycerol	hpo42-	
-3.1.4.2	glycerophosphocholine	h2o	-->sn-glyceryl phosphate	choline	h+	
-
-1.2.1.-	3-hydroxypropionaldehyde	h2o	NAD+	-->3-hydroxypropionate	nadh	h+	
-4.2.1.30	glycerol	-->3-hydroxypropionaldehyde	h2o	
-3.1.3.21	sn-glycerol 3-phosphate	sn-glyceryl phosphate	h2o	-->glycerol	hpo42-	
-3.1.4.46	undefined	h2o	-->l-serine	sn-glyceryl phosphate	h+	
-
-1.2.1.-	3-hydroxypropionaldehyde	h2o	NAD+	-->3-hydroxypropionate	nadh	h+	
-4.2.1.30	glycerol	-->3-hydroxypropionaldehyde	h2o	
-3.1.3.21	sn-glycerol 3-phosphate	sn-glyceryl phosphate	h2o	-->glycerol	hpo42-	
-3.1.4.46	l-alpha-glycerophosphorylserine	h2o	-->l-serine	sn-glyceryl phosphate	h+	
-
-1.2.1.-	3-hydroxypropionaldehyde	h2o	NAD+	-->3-hydroxypropionate	nadh	h+	
-4.2.1.30	glycerol	-->3-hydroxypropionaldehyde	h2o	
-3.1.3.21	sn-glycerol 3-phosphate	sn-glyceryl phosphate	h2o	-->glycerol	hpo42-	
-3.1.4.44	undefined	h2o	-->sn-glyceryl phosphate	h+	myo-inositol	
-
-1.2.1.-	3-hydroxypropionaldehyde	h2o	NAD+	-->3-hydroxypropionate	nadh	h+	
-4.2.1.30	glycerol	-->3-hydroxypropionaldehyde	h2o	
-3.1.3.21	sn-glycerol 3-phosphate	sn-glyceryl phosphate	h2o	-->glycerol	hpo42-	
-3.1.4.46	glcyerophosphoglycerol	h2o	-->sn-glyceryl phosphate	glycerol	h+	
+3.13.1.-	3,3'-Thiodipropionic acid	h2o	-->3-hydroxypropionate	3-mercaptopropionate	
 
 1.2.1.-	3-hydroxypropionaldehyde	h2o	NAD+	-->3-hydroxypropionate	nadh	h+	
 4.2.1.30	glycerol	-->3-hydroxypropionaldehyde	h2o	
@@ -43,36 +9,36 @@
 
 1.2.1.-	3-hydroxypropionaldehyde	h2o	NAD+	-->3-hydroxypropionate	nadh	h+	
 4.2.1.30	glycerol	-->3-hydroxypropionaldehyde	h2o	
-3.1.1.23	sn-2-monooleoylglycerol	h2o	-->(9z)-octadecenoate	glycerol	h+	
+3.1.1.23	h2o	1-oleoyl-sn-glycerol	-->(9z)-octadecenoate	glycerol	h+	
 
 1.2.1.-	3-hydroxypropionaldehyde	h2o	NAD+	-->3-hydroxypropionate	nadh	h+	
 4.2.1.30	glycerol	-->3-hydroxypropionaldehyde	h2o	
-3.1.3.21	sn-glyceryl phosphate	h2o	-->glycerol	hpo42-	
-3.1.4.44	h2o	undefined	-->sn-glyceryl phosphate	h+	myo-inositol	
-
-1.2.1.-	3-hydroxypropionaldehyde	h2o	NAD+	-->3-hydroxypropionate	nadh	h+	
-4.2.1.30	glycerol	-->3-hydroxypropionaldehyde	h2o	
-3.1.3.21	sn-glyceryl phosphate	h2o	-->glycerol	hpo42-	
-3.1.4.2	glycerophosphocholine	h2o	-->sn-glyceryl phosphate	choline	h+	
-
-1.2.1.-	3-hydroxypropionaldehyde	h2o	NAD+	-->3-hydroxypropionate	nadh	h+	
-4.2.1.30	glycerol	-->3-hydroxypropionaldehyde	h2o	
-3.1.3.21	sn-glyceryl phosphate	h2o	-->glycerol	hpo42-	
-3.1.4.46	undefined	h2o	-->l-serine	sn-glyceryl phosphate	h+	
-
-1.2.1.-	3-hydroxypropionaldehyde	h2o	NAD+	-->3-hydroxypropionate	nadh	h+	
-4.2.1.30	glycerol	-->3-hydroxypropionaldehyde	h2o	
-3.1.3.21	sn-glyceryl phosphate	h2o	-->glycerol	hpo42-	
+3.1.3.21	sn-glycerol 3-phosphate	sn-glyceryl phosphate	h2o	-->glycerol	hpo42-	
 3.1.4.46	l-alpha-glycerophosphorylserine	h2o	-->l-serine	sn-glyceryl phosphate	h+	
 
 1.2.1.-	3-hydroxypropionaldehyde	h2o	NAD+	-->3-hydroxypropionate	nadh	h+	
 4.2.1.30	glycerol	-->3-hydroxypropionaldehyde	h2o	
-3.1.3.21	sn-glyceryl phosphate	h2o	-->glycerol	hpo42-	
+3.1.3.21	sn-glycerol 3-phosphate	sn-glyceryl phosphate	h2o	-->glycerol	hpo42-	
+3.1.4.44	h2o	undefined	-->sn-glyceryl phosphate	h+	myo-inositol	
+
+1.2.1.-	3-hydroxypropionaldehyde	h2o	NAD+	-->3-hydroxypropionate	nadh	h+	
+4.2.1.30	glycerol	-->3-hydroxypropionaldehyde	h2o	
+3.1.3.21	sn-glycerol 3-phosphate	sn-glyceryl phosphate	h2o	-->glycerol	hpo42-	
+3.1.4.2	glycerophosphocholine	h2o	-->sn-glyceryl phosphate	choline	h+	
+
+1.2.1.-	3-hydroxypropionaldehyde	h2o	NAD+	-->3-hydroxypropionate	nadh	h+	
+4.2.1.30	glycerol	-->3-hydroxypropionaldehyde	h2o	
+3.1.3.21	sn-glycerol 3-phosphate	sn-glyceryl phosphate	h2o	-->glycerol	hpo42-	
+3.1.4.46	undefined	h2o	-->l-serine	sn-glyceryl phosphate	h+	
+
+1.2.1.-	3-hydroxypropionaldehyde	h2o	NAD+	-->3-hydroxypropionate	nadh	h+	
+4.2.1.30	glycerol	-->3-hydroxypropionaldehyde	h2o	
+3.1.3.21	sn-glycerol 3-phosphate	sn-glyceryl phosphate	h2o	-->glycerol	hpo42-	
 3.1.4.44	undefined	h2o	-->sn-glyceryl phosphate	h+	myo-inositol	
 
 1.2.1.-	3-hydroxypropionaldehyde	h2o	NAD+	-->3-hydroxypropionate	nadh	h+	
 4.2.1.30	glycerol	-->3-hydroxypropionaldehyde	h2o	
-3.1.3.21	sn-glyceryl phosphate	h2o	-->glycerol	hpo42-	
+3.1.3.21	sn-glycerol 3-phosphate	sn-glyceryl phosphate	h2o	-->glycerol	hpo42-	
 3.1.4.46	glcyerophosphoglycerol	h2o	-->sn-glyceryl phosphate	glycerol	h+	
 
 1.2.1.-	3-hydroxypropionaldehyde	h2o	NAD+	-->3-hydroxypropionate	nadh	h+	
@@ -83,11 +49,62 @@
 4.2.1.30	glycerol	-->3-hydroxypropionaldehyde	h2o	
 3.1.4.46	glcyerophosphoglycerol	h2o	-->sn-glyceryl phosphate	glycerol	h+	
 
-3.1.2.4	3-Hydroxypropanoyl-CoA	h2o	-->3-hydroxypropionate	CoenzymeA	
-4.2.1.17	Acrylyl-CoA(acid)	h2o	-->3-Hydroxypropanoyl-CoA	
-1.3.8.-	propionyl-coa	-->Acrylyl-CoA(acid)	
-2.3.1.176	undefined	CoenzymeA	-->propionyl-coa	undefined	
-1.1.1.35	undefined	NAD+	-->undefined	nadh	h+	
+1.2.1.-	3-hydroxypropionaldehyde	h2o	NAD+	-->3-hydroxypropionate	nadh	h+	
+4.2.1.30	glycerol	-->3-hydroxypropionaldehyde	h2o	
+3.1.3.21	sn-glyceryl phosphate	h2o	-->glycerol	hpo42-	
+3.1.4.46	l-alpha-glycerophosphorylserine	h2o	-->l-serine	sn-glyceryl phosphate	h+	
+
+1.2.1.-	3-hydroxypropionaldehyde	h2o	NAD+	-->3-hydroxypropionate	nadh	h+	
+4.2.1.30	glycerol	-->3-hydroxypropionaldehyde	h2o	
+3.1.3.21	sn-glyceryl phosphate	h2o	-->glycerol	hpo42-	
+3.1.4.44	h2o	undefined	-->sn-glyceryl phosphate	h+	myo-inositol	
+
+1.2.1.-	3-hydroxypropionaldehyde	h2o	NAD+	-->3-hydroxypropionate	nadh	h+	
+4.2.1.30	glycerol	-->3-hydroxypropionaldehyde	h2o	
+3.1.3.21	sn-glyceryl phosphate	h2o	-->glycerol	hpo42-	
+3.1.4.2	glycerophosphocholine	h2o	-->sn-glyceryl phosphate	choline	h+	
+
+1.2.1.-	3-hydroxypropionaldehyde	h2o	NAD+	-->3-hydroxypropionate	nadh	h+	
+4.2.1.30	glycerol	-->3-hydroxypropionaldehyde	h2o	
+3.1.3.21	sn-glyceryl phosphate	h2o	-->glycerol	hpo42-	
+3.1.4.46	undefined	h2o	-->l-serine	sn-glyceryl phosphate	h+	
+
+1.2.1.-	3-hydroxypropionaldehyde	h2o	NAD+	-->3-hydroxypropionate	nadh	h+	
+4.2.1.30	glycerol	-->3-hydroxypropionaldehyde	h2o	
+3.1.3.21	sn-glyceryl phosphate	h2o	-->glycerol	hpo42-	
+3.1.4.44	undefined	h2o	-->sn-glyceryl phosphate	h+	myo-inositol	
+
+1.2.1.-	3-hydroxypropionaldehyde	h2o	NAD+	-->3-hydroxypropionate	nadh	h+	
+4.2.1.30	glycerol	-->3-hydroxypropionaldehyde	h2o	
+3.1.3.21	sn-glyceryl phosphate	h2o	-->glycerol	hpo42-	
+3.1.4.46	glcyerophosphoglycerol	h2o	-->sn-glyceryl phosphate	glycerol	h+	
+
+1.2.1.-	3-hydroxypropionaldehyde	h2o	NAD+	-->3-hydroxypropionate	nadh	h+	
+4.2.1.30	glycerol	-->3-hydroxypropionaldehyde	h2o	
+3.1.1.23	sn-2-monooleoylglycerol	h2o	-->(9z)-octadecenoate	glycerol	h+	
+
+1.1.1.298	malonate semialdehyde	h+	nadph	-->3-hydroxypropionate	nadp+	
+1.13.12.16	o2	undefined	-->malonate semialdehyde	nitrite	
+
+1.1.1.298	malonate semialdehyde	h+	nadph	-->3-hydroxypropionate	nadp+	
+	undefined	h2o	-->malonate semialdehyde	nh3	
+	h2o	undefined	-->formohydroxamic acid	undefined	h+	
+
+1.1.1.298	malonate semialdehyde	h+	nadph	-->3-hydroxypropionate	nadp+	
+2.6.1.19	beta-alanine	alpha-ketoglutarate	-->L-glutamate	malonate semialdehyde	
+
+1.1.1.298	malonate semialdehyde	h+	nadph	-->3-hydroxypropionate	nadp+	
+2.6.1.19	beta-alanine	alpha-ketoglutarate	-->malonate semialdehyde	dl-glutamate	
+
+1.1.1.298	malonate semialdehyde	h+	nadph	-->3-hydroxypropionate	nadp+	
+2.6.1.19	beta-alanine	alpha-ketoglutarate	-->L-glutamate	malonate semialdehyde	
+
+1.1.1.298	malonate semialdehyde	h+	nadph	-->3-hydroxypropionate	nadp+	
+	undefined	h2o	h+	-->nh4+	malonate semialdehyde	
+	h2o	undefined	-->formohydroxamic acid	undefined	h+	
+
+1.1.1.298	malonate semialdehyde	h+	nadph	-->3-hydroxypropionate	nadp+	
+2.6.1.19	beta-alanine	alpha-ketoglutarate	-->L-glutamate	malonate semialdehyde	
 
 3.1.2.4	3-Hydroxypropanoyl-CoA	h2o	-->3-hydroxypropionate	CoenzymeA	
 4.2.1.17	Acrylyl-CoA(acid)	h2o	-->3-Hydroxypropanoyl-CoA	
@@ -111,13 +128,13 @@
 4.2.1.17	Acrylyl-CoA(acid)	h2o	-->3-Hydroxypropanoyl-CoA	
 1.3.8.-	propionyl-coa	-->Acrylyl-CoA(acid)	
 1.2.1.27	CoenzymeA	methylmalonate semialdehyde	h2o	NAD+	-->hco3-	nadh	propionyl-coa	h+	
-2.6.1.22	(s)-3-amino-2-methylpropanoate	alpha-ketoglutarate	-->methylmalonate semialdehyde	undefined	
+2.6.1.22	(s)-3-amino-2-methylpropanoate	alpha-ketoglutarate	-->L-glutamate	methylmalonate semialdehyde	
 
 3.1.2.4	3-Hydroxypropanoyl-CoA	h2o	-->3-hydroxypropionate	CoenzymeA	
 4.2.1.17	Acrylyl-CoA(acid)	h2o	-->3-Hydroxypropanoyl-CoA	
 1.3.8.-	propionyl-coa	-->Acrylyl-CoA(acid)	
 1.2.1.27	CoenzymeA	methylmalonate semialdehyde	h2o	NAD+	-->hco3-	nadh	propionyl-coa	h+	
-2.6.1.22	(s)-3-amino-2-methylpropanoate	alpha-ketoglutarate	-->L-glutamate	methylmalonate semialdehyde	
+2.6.1.22	(s)-3-amino-2-methylpropanoate	alpha-ketoglutarate	-->methylmalonate semialdehyde	undefined	
 
 3.1.2.4	3-Hydroxypropanoyl-CoA	h2o	-->3-hydroxypropionate	CoenzymeA	
 4.2.1.17	Acrylyl-CoA(acid)	h2o	-->3-Hydroxypropanoyl-CoA	
@@ -133,19 +150,60 @@
 3.1.2.4	3-Hydroxypropanoyl-CoA	h2o	-->3-hydroxypropionate	CoenzymeA	
 4.2.1.17	Acrylyl-CoA(acid)	h2o	-->3-Hydroxypropanoyl-CoA	
 1.3.8.-	propionyl-coa	-->Acrylyl-CoA(acid)	
-4.1.1.41	h+	undefined	-->co2	propionyl-coa	
+2.3.1.176	CoenzymeA	undefined	-->propionyl-coa	undefined	
+	undefined	NAD+	-->nadh	h+	undefined	
+
+3.1.2.4	3-Hydroxypropanoyl-CoA	h2o	-->3-hydroxypropionate	CoenzymeA	
+4.2.1.17	Acrylyl-CoA(acid)	h2o	-->3-Hydroxypropanoyl-CoA	
+1.3.8.-	propionyl-coa	-->Acrylyl-CoA(acid)	
+6.2.1.17	CoenzymeA	propanoate	atp	-->adenylic acid	propionyl-coa	diphosphatediphosphate;pyrophosphate	
+4.1.1.76	methylmalonate	-->co2	propanoate	
+
+3.1.2.4	3-Hydroxypropanoyl-CoA	h2o	-->3-hydroxypropionate	CoenzymeA	
+4.2.1.17	Acrylyl-CoA(acid)	h2o	-->3-Hydroxypropanoyl-CoA	
+1.3.8.-	propionyl-coa	-->Acrylyl-CoA(acid)	
+6.2.1.17	CoenzymeA	propanoate	atp	-->adenylic acid	propionyl-coa	diphosphatediphosphate;pyrophosphate	
+1.2.98.-	s-adenosyl-l-methionine	h2o	undefined	-->propanoate	l-methionine	h+	undefined	5'-deoxyadenosine	
+2.5.1.6	h2o	atp	d-methionine	-->s-adenosyl-l-methionine	diphosphatediphosphate;pyrophosphate	hpo42-	
+
+3.1.2.4	3-Hydroxypropanoyl-CoA	h2o	-->3-hydroxypropionate	CoenzymeA	
+4.2.1.17	Acrylyl-CoA(acid)	h2o	-->3-Hydroxypropanoyl-CoA	
+1.3.8.-	propionyl-coa	-->Acrylyl-CoA(acid)	
+6.2.1.17	CoenzymeA	propanoate	atp	-->adenylic acid	propionyl-coa	diphosphatediphosphate;pyrophosphate	
+1.2.98.-	s-adenosyl-l-methionine	h2o	undefined	-->propanoate	l-methionine	h+	undefined	5'-deoxyadenosine	
+2.5.1.6	h2o	atp	d-methionine	-->s-adenosyl-l-methionine	diphosphatediphosphate;pyrophosphate	hpo42-	h+	
+
+3.1.2.4	3-Hydroxypropanoyl-CoA	h2o	-->3-hydroxypropionate	CoenzymeA	
+4.2.1.17	Acrylyl-CoA(acid)	h2o	-->3-Hydroxypropanoyl-CoA	
+1.3.8.-	propionyl-coa	-->Acrylyl-CoA(acid)	
+6.2.1.17	CoenzymeA	propanoate	atp	-->adenylic acid	propionyl-coa	diphosphatediphosphate;pyrophosphate	
+1.2.98.-	s-adenosyl-l-methionine	h2o	undefined	-->propanoate	l-methionine	h+	undefined	5'-deoxyadenosine	
+2.5.1.6	l-methionine	h2o	atp	-->s-adenosyl-l-methionine	diphosphatediphosphate;pyrophosphate	hpo42-	
+
+3.1.2.4	3-Hydroxypropanoyl-CoA	h2o	-->3-hydroxypropionate	CoenzymeA	
+4.2.1.17	Acrylyl-CoA(acid)	h2o	-->3-Hydroxypropanoyl-CoA	
+1.3.8.-	propionyl-coa	-->Acrylyl-CoA(acid)	
+6.2.1.17	CoenzymeA	propanoate	atp	-->adenylic acid	propionyl-coa	diphosphatediphosphate;pyrophosphate	
+2.7.2.-	adp	propanoyl phosphate	-->propanoate	atp	
+2.7.2.15	Formic acid	[[(2R,3S,4S)-3,4-dihydroxyoxolan-2-yl]methoxy-hydroxyphosphoryl]phosphono hydrogen phosphate	-->propanoyl phosphate	h+	undefined	
+
+3.1.2.4	3-Hydroxypropanoyl-CoA	h2o	-->3-hydroxypropionate	CoenzymeA	
+4.2.1.17	Acrylyl-CoA(acid)	h2o	-->3-Hydroxypropanoyl-CoA	
+1.3.8.-	propionyl-coa	-->Acrylyl-CoA(acid)	
+6.2.1.17	CoenzymeA	propanoate	atp	-->adenylic acid	propionyl-coa	diphosphatediphosphate;pyrophosphate	
+4.1.3.32	undefined	-->Pyruvate	propanoate	
+
+3.1.2.4	3-Hydroxypropanoyl-CoA	h2o	-->3-hydroxypropionate	CoenzymeA	
+4.2.1.17	Acrylyl-CoA(acid)	h2o	-->3-Hydroxypropanoyl-CoA	
+1.3.8.-	propionyl-coa	-->Acrylyl-CoA(acid)	
+1.2.1.27	l-2-methyl-3-oxopropionate	CoenzymeA	h2o	NAD+	-->hco3-	nadh	propionyl-coa	h+	
+2.6.1.22	(s)-3-amino-2-methylpropanoate	alpha-ketoglutarate	-->l-2-methyl-3-oxopropionate	L-glutamate	
 
 3.1.2.4	3-Hydroxypropanoyl-CoA	h2o	-->3-hydroxypropionate	CoenzymeA	
 4.2.1.17	Acrylyl-CoA(acid)	h2o	-->3-Hydroxypropanoyl-CoA	
 1.3.8.-	propionyl-coa	-->Acrylyl-CoA(acid)	
 2.8.3.1	propanoate	Acetyl-CoA	-->ch3coo-	propionyl-coa	
 4.1.1.76	methylmalonate	-->co2	propanoate	
-
-3.1.2.4	3-Hydroxypropanoyl-CoA	h2o	-->3-hydroxypropionate	CoenzymeA	
-4.2.1.17	Acrylyl-CoA(acid)	h2o	-->3-Hydroxypropanoyl-CoA	
-1.3.8.-	propionyl-coa	-->Acrylyl-CoA(acid)	
-2.8.3.1	propanoate	Acetyl-CoA	-->ch3coo-	propionyl-coa	
-4.1.3.32	undefined	-->Pyruvate	propanoate	
 
 3.1.2.4	3-Hydroxypropanoyl-CoA	h2o	-->3-hydroxypropionate	CoenzymeA	
 4.2.1.17	Acrylyl-CoA(acid)	h2o	-->3-Hydroxypropanoyl-CoA	
@@ -178,50 +236,20 @@
 3.1.2.4	3-Hydroxypropanoyl-CoA	h2o	-->3-hydroxypropionate	CoenzymeA	
 4.2.1.17	Acrylyl-CoA(acid)	h2o	-->3-Hydroxypropanoyl-CoA	
 1.3.8.-	propionyl-coa	-->Acrylyl-CoA(acid)	
-2.3.1.-	2-ketobutyrate	CoenzymeA	-->Formic acid	propionyl-coa	
-4.4.1.11	h2o	d-methionine	-->methanethiol	2-ketobutyrate	h+	nh3	
+2.8.3.1	propanoate	Acetyl-CoA	-->ch3coo-	propionyl-coa	
+4.1.3.32	undefined	-->Pyruvate	propanoate	
 
 3.1.2.4	3-Hydroxypropanoyl-CoA	h2o	-->3-hydroxypropionate	CoenzymeA	
 4.2.1.17	Acrylyl-CoA(acid)	h2o	-->3-Hydroxypropanoyl-CoA	
 1.3.8.-	propionyl-coa	-->Acrylyl-CoA(acid)	
-2.3.1.-	2-ketobutyrate	CoenzymeA	-->Formic acid	propionyl-coa	
-4.4.1.11	h2o	d-methionine	-->methanethiol	2-ketobutyrate	nh3	
-
-3.1.2.4	3-Hydroxypropanoyl-CoA	h2o	-->3-hydroxypropionate	CoenzymeA	
-4.2.1.17	Acrylyl-CoA(acid)	h2o	-->3-Hydroxypropanoyl-CoA	
-1.3.8.-	propionyl-coa	-->Acrylyl-CoA(acid)	
-2.3.1.-	2-ketobutyrate	CoenzymeA	-->Formic acid	propionyl-coa	
-4.4.1.11	l-methionine	h2o	-->nh4+	methanethiol	2-ketobutyrate	
-
-3.1.2.4	3-Hydroxypropanoyl-CoA	h2o	-->3-hydroxypropionate	CoenzymeA	
-4.2.1.17	Acrylyl-CoA(acid)	h2o	-->3-Hydroxypropanoyl-CoA	
-1.3.8.-	propionyl-coa	-->Acrylyl-CoA(acid)	
-2.3.1.-	2-ketobutyrate	CoenzymeA	-->Formic acid	propionyl-coa	
-4.4.1.11	h2o	2-aminobutanoate	-->nh4+	2-ketobutyrate	h+	
-
-3.1.2.4	3-Hydroxypropanoyl-CoA	h2o	-->3-hydroxypropionate	CoenzymeA	
-4.2.1.17	Acrylyl-CoA(acid)	h2o	-->3-Hydroxypropanoyl-CoA	
-1.3.8.-	propionyl-coa	-->Acrylyl-CoA(acid)	
-2.3.1.-	2-ketobutyrate	CoenzymeA	-->Formic acid	propionyl-coa	
-4.4.1.11	l-methionine	h2o	-->methanethiol	2-ketobutyrate	h+	nh3	
-
-3.1.2.4	3-Hydroxypropanoyl-CoA	h2o	-->3-hydroxypropionate	CoenzymeA	
-4.2.1.17	Acrylyl-CoA(acid)	h2o	-->3-Hydroxypropanoyl-CoA	
-1.3.8.-	propionyl-coa	-->Acrylyl-CoA(acid)	
-2.3.1.-	2-ketobutyrate	CoenzymeA	-->Formic acid	propionyl-coa	
-1.1.1.272	d-2-hydroxybutanoate	nadp+	-->2-ketobutyrate	h+	nadph	
+1.2.1.27	l-2-methyl-3-oxopropionate	CoenzymeA	NAD+	-->co2	nadh	propionyl-coa	
+2.6.1.22	(s)-3-amino-2-methylpropanoate	alpha-ketoglutarate	-->l-2-methyl-3-oxopropionate	L-glutamate	
 
 3.1.2.4	3-Hydroxypropanoyl-CoA	h2o	-->3-hydroxypropionate	CoenzymeA	
 4.2.1.17	Acrylyl-CoA(acid)	h2o	-->3-Hydroxypropanoyl-CoA	
 1.3.8.-	propionyl-coa	-->Acrylyl-CoA(acid)	
 6.2.1.13	CoenzymeA	propanoate	atp	-->propionyl-coa	adp	hpo42-	
 4.1.1.76	methylmalonate	-->co2	propanoate	
-
-3.1.2.4	3-Hydroxypropanoyl-CoA	h2o	-->3-hydroxypropionate	CoenzymeA	
-4.2.1.17	Acrylyl-CoA(acid)	h2o	-->3-Hydroxypropanoyl-CoA	
-1.3.8.-	propionyl-coa	-->Acrylyl-CoA(acid)	
-6.2.1.13	CoenzymeA	propanoate	atp	-->propionyl-coa	adp	hpo42-	
-4.1.3.32	undefined	-->Pyruvate	propanoate	
 
 3.1.2.4	3-Hydroxypropanoyl-CoA	h2o	-->3-hydroxypropionate	CoenzymeA	
 4.2.1.17	Acrylyl-CoA(acid)	h2o	-->3-Hydroxypropanoyl-CoA	
@@ -250,6 +278,12 @@
 6.2.1.13	CoenzymeA	propanoate	atp	-->propionyl-coa	adp	hpo42-	
 2.7.2.-	adp	propanoyl phosphate	-->propanoate	atp	
 2.7.2.15	Formic acid	[[(2R,3S,4S)-3,4-dihydroxyoxolan-2-yl]methoxy-hydroxyphosphoryl]phosphono hydrogen phosphate	-->propanoyl phosphate	h+	undefined	
+
+3.1.2.4	3-Hydroxypropanoyl-CoA	h2o	-->3-hydroxypropionate	CoenzymeA	
+4.2.1.17	Acrylyl-CoA(acid)	h2o	-->3-Hydroxypropanoyl-CoA	
+1.3.8.-	propionyl-coa	-->Acrylyl-CoA(acid)	
+6.2.1.13	CoenzymeA	propanoate	atp	-->propionyl-coa	adp	hpo42-	
+4.1.3.32	undefined	-->Pyruvate	propanoate	
 
 3.1.2.4	3-Hydroxypropanoyl-CoA	h2o	-->3-hydroxypropionate	CoenzymeA	
 4.2.1.17	Acrylyl-CoA(acid)	h2o	-->3-Hydroxypropanoyl-CoA	
@@ -291,19 +325,13 @@
 4.2.1.17	Acrylyl-CoA(acid)	h2o	-->3-Hydroxypropanoyl-CoA	
 1.3.8.-	propionyl-coa	-->Acrylyl-CoA(acid)	
 1.2.1.27	l-2-methyl-3-oxopropionate	CoenzymeA	methylmalonate semialdehyde	h2o	NAD+	-->hco3-	nadh	propionyl-coa	h+	
-2.6.1.22	(s)-3-amino-2-methylpropanoate	alpha-ketoglutarate	-->methylmalonate semialdehyde	undefined	
-
-3.1.2.4	3-Hydroxypropanoyl-CoA	h2o	-->3-hydroxypropionate	CoenzymeA	
-4.2.1.17	Acrylyl-CoA(acid)	h2o	-->3-Hydroxypropanoyl-CoA	
-1.3.8.-	propionyl-coa	-->Acrylyl-CoA(acid)	
-1.2.1.27	l-2-methyl-3-oxopropionate	CoenzymeA	methylmalonate semialdehyde	h2o	NAD+	-->hco3-	nadh	propionyl-coa	h+	
 2.6.1.22	(s)-3-amino-2-methylpropanoate	alpha-ketoglutarate	-->L-glutamate	methylmalonate semialdehyde	
 
 3.1.2.4	3-Hydroxypropanoyl-CoA	h2o	-->3-hydroxypropionate	CoenzymeA	
 4.2.1.17	Acrylyl-CoA(acid)	h2o	-->3-Hydroxypropanoyl-CoA	
 1.3.8.-	propionyl-coa	-->Acrylyl-CoA(acid)	
-2.3.1.176	CoenzymeA	undefined	-->propionyl-coa	undefined	
-	undefined	NAD+	-->nadh	h+	undefined	
+1.2.1.27	l-2-methyl-3-oxopropionate	CoenzymeA	methylmalonate semialdehyde	h2o	NAD+	-->hco3-	nadh	propionyl-coa	h+	
+2.6.1.22	(s)-3-amino-2-methylpropanoate	alpha-ketoglutarate	-->methylmalonate semialdehyde	undefined	
 
 3.1.2.4	3-Hydroxypropanoyl-CoA	h2o	-->3-hydroxypropionate	CoenzymeA	
 4.2.1.17	Acrylyl-CoA(acid)	h2o	-->3-Hydroxypropanoyl-CoA	
@@ -314,54 +342,44 @@
 3.1.2.4	3-Hydroxypropanoyl-CoA	h2o	-->3-hydroxypropionate	CoenzymeA	
 4.2.1.17	Acrylyl-CoA(acid)	h2o	-->3-Hydroxypropanoyl-CoA	
 1.3.8.-	propionyl-coa	-->Acrylyl-CoA(acid)	
-1.2.1.27	l-2-methyl-3-oxopropionate	CoenzymeA	h2o	NAD+	-->hco3-	nadh	propionyl-coa	h+	
-2.6.1.22	(s)-3-amino-2-methylpropanoate	alpha-ketoglutarate	-->l-2-methyl-3-oxopropionate	L-glutamate	
+2.3.1.-	2-ketobutyrate	CoenzymeA	-->Formic acid	propionyl-coa	
+4.4.1.11	l-methionine	h2o	-->nh4+	methanethiol	2-ketobutyrate	
 
 3.1.2.4	3-Hydroxypropanoyl-CoA	h2o	-->3-hydroxypropionate	CoenzymeA	
 4.2.1.17	Acrylyl-CoA(acid)	h2o	-->3-Hydroxypropanoyl-CoA	
 1.3.8.-	propionyl-coa	-->Acrylyl-CoA(acid)	
-6.2.1.17	CoenzymeA	propanoate	atp	-->adenylic acid	propionyl-coa	diphosphatediphosphate;pyrophosphate	
-4.1.1.76	methylmalonate	-->co2	propanoate	
+2.3.1.-	2-ketobutyrate	CoenzymeA	-->Formic acid	propionyl-coa	
+4.4.1.11	h2o	d-methionine	-->methanethiol	2-ketobutyrate	nh3	
 
 3.1.2.4	3-Hydroxypropanoyl-CoA	h2o	-->3-hydroxypropionate	CoenzymeA	
 4.2.1.17	Acrylyl-CoA(acid)	h2o	-->3-Hydroxypropanoyl-CoA	
 1.3.8.-	propionyl-coa	-->Acrylyl-CoA(acid)	
-6.2.1.17	CoenzymeA	propanoate	atp	-->adenylic acid	propionyl-coa	diphosphatediphosphate;pyrophosphate	
-4.1.3.32	undefined	-->Pyruvate	propanoate	
+2.3.1.-	2-ketobutyrate	CoenzymeA	-->Formic acid	propionyl-coa	
+4.4.1.11	h2o	d-methionine	-->methanethiol	2-ketobutyrate	h+	nh3	
 
 3.1.2.4	3-Hydroxypropanoyl-CoA	h2o	-->3-hydroxypropionate	CoenzymeA	
 4.2.1.17	Acrylyl-CoA(acid)	h2o	-->3-Hydroxypropanoyl-CoA	
 1.3.8.-	propionyl-coa	-->Acrylyl-CoA(acid)	
-6.2.1.17	CoenzymeA	propanoate	atp	-->adenylic acid	propionyl-coa	diphosphatediphosphate;pyrophosphate	
-1.2.98.-	s-adenosyl-l-methionine	h2o	undefined	-->propanoate	l-methionine	h+	undefined	5'-deoxyadenosine	
-2.5.1.6	h2o	atp	d-methionine	-->s-adenosyl-l-methionine	diphosphatediphosphate;pyrophosphate	hpo42-	
+2.3.1.-	2-ketobutyrate	CoenzymeA	-->Formic acid	propionyl-coa	
+4.4.1.11	l-methionine	h2o	-->methanethiol	2-ketobutyrate	h+	nh3	
 
 3.1.2.4	3-Hydroxypropanoyl-CoA	h2o	-->3-hydroxypropionate	CoenzymeA	
 4.2.1.17	Acrylyl-CoA(acid)	h2o	-->3-Hydroxypropanoyl-CoA	
 1.3.8.-	propionyl-coa	-->Acrylyl-CoA(acid)	
-6.2.1.17	CoenzymeA	propanoate	atp	-->adenylic acid	propionyl-coa	diphosphatediphosphate;pyrophosphate	
-1.2.98.-	s-adenosyl-l-methionine	h2o	undefined	-->propanoate	l-methionine	h+	undefined	5'-deoxyadenosine	
-2.5.1.6	h2o	atp	d-methionine	-->s-adenosyl-l-methionine	diphosphatediphosphate;pyrophosphate	hpo42-	h+	
+2.3.1.-	2-ketobutyrate	CoenzymeA	-->Formic acid	propionyl-coa	
+4.4.1.11	h2o	2-aminobutanoate	-->nh4+	2-ketobutyrate	h+	
 
 3.1.2.4	3-Hydroxypropanoyl-CoA	h2o	-->3-hydroxypropionate	CoenzymeA	
 4.2.1.17	Acrylyl-CoA(acid)	h2o	-->3-Hydroxypropanoyl-CoA	
 1.3.8.-	propionyl-coa	-->Acrylyl-CoA(acid)	
-6.2.1.17	CoenzymeA	propanoate	atp	-->adenylic acid	propionyl-coa	diphosphatediphosphate;pyrophosphate	
-1.2.98.-	s-adenosyl-l-methionine	h2o	undefined	-->propanoate	l-methionine	h+	undefined	5'-deoxyadenosine	
-2.5.1.6	l-methionine	h2o	atp	-->s-adenosyl-l-methionine	diphosphatediphosphate;pyrophosphate	hpo42-	
+2.3.1.-	2-ketobutyrate	CoenzymeA	-->Formic acid	propionyl-coa	
+1.1.1.272	d-2-hydroxybutanoate	nadp+	-->2-ketobutyrate	h+	nadph	
 
 3.1.2.4	3-Hydroxypropanoyl-CoA	h2o	-->3-hydroxypropionate	CoenzymeA	
 4.2.1.17	Acrylyl-CoA(acid)	h2o	-->3-Hydroxypropanoyl-CoA	
 1.3.8.-	propionyl-coa	-->Acrylyl-CoA(acid)	
-6.2.1.17	CoenzymeA	propanoate	atp	-->adenylic acid	propionyl-coa	diphosphatediphosphate;pyrophosphate	
-2.7.2.-	adp	propanoyl phosphate	-->propanoate	atp	
-2.7.2.15	Formic acid	[[(2R,3S,4S)-3,4-dihydroxyoxolan-2-yl]methoxy-hydroxyphosphoryl]phosphono hydrogen phosphate	-->propanoyl phosphate	h+	undefined	
-
-3.1.2.4	3-Hydroxypropanoyl-CoA	h2o	-->3-hydroxypropionate	CoenzymeA	
-4.2.1.17	Acrylyl-CoA(acid)	h2o	-->3-Hydroxypropanoyl-CoA	
-1.3.8.-	propionyl-coa	-->Acrylyl-CoA(acid)	
-1.2.1.27	l-2-methyl-3-oxopropionate	CoenzymeA	NAD+	-->co2	nadh	propionyl-coa	
-2.6.1.22	(s)-3-amino-2-methylpropanoate	alpha-ketoglutarate	-->l-2-methyl-3-oxopropionate	L-glutamate	
+3.1.2.-	undefined	h2o	-->undefined	propionyl-coa	
+6.4.1.-	hco3-	undefined	atp	-->undefined	adp	hpo42-	h+	
 
 3.1.2.4	3-Hydroxypropanoyl-CoA	h2o	-->3-hydroxypropionate	CoenzymeA	
 4.2.1.17	Acrylyl-CoA(acid)	h2o	-->3-Hydroxypropanoyl-CoA	
@@ -373,7 +391,7 @@
 4.2.1.17	Acrylyl-CoA(acid)	h2o	-->3-Hydroxypropanoyl-CoA	
 1.3.8.-	propionyl-coa	-->Acrylyl-CoA(acid)	
 	2-ketobutyrate	CoenzymeA	NAD+	-->co2	nadh	propionyl-coa	
-4.4.1.11	h2o	d-methionine	-->methanethiol	2-ketobutyrate	h+	nh3	
+4.4.1.11	l-methionine	h2o	-->nh4+	methanethiol	2-ketobutyrate	
 
 3.1.2.4	3-Hydroxypropanoyl-CoA	h2o	-->3-hydroxypropionate	CoenzymeA	
 4.2.1.17	Acrylyl-CoA(acid)	h2o	-->3-Hydroxypropanoyl-CoA	
@@ -385,13 +403,7 @@
 4.2.1.17	Acrylyl-CoA(acid)	h2o	-->3-Hydroxypropanoyl-CoA	
 1.3.8.-	propionyl-coa	-->Acrylyl-CoA(acid)	
 	2-ketobutyrate	CoenzymeA	NAD+	-->co2	nadh	propionyl-coa	
-4.4.1.11	l-methionine	h2o	-->nh4+	methanethiol	2-ketobutyrate	
-
-3.1.2.4	3-Hydroxypropanoyl-CoA	h2o	-->3-hydroxypropionate	CoenzymeA	
-4.2.1.17	Acrylyl-CoA(acid)	h2o	-->3-Hydroxypropanoyl-CoA	
-1.3.8.-	propionyl-coa	-->Acrylyl-CoA(acid)	
-	2-ketobutyrate	CoenzymeA	NAD+	-->co2	nadh	propionyl-coa	
-4.4.1.11	h2o	2-aminobutanoate	-->nh4+	2-ketobutyrate	h+	
+4.4.1.11	h2o	d-methionine	-->methanethiol	2-ketobutyrate	h+	nh3	
 
 3.1.2.4	3-Hydroxypropanoyl-CoA	h2o	-->3-hydroxypropionate	CoenzymeA	
 4.2.1.17	Acrylyl-CoA(acid)	h2o	-->3-Hydroxypropanoyl-CoA	
@@ -403,7 +415,18 @@
 4.2.1.17	Acrylyl-CoA(acid)	h2o	-->3-Hydroxypropanoyl-CoA	
 1.3.8.-	propionyl-coa	-->Acrylyl-CoA(acid)	
 	2-ketobutyrate	CoenzymeA	NAD+	-->co2	nadh	propionyl-coa	
+4.4.1.11	h2o	2-aminobutanoate	-->nh4+	2-ketobutyrate	h+	
+
+3.1.2.4	3-Hydroxypropanoyl-CoA	h2o	-->3-hydroxypropionate	CoenzymeA	
+4.2.1.17	Acrylyl-CoA(acid)	h2o	-->3-Hydroxypropanoyl-CoA	
+1.3.8.-	propionyl-coa	-->Acrylyl-CoA(acid)	
+	2-ketobutyrate	CoenzymeA	NAD+	-->co2	nadh	propionyl-coa	
 1.1.1.272	d-2-hydroxybutanoate	nadp+	-->2-ketobutyrate	h+	nadph	
+
+3.1.2.4	3-Hydroxypropanoyl-CoA	h2o	-->3-hydroxypropionate	CoenzymeA	
+4.2.1.17	Acrylyl-CoA(acid)	h2o	-->3-Hydroxypropanoyl-CoA	
+1.3.8.-	propionyl-coa	-->Acrylyl-CoA(acid)	
+4.1.1.41	h+	undefined	-->co2	propionyl-coa	
 
 3.1.2.4	3-Hydroxypropanoyl-CoA	h2o	-->3-hydroxypropionate	CoenzymeA	
 4.2.1.17	Acrylyl-CoA(acid)	h2o	-->3-Hydroxypropanoyl-CoA	
@@ -413,64 +436,86 @@
 3.1.2.4	3-Hydroxypropanoyl-CoA	h2o	-->3-hydroxypropionate	CoenzymeA	
 4.2.1.17	Acrylyl-CoA(acid)	h2o	-->3-Hydroxypropanoyl-CoA	
 1.3.8.-	propionyl-coa	-->Acrylyl-CoA(acid)	
-4.1.3.24	beta-methylmalyl-coa	-->propionyl-coa	glyoxalate	
+2.3.1.176	undefined	CoenzymeA	-->propionyl-coa	undefined	
+1.1.1.35	undefined	NAD+	-->undefined	nadh	h+	
 
 3.1.2.4	3-Hydroxypropanoyl-CoA	h2o	-->3-hydroxypropionate	CoenzymeA	
 4.2.1.17	Acrylyl-CoA(acid)	h2o	-->3-Hydroxypropanoyl-CoA	
 1.3.8.-	propionyl-coa	-->Acrylyl-CoA(acid)	
-3.1.2.-	undefined	h2o	-->undefined	propionyl-coa	
-6.4.1.-	hco3-	undefined	atp	-->undefined	adp	hpo42-	h+	
+4.1.3.24	beta-methylmalyl-coa	-->propionyl-coa	glyoxalate	
 
 3.1.2.4	3-Hydroxypropanoyl-CoA	h2o	-->3-hydroxypropionate	CoenzymeA	
 4.2.1.17	Acrylyl-CoA(acid)	h2o	-->3-Hydroxypropanoyl-CoA	
 	acrylate	CoenzymeA	h+	-->Acrylyl-CoA(acid)	h2o	
-3.5.1.4	acrylamide	h2o	-->acrylate	h+	nh3	
-4.2.1.84	undefined	h2o	-->acrylamide	
-
-3.1.2.4	3-Hydroxypropanoyl-CoA	h2o	-->3-hydroxypropionate	CoenzymeA	
-4.2.1.17	Acrylyl-CoA(acid)	h2o	-->3-Hydroxypropanoyl-CoA	
-	acrylate	CoenzymeA	h+	-->Acrylyl-CoA(acid)	h2o	
-3.5.1.4	acrylamide	h2o	-->acrylate	h+	nh3	
-4.2.1.84	undefined	h2o	-->acrylamide	
-
-3.1.2.4	3-Hydroxypropanoyl-CoA	h2o	-->3-hydroxypropionate	CoenzymeA	
-4.2.1.17	Acrylyl-CoA(acid)	h2o	-->3-Hydroxypropanoyl-CoA	
-	acrylate	CoenzymeA	h+	-->Acrylyl-CoA(acid)	h2o	
-3.5.1.4	acrylamide	h2o	-->acrylate	h+	nh3	
-4.2.1.84	undefined	h2o	-->acrylamide	
-
-3.1.2.4	3-Hydroxypropanoyl-CoA	h2o	-->3-hydroxypropionate	CoenzymeA	
-4.2.1.17	Acrylyl-CoA(acid)	h2o	-->3-Hydroxypropanoyl-CoA	
-	acrylate	CoenzymeA	h+	-->Acrylyl-CoA(acid)	h2o	
-3.5.1.4	acrylamide	h2o	-->acrylate	h+	nh3	
-4.2.1.84	undefined	h2o	-->acrylamide	
-
-3.1.2.4	3-Hydroxypropanoyl-CoA	h2o	-->3-hydroxypropionate	CoenzymeA	
-4.2.1.17	Acrylyl-CoA(acid)	h2o	-->3-Hydroxypropanoyl-CoA	
-	acrylate	CoenzymeA	h+	-->Acrylyl-CoA(acid)	h2o	
-3.5.5.7	undefined	h2o	-->acrylate	h+	nh3	
-
-3.1.2.4	3-Hydroxypropanoyl-CoA	h2o	-->3-hydroxypropionate	CoenzymeA	
-4.2.1.17	Acrylyl-CoA(acid)	h2o	-->3-Hydroxypropanoyl-CoA	
-	acrylate	CoenzymeA	h+	-->Acrylyl-CoA(acid)	h2o	
-3.5.5.7	undefined	h2o	-->acrylate	h+	nh3	
-
-3.1.2.4	3-Hydroxypropanoyl-CoA	h2o	-->3-hydroxypropionate	CoenzymeA	
-4.2.1.17	Acrylyl-CoA(acid)	h2o	-->3-Hydroxypropanoyl-CoA	
-	acrylate	CoenzymeA	h+	-->Acrylyl-CoA(acid)	h2o	
-3.5.1.4	acrylamide	h2o	-->acrylate	h+	nh3	
-4.2.1.84	undefined	h2o	-->acrylamide	
-
-3.1.2.4	3-Hydroxypropanoyl-CoA	h2o	-->3-hydroxypropionate	CoenzymeA	
-4.2.1.17	Acrylyl-CoA(acid)	h2o	-->3-Hydroxypropanoyl-CoA	
-	acrylate	CoenzymeA	h+	-->Acrylyl-CoA(acid)	h2o	
-3.5.1.4	acrylamide	h2o	-->acrylate	h+	nh3	
-4.2.1.84	undefined	h2o	-->acrylamide	
+3.5.5.7	undefined	h2o	-->nh4+	acrylate	
 
 3.1.2.4	3-Hydroxypropanoyl-CoA	h2o	-->3-hydroxypropionate	CoenzymeA	
 4.2.1.17	Acrylyl-CoA(acid)	h2o	-->3-Hydroxypropanoyl-CoA	
 	acrylate	CoenzymeA	h+	-->Acrylyl-CoA(acid)	h2o	
 3.5.5.7	undefined	h2o	-->acrylate	nh3	
+
+3.1.2.4	3-Hydroxypropanoyl-CoA	h2o	-->3-hydroxypropionate	CoenzymeA	
+4.2.1.17	Acrylyl-CoA(acid)	h2o	-->3-Hydroxypropanoyl-CoA	
+	acrylate	CoenzymeA	h+	-->Acrylyl-CoA(acid)	h2o	
+3.5.5.7	undefined	h2o	-->acrylate	h+	nh3	
+
+3.1.2.4	3-Hydroxypropanoyl-CoA	h2o	-->3-hydroxypropionate	CoenzymeA	
+4.2.1.17	Acrylyl-CoA(acid)	h2o	-->3-Hydroxypropanoyl-CoA	
+	acrylate	CoenzymeA	h+	-->Acrylyl-CoA(acid)	h2o	
+3.5.5.7	undefined	h2o	-->acrylate	nh3	
+
+3.1.2.4	3-Hydroxypropanoyl-CoA	h2o	-->3-hydroxypropionate	CoenzymeA	
+4.2.1.17	Acrylyl-CoA(acid)	h2o	-->3-Hydroxypropanoyl-CoA	
+	acrylate	CoenzymeA	h+	-->Acrylyl-CoA(acid)	h2o	
+3.5.1.4	acrylamide	h2o	-->acrylate	h+	nh3	
+4.2.1.84	undefined	h2o	-->acrylamide	
+
+3.1.2.4	3-Hydroxypropanoyl-CoA	h2o	-->3-hydroxypropionate	CoenzymeA	
+4.2.1.17	Acrylyl-CoA(acid)	h2o	-->3-Hydroxypropanoyl-CoA	
+	acrylate	CoenzymeA	h+	-->Acrylyl-CoA(acid)	h2o	
+3.5.1.4	acrylamide	h2o	-->acrylate	h+	nh3	
+4.2.1.84	undefined	h2o	-->acrylamide	
+
+3.1.2.4	3-Hydroxypropanoyl-CoA	h2o	-->3-hydroxypropionate	CoenzymeA	
+4.2.1.17	Acrylyl-CoA(acid)	h2o	-->3-Hydroxypropanoyl-CoA	
+	acrylate	CoenzymeA	h+	-->Acrylyl-CoA(acid)	h2o	
+3.5.1.4	acrylamide	h2o	-->acrylate	h+	nh3	
+4.2.1.84	undefined	h2o	-->acrylamide	
+
+3.1.2.4	3-Hydroxypropanoyl-CoA	h2o	-->3-hydroxypropionate	CoenzymeA	
+4.2.1.17	Acrylyl-CoA(acid)	h2o	-->3-Hydroxypropanoyl-CoA	
+	acrylate	CoenzymeA	h+	-->Acrylyl-CoA(acid)	h2o	
+3.5.1.4	acrylamide	h2o	-->acrylate	h+	nh3	
+4.2.1.84	undefined	h2o	-->acrylamide	
+
+3.1.2.4	3-Hydroxypropanoyl-CoA	h2o	-->3-hydroxypropionate	CoenzymeA	
+4.2.1.17	Acrylyl-CoA(acid)	h2o	-->3-Hydroxypropanoyl-CoA	
+	acrylate	CoenzymeA	h+	-->Acrylyl-CoA(acid)	h2o	
+3.5.5.7	undefined	h2o	-->acrylate	h+	nh3	
+
+3.1.2.4	3-Hydroxypropanoyl-CoA	h2o	-->3-hydroxypropionate	CoenzymeA	
+4.2.1.17	Acrylyl-CoA(acid)	h2o	-->3-Hydroxypropanoyl-CoA	
+	acrylate	CoenzymeA	h+	-->Acrylyl-CoA(acid)	h2o	
+3.5.1.4	acrylamide	h2o	-->acrylate	h+	nh3	
+4.2.1.84	undefined	h2o	-->acrylamide	
+
+3.1.2.4	3-Hydroxypropanoyl-CoA	h2o	-->3-hydroxypropionate	CoenzymeA	
+4.2.1.17	Acrylyl-CoA(acid)	h2o	-->3-Hydroxypropanoyl-CoA	
+	acrylate	CoenzymeA	h+	-->Acrylyl-CoA(acid)	h2o	
+3.5.1.4	acrylamide	h2o	-->acrylate	h+	nh3	
+4.2.1.84	undefined	h2o	-->acrylamide	
+
+3.1.2.4	3-Hydroxypropanoyl-CoA	h2o	-->3-hydroxypropionate	CoenzymeA	
+4.2.1.17	Acrylyl-CoA(acid)	h2o	-->3-Hydroxypropanoyl-CoA	
+	acrylate	CoenzymeA	h+	-->Acrylyl-CoA(acid)	h2o	
+2.3.1.-	h2o	Acrylyl-CoA	-->acrylate	CoenzymeA	h+	
+4.3.1.6	undefined	-->nh4+	Acrylyl-CoA	
+
+3.1.2.4	3-Hydroxypropanoyl-CoA	h2o	-->3-hydroxypropionate	CoenzymeA	
+4.2.1.17	Acrylyl-CoA(acid)	h2o	-->3-Hydroxypropanoyl-CoA	
+	acrylate	CoenzymeA	h+	-->Acrylyl-CoA(acid)	h2o	
+2.3.1.-	h2o	Acrylyl-CoA	-->acrylate	CoenzymeA	h+	
+4.3.1.6	undefined	-->nh4+	Acrylyl-CoA	
 
 3.1.2.4	3-Hydroxypropanoyl-CoA	h2o	-->3-hydroxypropionate	CoenzymeA	
 4.2.1.17	Acrylyl-CoA(acid)	h2o	-->3-Hydroxypropanoyl-CoA	
@@ -494,23 +539,6 @@
 3.1.2.4	3-Hydroxypropanoyl-CoA	h2o	-->3-hydroxypropionate	CoenzymeA	
 4.2.1.17	Acrylyl-CoA(acid)	h2o	-->3-Hydroxypropanoyl-CoA	
 	acrylate	CoenzymeA	h+	-->Acrylyl-CoA(acid)	h2o	
-2.3.1.-	h2o	Acrylyl-CoA	-->acrylate	CoenzymeA	h+	
-4.3.1.6	undefined	-->nh4+	Acrylyl-CoA	
-
-3.1.2.4	3-Hydroxypropanoyl-CoA	h2o	-->3-hydroxypropionate	CoenzymeA	
-4.2.1.17	Acrylyl-CoA(acid)	h2o	-->3-Hydroxypropanoyl-CoA	
-	acrylate	CoenzymeA	h+	-->Acrylyl-CoA(acid)	h2o	
-2.3.1.-	h2o	Acrylyl-CoA	-->acrylate	CoenzymeA	h+	
-4.3.1.6	undefined	-->nh4+	Acrylyl-CoA	
-
-3.1.2.4	3-Hydroxypropanoyl-CoA	h2o	-->3-hydroxypropionate	CoenzymeA	
-4.2.1.17	Acrylyl-CoA(acid)	h2o	-->3-Hydroxypropanoyl-CoA	
-	acrylate	CoenzymeA	h+	-->Acrylyl-CoA(acid)	h2o	
-3.5.5.7	undefined	h2o	-->acrylate	nh3	
-
-3.1.2.4	3-Hydroxypropanoyl-CoA	h2o	-->3-hydroxypropionate	CoenzymeA	
-4.2.1.17	Acrylyl-CoA(acid)	h2o	-->3-Hydroxypropanoyl-CoA	
-	acrylate	CoenzymeA	h+	-->Acrylyl-CoA(acid)	h2o	
 3.5.1.4	acrylamide	h2o	-->nh4+	acrylate	
 4.2.1.84	undefined	h2o	-->acrylamide	
 
@@ -523,11 +551,6 @@
 3.1.2.4	3-Hydroxypropanoyl-CoA	h2o	-->3-hydroxypropionate	CoenzymeA	
 4.2.1.17	Acrylyl-CoA(acid)	h2o	-->3-Hydroxypropanoyl-CoA	
 	acrylate	CoenzymeA	h+	-->Acrylyl-CoA(acid)	h2o	
-3.5.5.7	undefined	h2o	-->nh4+	acrylate	
-
-3.1.2.4	3-Hydroxypropanoyl-CoA	h2o	-->3-hydroxypropionate	CoenzymeA	
-4.2.1.17	Acrylyl-CoA(acid)	h2o	-->3-Hydroxypropanoyl-CoA	
-	acrylate	CoenzymeA	h+	-->Acrylyl-CoA(acid)	h2o	
 3.5.1.4	acrylamide	h2o	-->acrylate	nh3	
 4.2.1.84	undefined	h2o	-->acrylamide	
 
@@ -536,12 +559,6 @@
 	acrylate	CoenzymeA	h+	-->Acrylyl-CoA(acid)	h2o	
 3.5.1.4	acrylamide	h2o	-->acrylate	nh3	
 4.2.1.84	undefined	h2o	-->acrylamide	
-
-3.1.2.4	3-Hydroxypropanoyl-CoA	h2o	-->3-hydroxypropionate	CoenzymeA	
-4.2.1.17	Acrylyl-CoA(acid)	h2o	-->3-Hydroxypropanoyl-CoA	
-1.3.1.84	propionyl-coa	nadp+	-->Acrylyl-CoA(acid)	h+	nadph	
-2.3.1.176	undefined	CoenzymeA	-->propionyl-coa	undefined	
-1.1.1.35	undefined	NAD+	-->undefined	nadh	h+	
 
 3.1.2.4	3-Hydroxypropanoyl-CoA	h2o	-->3-hydroxypropionate	CoenzymeA	
 4.2.1.17	Acrylyl-CoA(acid)	h2o	-->3-Hydroxypropanoyl-CoA	
@@ -565,13 +582,13 @@
 4.2.1.17	Acrylyl-CoA(acid)	h2o	-->3-Hydroxypropanoyl-CoA	
 1.3.1.84	propionyl-coa	nadp+	-->Acrylyl-CoA(acid)	h+	nadph	
 1.2.1.27	CoenzymeA	methylmalonate semialdehyde	h2o	NAD+	-->hco3-	nadh	propionyl-coa	h+	
-2.6.1.22	(s)-3-amino-2-methylpropanoate	alpha-ketoglutarate	-->methylmalonate semialdehyde	undefined	
+2.6.1.22	(s)-3-amino-2-methylpropanoate	alpha-ketoglutarate	-->L-glutamate	methylmalonate semialdehyde	
 
 3.1.2.4	3-Hydroxypropanoyl-CoA	h2o	-->3-hydroxypropionate	CoenzymeA	
 4.2.1.17	Acrylyl-CoA(acid)	h2o	-->3-Hydroxypropanoyl-CoA	
 1.3.1.84	propionyl-coa	nadp+	-->Acrylyl-CoA(acid)	h+	nadph	
 1.2.1.27	CoenzymeA	methylmalonate semialdehyde	h2o	NAD+	-->hco3-	nadh	propionyl-coa	h+	
-2.6.1.22	(s)-3-amino-2-methylpropanoate	alpha-ketoglutarate	-->L-glutamate	methylmalonate semialdehyde	
+2.6.1.22	(s)-3-amino-2-methylpropanoate	alpha-ketoglutarate	-->methylmalonate semialdehyde	undefined	
 
 3.1.2.4	3-Hydroxypropanoyl-CoA	h2o	-->3-hydroxypropionate	CoenzymeA	
 4.2.1.17	Acrylyl-CoA(acid)	h2o	-->3-Hydroxypropanoyl-CoA	
@@ -587,19 +604,60 @@
 3.1.2.4	3-Hydroxypropanoyl-CoA	h2o	-->3-hydroxypropionate	CoenzymeA	
 4.2.1.17	Acrylyl-CoA(acid)	h2o	-->3-Hydroxypropanoyl-CoA	
 1.3.1.84	propionyl-coa	nadp+	-->Acrylyl-CoA(acid)	h+	nadph	
-4.1.1.41	h+	undefined	-->co2	propionyl-coa	
+2.3.1.176	CoenzymeA	undefined	-->propionyl-coa	undefined	
+	undefined	NAD+	-->nadh	h+	undefined	
+
+3.1.2.4	3-Hydroxypropanoyl-CoA	h2o	-->3-hydroxypropionate	CoenzymeA	
+4.2.1.17	Acrylyl-CoA(acid)	h2o	-->3-Hydroxypropanoyl-CoA	
+1.3.1.84	propionyl-coa	nadp+	-->Acrylyl-CoA(acid)	h+	nadph	
+6.2.1.17	CoenzymeA	propanoate	atp	-->adenylic acid	propionyl-coa	diphosphatediphosphate;pyrophosphate	
+4.1.1.76	methylmalonate	-->co2	propanoate	
+
+3.1.2.4	3-Hydroxypropanoyl-CoA	h2o	-->3-hydroxypropionate	CoenzymeA	
+4.2.1.17	Acrylyl-CoA(acid)	h2o	-->3-Hydroxypropanoyl-CoA	
+1.3.1.84	propionyl-coa	nadp+	-->Acrylyl-CoA(acid)	h+	nadph	
+6.2.1.17	CoenzymeA	propanoate	atp	-->adenylic acid	propionyl-coa	diphosphatediphosphate;pyrophosphate	
+1.2.98.-	s-adenosyl-l-methionine	h2o	undefined	-->propanoate	l-methionine	h+	undefined	5'-deoxyadenosine	
+2.5.1.6	h2o	atp	d-methionine	-->s-adenosyl-l-methionine	diphosphatediphosphate;pyrophosphate	hpo42-	
+
+3.1.2.4	3-Hydroxypropanoyl-CoA	h2o	-->3-hydroxypropionate	CoenzymeA	
+4.2.1.17	Acrylyl-CoA(acid)	h2o	-->3-Hydroxypropanoyl-CoA	
+1.3.1.84	propionyl-coa	nadp+	-->Acrylyl-CoA(acid)	h+	nadph	
+6.2.1.17	CoenzymeA	propanoate	atp	-->adenylic acid	propionyl-coa	diphosphatediphosphate;pyrophosphate	
+1.2.98.-	s-adenosyl-l-methionine	h2o	undefined	-->propanoate	l-methionine	h+	undefined	5'-deoxyadenosine	
+2.5.1.6	h2o	atp	d-methionine	-->s-adenosyl-l-methionine	diphosphatediphosphate;pyrophosphate	hpo42-	h+	
+
+3.1.2.4	3-Hydroxypropanoyl-CoA	h2o	-->3-hydroxypropionate	CoenzymeA	
+4.2.1.17	Acrylyl-CoA(acid)	h2o	-->3-Hydroxypropanoyl-CoA	
+1.3.1.84	propionyl-coa	nadp+	-->Acrylyl-CoA(acid)	h+	nadph	
+6.2.1.17	CoenzymeA	propanoate	atp	-->adenylic acid	propionyl-coa	diphosphatediphosphate;pyrophosphate	
+1.2.98.-	s-adenosyl-l-methionine	h2o	undefined	-->propanoate	l-methionine	h+	undefined	5'-deoxyadenosine	
+2.5.1.6	l-methionine	h2o	atp	-->s-adenosyl-l-methionine	diphosphatediphosphate;pyrophosphate	hpo42-	
+
+3.1.2.4	3-Hydroxypropanoyl-CoA	h2o	-->3-hydroxypropionate	CoenzymeA	
+4.2.1.17	Acrylyl-CoA(acid)	h2o	-->3-Hydroxypropanoyl-CoA	
+1.3.1.84	propionyl-coa	nadp+	-->Acrylyl-CoA(acid)	h+	nadph	
+6.2.1.17	CoenzymeA	propanoate	atp	-->adenylic acid	propionyl-coa	diphosphatediphosphate;pyrophosphate	
+2.7.2.-	adp	propanoyl phosphate	-->propanoate	atp	
+2.7.2.15	Formic acid	[[(2R,3S,4S)-3,4-dihydroxyoxolan-2-yl]methoxy-hydroxyphosphoryl]phosphono hydrogen phosphate	-->propanoyl phosphate	h+	undefined	
+
+3.1.2.4	3-Hydroxypropanoyl-CoA	h2o	-->3-hydroxypropionate	CoenzymeA	
+4.2.1.17	Acrylyl-CoA(acid)	h2o	-->3-Hydroxypropanoyl-CoA	
+1.3.1.84	propionyl-coa	nadp+	-->Acrylyl-CoA(acid)	h+	nadph	
+6.2.1.17	CoenzymeA	propanoate	atp	-->adenylic acid	propionyl-coa	diphosphatediphosphate;pyrophosphate	
+4.1.3.32	undefined	-->Pyruvate	propanoate	
+
+3.1.2.4	3-Hydroxypropanoyl-CoA	h2o	-->3-hydroxypropionate	CoenzymeA	
+4.2.1.17	Acrylyl-CoA(acid)	h2o	-->3-Hydroxypropanoyl-CoA	
+1.3.1.84	propionyl-coa	nadp+	-->Acrylyl-CoA(acid)	h+	nadph	
+1.2.1.27	l-2-methyl-3-oxopropionate	CoenzymeA	h2o	NAD+	-->hco3-	nadh	propionyl-coa	h+	
+2.6.1.22	(s)-3-amino-2-methylpropanoate	alpha-ketoglutarate	-->l-2-methyl-3-oxopropionate	L-glutamate	
 
 3.1.2.4	3-Hydroxypropanoyl-CoA	h2o	-->3-hydroxypropionate	CoenzymeA	
 4.2.1.17	Acrylyl-CoA(acid)	h2o	-->3-Hydroxypropanoyl-CoA	
 1.3.1.84	propionyl-coa	nadp+	-->Acrylyl-CoA(acid)	h+	nadph	
 2.8.3.1	propanoate	Acetyl-CoA	-->ch3coo-	propionyl-coa	
 4.1.1.76	methylmalonate	-->co2	propanoate	
-
-3.1.2.4	3-Hydroxypropanoyl-CoA	h2o	-->3-hydroxypropionate	CoenzymeA	
-4.2.1.17	Acrylyl-CoA(acid)	h2o	-->3-Hydroxypropanoyl-CoA	
-1.3.1.84	propionyl-coa	nadp+	-->Acrylyl-CoA(acid)	h+	nadph	
-2.8.3.1	propanoate	Acetyl-CoA	-->ch3coo-	propionyl-coa	
-4.1.3.32	undefined	-->Pyruvate	propanoate	
 
 3.1.2.4	3-Hydroxypropanoyl-CoA	h2o	-->3-hydroxypropionate	CoenzymeA	
 4.2.1.17	Acrylyl-CoA(acid)	h2o	-->3-Hydroxypropanoyl-CoA	
@@ -632,50 +690,20 @@
 3.1.2.4	3-Hydroxypropanoyl-CoA	h2o	-->3-hydroxypropionate	CoenzymeA	
 4.2.1.17	Acrylyl-CoA(acid)	h2o	-->3-Hydroxypropanoyl-CoA	
 1.3.1.84	propionyl-coa	nadp+	-->Acrylyl-CoA(acid)	h+	nadph	
-2.3.1.-	2-ketobutyrate	CoenzymeA	-->Formic acid	propionyl-coa	
-4.4.1.11	h2o	d-methionine	-->methanethiol	2-ketobutyrate	h+	nh3	
+2.8.3.1	propanoate	Acetyl-CoA	-->ch3coo-	propionyl-coa	
+4.1.3.32	undefined	-->Pyruvate	propanoate	
 
 3.1.2.4	3-Hydroxypropanoyl-CoA	h2o	-->3-hydroxypropionate	CoenzymeA	
 4.2.1.17	Acrylyl-CoA(acid)	h2o	-->3-Hydroxypropanoyl-CoA	
 1.3.1.84	propionyl-coa	nadp+	-->Acrylyl-CoA(acid)	h+	nadph	
-2.3.1.-	2-ketobutyrate	CoenzymeA	-->Formic acid	propionyl-coa	
-4.4.1.11	h2o	d-methionine	-->methanethiol	2-ketobutyrate	nh3	
-
-3.1.2.4	3-Hydroxypropanoyl-CoA	h2o	-->3-hydroxypropionate	CoenzymeA	
-4.2.1.17	Acrylyl-CoA(acid)	h2o	-->3-Hydroxypropanoyl-CoA	
-1.3.1.84	propionyl-coa	nadp+	-->Acrylyl-CoA(acid)	h+	nadph	
-2.3.1.-	2-ketobutyrate	CoenzymeA	-->Formic acid	propionyl-coa	
-4.4.1.11	l-methionine	h2o	-->nh4+	methanethiol	2-ketobutyrate	
-
-3.1.2.4	3-Hydroxypropanoyl-CoA	h2o	-->3-hydroxypropionate	CoenzymeA	
-4.2.1.17	Acrylyl-CoA(acid)	h2o	-->3-Hydroxypropanoyl-CoA	
-1.3.1.84	propionyl-coa	nadp+	-->Acrylyl-CoA(acid)	h+	nadph	
-2.3.1.-	2-ketobutyrate	CoenzymeA	-->Formic acid	propionyl-coa	
-4.4.1.11	h2o	2-aminobutanoate	-->nh4+	2-ketobutyrate	h+	
-
-3.1.2.4	3-Hydroxypropanoyl-CoA	h2o	-->3-hydroxypropionate	CoenzymeA	
-4.2.1.17	Acrylyl-CoA(acid)	h2o	-->3-Hydroxypropanoyl-CoA	
-1.3.1.84	propionyl-coa	nadp+	-->Acrylyl-CoA(acid)	h+	nadph	
-2.3.1.-	2-ketobutyrate	CoenzymeA	-->Formic acid	propionyl-coa	
-4.4.1.11	l-methionine	h2o	-->methanethiol	2-ketobutyrate	h+	nh3	
-
-3.1.2.4	3-Hydroxypropanoyl-CoA	h2o	-->3-hydroxypropionate	CoenzymeA	
-4.2.1.17	Acrylyl-CoA(acid)	h2o	-->3-Hydroxypropanoyl-CoA	
-1.3.1.84	propionyl-coa	nadp+	-->Acrylyl-CoA(acid)	h+	nadph	
-2.3.1.-	2-ketobutyrate	CoenzymeA	-->Formic acid	propionyl-coa	
-1.1.1.272	d-2-hydroxybutanoate	nadp+	-->2-ketobutyrate	h+	nadph	
+1.2.1.27	l-2-methyl-3-oxopropionate	CoenzymeA	NAD+	-->co2	nadh	propionyl-coa	
+2.6.1.22	(s)-3-amino-2-methylpropanoate	alpha-ketoglutarate	-->l-2-methyl-3-oxopropionate	L-glutamate	
 
 3.1.2.4	3-Hydroxypropanoyl-CoA	h2o	-->3-hydroxypropionate	CoenzymeA	
 4.2.1.17	Acrylyl-CoA(acid)	h2o	-->3-Hydroxypropanoyl-CoA	
 1.3.1.84	propionyl-coa	nadp+	-->Acrylyl-CoA(acid)	h+	nadph	
 6.2.1.13	CoenzymeA	propanoate	atp	-->propionyl-coa	adp	hpo42-	
 4.1.1.76	methylmalonate	-->co2	propanoate	
-
-3.1.2.4	3-Hydroxypropanoyl-CoA	h2o	-->3-hydroxypropionate	CoenzymeA	
-4.2.1.17	Acrylyl-CoA(acid)	h2o	-->3-Hydroxypropanoyl-CoA	
-1.3.1.84	propionyl-coa	nadp+	-->Acrylyl-CoA(acid)	h+	nadph	
-6.2.1.13	CoenzymeA	propanoate	atp	-->propionyl-coa	adp	hpo42-	
-4.1.3.32	undefined	-->Pyruvate	propanoate	
 
 3.1.2.4	3-Hydroxypropanoyl-CoA	h2o	-->3-hydroxypropionate	CoenzymeA	
 4.2.1.17	Acrylyl-CoA(acid)	h2o	-->3-Hydroxypropanoyl-CoA	
@@ -704,6 +732,12 @@
 6.2.1.13	CoenzymeA	propanoate	atp	-->propionyl-coa	adp	hpo42-	
 2.7.2.-	adp	propanoyl phosphate	-->propanoate	atp	
 2.7.2.15	Formic acid	[[(2R,3S,4S)-3,4-dihydroxyoxolan-2-yl]methoxy-hydroxyphosphoryl]phosphono hydrogen phosphate	-->propanoyl phosphate	h+	undefined	
+
+3.1.2.4	3-Hydroxypropanoyl-CoA	h2o	-->3-hydroxypropionate	CoenzymeA	
+4.2.1.17	Acrylyl-CoA(acid)	h2o	-->3-Hydroxypropanoyl-CoA	
+1.3.1.84	propionyl-coa	nadp+	-->Acrylyl-CoA(acid)	h+	nadph	
+6.2.1.13	CoenzymeA	propanoate	atp	-->propionyl-coa	adp	hpo42-	
+4.1.3.32	undefined	-->Pyruvate	propanoate	
 
 3.1.2.4	3-Hydroxypropanoyl-CoA	h2o	-->3-hydroxypropionate	CoenzymeA	
 4.2.1.17	Acrylyl-CoA(acid)	h2o	-->3-Hydroxypropanoyl-CoA	
@@ -745,19 +779,13 @@
 4.2.1.17	Acrylyl-CoA(acid)	h2o	-->3-Hydroxypropanoyl-CoA	
 1.3.1.84	propionyl-coa	nadp+	-->Acrylyl-CoA(acid)	h+	nadph	
 1.2.1.27	l-2-methyl-3-oxopropionate	CoenzymeA	methylmalonate semialdehyde	h2o	NAD+	-->hco3-	nadh	propionyl-coa	h+	
-2.6.1.22	(s)-3-amino-2-methylpropanoate	alpha-ketoglutarate	-->methylmalonate semialdehyde	undefined	
-
-3.1.2.4	3-Hydroxypropanoyl-CoA	h2o	-->3-hydroxypropionate	CoenzymeA	
-4.2.1.17	Acrylyl-CoA(acid)	h2o	-->3-Hydroxypropanoyl-CoA	
-1.3.1.84	propionyl-coa	nadp+	-->Acrylyl-CoA(acid)	h+	nadph	
-1.2.1.27	l-2-methyl-3-oxopropionate	CoenzymeA	methylmalonate semialdehyde	h2o	NAD+	-->hco3-	nadh	propionyl-coa	h+	
 2.6.1.22	(s)-3-amino-2-methylpropanoate	alpha-ketoglutarate	-->L-glutamate	methylmalonate semialdehyde	
 
 3.1.2.4	3-Hydroxypropanoyl-CoA	h2o	-->3-hydroxypropionate	CoenzymeA	
 4.2.1.17	Acrylyl-CoA(acid)	h2o	-->3-Hydroxypropanoyl-CoA	
 1.3.1.84	propionyl-coa	nadp+	-->Acrylyl-CoA(acid)	h+	nadph	
-2.3.1.176	CoenzymeA	undefined	-->propionyl-coa	undefined	
-	undefined	NAD+	-->nadh	h+	undefined	
+1.2.1.27	l-2-methyl-3-oxopropionate	CoenzymeA	methylmalonate semialdehyde	h2o	NAD+	-->hco3-	nadh	propionyl-coa	h+	
+2.6.1.22	(s)-3-amino-2-methylpropanoate	alpha-ketoglutarate	-->methylmalonate semialdehyde	undefined	
 
 3.1.2.4	3-Hydroxypropanoyl-CoA	h2o	-->3-hydroxypropionate	CoenzymeA	
 4.2.1.17	Acrylyl-CoA(acid)	h2o	-->3-Hydroxypropanoyl-CoA	
@@ -768,54 +796,44 @@
 3.1.2.4	3-Hydroxypropanoyl-CoA	h2o	-->3-hydroxypropionate	CoenzymeA	
 4.2.1.17	Acrylyl-CoA(acid)	h2o	-->3-Hydroxypropanoyl-CoA	
 1.3.1.84	propionyl-coa	nadp+	-->Acrylyl-CoA(acid)	h+	nadph	
-1.2.1.27	l-2-methyl-3-oxopropionate	CoenzymeA	h2o	NAD+	-->hco3-	nadh	propionyl-coa	h+	
-2.6.1.22	(s)-3-amino-2-methylpropanoate	alpha-ketoglutarate	-->l-2-methyl-3-oxopropionate	L-glutamate	
+2.3.1.-	2-ketobutyrate	CoenzymeA	-->Formic acid	propionyl-coa	
+4.4.1.11	l-methionine	h2o	-->nh4+	methanethiol	2-ketobutyrate	
 
 3.1.2.4	3-Hydroxypropanoyl-CoA	h2o	-->3-hydroxypropionate	CoenzymeA	
 4.2.1.17	Acrylyl-CoA(acid)	h2o	-->3-Hydroxypropanoyl-CoA	
 1.3.1.84	propionyl-coa	nadp+	-->Acrylyl-CoA(acid)	h+	nadph	
-6.2.1.17	CoenzymeA	propanoate	atp	-->adenylic acid	propionyl-coa	diphosphatediphosphate;pyrophosphate	
-4.1.1.76	methylmalonate	-->co2	propanoate	
+2.3.1.-	2-ketobutyrate	CoenzymeA	-->Formic acid	propionyl-coa	
+4.4.1.11	h2o	d-methionine	-->methanethiol	2-ketobutyrate	nh3	
 
 3.1.2.4	3-Hydroxypropanoyl-CoA	h2o	-->3-hydroxypropionate	CoenzymeA	
 4.2.1.17	Acrylyl-CoA(acid)	h2o	-->3-Hydroxypropanoyl-CoA	
 1.3.1.84	propionyl-coa	nadp+	-->Acrylyl-CoA(acid)	h+	nadph	
-6.2.1.17	CoenzymeA	propanoate	atp	-->adenylic acid	propionyl-coa	diphosphatediphosphate;pyrophosphate	
-4.1.3.32	undefined	-->Pyruvate	propanoate	
+2.3.1.-	2-ketobutyrate	CoenzymeA	-->Formic acid	propionyl-coa	
+4.4.1.11	h2o	d-methionine	-->methanethiol	2-ketobutyrate	h+	nh3	
 
 3.1.2.4	3-Hydroxypropanoyl-CoA	h2o	-->3-hydroxypropionate	CoenzymeA	
 4.2.1.17	Acrylyl-CoA(acid)	h2o	-->3-Hydroxypropanoyl-CoA	
 1.3.1.84	propionyl-coa	nadp+	-->Acrylyl-CoA(acid)	h+	nadph	
-6.2.1.17	CoenzymeA	propanoate	atp	-->adenylic acid	propionyl-coa	diphosphatediphosphate;pyrophosphate	
-1.2.98.-	s-adenosyl-l-methionine	h2o	undefined	-->propanoate	l-methionine	h+	undefined	5'-deoxyadenosine	
-2.5.1.6	h2o	atp	d-methionine	-->s-adenosyl-l-methionine	diphosphatediphosphate;pyrophosphate	hpo42-	
+2.3.1.-	2-ketobutyrate	CoenzymeA	-->Formic acid	propionyl-coa	
+4.4.1.11	l-methionine	h2o	-->methanethiol	2-ketobutyrate	h+	nh3	
 
 3.1.2.4	3-Hydroxypropanoyl-CoA	h2o	-->3-hydroxypropionate	CoenzymeA	
 4.2.1.17	Acrylyl-CoA(acid)	h2o	-->3-Hydroxypropanoyl-CoA	
 1.3.1.84	propionyl-coa	nadp+	-->Acrylyl-CoA(acid)	h+	nadph	
-6.2.1.17	CoenzymeA	propanoate	atp	-->adenylic acid	propionyl-coa	diphosphatediphosphate;pyrophosphate	
-1.2.98.-	s-adenosyl-l-methionine	h2o	undefined	-->propanoate	l-methionine	h+	undefined	5'-deoxyadenosine	
-2.5.1.6	h2o	atp	d-methionine	-->s-adenosyl-l-methionine	diphosphatediphosphate;pyrophosphate	hpo42-	h+	
+2.3.1.-	2-ketobutyrate	CoenzymeA	-->Formic acid	propionyl-coa	
+4.4.1.11	h2o	2-aminobutanoate	-->nh4+	2-ketobutyrate	h+	
 
 3.1.2.4	3-Hydroxypropanoyl-CoA	h2o	-->3-hydroxypropionate	CoenzymeA	
 4.2.1.17	Acrylyl-CoA(acid)	h2o	-->3-Hydroxypropanoyl-CoA	
 1.3.1.84	propionyl-coa	nadp+	-->Acrylyl-CoA(acid)	h+	nadph	
-6.2.1.17	CoenzymeA	propanoate	atp	-->adenylic acid	propionyl-coa	diphosphatediphosphate;pyrophosphate	
-1.2.98.-	s-adenosyl-l-methionine	h2o	undefined	-->propanoate	l-methionine	h+	undefined	5'-deoxyadenosine	
-2.5.1.6	l-methionine	h2o	atp	-->s-adenosyl-l-methionine	diphosphatediphosphate;pyrophosphate	hpo42-	
+2.3.1.-	2-ketobutyrate	CoenzymeA	-->Formic acid	propionyl-coa	
+1.1.1.272	d-2-hydroxybutanoate	nadp+	-->2-ketobutyrate	h+	nadph	
 
 3.1.2.4	3-Hydroxypropanoyl-CoA	h2o	-->3-hydroxypropionate	CoenzymeA	
 4.2.1.17	Acrylyl-CoA(acid)	h2o	-->3-Hydroxypropanoyl-CoA	
 1.3.1.84	propionyl-coa	nadp+	-->Acrylyl-CoA(acid)	h+	nadph	
-6.2.1.17	CoenzymeA	propanoate	atp	-->adenylic acid	propionyl-coa	diphosphatediphosphate;pyrophosphate	
-2.7.2.-	adp	propanoyl phosphate	-->propanoate	atp	
-2.7.2.15	Formic acid	[[(2R,3S,4S)-3,4-dihydroxyoxolan-2-yl]methoxy-hydroxyphosphoryl]phosphono hydrogen phosphate	-->propanoyl phosphate	h+	undefined	
-
-3.1.2.4	3-Hydroxypropanoyl-CoA	h2o	-->3-hydroxypropionate	CoenzymeA	
-4.2.1.17	Acrylyl-CoA(acid)	h2o	-->3-Hydroxypropanoyl-CoA	
-1.3.1.84	propionyl-coa	nadp+	-->Acrylyl-CoA(acid)	h+	nadph	
-1.2.1.27	l-2-methyl-3-oxopropionate	CoenzymeA	NAD+	-->co2	nadh	propionyl-coa	
-2.6.1.22	(s)-3-amino-2-methylpropanoate	alpha-ketoglutarate	-->l-2-methyl-3-oxopropionate	L-glutamate	
+3.1.2.-	undefined	h2o	-->undefined	propionyl-coa	
+6.4.1.-	hco3-	undefined	atp	-->undefined	adp	hpo42-	h+	
 
 3.1.2.4	3-Hydroxypropanoyl-CoA	h2o	-->3-hydroxypropionate	CoenzymeA	
 4.2.1.17	Acrylyl-CoA(acid)	h2o	-->3-Hydroxypropanoyl-CoA	
@@ -827,7 +845,7 @@
 4.2.1.17	Acrylyl-CoA(acid)	h2o	-->3-Hydroxypropanoyl-CoA	
 1.3.1.84	propionyl-coa	nadp+	-->Acrylyl-CoA(acid)	h+	nadph	
 	2-ketobutyrate	CoenzymeA	NAD+	-->co2	nadh	propionyl-coa	
-4.4.1.11	h2o	d-methionine	-->methanethiol	2-ketobutyrate	h+	nh3	
+4.4.1.11	l-methionine	h2o	-->nh4+	methanethiol	2-ketobutyrate	
 
 3.1.2.4	3-Hydroxypropanoyl-CoA	h2o	-->3-hydroxypropionate	CoenzymeA	
 4.2.1.17	Acrylyl-CoA(acid)	h2o	-->3-Hydroxypropanoyl-CoA	
@@ -839,13 +857,7 @@
 4.2.1.17	Acrylyl-CoA(acid)	h2o	-->3-Hydroxypropanoyl-CoA	
 1.3.1.84	propionyl-coa	nadp+	-->Acrylyl-CoA(acid)	h+	nadph	
 	2-ketobutyrate	CoenzymeA	NAD+	-->co2	nadh	propionyl-coa	
-4.4.1.11	l-methionine	h2o	-->nh4+	methanethiol	2-ketobutyrate	
-
-3.1.2.4	3-Hydroxypropanoyl-CoA	h2o	-->3-hydroxypropionate	CoenzymeA	
-4.2.1.17	Acrylyl-CoA(acid)	h2o	-->3-Hydroxypropanoyl-CoA	
-1.3.1.84	propionyl-coa	nadp+	-->Acrylyl-CoA(acid)	h+	nadph	
-	2-ketobutyrate	CoenzymeA	NAD+	-->co2	nadh	propionyl-coa	
-4.4.1.11	h2o	2-aminobutanoate	-->nh4+	2-ketobutyrate	h+	
+4.4.1.11	h2o	d-methionine	-->methanethiol	2-ketobutyrate	h+	nh3	
 
 3.1.2.4	3-Hydroxypropanoyl-CoA	h2o	-->3-hydroxypropionate	CoenzymeA	
 4.2.1.17	Acrylyl-CoA(acid)	h2o	-->3-Hydroxypropanoyl-CoA	
@@ -857,7 +869,18 @@
 4.2.1.17	Acrylyl-CoA(acid)	h2o	-->3-Hydroxypropanoyl-CoA	
 1.3.1.84	propionyl-coa	nadp+	-->Acrylyl-CoA(acid)	h+	nadph	
 	2-ketobutyrate	CoenzymeA	NAD+	-->co2	nadh	propionyl-coa	
+4.4.1.11	h2o	2-aminobutanoate	-->nh4+	2-ketobutyrate	h+	
+
+3.1.2.4	3-Hydroxypropanoyl-CoA	h2o	-->3-hydroxypropionate	CoenzymeA	
+4.2.1.17	Acrylyl-CoA(acid)	h2o	-->3-Hydroxypropanoyl-CoA	
+1.3.1.84	propionyl-coa	nadp+	-->Acrylyl-CoA(acid)	h+	nadph	
+	2-ketobutyrate	CoenzymeA	NAD+	-->co2	nadh	propionyl-coa	
 1.1.1.272	d-2-hydroxybutanoate	nadp+	-->2-ketobutyrate	h+	nadph	
+
+3.1.2.4	3-Hydroxypropanoyl-CoA	h2o	-->3-hydroxypropionate	CoenzymeA	
+4.2.1.17	Acrylyl-CoA(acid)	h2o	-->3-Hydroxypropanoyl-CoA	
+1.3.1.84	propionyl-coa	nadp+	-->Acrylyl-CoA(acid)	h+	nadph	
+4.1.1.41	h+	undefined	-->co2	propionyl-coa	
 
 3.1.2.4	3-Hydroxypropanoyl-CoA	h2o	-->3-hydroxypropionate	CoenzymeA	
 4.2.1.17	Acrylyl-CoA(acid)	h2o	-->3-Hydroxypropanoyl-CoA	
@@ -867,11 +890,11 @@
 3.1.2.4	3-Hydroxypropanoyl-CoA	h2o	-->3-hydroxypropionate	CoenzymeA	
 4.2.1.17	Acrylyl-CoA(acid)	h2o	-->3-Hydroxypropanoyl-CoA	
 1.3.1.84	propionyl-coa	nadp+	-->Acrylyl-CoA(acid)	h+	nadph	
-4.1.3.24	beta-methylmalyl-coa	-->propionyl-coa	glyoxalate	
+2.3.1.176	undefined	CoenzymeA	-->propionyl-coa	undefined	
+1.1.1.35	undefined	NAD+	-->undefined	nadh	h+	
 
 3.1.2.4	3-Hydroxypropanoyl-CoA	h2o	-->3-hydroxypropionate	CoenzymeA	
 4.2.1.17	Acrylyl-CoA(acid)	h2o	-->3-Hydroxypropanoyl-CoA	
 1.3.1.84	propionyl-coa	nadp+	-->Acrylyl-CoA(acid)	h+	nadph	
-3.1.2.-	undefined	h2o	-->undefined	propionyl-coa	
-6.4.1.-	hco3-	undefined	atp	-->undefined	adp	hpo42-	h+	
+4.1.3.24	beta-methylmalyl-coa	-->propionyl-coa	glyoxalate	
 
