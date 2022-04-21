@@ -1,0 +1,28 @@
+package org.Retrosynthesis.models;
+
+public class Chems {
+
+    private final String inchi;
+    private final String name;
+    private final String id;
+
+    public Chems(String id, String inchi, String name) {
+        this.inchi = inchi;
+        this.name = name;
+        this.id = id;
+    }
+
+
+    public String getInchi() {
+        return inchi;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public String getID() {
+        return id;
+    }
+}
+
