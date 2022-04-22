@@ -18,13 +18,15 @@ public class ExtractCoreMet {
         for (int i = 2; i < lines.length; i++) {
             String aCompound = lines[i];
             String[] tabs = aCompound.split(",");
-            String chem = tabs[3];
+            for (int j = 3; j < tabs.length; j++){
+            String chem = tabs[j];
             chem = chem.replaceAll("META:","");
             chem = chem.replaceAll("'","");
             chem = chem.replaceAll("[\\[\\](){}]","");
             chem = chem.replaceAll("^\"|\"$", "");
             if (!natives.contains(chem)) {
                 natives.add(chem);
+            }
             }
         }
         return natives;
