@@ -7,7 +7,16 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 
+/**
+ * This extracts chemical compounds from metacyc compound database
+ * @author Y. C. Gao
+ */
 public class ExtractChem {
+    private HashMap<String, Chems> chemsHashMap;
+
+    public void initiate(){
+        chemsHashMap = new HashMap<>();
+    }
 
     public List<Chems> run(String chempath) throws Exception {
         //Read in all the chemicals
@@ -47,10 +56,15 @@ public class ExtractChem {
 
             Chems achem = new Chems(uniqueID, Inchi,commonName);
             allChemicals.add(achem);
-
+            chemsHashMap.put(uniqueID, achem);
+            commonName = null;
+            uniqueID = null;
+            Inchi = null;
         }
         System.out.println("done populating chemicals");
         return allChemicals;
     }
+    public HashMap<String, Chems> getChemsHashMap() {
+        return chemsHashMap; }
 
 }

@@ -5,6 +5,10 @@ import org.Retrosynthesis.models.Rxns;
 import org.Utils.FileUtils;
 
 import java.util.*;
+/**
+ * This extracts reaction data from metacyc reaction database
+ * @author Y. C. Gao
+ */
 
 public class ExtractRxns {
     public void initiate(){

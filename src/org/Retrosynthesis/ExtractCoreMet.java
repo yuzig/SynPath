@@ -1,13 +1,12 @@
 package org.Retrosynthesis;
-
-import org.Retrosynthesis.models.Chems;
-import org.Retrosynthesis.models.Rxns;
 import org.Utils.FileUtils;
 
 import java.util.ArrayList;
-import java.util.HashMap;
 import java.util.List;
-
+/**
+ * This extracts core metabolites from a given chassis and store them as a list of unique ID strings
+ * @author Y. C. Gao
+ */
 public class ExtractCoreMet {
     public void initiate() {
     }
