@@ -1,5 +1,9 @@
 package org.Retrosynthesis.models;
 
+/**
+ * A model for chemicals
+ * @author Y. C. Gao
+ */
 public class Chems {
 
     private final String inchi;

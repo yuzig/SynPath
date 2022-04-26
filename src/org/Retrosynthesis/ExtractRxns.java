@@ -23,6 +23,7 @@ public class ExtractRxns {
         String ECnum = null;
         Set<Chems> substrates = new HashSet<>();
         Set<Chems> products = new HashSet<>();
+        Set<String> pathways = new HashSet<>();
 
         for (int i = 2; i < lines.length; i++) {
             String aRxn = lines[i];
@@ -58,12 +59,16 @@ public class ExtractRxns {
                     products.add(product);
                     continue;
                 }
+                if (str.startsWith("IN-PATHWAY")){
+                    tabs = str.split(" - ");
+                    pathways.add(tabs[1]);
+                }
             }
-            Rxns rxn = new Rxns(ECnum, substrates, products, uniqueID);
+            Rxns rxn = new Rxns(ECnum, substrates, products, uniqueID,pathways);
             allRxn.add(rxn);
             substrates = new HashSet<>();
             products = new HashSet<>();
-
+            pathways = new HashSet<>();
         }
         return allRxn;
     }

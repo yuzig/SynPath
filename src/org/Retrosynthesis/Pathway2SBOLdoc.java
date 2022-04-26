@@ -49,8 +49,6 @@ public class Pathway2SBOLdoc {
         re.initiate();
         MetaboliteExtractor me = new MetaboliteExtractor();
         me.initiate();
-        Synthesizer s = new Synthesizer();
-        s.initiate();
 
         String chempath = new C5().getClass().getResource("data" + "/" + "good_chems.txt").getFile();
         String rxnpath = new C5().getClass().getResource("data" + "/" + "good_reactions.txt").getFile();
