@@ -1,0 +1,75 @@
+,0,1,2
+0,ID,name,Biocyc_Annotation
+1,glc__D_e,D-Glucose,META:Glucopyranose
+2,gln__L_c,L-Glutamine,META:GLN
+3,gln__L_e,L-Glutamine,META:GLN
+4,glu__L_c,L-Glutamate,"['META:Glutamates', 'META:GLT']"
+5,glu__L_e,L-Glutamate,"['META:Glutamates', 'META:GLT']"
+6,glx_c,Glyoxylate,META:GLYOX
+7,h2o_c,H2O H2O,"['META:CPD-15815', 'META:OXONIUM', 'META:HYDROXYL-GROUP', 'META:WATER', 'META:OH']"
+8,h2o_e,H2O H2O,"['META:CPD-15815', 'META:OXONIUM', 'META:HYDROXYL-GROUP', 'META:WATER', 'META:OH']"
+9,h_c,H+,META:PROTON
+10,h_e,H+,META:PROTON
+11,icit_c,Isocitrate,META:Isocitrate
+12,lac__D_c,D-Lactate,META:D-LACTATE
+13,lac__D_e,D-Lactate,META:D-LACTATE
+14,mal__L_c,L-Malate,META:MAL
+15,mal__L_e,L-Malate,META:MAL
+16,nad_c,Nicotinamide adenine dinucleotide,META:NAD
+17,nadh_c,Nicotinamide adenine dinucleotide - reduced,META:NADH
+18,nadp_c,Nicotinamide adenine dinucleotide phosphate,META:NADP
+19,nadph_c,Nicotinamide adenine dinucleotide phosphate - reduced,META:NADPH
+20,nh4_c,Ammonium,"['META:AMMONIUM', 'META:AMMONIA']"
+21,13dpg_c,3-Phospho-D-glyceroyl phosphate,META:DPG
+22,nh4_e,Ammonium,"['META:AMMONIUM', 'META:AMMONIA']"
+23,o2_c,O2 O2,META:OXYGEN-MOLECULE
+24,2pg_c,D-Glycerate 2-phosphate,META:2-PG
+25,o2_e,O2 O2,META:OXYGEN-MOLECULE
+26,3pg_c,3-Phospho-D-glycerate,META:G3P
+27,oaa_c,Oxaloacetate,META:OXALACETIC_ACID
+28,pep_c,Phosphoenolpyruvate,META:PHOSPHO-ENOL-PYRUVATE
+29,6pgc_c,6-Phospho-D-gluconate,META:CPD-2961
+30,pi_c,Phosphate,"['META:Pi', 'META:CPD-16459', 'META:PHOSPHATE-GROUP']"
+31,6pgl_c,"6-phospho-D-glucono-1,5-lactone",META:D-6-P-GLUCONO-DELTA-LACTONE
+32,pi_e,Phosphate,"['META:Pi', 'META:CPD-16459', 'META:PHOSPHATE-GROUP']"
+33,ac_c,Acetate,META:ACET
+34,pyr_c,Pyruvate,META:PYRUVATE
+35,pyr_e,Pyruvate,META:PYRUVATE
+36,q8_c,Ubiquinone-8,META:UBIQUINONE-8
+37,q8h2_c,Ubiquinol-8,META:CPD-9956
+38,r5p_c,Alpha-D-Ribose 5-phosphate,META:CPD-15318
+39,ru5p__D_c,D-Ribulose 5-phosphate,META:RIBULOSE-5P
+40,ac_e,Acetate,META:ACET
+41,acald_c,Acetaldehyde,META:ACETALD
+42,s7p_c,Sedoheptulose 7-phosphate,META:D-SEDOHEPTULOSE-7-P
+43,acald_e,Acetaldehyde,META:ACETALD
+44,accoa_c,Acetyl-CoA,META:ACETYL-COA
+45,succ_c,Succinate,META:SUC
+46,succ_e,Succinate,META:SUC
+47,succoa_c,Succinyl-CoA,META:SUC-COA
+48,acon_C_c,Cis-Aconitate,META:CIS-ACONITATE
+49,xu5p__D_c,D-Xylulose 5-phosphate,META:XYLULOSE-5-PHOSPHATE
+50,actp_c,Acetyl phosphate,META:ACETYL-P
+51,adp_c,ADP C10H12N5O10P2,META:ADP
+52,akg_c,2-Oxoglutarate,META:2-KETOGLUTARATE
+53,akg_e,2-Oxoglutarate,META:2-KETOGLUTARATE
+54,amp_c,AMP C10H12N5O7P,"['META:AMP-GROUP', 'META:AMP']"
+55,atp_c,ATP C10H12N5O13P3,META:ATP
+56,cit_c,Citrate,META:CIT
+57,co2_c,CO2 CO2,META:CARBON-DIOXIDE
+58,co2_e,CO2 CO2,META:CARBON-DIOXIDE
+59,coa_c,Coenzyme A,"['META:COA-GROUP', 'META:CO-A']"
+60,dhap_c,Dihydroxyacetone phosphate,META:DIHYDROXY-ACETONE-PHOSPHATE
+61,e4p_c,D-Erythrose 4-phosphate,META:ERYTHROSE-4P
+62,etoh_c,Ethanol,META:ETOH
+63,etoh_e,Ethanol,META:ETOH
+64,f6p_c,D-Fructose 6-phosphate,META:FRUCTOSE-6P
+65,fdp_c,"D-Fructose 1,6-bisphosphate",
+66,for_c,Formate,"['META:CPD1G-1532', 'META:CPD1G-1535', 'META:FORMATE', 'META:CPD-9845', 'META:CPD1G-1534', 'META:CARBOXYL-GROUP', 'META:CPD1G-1533']"
+67,for_e,Formate,"['META:CPD1G-1532', 'META:CPD1G-1535', 'META:FORMATE', 'META:CPD-9845', 'META:CPD1G-1534', 'META:CARBOXYL-GROUP', 'META:CPD1G-1533']"
+68,fru_e,D-Fructose,"['META:D-Fructopyranose', 'META:Fructofuranose', 'META:CPD-15382', 'META:FRU']"
+69,fum_c,Fumarate,META:FUM
+70,fum_e,Fumarate,META:FUM
+71,g3p_c,Glyceraldehyde 3-phosphate,META:GAP
+72,g6p_c,D-Glucose 6-phosphate,META:D-glucopyranose-6-phosphate
+73,Nadp/NOP,Carrier,META:NADH-P-OR-NOP

@@ -1,0 +1,408 @@
+RXN-9403 a reduced unknown two electron carrier (-)-carvone  -->(+)-dihydrocarvone an oxidized unknown electron carrier 
+RXN-9400 (-)-<i>trans</i>-carveol a mycofactocinone  -->a mycofactocinol (-)-carvone 
+--LIMONENE-6-MONOOXYGENASE-RXN null oxygen (4<i>S</i>)-limonene  -->(-)-<i>trans</i>-carveol H<sub>2</sub>O null 
+RXN-11288 neryl diphosphate  -->(4<i>S</i>)-limonene diphosphate 
+DIMETHYLALLYLCISTRANSFERASE-RXN prenyl diphosphate isopentenyl diphosphate  -->neryl diphosphate diphosphate 
+IPPISOM-RXN prenyl diphosphate  -->isopentenyl diphosphate 
+
+RXN-9403 a reduced unknown two electron carrier (-)-carvone  -->(+)-dihydrocarvone an oxidized unknown electron carrier 
+CARVEOL-DEHYDROGENASE-RXN (-)-<i>trans</i>-carveol NADP<sup>+</sup>  -->H<SUP>+</SUP> (-)-carvone NADPH 
+--LIMONENE-6-MONOOXYGENASE-RXN null oxygen (4<i>S</i>)-limonene  -->(-)-<i>trans</i>-carveol H<sub>2</sub>O null 
+RXN-11288 neryl diphosphate  -->(4<i>S</i>)-limonene diphosphate 
+DIMETHYLALLYLCISTRANSFERASE-RXN prenyl diphosphate isopentenyl diphosphate  -->neryl diphosphate diphosphate 
+RXN-10068 ATP isopentenyl phosphate  -->isopentenyl diphosphate ADP 
+RXN-21278 H<SUP>+</SUP> <i>trans</i>-anhydromevalonate 5-phosphate  -->CO<SUB>2</SUB> isopentenyl phosphate 
+RXN-21277 (<i>R</i>)-5-phosphomevalonate  -->H<sub>2</sub>O <i>trans</i>-anhydromevalonate 5-phosphate 
+
+RXN-9403 a reduced unknown two electron carrier (-)-carvone  -->(+)-dihydrocarvone an oxidized unknown electron carrier 
+RXN-14151 (-)-<i>trans</i>-carveol NAD<sup>+</sup>  -->NADH H<SUP>+</SUP> (-)-carvone 
+--LIMONENE-6-MONOOXYGENASE-RXN null oxygen (4<i>S</i>)-limonene  -->(-)-<i>trans</i>-carveol H<sub>2</sub>O null 
+RXN-11288 neryl diphosphate  -->(4<i>S</i>)-limonene diphosphate 
+DIMETHYLALLYLCISTRANSFERASE-RXN prenyl diphosphate isopentenyl diphosphate  -->neryl diphosphate diphosphate 
+RXN0-884 H<SUP>+</SUP> (<i>E</i>)-4-hydroxy-3-methylbut-2-en-1-yl diphosphate null  -->H<sub>2</sub>O null prenyl diphosphate 
+RXN0-882 2-C-methyl-D-erythritol-2,4-cyclodiphosphate H<SUP>+</SUP> null  -->H<sub>2</sub>O (<i>E</i>)-4-hydroxy-3-methylbut-2-en-1-yl diphosphate null 
+RXN0-302 2-phospho-4-(cytidine 5'-diphospho)-2-C-methyl-D-erythritol  -->2-C-methyl-D-erythritol-2,4-cyclodiphosphate CMP 
+
+RXN-9403 a reduced unknown two electron carrier (-)-carvone  -->(+)-dihydrocarvone an oxidized unknown electron carrier 
+CARVEOL-DEHYDROGENASE-RXN (-)-<i>trans</i>-carveol NADP<sup>+</sup>  -->H<SUP>+</SUP> (-)-carvone NADPH 
+--LIMONENE-6-MONOOXYGENASE-RXN null oxygen (4<i>S</i>)-limonene  -->(-)-<i>trans</i>-carveol H<sub>2</sub>O null 
+RXN-11288 neryl diphosphate  -->(4<i>S</i>)-limonene diphosphate 
+DIMETHYLALLYLCISTRANSFERASE-RXN prenyl diphosphate isopentenyl diphosphate  -->neryl diphosphate diphosphate 
+ISPH2-RXN H<SUP>+</SUP> (<i>E</i>)-4-hydroxy-3-methylbut-2-en-1-yl diphosphate null  -->H<sub>2</sub>O isopentenyl diphosphate null 
+RXN0-882 2-C-methyl-D-erythritol-2,4-cyclodiphosphate H<SUP>+</SUP> null  -->H<sub>2</sub>O (<i>E</i>)-4-hydroxy-3-methylbut-2-en-1-yl diphosphate null 
+RXN0-302 2-phospho-4-(cytidine 5'-diphospho)-2-C-methyl-D-erythritol  -->2-C-methyl-D-erythritol-2,4-cyclodiphosphate CMP 
+
+RXN-9403 a reduced unknown two electron carrier (-)-carvone  -->(+)-dihydrocarvone an oxidized unknown electron carrier 
+RXN-14151 (-)-<i>trans</i>-carveol NAD<sup>+</sup>  -->NADH H<SUP>+</SUP> (-)-carvone 
+--LIMONENE-6-MONOOXYGENASE-RXN null oxygen (4<i>S</i>)-limonene  -->(-)-<i>trans</i>-carveol H<sub>2</sub>O null 
+RXN-11288 neryl diphosphate  -->(4<i>S</i>)-limonene diphosphate 
+DIMETHYLALLYLCISTRANSFERASE-RXN prenyl diphosphate isopentenyl diphosphate  -->neryl diphosphate diphosphate 
+IPPISOM-RXN isopentenyl diphosphate  -->prenyl diphosphate 
+
+RXN-9403 a reduced unknown two electron carrier (-)-carvone  -->(+)-dihydrocarvone an oxidized unknown electron carrier 
+RXN-9400 (-)-<i>trans</i>-carveol a mycofactocinone  -->a mycofactocinol (-)-carvone 
+--LIMONENE-6-MONOOXYGENASE-RXN null oxygen (4<i>S</i>)-limonene  -->(-)-<i>trans</i>-carveol H<sub>2</sub>O null 
+RXN-11288 neryl diphosphate  -->(4<i>S</i>)-limonene diphosphate 
+DIMETHYLALLYLCISTRANSFERASE-RXN prenyl diphosphate isopentenyl diphosphate  -->neryl diphosphate diphosphate 
+RXN-10068 ATP isopentenyl phosphate  -->isopentenyl diphosphate ADP 
+RXN-15649 (<i>R</i>)-3,5-bisphosphomevalonate H<SUP>+</SUP>  -->phosphate CO<SUB>2</SUB> isopentenyl phosphate 
+RXN-15648 (<i>R</i>)-mevalonate 3-phosphate ATP  -->(<i>R</i>)-3,5-bisphosphomevalonate H<SUP>+</SUP> ADP 
+
+RXN-9403 a reduced unknown two electron carrier (-)-carvone  -->(+)-dihydrocarvone an oxidized unknown electron carrier 
+RXN-14151 (-)-<i>trans</i>-carveol NAD<sup>+</sup>  -->NADH H<SUP>+</SUP> (-)-carvone 
+--LIMONENE-6-MONOOXYGENASE-RXN null oxygen (4<i>S</i>)-limonene  -->(-)-<i>trans</i>-carveol H<sub>2</sub>O null 
+RXN-11288 neryl diphosphate  -->(4<i>S</i>)-limonene diphosphate 
+DIMETHYLALLYLCISTRANSFERASE-RXN prenyl diphosphate isopentenyl diphosphate  -->neryl diphosphate diphosphate 
+DIPHOSPHOMEVALONTE-DECARBOXYLASE-RXN (R)-mevalonate diphosphate ATP  -->phosphate isopentenyl diphosphate ADP CO<SUB>2</SUB> 
+PHOSPHOMEVALONATE-KINASE-RXN (<i>R</i>)-5-phosphomevalonate ATP  -->(R)-mevalonate diphosphate ADP 
+MEVALONATE-KINASE-RXN (<i>R</i>)-mevalonate ATP  -->(<i>R</i>)-5-phosphomevalonate H<SUP>+</SUP> ADP 
+
+RXN-9392 (+)-neodihydrocarveol NAD<sup>+</sup>  -->NADH H<SUP>+</SUP> (+)-dihydrocarvone 
+
+RXN-9403 a reduced unknown two electron carrier (-)-carvone  -->(+)-dihydrocarvone an oxidized unknown electron carrier 
+RXN-9404 (-)-<i>cis</i>-carveol a mycofactocinone  -->a mycofactocinol (-)-carvone 
+RXN-9465 H<SUP>+</SUP> oxygen (4<i>S</i>)-limonene NADPH  -->H<sub>2</sub>O (-)-<i>cis</i>-carveol NADP<sup>+</sup> 
+RXN-11288 neryl diphosphate  -->(4<i>S</i>)-limonene diphosphate 
+DIMETHYLALLYLCISTRANSFERASE-RXN prenyl diphosphate isopentenyl diphosphate  -->neryl diphosphate diphosphate 
+RXN0-884 H<SUP>+</SUP> (<i>E</i>)-4-hydroxy-3-methylbut-2-en-1-yl diphosphate null  -->H<sub>2</sub>O null prenyl diphosphate 
+RXN-15878 2-C-methyl-D-erythritol-2,4-cyclodiphosphate null  -->H<sub>2</sub>O H<SUP>+</SUP> (<i>E</i>)-4-hydroxy-3-methylbut-2-en-1-yl diphosphate null 
+RXN0-302 2-phospho-4-(cytidine 5'-diphospho)-2-C-methyl-D-erythritol  -->2-C-methyl-D-erythritol-2,4-cyclodiphosphate CMP 
+
+RXN-9403 a reduced unknown two electron carrier (-)-carvone  -->(+)-dihydrocarvone an oxidized unknown electron carrier 
+RXN-9404 (-)-<i>cis</i>-carveol a mycofactocinone  -->a mycofactocinol (-)-carvone 
+RXN-9465 H<SUP>+</SUP> oxygen (4<i>S</i>)-limonene NADPH  -->H<sub>2</sub>O (-)-<i>cis</i>-carveol NADP<sup>+</sup> 
+RXN-11288 neryl diphosphate  -->(4<i>S</i>)-limonene diphosphate 
+DIMETHYLALLYLCISTRANSFERASE-RXN prenyl diphosphate isopentenyl diphosphate  -->neryl diphosphate diphosphate 
+IPPISOM-RXN prenyl diphosphate  -->isopentenyl diphosphate 
+
+RXN-9403 a reduced unknown two electron carrier (-)-carvone  -->(+)-dihydrocarvone an oxidized unknown electron carrier 
+RXN-9404 (-)-<i>cis</i>-carveol a mycofactocinone  -->a mycofactocinol (-)-carvone 
+RXN-9465 H<SUP>+</SUP> oxygen (4<i>S</i>)-limonene NADPH  -->H<sub>2</sub>O (-)-<i>cis</i>-carveol NADP<sup>+</sup> 
+RXN-11288 neryl diphosphate  -->(4<i>S</i>)-limonene diphosphate 
+DIMETHYLALLYLCISTRANSFERASE-RXN prenyl diphosphate isopentenyl diphosphate  -->neryl diphosphate diphosphate 
+ISPH2-RXN H<SUP>+</SUP> (<i>E</i>)-4-hydroxy-3-methylbut-2-en-1-yl diphosphate null  -->H<sub>2</sub>O isopentenyl diphosphate null 
+RXN-15878 2-C-methyl-D-erythritol-2,4-cyclodiphosphate null  -->H<sub>2</sub>O H<SUP>+</SUP> (<i>E</i>)-4-hydroxy-3-methylbut-2-en-1-yl diphosphate null 
+RXN0-302 2-phospho-4-(cytidine 5'-diphospho)-2-C-methyl-D-erythritol  -->2-C-methyl-D-erythritol-2,4-cyclodiphosphate CMP 
+
+RXN-9403 a reduced unknown two electron carrier (-)-carvone  -->(+)-dihydrocarvone an oxidized unknown electron carrier 
+RXN-9400 (-)-<i>trans</i>-carveol a mycofactocinone  -->a mycofactocinol (-)-carvone 
+--LIMONENE-6-MONOOXYGENASE-RXN null oxygen (4<i>S</i>)-limonene  -->(-)-<i>trans</i>-carveol H<sub>2</sub>O null 
+RXN-11288 neryl diphosphate  -->(4<i>S</i>)-limonene diphosphate 
+DIMETHYLALLYLCISTRANSFERASE-RXN prenyl diphosphate isopentenyl diphosphate  -->neryl diphosphate diphosphate 
+RXN0-884 H<SUP>+</SUP> (<i>E</i>)-4-hydroxy-3-methylbut-2-en-1-yl diphosphate null  -->H<sub>2</sub>O null prenyl diphosphate 
+RXN-15878 2-C-methyl-D-erythritol-2,4-cyclodiphosphate null  -->H<sub>2</sub>O H<SUP>+</SUP> (<i>E</i>)-4-hydroxy-3-methylbut-2-en-1-yl diphosphate null 
+RXN0-302 2-phospho-4-(cytidine 5'-diphospho)-2-C-methyl-D-erythritol  -->2-C-methyl-D-erythritol-2,4-cyclodiphosphate CMP 
+
+RXN-9403 a reduced unknown two electron carrier (-)-carvone  -->(+)-dihydrocarvone an oxidized unknown electron carrier 
+RXN-14151 (-)-<i>trans</i>-carveol NAD<sup>+</sup>  -->NADH H<SUP>+</SUP> (-)-carvone 
+--LIMONENE-6-MONOOXYGENASE-RXN null oxygen (4<i>S</i>)-limonene  -->(-)-<i>trans</i>-carveol H<sub>2</sub>O null 
+RXN-11288 neryl diphosphate  -->(4<i>S</i>)-limonene diphosphate 
+DIMETHYLALLYLCISTRANSFERASE-RXN prenyl diphosphate isopentenyl diphosphate  -->neryl diphosphate diphosphate 
+RXN-10068 ATP isopentenyl phosphate  -->isopentenyl diphosphate ADP 
+RXN-10067 (<i>R</i>)-5-phosphomevalonate ATP  -->phosphate ADP CO<SUB>2</SUB> isopentenyl phosphate 
+MEVALONATE-KINASE-RXN (<i>R</i>)-mevalonate ATP  -->(<i>R</i>)-5-phosphomevalonate H<SUP>+</SUP> ADP 
+
+RXN-9403 a reduced unknown two electron carrier (-)-carvone  -->(+)-dihydrocarvone an oxidized unknown electron carrier 
+RXN-9404 (-)-<i>cis</i>-carveol a mycofactocinone  -->a mycofactocinol (-)-carvone 
+RXN-9465 H<SUP>+</SUP> oxygen (4<i>S</i>)-limonene NADPH  -->H<sub>2</sub>O (-)-<i>cis</i>-carveol NADP<sup>+</sup> 
+RXN-11288 neryl diphosphate  -->(4<i>S</i>)-limonene diphosphate 
+DIMETHYLALLYLCISTRANSFERASE-RXN prenyl diphosphate isopentenyl diphosphate  -->neryl diphosphate diphosphate 
+RXN-10068 ATP isopentenyl phosphate  -->isopentenyl diphosphate ADP 
+RXN-15649 (<i>R</i>)-3,5-bisphosphomevalonate H<SUP>+</SUP>  -->phosphate CO<SUB>2</SUB> isopentenyl phosphate 
+RXN-15648 (<i>R</i>)-mevalonate 3-phosphate ATP  -->(<i>R</i>)-3,5-bisphosphomevalonate H<SUP>+</SUP> ADP 
+
+RXN-9403 a reduced unknown two electron carrier (-)-carvone  -->(+)-dihydrocarvone an oxidized unknown electron carrier 
+RXN-14151 (-)-<i>trans</i>-carveol NAD<sup>+</sup>  -->NADH H<SUP>+</SUP> (-)-carvone 
+--LIMONENE-6-MONOOXYGENASE-RXN null oxygen (4<i>S</i>)-limonene  -->(-)-<i>trans</i>-carveol H<sub>2</sub>O null 
+RXN-11288 neryl diphosphate  -->(4<i>S</i>)-limonene diphosphate 
+DIMETHYLALLYLCISTRANSFERASE-RXN prenyl diphosphate isopentenyl diphosphate  -->neryl diphosphate diphosphate 
+ISPH2-RXN H<SUP>+</SUP> (<i>E</i>)-4-hydroxy-3-methylbut-2-en-1-yl diphosphate null  -->H<sub>2</sub>O isopentenyl diphosphate null 
+RXN0-882 2-C-methyl-D-erythritol-2,4-cyclodiphosphate H<SUP>+</SUP> null  -->H<sub>2</sub>O (<i>E</i>)-4-hydroxy-3-methylbut-2-en-1-yl diphosphate null 
+RXN0-302 2-phospho-4-(cytidine 5'-diphospho)-2-C-methyl-D-erythritol  -->2-C-methyl-D-erythritol-2,4-cyclodiphosphate CMP 
+
+RXN-9403 a reduced unknown two electron carrier (-)-carvone  -->(+)-dihydrocarvone an oxidized unknown electron carrier 
+CARVEOL-DEHYDROGENASE-RXN (-)-<i>trans</i>-carveol NADP<sup>+</sup>  -->H<SUP>+</SUP> (-)-carvone NADPH 
+--LIMONENE-6-MONOOXYGENASE-RXN null oxygen (4<i>S</i>)-limonene  -->(-)-<i>trans</i>-carveol H<sub>2</sub>O null 
+4.2.3.16-RXN geranyl diphosphate  -->(4<i>S</i>)-limonene diphosphate 
+GPPSYN-RXN prenyl diphosphate isopentenyl diphosphate  -->geranyl diphosphate diphosphate 
+
+RXN-9403 a reduced unknown two electron carrier (-)-carvone  -->(+)-dihydrocarvone an oxidized unknown electron carrier 
+RXN-14151 (-)-<i>trans</i>-carveol NAD<sup>+</sup>  -->NADH H<SUP>+</SUP> (-)-carvone 
+--LIMONENE-6-MONOOXYGENASE-RXN null oxygen (4<i>S</i>)-limonene  -->(-)-<i>trans</i>-carveol H<sub>2</sub>O null 
+RXN-11288 neryl diphosphate  -->(4<i>S</i>)-limonene diphosphate 
+DIMETHYLALLYLCISTRANSFERASE-RXN prenyl diphosphate isopentenyl diphosphate  -->neryl diphosphate diphosphate 
+ISPH2-RXN H<SUP>+</SUP> (<i>E</i>)-4-hydroxy-3-methylbut-2-en-1-yl diphosphate null  -->H<sub>2</sub>O isopentenyl diphosphate null 
+RXN-15878 2-C-methyl-D-erythritol-2,4-cyclodiphosphate null  -->H<sub>2</sub>O H<SUP>+</SUP> (<i>E</i>)-4-hydroxy-3-methylbut-2-en-1-yl diphosphate null 
+RXN0-302 2-phospho-4-(cytidine 5'-diphospho)-2-C-methyl-D-erythritol  -->2-C-methyl-D-erythritol-2,4-cyclodiphosphate CMP 
+
+RXN-9424 (-)-dihydrocarveol NAD<sup>+</sup>  -->NADH H<SUP>+</SUP> (+)-dihydrocarvone 
+
+RXN-9403 a reduced unknown two electron carrier (-)-carvone  -->(+)-dihydrocarvone an oxidized unknown electron carrier 
+RXN-9400 (-)-<i>trans</i>-carveol a mycofactocinone  -->a mycofactocinol (-)-carvone 
+--LIMONENE-6-MONOOXYGENASE-RXN null oxygen (4<i>S</i>)-limonene  -->(-)-<i>trans</i>-carveol H<sub>2</sub>O null 
+RXN-11288 neryl diphosphate  -->(4<i>S</i>)-limonene diphosphate 
+DIMETHYLALLYLCISTRANSFERASE-RXN prenyl diphosphate isopentenyl diphosphate  -->neryl diphosphate diphosphate 
+ISPH2-RXN H<SUP>+</SUP> (<i>E</i>)-4-hydroxy-3-methylbut-2-en-1-yl diphosphate null  -->H<sub>2</sub>O isopentenyl diphosphate null 
+RXN-15878 2-C-methyl-D-erythritol-2,4-cyclodiphosphate null  -->H<sub>2</sub>O H<SUP>+</SUP> (<i>E</i>)-4-hydroxy-3-methylbut-2-en-1-yl diphosphate null 
+RXN0-302 2-phospho-4-(cytidine 5'-diphospho)-2-C-methyl-D-erythritol  -->2-C-methyl-D-erythritol-2,4-cyclodiphosphate CMP 
+
+RXN-9403 a reduced unknown two electron carrier (-)-carvone  -->(+)-dihydrocarvone an oxidized unknown electron carrier 
+CARVEOL-DEHYDROGENASE-RXN (-)-<i>trans</i>-carveol NADP<sup>+</sup>  -->H<SUP>+</SUP> (-)-carvone NADPH 
+--LIMONENE-6-MONOOXYGENASE-RXN null oxygen (4<i>S</i>)-limonene  -->(-)-<i>trans</i>-carveol H<sub>2</sub>O null 
+RXN-11288 neryl diphosphate  -->(4<i>S</i>)-limonene diphosphate 
+DIMETHYLALLYLCISTRANSFERASE-RXN prenyl diphosphate isopentenyl diphosphate  -->neryl diphosphate diphosphate 
+RXN-10068 ATP isopentenyl phosphate  -->isopentenyl diphosphate ADP 
+RXN-15649 (<i>R</i>)-3,5-bisphosphomevalonate H<SUP>+</SUP>  -->phosphate CO<SUB>2</SUB> isopentenyl phosphate 
+RXN-15648 (<i>R</i>)-mevalonate 3-phosphate ATP  -->(<i>R</i>)-3,5-bisphosphomevalonate H<SUP>+</SUP> ADP 
+
+RXN-9403 a reduced unknown two electron carrier (-)-carvone  -->(+)-dihydrocarvone an oxidized unknown electron carrier 
+RXN-14151 (-)-<i>trans</i>-carveol NAD<sup>+</sup>  -->NADH H<SUP>+</SUP> (-)-carvone 
+--LIMONENE-6-MONOOXYGENASE-RXN null oxygen (4<i>S</i>)-limonene  -->(-)-<i>trans</i>-carveol H<sub>2</sub>O null 
+RXN-11288 neryl diphosphate  -->(4<i>S</i>)-limonene diphosphate 
+DIMETHYLALLYLCISTRANSFERASE-RXN prenyl diphosphate isopentenyl diphosphate  -->neryl diphosphate diphosphate 
+RXN0-884 H<SUP>+</SUP> (<i>E</i>)-4-hydroxy-3-methylbut-2-en-1-yl diphosphate null  -->H<sub>2</sub>O null prenyl diphosphate 
+RXN-15878 2-C-methyl-D-erythritol-2,4-cyclodiphosphate null  -->H<sub>2</sub>O H<SUP>+</SUP> (<i>E</i>)-4-hydroxy-3-methylbut-2-en-1-yl diphosphate null 
+RXN0-302 2-phospho-4-(cytidine 5'-diphospho)-2-C-methyl-D-erythritol  -->2-C-methyl-D-erythritol-2,4-cyclodiphosphate CMP 
+
+RXN-9403 a reduced unknown two electron carrier (-)-carvone  -->(+)-dihydrocarvone an oxidized unknown electron carrier 
+CARVEOL-DEHYDROGENASE-RXN (-)-<i>trans</i>-carveol NADP<sup>+</sup>  -->H<SUP>+</SUP> (-)-carvone NADPH 
+--LIMONENE-6-MONOOXYGENASE-RXN null oxygen (4<i>S</i>)-limonene  -->(-)-<i>trans</i>-carveol H<sub>2</sub>O null 
+RXN-11288 neryl diphosphate  -->(4<i>S</i>)-limonene diphosphate 
+DIMETHYLALLYLCISTRANSFERASE-RXN prenyl diphosphate isopentenyl diphosphate  -->neryl diphosphate diphosphate 
+RXN-10068 ATP isopentenyl phosphate  -->isopentenyl diphosphate ADP 
+RXN-10067 (<i>R</i>)-5-phosphomevalonate ATP  -->phosphate ADP CO<SUB>2</SUB> isopentenyl phosphate 
+MEVALONATE-KINASE-RXN (<i>R</i>)-mevalonate ATP  -->(<i>R</i>)-5-phosphomevalonate H<SUP>+</SUP> ADP 
+
+RXN-9403 a reduced unknown two electron carrier (-)-carvone  -->(+)-dihydrocarvone an oxidized unknown electron carrier 
+CARVEOL-DEHYDROGENASE-RXN (-)-<i>trans</i>-carveol NADP<sup>+</sup>  -->H<SUP>+</SUP> (-)-carvone NADPH 
+--LIMONENE-6-MONOOXYGENASE-RXN null oxygen (4<i>S</i>)-limonene  -->(-)-<i>trans</i>-carveol H<sub>2</sub>O null 
+RXN-11288 neryl diphosphate  -->(4<i>S</i>)-limonene diphosphate 
+DIMETHYLALLYLCISTRANSFERASE-RXN prenyl diphosphate isopentenyl diphosphate  -->neryl diphosphate diphosphate 
+DIPHOSPHOMEVALONTE-DECARBOXYLASE-RXN (R)-mevalonate diphosphate ATP  -->phosphate isopentenyl diphosphate ADP CO<SUB>2</SUB> 
+PHOSPHOMEVALONATE-KINASE-RXN (<i>R</i>)-5-phosphomevalonate ATP  -->(R)-mevalonate diphosphate ADP 
+MEVALONATE-KINASE-RXN (<i>R</i>)-mevalonate ATP  -->(<i>R</i>)-5-phosphomevalonate H<SUP>+</SUP> ADP 
+
+RXN-9403 a reduced unknown two electron carrier (-)-carvone  -->(+)-dihydrocarvone an oxidized unknown electron carrier 
+RXN-9404 (-)-<i>cis</i>-carveol a mycofactocinone  -->a mycofactocinol (-)-carvone 
+RXN-9465 H<SUP>+</SUP> oxygen (4<i>S</i>)-limonene NADPH  -->H<sub>2</sub>O (-)-<i>cis</i>-carveol NADP<sup>+</sup> 
+RXN-11288 neryl diphosphate  -->(4<i>S</i>)-limonene diphosphate 
+DIMETHYLALLYLCISTRANSFERASE-RXN prenyl diphosphate isopentenyl diphosphate  -->neryl diphosphate diphosphate 
+RXN-10068 ATP isopentenyl phosphate  -->isopentenyl diphosphate ADP 
+RXN-10067 (<i>R</i>)-5-phosphomevalonate ATP  -->phosphate ADP CO<SUB>2</SUB> isopentenyl phosphate 
+PHOSPHOMEVALONATE-KINASE-RXN (R)-mevalonate diphosphate ADP  -->(<i>R</i>)-5-phosphomevalonate ATP 
+
+RXN-9403 a reduced unknown two electron carrier (-)-carvone  -->(+)-dihydrocarvone an oxidized unknown electron carrier 
+CARVEOL-DEHYDROGENASE-RXN (-)-<i>trans</i>-carveol NADP<sup>+</sup>  -->H<SUP>+</SUP> (-)-carvone NADPH 
+--LIMONENE-6-MONOOXYGENASE-RXN null oxygen (4<i>S</i>)-limonene  -->(-)-<i>trans</i>-carveol H<sub>2</sub>O null 
+RXN-11288 neryl diphosphate  -->(4<i>S</i>)-limonene diphosphate 
+DIMETHYLALLYLCISTRANSFERASE-RXN prenyl diphosphate isopentenyl diphosphate  -->neryl diphosphate diphosphate 
+IPPISOM-RXN prenyl diphosphate  -->isopentenyl diphosphate 
+
+RXN-9403 a reduced unknown two electron carrier (-)-carvone  -->(+)-dihydrocarvone an oxidized unknown electron carrier 
+RXN-14151 (-)-<i>trans</i>-carveol NAD<sup>+</sup>  -->NADH H<SUP>+</SUP> (-)-carvone 
+--LIMONENE-6-MONOOXYGENASE-RXN null oxygen (4<i>S</i>)-limonene  -->(-)-<i>trans</i>-carveol H<sub>2</sub>O null 
+RXN-11288 neryl diphosphate  -->(4<i>S</i>)-limonene diphosphate 
+DIMETHYLALLYLCISTRANSFERASE-RXN prenyl diphosphate isopentenyl diphosphate  -->neryl diphosphate diphosphate 
+RXN-10068 ATP isopentenyl phosphate  -->isopentenyl diphosphate ADP 
+RXN-10067 (<i>R</i>)-5-phosphomevalonate ATP  -->phosphate ADP CO<SUB>2</SUB> isopentenyl phosphate 
+PHOSPHOMEVALONATE-KINASE-RXN (R)-mevalonate diphosphate ADP  -->(<i>R</i>)-5-phosphomevalonate ATP 
+
+RXN-9403 a reduced unknown two electron carrier (-)-carvone  -->(+)-dihydrocarvone an oxidized unknown electron carrier 
+RXN-9404 (-)-<i>cis</i>-carveol a mycofactocinone  -->a mycofactocinol (-)-carvone 
+RXN-9465 H<SUP>+</SUP> oxygen (4<i>S</i>)-limonene NADPH  -->H<sub>2</sub>O (-)-<i>cis</i>-carveol NADP<sup>+</sup> 
+4.2.3.16-RXN geranyl diphosphate  -->(4<i>S</i>)-limonene diphosphate 
+GPPSYN-RXN prenyl diphosphate isopentenyl diphosphate  -->geranyl diphosphate diphosphate 
+
+RXN-9403 a reduced unknown two electron carrier (-)-carvone  -->(+)-dihydrocarvone an oxidized unknown electron carrier 
+CARVEOL-DEHYDROGENASE-RXN (-)-<i>trans</i>-carveol NADP<sup>+</sup>  -->H<SUP>+</SUP> (-)-carvone NADPH 
+--LIMONENE-6-MONOOXYGENASE-RXN null oxygen (4<i>S</i>)-limonene  -->(-)-<i>trans</i>-carveol H<sub>2</sub>O null 
+RXN-11288 neryl diphosphate  -->(4<i>S</i>)-limonene diphosphate 
+DIMETHYLALLYLCISTRANSFERASE-RXN prenyl diphosphate isopentenyl diphosphate  -->neryl diphosphate diphosphate 
+IPPISOM-RXN isopentenyl diphosphate  -->prenyl diphosphate 
+
+RXN-9403 a reduced unknown two electron carrier (-)-carvone  -->(+)-dihydrocarvone an oxidized unknown electron carrier 
+RXN-9400 (-)-<i>trans</i>-carveol a mycofactocinone  -->a mycofactocinol (-)-carvone 
+--LIMONENE-6-MONOOXYGENASE-RXN null oxygen (4<i>S</i>)-limonene  -->(-)-<i>trans</i>-carveol H<sub>2</sub>O null 
+RXN-11288 neryl diphosphate  -->(4<i>S</i>)-limonene diphosphate 
+DIMETHYLALLYLCISTRANSFERASE-RXN prenyl diphosphate isopentenyl diphosphate  -->neryl diphosphate diphosphate 
+IPPISOM-RXN isopentenyl diphosphate  -->prenyl diphosphate 
+
+RXN-9403 a reduced unknown two electron carrier (-)-carvone  -->(+)-dihydrocarvone an oxidized unknown electron carrier 
+RXN-9404 (-)-<i>cis</i>-carveol a mycofactocinone  -->a mycofactocinol (-)-carvone 
+RXN-9465 H<SUP>+</SUP> oxygen (4<i>S</i>)-limonene NADPH  -->H<sub>2</sub>O (-)-<i>cis</i>-carveol NADP<sup>+</sup> 
+RXN-11288 neryl diphosphate  -->(4<i>S</i>)-limonene diphosphate 
+DIMETHYLALLYLCISTRANSFERASE-RXN prenyl diphosphate isopentenyl diphosphate  -->neryl diphosphate diphosphate 
+ISPH2-RXN H<SUP>+</SUP> (<i>E</i>)-4-hydroxy-3-methylbut-2-en-1-yl diphosphate null  -->H<sub>2</sub>O isopentenyl diphosphate null 
+RXN0-882 2-C-methyl-D-erythritol-2,4-cyclodiphosphate H<SUP>+</SUP> null  -->H<sub>2</sub>O (<i>E</i>)-4-hydroxy-3-methylbut-2-en-1-yl diphosphate null 
+RXN0-302 2-phospho-4-(cytidine 5'-diphospho)-2-C-methyl-D-erythritol  -->2-C-methyl-D-erythritol-2,4-cyclodiphosphate CMP 
+
+RXN-9403 a reduced unknown two electron carrier (-)-carvone  -->(+)-dihydrocarvone an oxidized unknown electron carrier 
+RXN-9400 (-)-<i>trans</i>-carveol a mycofactocinone  -->a mycofactocinol (-)-carvone 
+--LIMONENE-6-MONOOXYGENASE-RXN null oxygen (4<i>S</i>)-limonene  -->(-)-<i>trans</i>-carveol H<sub>2</sub>O null 
+RXN-11288 neryl diphosphate  -->(4<i>S</i>)-limonene diphosphate 
+DIMETHYLALLYLCISTRANSFERASE-RXN prenyl diphosphate isopentenyl diphosphate  -->neryl diphosphate diphosphate 
+RXN-10068 ATP isopentenyl phosphate  -->isopentenyl diphosphate ADP 
+RXN-21278 H<SUP>+</SUP> <i>trans</i>-anhydromevalonate 5-phosphate  -->CO<SUB>2</SUB> isopentenyl phosphate 
+RXN-21277 (<i>R</i>)-5-phosphomevalonate  -->H<sub>2</sub>O <i>trans</i>-anhydromevalonate 5-phosphate 
+
+RXN-9403 a reduced unknown two electron carrier (-)-carvone  -->(+)-dihydrocarvone an oxidized unknown electron carrier 
+RXN-9404 (-)-<i>cis</i>-carveol a mycofactocinone  -->a mycofactocinol (-)-carvone 
+RXN-9465 H<SUP>+</SUP> oxygen (4<i>S</i>)-limonene NADPH  -->H<sub>2</sub>O (-)-<i>cis</i>-carveol NADP<sup>+</sup> 
+RXN-11288 neryl diphosphate  -->(4<i>S</i>)-limonene diphosphate 
+DIMETHYLALLYLCISTRANSFERASE-RXN prenyl diphosphate isopentenyl diphosphate  -->neryl diphosphate diphosphate 
+RXN-10068 ATP isopentenyl phosphate  -->isopentenyl diphosphate ADP 
+RXN-21278 H<SUP>+</SUP> <i>trans</i>-anhydromevalonate 5-phosphate  -->CO<SUB>2</SUB> isopentenyl phosphate 
+RXN-21277 (<i>R</i>)-5-phosphomevalonate  -->H<sub>2</sub>O <i>trans</i>-anhydromevalonate 5-phosphate 
+
+RXN-9403 a reduced unknown two electron carrier (-)-carvone  -->(+)-dihydrocarvone an oxidized unknown electron carrier 
+RXN-14151 (-)-<i>trans</i>-carveol NAD<sup>+</sup>  -->NADH H<SUP>+</SUP> (-)-carvone 
+--LIMONENE-6-MONOOXYGENASE-RXN null oxygen (4<i>S</i>)-limonene  -->(-)-<i>trans</i>-carveol H<sub>2</sub>O null 
+RXN-11288 neryl diphosphate  -->(4<i>S</i>)-limonene diphosphate 
+DIMETHYLALLYLCISTRANSFERASE-RXN prenyl diphosphate isopentenyl diphosphate  -->neryl diphosphate diphosphate 
+RXN-10068 ATP isopentenyl phosphate  -->isopentenyl diphosphate ADP 
+RXN-15649 (<i>R</i>)-3,5-bisphosphomevalonate H<SUP>+</SUP>  -->phosphate CO<SUB>2</SUB> isopentenyl phosphate 
+RXN-15648 (<i>R</i>)-mevalonate 3-phosphate ATP  -->(<i>R</i>)-3,5-bisphosphomevalonate H<SUP>+</SUP> ADP 
+
+RXN-9403 a reduced unknown two electron carrier (-)-carvone  -->(+)-dihydrocarvone an oxidized unknown electron carrier 
+CARVEOL-DEHYDROGENASE-RXN (-)-<i>trans</i>-carveol NADP<sup>+</sup>  -->H<SUP>+</SUP> (-)-carvone NADPH 
+--LIMONENE-6-MONOOXYGENASE-RXN null oxygen (4<i>S</i>)-limonene  -->(-)-<i>trans</i>-carveol H<sub>2</sub>O null 
+RXN-11288 neryl diphosphate  -->(4<i>S</i>)-limonene diphosphate 
+DIMETHYLALLYLCISTRANSFERASE-RXN prenyl diphosphate isopentenyl diphosphate  -->neryl diphosphate diphosphate 
+RXN0-884 H<SUP>+</SUP> (<i>E</i>)-4-hydroxy-3-methylbut-2-en-1-yl diphosphate null  -->H<sub>2</sub>O null prenyl diphosphate 
+RXN-15878 2-C-methyl-D-erythritol-2,4-cyclodiphosphate null  -->H<sub>2</sub>O H<SUP>+</SUP> (<i>E</i>)-4-hydroxy-3-methylbut-2-en-1-yl diphosphate null 
+RXN0-302 2-phospho-4-(cytidine 5'-diphospho)-2-C-methyl-D-erythritol  -->2-C-methyl-D-erythritol-2,4-cyclodiphosphate CMP 
+
+RXN-9403 a reduced unknown two electron carrier (-)-carvone  -->(+)-dihydrocarvone an oxidized unknown electron carrier 
+RXN-9400 (-)-<i>trans</i>-carveol a mycofactocinone  -->a mycofactocinol (-)-carvone 
+--LIMONENE-6-MONOOXYGENASE-RXN null oxygen (4<i>S</i>)-limonene  -->(-)-<i>trans</i>-carveol H<sub>2</sub>O null 
+4.2.3.16-RXN geranyl diphosphate  -->(4<i>S</i>)-limonene diphosphate 
+GPPSYN-RXN prenyl diphosphate isopentenyl diphosphate  -->geranyl diphosphate diphosphate 
+
+RXN-9403 a reduced unknown two electron carrier (-)-carvone  -->(+)-dihydrocarvone an oxidized unknown electron carrier 
+RXN-9404 (-)-<i>cis</i>-carveol a mycofactocinone  -->a mycofactocinol (-)-carvone 
+RXN-9465 H<SUP>+</SUP> oxygen (4<i>S</i>)-limonene NADPH  -->H<sub>2</sub>O (-)-<i>cis</i>-carveol NADP<sup>+</sup> 
+RXN-11288 neryl diphosphate  -->(4<i>S</i>)-limonene diphosphate 
+DIMETHYLALLYLCISTRANSFERASE-RXN prenyl diphosphate isopentenyl diphosphate  -->neryl diphosphate diphosphate 
+RXN0-884 H<SUP>+</SUP> (<i>E</i>)-4-hydroxy-3-methylbut-2-en-1-yl diphosphate null  -->H<sub>2</sub>O null prenyl diphosphate 
+RXN0-882 2-C-methyl-D-erythritol-2,4-cyclodiphosphate H<SUP>+</SUP> null  -->H<sub>2</sub>O (<i>E</i>)-4-hydroxy-3-methylbut-2-en-1-yl diphosphate null 
+RXN0-302 2-phospho-4-(cytidine 5'-diphospho)-2-C-methyl-D-erythritol  -->2-C-methyl-D-erythritol-2,4-cyclodiphosphate CMP 
+
+RXN-9403 a reduced unknown two electron carrier (-)-carvone  -->(+)-dihydrocarvone an oxidized unknown electron carrier 
+RXN-9404 (-)-<i>cis</i>-carveol a mycofactocinone  -->a mycofactocinol (-)-carvone 
+RXN-9465 H<SUP>+</SUP> oxygen (4<i>S</i>)-limonene NADPH  -->H<sub>2</sub>O (-)-<i>cis</i>-carveol NADP<sup>+</sup> 
+RXN-11288 neryl diphosphate  -->(4<i>S</i>)-limonene diphosphate 
+DIMETHYLALLYLCISTRANSFERASE-RXN prenyl diphosphate isopentenyl diphosphate  -->neryl diphosphate diphosphate 
+RXN-10068 ATP isopentenyl phosphate  -->isopentenyl diphosphate ADP 
+RXN-10067 (<i>R</i>)-5-phosphomevalonate ATP  -->phosphate ADP CO<SUB>2</SUB> isopentenyl phosphate 
+MEVALONATE-KINASE-RXN (<i>R</i>)-mevalonate ATP  -->(<i>R</i>)-5-phosphomevalonate H<SUP>+</SUP> ADP 
+
+RXN-9403 a reduced unknown two electron carrier (-)-carvone  -->(+)-dihydrocarvone an oxidized unknown electron carrier 
+RXN-9400 (-)-<i>trans</i>-carveol a mycofactocinone  -->a mycofactocinol (-)-carvone 
+--LIMONENE-6-MONOOXYGENASE-RXN null oxygen (4<i>S</i>)-limonene  -->(-)-<i>trans</i>-carveol H<sub>2</sub>O null 
+RXN-11288 neryl diphosphate  -->(4<i>S</i>)-limonene diphosphate 
+DIMETHYLALLYLCISTRANSFERASE-RXN prenyl diphosphate isopentenyl diphosphate  -->neryl diphosphate diphosphate 
+RXN-10068 ATP isopentenyl phosphate  -->isopentenyl diphosphate ADP 
+RXN-10067 (<i>R</i>)-5-phosphomevalonate ATP  -->phosphate ADP CO<SUB>2</SUB> isopentenyl phosphate 
+MEVALONATE-KINASE-RXN (<i>R</i>)-mevalonate ATP  -->(<i>R</i>)-5-phosphomevalonate H<SUP>+</SUP> ADP 
+
+RXN-9403 a reduced unknown two electron carrier (-)-carvone  -->(+)-dihydrocarvone an oxidized unknown electron carrier 
+CARVEOL-DEHYDROGENASE-RXN (-)-<i>trans</i>-carveol NADP<sup>+</sup>  -->H<SUP>+</SUP> (-)-carvone NADPH 
+--LIMONENE-6-MONOOXYGENASE-RXN null oxygen (4<i>S</i>)-limonene  -->(-)-<i>trans</i>-carveol H<sub>2</sub>O null 
+RXN-11288 neryl diphosphate  -->(4<i>S</i>)-limonene diphosphate 
+DIMETHYLALLYLCISTRANSFERASE-RXN prenyl diphosphate isopentenyl diphosphate  -->neryl diphosphate diphosphate 
+RXN-10068 ATP isopentenyl phosphate  -->isopentenyl diphosphate ADP 
+RXN-10067 (<i>R</i>)-5-phosphomevalonate ATP  -->phosphate ADP CO<SUB>2</SUB> isopentenyl phosphate 
+PHOSPHOMEVALONATE-KINASE-RXN (R)-mevalonate diphosphate ADP  -->(<i>R</i>)-5-phosphomevalonate ATP 
+
+RXN-9403 a reduced unknown two electron carrier (-)-carvone  -->(+)-dihydrocarvone an oxidized unknown electron carrier 
+RXN-14151 (-)-<i>trans</i>-carveol NAD<sup>+</sup>  -->NADH H<SUP>+</SUP> (-)-carvone 
+--LIMONENE-6-MONOOXYGENASE-RXN null oxygen (4<i>S</i>)-limonene  -->(-)-<i>trans</i>-carveol H<sub>2</sub>O null 
+RXN-11288 neryl diphosphate  -->(4<i>S</i>)-limonene diphosphate 
+DIMETHYLALLYLCISTRANSFERASE-RXN prenyl diphosphate isopentenyl diphosphate  -->neryl diphosphate diphosphate 
+IPPISOM-RXN prenyl diphosphate  -->isopentenyl diphosphate 
+
+RXN-9403 a reduced unknown two electron carrier (-)-carvone  -->(+)-dihydrocarvone an oxidized unknown electron carrier 
+RXN-9400 (-)-<i>trans</i>-carveol a mycofactocinone  -->a mycofactocinol (-)-carvone 
+--LIMONENE-6-MONOOXYGENASE-RXN null oxygen (4<i>S</i>)-limonene  -->(-)-<i>trans</i>-carveol H<sub>2</sub>O null 
+RXN-11288 neryl diphosphate  -->(4<i>S</i>)-limonene diphosphate 
+DIMETHYLALLYLCISTRANSFERASE-RXN prenyl diphosphate isopentenyl diphosphate  -->neryl diphosphate diphosphate 
+RXN0-884 H<SUP>+</SUP> (<i>E</i>)-4-hydroxy-3-methylbut-2-en-1-yl diphosphate null  -->H<sub>2</sub>O null prenyl diphosphate 
+RXN0-882 2-C-methyl-D-erythritol-2,4-cyclodiphosphate H<SUP>+</SUP> null  -->H<sub>2</sub>O (<i>E</i>)-4-hydroxy-3-methylbut-2-en-1-yl diphosphate null 
+RXN0-302 2-phospho-4-(cytidine 5'-diphospho)-2-C-methyl-D-erythritol  -->2-C-methyl-D-erythritol-2,4-cyclodiphosphate CMP 
+
+RXN-9403 a reduced unknown two electron carrier (-)-carvone  -->(+)-dihydrocarvone an oxidized unknown electron carrier 
+RXN-9404 (-)-<i>cis</i>-carveol a mycofactocinone  -->a mycofactocinol (-)-carvone 
+RXN-9465 H<SUP>+</SUP> oxygen (4<i>S</i>)-limonene NADPH  -->H<sub>2</sub>O (-)-<i>cis</i>-carveol NADP<sup>+</sup> 
+RXN-11288 neryl diphosphate  -->(4<i>S</i>)-limonene diphosphate 
+DIMETHYLALLYLCISTRANSFERASE-RXN prenyl diphosphate isopentenyl diphosphate  -->neryl diphosphate diphosphate 
+DIPHOSPHOMEVALONTE-DECARBOXYLASE-RXN (R)-mevalonate diphosphate ATP  -->phosphate isopentenyl diphosphate ADP CO<SUB>2</SUB> 
+PHOSPHOMEVALONATE-KINASE-RXN (<i>R</i>)-5-phosphomevalonate ATP  -->(R)-mevalonate diphosphate ADP 
+MEVALONATE-KINASE-RXN (<i>R</i>)-mevalonate ATP  -->(<i>R</i>)-5-phosphomevalonate H<SUP>+</SUP> ADP 
+
+RXN-9403 a reduced unknown two electron carrier (-)-carvone  -->(+)-dihydrocarvone an oxidized unknown electron carrier 
+RXN-9400 (-)-<i>trans</i>-carveol a mycofactocinone  -->a mycofactocinol (-)-carvone 
+--LIMONENE-6-MONOOXYGENASE-RXN null oxygen (4<i>S</i>)-limonene  -->(-)-<i>trans</i>-carveol H<sub>2</sub>O null 
+RXN-11288 neryl diphosphate  -->(4<i>S</i>)-limonene diphosphate 
+DIMETHYLALLYLCISTRANSFERASE-RXN prenyl diphosphate isopentenyl diphosphate  -->neryl diphosphate diphosphate 
+DIPHOSPHOMEVALONTE-DECARBOXYLASE-RXN (R)-mevalonate diphosphate ATP  -->phosphate isopentenyl diphosphate ADP CO<SUB>2</SUB> 
+PHOSPHOMEVALONATE-KINASE-RXN (<i>R</i>)-5-phosphomevalonate ATP  -->(R)-mevalonate diphosphate ADP 
+MEVALONATE-KINASE-RXN (<i>R</i>)-mevalonate ATP  -->(<i>R</i>)-5-phosphomevalonate H<SUP>+</SUP> ADP 
+
+RXN-9403 a reduced unknown two electron carrier (-)-carvone  -->(+)-dihydrocarvone an oxidized unknown electron carrier 
+RXN-9400 (-)-<i>trans</i>-carveol a mycofactocinone  -->a mycofactocinol (-)-carvone 
+--LIMONENE-6-MONOOXYGENASE-RXN null oxygen (4<i>S</i>)-limonene  -->(-)-<i>trans</i>-carveol H<sub>2</sub>O null 
+RXN-11288 neryl diphosphate  -->(4<i>S</i>)-limonene diphosphate 
+DIMETHYLALLYLCISTRANSFERASE-RXN prenyl diphosphate isopentenyl diphosphate  -->neryl diphosphate diphosphate 
+ISPH2-RXN H<SUP>+</SUP> (<i>E</i>)-4-hydroxy-3-methylbut-2-en-1-yl diphosphate null  -->H<sub>2</sub>O isopentenyl diphosphate null 
+RXN0-882 2-C-methyl-D-erythritol-2,4-cyclodiphosphate H<SUP>+</SUP> null  -->H<sub>2</sub>O (<i>E</i>)-4-hydroxy-3-methylbut-2-en-1-yl diphosphate null 
+RXN0-302 2-phospho-4-(cytidine 5'-diphospho)-2-C-methyl-D-erythritol  -->2-C-methyl-D-erythritol-2,4-cyclodiphosphate CMP 
+
+RXN-9403 a reduced unknown two electron carrier (-)-carvone  -->(+)-dihydrocarvone an oxidized unknown electron carrier 
+RXN-9404 (-)-<i>cis</i>-carveol a mycofactocinone  -->a mycofactocinol (-)-carvone 
+RXN-9465 H<SUP>+</SUP> oxygen (4<i>S</i>)-limonene NADPH  -->H<sub>2</sub>O (-)-<i>cis</i>-carveol NADP<sup>+</sup> 
+RXN-11288 neryl diphosphate  -->(4<i>S</i>)-limonene diphosphate 
+DIMETHYLALLYLCISTRANSFERASE-RXN prenyl diphosphate isopentenyl diphosphate  -->neryl diphosphate diphosphate 
+IPPISOM-RXN isopentenyl diphosphate  -->prenyl diphosphate 
+
+RXN-9403 a reduced unknown two electron carrier (-)-carvone  -->(+)-dihydrocarvone an oxidized unknown electron carrier 
+CARVEOL-DEHYDROGENASE-RXN (-)-<i>trans</i>-carveol NADP<sup>+</sup>  -->H<SUP>+</SUP> (-)-carvone NADPH 
+--LIMONENE-6-MONOOXYGENASE-RXN null oxygen (4<i>S</i>)-limonene  -->(-)-<i>trans</i>-carveol H<sub>2</sub>O null 
+RXN-11288 neryl diphosphate  -->(4<i>S</i>)-limonene diphosphate 
+DIMETHYLALLYLCISTRANSFERASE-RXN prenyl diphosphate isopentenyl diphosphate  -->neryl diphosphate diphosphate 
+ISPH2-RXN H<SUP>+</SUP> (<i>E</i>)-4-hydroxy-3-methylbut-2-en-1-yl diphosphate null  -->H<sub>2</sub>O isopentenyl diphosphate null 
+RXN-15878 2-C-methyl-D-erythritol-2,4-cyclodiphosphate null  -->H<sub>2</sub>O H<SUP>+</SUP> (<i>E</i>)-4-hydroxy-3-methylbut-2-en-1-yl diphosphate null 
+RXN0-302 2-phospho-4-(cytidine 5'-diphospho)-2-C-methyl-D-erythritol  -->2-C-methyl-D-erythritol-2,4-cyclodiphosphate CMP 
+
+RXN-9403 a reduced unknown two electron carrier (-)-carvone  -->(+)-dihydrocarvone an oxidized unknown electron carrier 
+RXN-14151 (-)-<i>trans</i>-carveol NAD<sup>+</sup>  -->NADH H<SUP>+</SUP> (-)-carvone 
+--LIMONENE-6-MONOOXYGENASE-RXN null oxygen (4<i>S</i>)-limonene  -->(-)-<i>trans</i>-carveol H<sub>2</sub>O null 
+4.2.3.16-RXN geranyl diphosphate  -->(4<i>S</i>)-limonene diphosphate 
+GPPSYN-RXN prenyl diphosphate isopentenyl diphosphate  -->geranyl diphosphate diphosphate 
+
+RXN-9403 a reduced unknown two electron carrier (-)-carvone  -->(+)-dihydrocarvone an oxidized unknown electron carrier 
+RXN-9400 (-)-<i>trans</i>-carveol a mycofactocinone  -->a mycofactocinol (-)-carvone 
+--LIMONENE-6-MONOOXYGENASE-RXN null oxygen (4<i>S</i>)-limonene  -->(-)-<i>trans</i>-carveol H<sub>2</sub>O null 
+RXN-11288 neryl diphosphate  -->(4<i>S</i>)-limonene diphosphate 
+DIMETHYLALLYLCISTRANSFERASE-RXN prenyl diphosphate isopentenyl diphosphate  -->neryl diphosphate diphosphate 
+RXN-10068 ATP isopentenyl phosphate  -->isopentenyl diphosphate ADP 
+RXN-10067 (<i>R</i>)-5-phosphomevalonate ATP  -->phosphate ADP CO<SUB>2</SUB> isopentenyl phosphate 
+PHOSPHOMEVALONATE-KINASE-RXN (R)-mevalonate diphosphate ADP  -->(<i>R</i>)-5-phosphomevalonate ATP 
+
+RXN-9403 a reduced unknown two electron carrier (-)-carvone  -->(+)-dihydrocarvone an oxidized unknown electron carrier 
+CARVEOL-DEHYDROGENASE-RXN (-)-<i>trans</i>-carveol NADP<sup>+</sup>  -->H<SUP>+</SUP> (-)-carvone NADPH 
+--LIMONENE-6-MONOOXYGENASE-RXN null oxygen (4<i>S</i>)-limonene  -->(-)-<i>trans</i>-carveol H<sub>2</sub>O null 
+RXN-11288 neryl diphosphate  -->(4<i>S</i>)-limonene diphosphate 
+DIMETHYLALLYLCISTRANSFERASE-RXN prenyl diphosphate isopentenyl diphosphate  -->neryl diphosphate diphosphate 
+RXN0-884 H<SUP>+</SUP> (<i>E</i>)-4-hydroxy-3-methylbut-2-en-1-yl diphosphate null  -->H<sub>2</sub>O null prenyl diphosphate 
+RXN0-882 2-C-methyl-D-erythritol-2,4-cyclodiphosphate H<SUP>+</SUP> null  -->H<sub>2</sub>O (<i>E</i>)-4-hydroxy-3-methylbut-2-en-1-yl diphosphate null 
+RXN0-302 2-phospho-4-(cytidine 5'-diphospho)-2-C-methyl-D-erythritol  -->2-C-methyl-D-erythritol-2,4-cyclodiphosphate CMP 
+
+RXN-9403 a reduced unknown two electron carrier (-)-carvone  -->(+)-dihydrocarvone an oxidized unknown electron carrier 
+RXN-14151 (-)-<i>trans</i>-carveol NAD<sup>+</sup>  -->NADH H<SUP>+</SUP> (-)-carvone 
+--LIMONENE-6-MONOOXYGENASE-RXN null oxygen (4<i>S</i>)-limonene  -->(-)-<i>trans</i>-carveol H<sub>2</sub>O null 
+RXN-11288 neryl diphosphate  -->(4<i>S</i>)-limonene diphosphate 
+DIMETHYLALLYLCISTRANSFERASE-RXN prenyl diphosphate isopentenyl diphosphate  -->neryl diphosphate diphosphate 
+RXN-10068 ATP isopentenyl phosphate  -->isopentenyl diphosphate ADP 
+RXN-21278 H<SUP>+</SUP> <i>trans</i>-anhydromevalonate 5-phosphate  -->CO<SUB>2</SUB> isopentenyl phosphate 
+RXN-21277 (<i>R</i>)-5-phosphomevalonate  -->H<sub>2</sub>O <i>trans</i>-anhydromevalonate 5-phosphate 
+
