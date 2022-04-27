@@ -22,8 +22,5 @@ public class Cascade {
     public void addRxn(Reaction rxn){
         rxnsThatFormPdt.add(rxn);
     }
-    
-    //void addReaction(Reaction rxn) {
-     //   rxnsThatFormPdt.add(rxn);
-    //}
+
 }

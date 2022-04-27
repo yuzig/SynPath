@@ -1,508 +1,343 @@
-	Cannabidiolic acid	h+	-->cannabidiol	co2	
-1.3.-.-	undefined	o2	-->Cannabidiolic acid	h2o2	
-2.5.1.-	Olivetolic acid	undefined	-->undefined	diphosphatediphosphate;pyrophosphate	
-4.4.1.26	3,5,7-trioxododecanoyl-CoA	-->Olivetolic acid	CoenzymeA	h+	
-	undefined	malonyl-coa	h+	-->co2	CoenzymeA	3,5,7-trioxododecanoyl-CoA	
-6.4.1.2	hco3-	atp	Acetyl-CoA	-->adp	malonyl-coa	hpo42-	h+	
-
-	Cannabidiolic acid	h+	-->cannabidiol	co2	
-1.3.-.-	undefined	o2	-->Cannabidiolic acid	h2o2	
-2.5.1.-	Olivetolic acid	undefined	-->undefined	diphosphatediphosphate;pyrophosphate	
-2.5.1.1	dimethylallyl-PPi	isopentenyl-pp	-->diphosphatediphosphate;pyrophosphate	undefined	
-5.3.3.2	isopentenyl-pp	-->dimethylallyl-PPi	
-
-	Cannabidiolic acid	h+	-->cannabidiol	co2	
-1.3.-.-	undefined	o2	-->Cannabidiolic acid	h2o2	
-2.5.1.-	Olivetolic acid	undefined	-->undefined	diphosphatediphosphate;pyrophosphate	
-2.5.1.1	dimethylallyl-PPi	isopentenyl-pp	-->diphosphatediphosphate;pyrophosphate	undefined	
-5.3.3.2	isopentenyl-pp	-->dimethylallyl-PPi	
-
-	Cannabidiolic acid	h+	-->cannabidiol	co2	
-1.3.-.-	undefined	o2	-->Cannabidiolic acid	h2o2	
-2.5.1.-	Olivetolic acid	undefined	-->undefined	diphosphatediphosphate;pyrophosphate	
-2.5.1.1	dimethylallyl-PPi	isopentenyl-pp	-->diphosphatediphosphate;pyrophosphate	undefined	
-5.3.3.2	isopentenyl-pp	-->dimethylallyl-PPi	
-
-	Cannabidiolic acid	h+	-->cannabidiol	co2	
-1.3.-.-	undefined	o2	-->Cannabidiolic acid	h2o2	
-2.5.1.-	Olivetolic acid	undefined	-->undefined	diphosphatediphosphate;pyrophosphate	
-2.5.1.1	dimethylallyl-PPi	isopentenyl-pp	-->diphosphatediphosphate;pyrophosphate	undefined	
-5.3.3.2	isopentenyl-pp	-->dimethylallyl-PPi	
-
-	Cannabidiolic acid	h+	-->cannabidiol	co2	
-1.3.-.-	undefined	o2	-->Cannabidiolic acid	h2o2	
-2.5.1.-	Olivetolic acid	undefined	-->undefined	diphosphatediphosphate;pyrophosphate	
-2.5.1.1	dimethylallyl-PPi	isopentenyl-pp	-->diphosphatediphosphate;pyrophosphate	undefined	
-5.3.3.2	isopentenyl-pp	-->dimethylallyl-PPi	
-
-	Cannabidiolic acid	h+	-->cannabidiol	co2	
-1.3.-.-	undefined	o2	-->Cannabidiolic acid	h2o2	
-2.5.1.-	Olivetolic acid	undefined	-->undefined	diphosphatediphosphate;pyrophosphate	
-2.5.1.1	dimethylallyl-PPi	isopentenyl-pp	-->diphosphatediphosphate;pyrophosphate	undefined	
-5.3.3.2	isopentenyl-pp	-->dimethylallyl-PPi	
-
-	Cannabidiolic acid	h+	-->cannabidiol	co2	
-1.3.-.-	undefined	o2	-->Cannabidiolic acid	h2o2	
-2.5.1.-	Olivetolic acid	undefined	-->undefined	diphosphatediphosphate;pyrophosphate	
-2.5.1.1	dimethylallyl-PPi	isopentenyl-pp	-->diphosphatediphosphate;pyrophosphate	undefined	
-5.3.3.2	isopentenyl-pp	-->dimethylallyl-PPi	
-
-	Cannabidiolic acid	h+	-->cannabidiol	co2	
-1.3.-.-	undefined	o2	-->Cannabidiolic acid	h2o2	
-2.5.1.-	Olivetolic acid	undefined	-->undefined	diphosphatediphosphate;pyrophosphate	
-2.5.1.1	dimethylallyl-PPi	isopentenyl-pp	-->diphosphatediphosphate;pyrophosphate	undefined	
-5.3.3.2	isopentenyl-pp	-->dimethylallyl-PPi	
-
-	Cannabidiolic acid	h+	-->cannabidiol	co2	
-1.3.-.-	undefined	o2	-->Cannabidiolic acid	h2o2	
-2.5.1.-	Olivetolic acid	undefined	-->undefined	diphosphatediphosphate;pyrophosphate	
-2.5.1.1	dimethylallyl-PPi	isopentenyl-pp	-->diphosphatediphosphate;pyrophosphate	undefined	
-5.3.3.2	isopentenyl-pp	-->dimethylallyl-PPi	
-
-	Cannabidiolic acid	h+	-->cannabidiol	co2	
-1.3.-.-	undefined	o2	-->Cannabidiolic acid	h2o2	
-2.5.1.-	Olivetolic acid	undefined	-->undefined	diphosphatediphosphate;pyrophosphate	
-2.5.1.1	dimethylallyl-PPi	isopentenyl-pp	-->diphosphatediphosphate;pyrophosphate	undefined	
-5.3.3.2	isopentenyl-pp	-->dimethylallyl-PPi	
-
-	Cannabidiolic acid	h+	-->cannabidiol	co2	
-1.3.-.-	undefined	o2	-->Cannabidiolic acid	h2o2	
-2.5.1.-	Olivetolic acid	undefined	-->undefined	diphosphatediphosphate;pyrophosphate	
-2.5.1.1	dimethylallyl-PPi	isopentenyl-pp	-->diphosphatediphosphate;pyrophosphate	undefined	
-5.3.3.2	isopentenyl-pp	-->dimethylallyl-PPi	
-
-	Cannabidiolic acid	h+	-->cannabidiol	co2	
-1.3.-.-	undefined	o2	-->Cannabidiolic acid	h2o2	
-2.5.1.-	Olivetolic acid	undefined	-->undefined	diphosphatediphosphate;pyrophosphate	
-2.5.1.1	dimethylallyl-PPi	isopentenyl-pp	-->diphosphatediphosphate;pyrophosphate	undefined	
-5.3.3.2	isopentenyl-pp	-->dimethylallyl-PPi	
-
-	Cannabidiolic acid	h+	-->cannabidiol	co2	
-1.3.-.-	undefined	o2	-->Cannabidiolic acid	h2o2	
-2.5.1.-	Olivetolic acid	undefined	-->undefined	diphosphatediphosphate;pyrophosphate	
-2.5.1.1	dimethylallyl-PPi	isopentenyl-pp	-->diphosphatediphosphate;pyrophosphate	undefined	
-5.3.3.2	isopentenyl-pp	-->dimethylallyl-PPi	
-
-	Cannabidiolic acid	h+	-->cannabidiol	co2	
-1.3.-.-	undefined	o2	-->Cannabidiolic acid	h2o2	
-2.5.1.-	Olivetolic acid	undefined	-->undefined	diphosphatediphosphate;pyrophosphate	
-2.5.1.1	dimethylallyl-PPi	isopentenyl-pp	-->diphosphatediphosphate;pyrophosphate	undefined	
-5.3.3.2	isopentenyl-pp	-->dimethylallyl-PPi	
-
-	Cannabidiolic acid	h+	-->cannabidiol	co2	
-1.3.-.-	undefined	o2	-->Cannabidiolic acid	h2o2	
-2.5.1.-	Olivetolic acid	undefined	-->undefined	diphosphatediphosphate;pyrophosphate	
-2.5.1.1	dimethylallyl-PPi	isopentenyl-pp	-->diphosphatediphosphate;pyrophosphate	undefined	
-5.3.3.2	isopentenyl-pp	-->dimethylallyl-PPi	
-
-	Cannabidiolic acid	h+	-->cannabidiol	co2	
-1.3.-.-	undefined	o2	-->Cannabidiolic acid	h2o2	
-2.5.1.-	Olivetolic acid	undefined	-->undefined	diphosphatediphosphate;pyrophosphate	
-2.5.1.28	dimethylallyl-PPi	isopentenyl-pp	-->diphosphatediphosphate;pyrophosphate	undefined	
-5.3.3.2	isopentenyl-pp	-->dimethylallyl-PPi	
-
-	Cannabidiolic acid	h+	-->cannabidiol	co2	
-1.3.-.-	undefined	o2	-->Cannabidiolic acid	h2o2	
-2.5.1.-	Olivetolic acid	undefined	-->undefined	diphosphatediphosphate;pyrophosphate	
-2.5.1.28	dimethylallyl-PPi	isopentenyl-pp	-->diphosphatediphosphate;pyrophosphate	undefined	
-5.3.3.2	isopentenyl-pp	-->dimethylallyl-PPi	
-
-	Cannabidiolic acid	h+	-->cannabidiol	co2	
-1.3.-.-	undefined	o2	-->Cannabidiolic acid	h2o2	
-2.5.1.-	Olivetolic acid	undefined	-->undefined	diphosphatediphosphate;pyrophosphate	
-2.5.1.28	dimethylallyl-PPi	isopentenyl-pp	-->diphosphatediphosphate;pyrophosphate	undefined	
-5.3.3.2	isopentenyl-pp	-->dimethylallyl-PPi	
-
-	Cannabidiolic acid	h+	-->cannabidiol	co2	
-1.3.-.-	undefined	o2	-->Cannabidiolic acid	h2o2	
-2.5.1.-	Olivetolic acid	undefined	-->undefined	diphosphatediphosphate;pyrophosphate	
-2.5.1.28	dimethylallyl-PPi	isopentenyl-pp	-->diphosphatediphosphate;pyrophosphate	undefined	
-5.3.3.2	isopentenyl-pp	-->dimethylallyl-PPi	
-
-	Cannabidiolic acid	h+	-->cannabidiol	co2	
-1.3.-.-	undefined	o2	-->Cannabidiolic acid	h2o2	
-2.5.1.-	Olivetolic acid	undefined	-->undefined	diphosphatediphosphate;pyrophosphate	
-2.5.1.28	dimethylallyl-PPi	isopentenyl-pp	-->diphosphatediphosphate;pyrophosphate	undefined	
-5.3.3.2	isopentenyl-pp	-->dimethylallyl-PPi	
-
-	Cannabidiolic acid	h+	-->cannabidiol	co2	
-1.3.-.-	undefined	o2	-->Cannabidiolic acid	h2o2	
-2.5.1.102	Olivetolic acid	undefined	-->undefined	diphosphatediphosphate;pyrophosphate	
-4.4.1.26	3,5,7-trioxododecanoyl-CoA	-->Olivetolic acid	CoenzymeA	h+	
-	undefined	malonyl-coa	h+	-->co2	CoenzymeA	3,5,7-trioxododecanoyl-CoA	
-6.4.1.2	hco3-	atp	Acetyl-CoA	-->adp	malonyl-coa	hpo42-	h+	
-
-	Cannabidiolic acid	h+	-->cannabidiol	co2	
-1.3.-.-	undefined	o2	-->Cannabidiolic acid	h2o2	
-2.5.1.102	Olivetolic acid	undefined	-->undefined	diphosphatediphosphate;pyrophosphate	
-2.5.1.1	dimethylallyl-PPi	isopentenyl-pp	-->diphosphatediphosphate;pyrophosphate	undefined	
-5.3.3.2	isopentenyl-pp	-->dimethylallyl-PPi	
-
-	Cannabidiolic acid	h+	-->cannabidiol	co2	
-1.3.-.-	undefined	o2	-->Cannabidiolic acid	h2o2	
-2.5.1.102	Olivetolic acid	undefined	-->undefined	diphosphatediphosphate;pyrophosphate	
-2.5.1.1	dimethylallyl-PPi	isopentenyl-pp	-->diphosphatediphosphate;pyrophosphate	undefined	
-5.3.3.2	isopentenyl-pp	-->dimethylallyl-PPi	
-
-	Cannabidiolic acid	h+	-->cannabidiol	co2	
-1.3.-.-	undefined	o2	-->Cannabidiolic acid	h2o2	
-2.5.1.102	Olivetolic acid	undefined	-->undefined	diphosphatediphosphate;pyrophosphate	
-2.5.1.1	dimethylallyl-PPi	isopentenyl-pp	-->diphosphatediphosphate;pyrophosphate	undefined	
-5.3.3.2	isopentenyl-pp	-->dimethylallyl-PPi	
-
-	Cannabidiolic acid	h+	-->cannabidiol	co2	
-1.3.-.-	undefined	o2	-->Cannabidiolic acid	h2o2	
-2.5.1.102	Olivetolic acid	undefined	-->undefined	diphosphatediphosphate;pyrophosphate	
-2.5.1.1	dimethylallyl-PPi	isopentenyl-pp	-->diphosphatediphosphate;pyrophosphate	undefined	
-5.3.3.2	isopentenyl-pp	-->dimethylallyl-PPi	
-
-	Cannabidiolic acid	h+	-->cannabidiol	co2	
-1.3.-.-	undefined	o2	-->Cannabidiolic acid	h2o2	
-2.5.1.102	Olivetolic acid	undefined	-->undefined	diphosphatediphosphate;pyrophosphate	
-2.5.1.1	dimethylallyl-PPi	isopentenyl-pp	-->diphosphatediphosphate;pyrophosphate	undefined	
-5.3.3.2	isopentenyl-pp	-->dimethylallyl-PPi	
-
-	Cannabidiolic acid	h+	-->cannabidiol	co2	
-1.3.-.-	undefined	o2	-->Cannabidiolic acid	h2o2	
-2.5.1.102	Olivetolic acid	undefined	-->undefined	diphosphatediphosphate;pyrophosphate	
-2.5.1.1	dimethylallyl-PPi	isopentenyl-pp	-->diphosphatediphosphate;pyrophosphate	undefined	
-5.3.3.2	isopentenyl-pp	-->dimethylallyl-PPi	
-
-	Cannabidiolic acid	h+	-->cannabidiol	co2	
-1.3.-.-	undefined	o2	-->Cannabidiolic acid	h2o2	
-2.5.1.102	Olivetolic acid	undefined	-->undefined	diphosphatediphosphate;pyrophosphate	
-2.5.1.1	dimethylallyl-PPi	isopentenyl-pp	-->diphosphatediphosphate;pyrophosphate	undefined	
-5.3.3.2	isopentenyl-pp	-->dimethylallyl-PPi	
-
-	Cannabidiolic acid	h+	-->cannabidiol	co2	
-1.3.-.-	undefined	o2	-->Cannabidiolic acid	h2o2	
-2.5.1.102	Olivetolic acid	undefined	-->undefined	diphosphatediphosphate;pyrophosphate	
-2.5.1.1	dimethylallyl-PPi	isopentenyl-pp	-->diphosphatediphosphate;pyrophosphate	undefined	
-5.3.3.2	isopentenyl-pp	-->dimethylallyl-PPi	
-
-	Cannabidiolic acid	h+	-->cannabidiol	co2	
-1.3.-.-	undefined	o2	-->Cannabidiolic acid	h2o2	
-2.5.1.102	Olivetolic acid	undefined	-->undefined	diphosphatediphosphate;pyrophosphate	
-2.5.1.1	dimethylallyl-PPi	isopentenyl-pp	-->diphosphatediphosphate;pyrophosphate	undefined	
-5.3.3.2	isopentenyl-pp	-->dimethylallyl-PPi	
-
-	Cannabidiolic acid	h+	-->cannabidiol	co2	
-1.3.-.-	undefined	o2	-->Cannabidiolic acid	h2o2	
-2.5.1.102	Olivetolic acid	undefined	-->undefined	diphosphatediphosphate;pyrophosphate	
-2.5.1.1	dimethylallyl-PPi	isopentenyl-pp	-->diphosphatediphosphate;pyrophosphate	undefined	
-5.3.3.2	isopentenyl-pp	-->dimethylallyl-PPi	
-
-	Cannabidiolic acid	h+	-->cannabidiol	co2	
-1.3.-.-	undefined	o2	-->Cannabidiolic acid	h2o2	
-2.5.1.102	Olivetolic acid	undefined	-->undefined	diphosphatediphosphate;pyrophosphate	
-2.5.1.1	dimethylallyl-PPi	isopentenyl-pp	-->diphosphatediphosphate;pyrophosphate	undefined	
-5.3.3.2	isopentenyl-pp	-->dimethylallyl-PPi	
-
-	Cannabidiolic acid	h+	-->cannabidiol	co2	
-1.3.-.-	undefined	o2	-->Cannabidiolic acid	h2o2	
-2.5.1.102	Olivetolic acid	undefined	-->undefined	diphosphatediphosphate;pyrophosphate	
-2.5.1.1	dimethylallyl-PPi	isopentenyl-pp	-->diphosphatediphosphate;pyrophosphate	undefined	
-5.3.3.2	isopentenyl-pp	-->dimethylallyl-PPi	
-
-	Cannabidiolic acid	h+	-->cannabidiol	co2	
-1.3.-.-	undefined	o2	-->Cannabidiolic acid	h2o2	
-2.5.1.102	Olivetolic acid	undefined	-->undefined	diphosphatediphosphate;pyrophosphate	
-2.5.1.1	dimethylallyl-PPi	isopentenyl-pp	-->diphosphatediphosphate;pyrophosphate	undefined	
-5.3.3.2	isopentenyl-pp	-->dimethylallyl-PPi	
-
-	Cannabidiolic acid	h+	-->cannabidiol	co2	
-1.3.-.-	undefined	o2	-->Cannabidiolic acid	h2o2	
-2.5.1.102	Olivetolic acid	undefined	-->undefined	diphosphatediphosphate;pyrophosphate	
-2.5.1.1	dimethylallyl-PPi	isopentenyl-pp	-->diphosphatediphosphate;pyrophosphate	undefined	
-5.3.3.2	isopentenyl-pp	-->dimethylallyl-PPi	
-
-	Cannabidiolic acid	h+	-->cannabidiol	co2	
-1.3.-.-	undefined	o2	-->Cannabidiolic acid	h2o2	
-2.5.1.102	Olivetolic acid	undefined	-->undefined	diphosphatediphosphate;pyrophosphate	
-2.5.1.1	dimethylallyl-PPi	isopentenyl-pp	-->diphosphatediphosphate;pyrophosphate	undefined	
-5.3.3.2	isopentenyl-pp	-->dimethylallyl-PPi	
-
-	Cannabidiolic acid	h+	-->cannabidiol	co2	
-1.3.-.-	undefined	o2	-->Cannabidiolic acid	h2o2	
-2.5.1.102	Olivetolic acid	undefined	-->undefined	diphosphatediphosphate;pyrophosphate	
-2.5.1.28	dimethylallyl-PPi	isopentenyl-pp	-->diphosphatediphosphate;pyrophosphate	undefined	
-5.3.3.2	isopentenyl-pp	-->dimethylallyl-PPi	
-
-	Cannabidiolic acid	h+	-->cannabidiol	co2	
-1.3.-.-	undefined	o2	-->Cannabidiolic acid	h2o2	
-2.5.1.102	Olivetolic acid	undefined	-->undefined	diphosphatediphosphate;pyrophosphate	
-2.5.1.28	dimethylallyl-PPi	isopentenyl-pp	-->diphosphatediphosphate;pyrophosphate	undefined	
-5.3.3.2	isopentenyl-pp	-->dimethylallyl-PPi	
-
-	Cannabidiolic acid	h+	-->cannabidiol	co2	
-1.3.-.-	undefined	o2	-->Cannabidiolic acid	h2o2	
-2.5.1.102	Olivetolic acid	undefined	-->undefined	diphosphatediphosphate;pyrophosphate	
-2.5.1.28	dimethylallyl-PPi	isopentenyl-pp	-->diphosphatediphosphate;pyrophosphate	undefined	
-5.3.3.2	isopentenyl-pp	-->dimethylallyl-PPi	
-
-	Cannabidiolic acid	h+	-->cannabidiol	co2	
-1.3.-.-	undefined	o2	-->Cannabidiolic acid	h2o2	
-2.5.1.102	Olivetolic acid	undefined	-->undefined	diphosphatediphosphate;pyrophosphate	
-2.5.1.28	dimethylallyl-PPi	isopentenyl-pp	-->diphosphatediphosphate;pyrophosphate	undefined	
-5.3.3.2	isopentenyl-pp	-->dimethylallyl-PPi	
-
-	Cannabidiolic acid	h+	-->cannabidiol	co2	
-1.3.-.-	undefined	o2	-->Cannabidiolic acid	h2o2	
-2.5.1.102	Olivetolic acid	undefined	-->undefined	diphosphatediphosphate;pyrophosphate	
-2.5.1.28	dimethylallyl-PPi	isopentenyl-pp	-->diphosphatediphosphate;pyrophosphate	undefined	
-5.3.3.2	isopentenyl-pp	-->dimethylallyl-PPi	
-
-	Cannabidiolic acid	h+	-->cannabidiol	co2	
-1.21.3.8	undefined	o2	-->Cannabidiolic acid	h2o2	
-2.5.1.-	Olivetolic acid	undefined	-->undefined	diphosphatediphosphate;pyrophosphate	
-4.4.1.26	3,5,7-trioxododecanoyl-CoA	-->Olivetolic acid	CoenzymeA	h+	
-	undefined	malonyl-coa	h+	-->co2	CoenzymeA	3,5,7-trioxododecanoyl-CoA	
-6.4.1.2	hco3-	atp	Acetyl-CoA	-->adp	malonyl-coa	hpo42-	h+	
-
-	Cannabidiolic acid	h+	-->cannabidiol	co2	
-1.21.3.8	undefined	o2	-->Cannabidiolic acid	h2o2	
-2.5.1.-	Olivetolic acid	undefined	-->undefined	diphosphatediphosphate;pyrophosphate	
-2.5.1.1	dimethylallyl-PPi	isopentenyl-pp	-->diphosphatediphosphate;pyrophosphate	undefined	
-5.3.3.2	isopentenyl-pp	-->dimethylallyl-PPi	
-
-	Cannabidiolic acid	h+	-->cannabidiol	co2	
-1.21.3.8	undefined	o2	-->Cannabidiolic acid	h2o2	
-2.5.1.-	Olivetolic acid	undefined	-->undefined	diphosphatediphosphate;pyrophosphate	
-2.5.1.1	dimethylallyl-PPi	isopentenyl-pp	-->diphosphatediphosphate;pyrophosphate	undefined	
-5.3.3.2	isopentenyl-pp	-->dimethylallyl-PPi	
-
-	Cannabidiolic acid	h+	-->cannabidiol	co2	
-1.21.3.8	undefined	o2	-->Cannabidiolic acid	h2o2	
-2.5.1.-	Olivetolic acid	undefined	-->undefined	diphosphatediphosphate;pyrophosphate	
-2.5.1.1	dimethylallyl-PPi	isopentenyl-pp	-->diphosphatediphosphate;pyrophosphate	undefined	
-5.3.3.2	isopentenyl-pp	-->dimethylallyl-PPi	
-
-	Cannabidiolic acid	h+	-->cannabidiol	co2	
-1.21.3.8	undefined	o2	-->Cannabidiolic acid	h2o2	
-2.5.1.-	Olivetolic acid	undefined	-->undefined	diphosphatediphosphate;pyrophosphate	
-2.5.1.1	dimethylallyl-PPi	isopentenyl-pp	-->diphosphatediphosphate;pyrophosphate	undefined	
-5.3.3.2	isopentenyl-pp	-->dimethylallyl-PPi	
-
-	Cannabidiolic acid	h+	-->cannabidiol	co2	
-1.21.3.8	undefined	o2	-->Cannabidiolic acid	h2o2	
-2.5.1.-	Olivetolic acid	undefined	-->undefined	diphosphatediphosphate;pyrophosphate	
-2.5.1.1	dimethylallyl-PPi	isopentenyl-pp	-->diphosphatediphosphate;pyrophosphate	undefined	
-5.3.3.2	isopentenyl-pp	-->dimethylallyl-PPi	
-
-	Cannabidiolic acid	h+	-->cannabidiol	co2	
-1.21.3.8	undefined	o2	-->Cannabidiolic acid	h2o2	
-2.5.1.-	Olivetolic acid	undefined	-->undefined	diphosphatediphosphate;pyrophosphate	
-2.5.1.1	dimethylallyl-PPi	isopentenyl-pp	-->diphosphatediphosphate;pyrophosphate	undefined	
-5.3.3.2	isopentenyl-pp	-->dimethylallyl-PPi	
-
-	Cannabidiolic acid	h+	-->cannabidiol	co2	
-1.21.3.8	undefined	o2	-->Cannabidiolic acid	h2o2	
-2.5.1.-	Olivetolic acid	undefined	-->undefined	diphosphatediphosphate;pyrophosphate	
-2.5.1.1	dimethylallyl-PPi	isopentenyl-pp	-->diphosphatediphosphate;pyrophosphate	undefined	
-5.3.3.2	isopentenyl-pp	-->dimethylallyl-PPi	
-
-	Cannabidiolic acid	h+	-->cannabidiol	co2	
-1.21.3.8	undefined	o2	-->Cannabidiolic acid	h2o2	
-2.5.1.-	Olivetolic acid	undefined	-->undefined	diphosphatediphosphate;pyrophosphate	
-2.5.1.1	dimethylallyl-PPi	isopentenyl-pp	-->diphosphatediphosphate;pyrophosphate	undefined	
-5.3.3.2	isopentenyl-pp	-->dimethylallyl-PPi	
-
-	Cannabidiolic acid	h+	-->cannabidiol	co2	
-1.21.3.8	undefined	o2	-->Cannabidiolic acid	h2o2	
-2.5.1.-	Olivetolic acid	undefined	-->undefined	diphosphatediphosphate;pyrophosphate	
-2.5.1.1	dimethylallyl-PPi	isopentenyl-pp	-->diphosphatediphosphate;pyrophosphate	undefined	
-5.3.3.2	isopentenyl-pp	-->dimethylallyl-PPi	
-
-	Cannabidiolic acid	h+	-->cannabidiol	co2	
-1.21.3.8	undefined	o2	-->Cannabidiolic acid	h2o2	
-2.5.1.-	Olivetolic acid	undefined	-->undefined	diphosphatediphosphate;pyrophosphate	
-2.5.1.1	dimethylallyl-PPi	isopentenyl-pp	-->diphosphatediphosphate;pyrophosphate	undefined	
-5.3.3.2	isopentenyl-pp	-->dimethylallyl-PPi	
-
-	Cannabidiolic acid	h+	-->cannabidiol	co2	
-1.21.3.8	undefined	o2	-->Cannabidiolic acid	h2o2	
-2.5.1.-	Olivetolic acid	undefined	-->undefined	diphosphatediphosphate;pyrophosphate	
-2.5.1.1	dimethylallyl-PPi	isopentenyl-pp	-->diphosphatediphosphate;pyrophosphate	undefined	
-5.3.3.2	isopentenyl-pp	-->dimethylallyl-PPi	
-
-	Cannabidiolic acid	h+	-->cannabidiol	co2	
-1.21.3.8	undefined	o2	-->Cannabidiolic acid	h2o2	
-2.5.1.-	Olivetolic acid	undefined	-->undefined	diphosphatediphosphate;pyrophosphate	
-2.5.1.1	dimethylallyl-PPi	isopentenyl-pp	-->diphosphatediphosphate;pyrophosphate	undefined	
-5.3.3.2	isopentenyl-pp	-->dimethylallyl-PPi	
-
-	Cannabidiolic acid	h+	-->cannabidiol	co2	
-1.21.3.8	undefined	o2	-->Cannabidiolic acid	h2o2	
-2.5.1.-	Olivetolic acid	undefined	-->undefined	diphosphatediphosphate;pyrophosphate	
-2.5.1.1	dimethylallyl-PPi	isopentenyl-pp	-->diphosphatediphosphate;pyrophosphate	undefined	
-5.3.3.2	isopentenyl-pp	-->dimethylallyl-PPi	
-
-	Cannabidiolic acid	h+	-->cannabidiol	co2	
-1.21.3.8	undefined	o2	-->Cannabidiolic acid	h2o2	
-2.5.1.-	Olivetolic acid	undefined	-->undefined	diphosphatediphosphate;pyrophosphate	
-2.5.1.1	dimethylallyl-PPi	isopentenyl-pp	-->diphosphatediphosphate;pyrophosphate	undefined	
-5.3.3.2	isopentenyl-pp	-->dimethylallyl-PPi	
-
-	Cannabidiolic acid	h+	-->cannabidiol	co2	
-1.21.3.8	undefined	o2	-->Cannabidiolic acid	h2o2	
-2.5.1.-	Olivetolic acid	undefined	-->undefined	diphosphatediphosphate;pyrophosphate	
-2.5.1.1	dimethylallyl-PPi	isopentenyl-pp	-->diphosphatediphosphate;pyrophosphate	undefined	
-5.3.3.2	isopentenyl-pp	-->dimethylallyl-PPi	
-
-	Cannabidiolic acid	h+	-->cannabidiol	co2	
-1.21.3.8	undefined	o2	-->Cannabidiolic acid	h2o2	
-2.5.1.-	Olivetolic acid	undefined	-->undefined	diphosphatediphosphate;pyrophosphate	
-2.5.1.28	dimethylallyl-PPi	isopentenyl-pp	-->diphosphatediphosphate;pyrophosphate	undefined	
-5.3.3.2	isopentenyl-pp	-->dimethylallyl-PPi	
-
-	Cannabidiolic acid	h+	-->cannabidiol	co2	
-1.21.3.8	undefined	o2	-->Cannabidiolic acid	h2o2	
-2.5.1.-	Olivetolic acid	undefined	-->undefined	diphosphatediphosphate;pyrophosphate	
-2.5.1.28	dimethylallyl-PPi	isopentenyl-pp	-->diphosphatediphosphate;pyrophosphate	undefined	
-5.3.3.2	isopentenyl-pp	-->dimethylallyl-PPi	
-
-	Cannabidiolic acid	h+	-->cannabidiol	co2	
-1.21.3.8	undefined	o2	-->Cannabidiolic acid	h2o2	
-2.5.1.-	Olivetolic acid	undefined	-->undefined	diphosphatediphosphate;pyrophosphate	
-2.5.1.28	dimethylallyl-PPi	isopentenyl-pp	-->diphosphatediphosphate;pyrophosphate	undefined	
-5.3.3.2	isopentenyl-pp	-->dimethylallyl-PPi	
-
-	Cannabidiolic acid	h+	-->cannabidiol	co2	
-1.21.3.8	undefined	o2	-->Cannabidiolic acid	h2o2	
-2.5.1.-	Olivetolic acid	undefined	-->undefined	diphosphatediphosphate;pyrophosphate	
-2.5.1.28	dimethylallyl-PPi	isopentenyl-pp	-->diphosphatediphosphate;pyrophosphate	undefined	
-5.3.3.2	isopentenyl-pp	-->dimethylallyl-PPi	
-
-	Cannabidiolic acid	h+	-->cannabidiol	co2	
-1.21.3.8	undefined	o2	-->Cannabidiolic acid	h2o2	
-2.5.1.-	Olivetolic acid	undefined	-->undefined	diphosphatediphosphate;pyrophosphate	
-2.5.1.28	dimethylallyl-PPi	isopentenyl-pp	-->diphosphatediphosphate;pyrophosphate	undefined	
-5.3.3.2	isopentenyl-pp	-->dimethylallyl-PPi	
-
-	Cannabidiolic acid	h+	-->cannabidiol	co2	
-1.21.3.8	undefined	o2	-->Cannabidiolic acid	h2o2	
-2.5.1.102	Olivetolic acid	undefined	-->undefined	diphosphatediphosphate;pyrophosphate	
-4.4.1.26	3,5,7-trioxododecanoyl-CoA	-->Olivetolic acid	CoenzymeA	h+	
-	undefined	malonyl-coa	h+	-->co2	CoenzymeA	3,5,7-trioxododecanoyl-CoA	
-6.4.1.2	hco3-	atp	Acetyl-CoA	-->adp	malonyl-coa	hpo42-	h+	
-
-	Cannabidiolic acid	h+	-->cannabidiol	co2	
-1.21.3.8	undefined	o2	-->Cannabidiolic acid	h2o2	
-2.5.1.102	Olivetolic acid	undefined	-->undefined	diphosphatediphosphate;pyrophosphate	
-2.5.1.1	dimethylallyl-PPi	isopentenyl-pp	-->diphosphatediphosphate;pyrophosphate	undefined	
-5.3.3.2	isopentenyl-pp	-->dimethylallyl-PPi	
-
-	Cannabidiolic acid	h+	-->cannabidiol	co2	
-1.21.3.8	undefined	o2	-->Cannabidiolic acid	h2o2	
-2.5.1.102	Olivetolic acid	undefined	-->undefined	diphosphatediphosphate;pyrophosphate	
-2.5.1.1	dimethylallyl-PPi	isopentenyl-pp	-->diphosphatediphosphate;pyrophosphate	undefined	
-5.3.3.2	isopentenyl-pp	-->dimethylallyl-PPi	
-
-	Cannabidiolic acid	h+	-->cannabidiol	co2	
-1.21.3.8	undefined	o2	-->Cannabidiolic acid	h2o2	
-2.5.1.102	Olivetolic acid	undefined	-->undefined	diphosphatediphosphate;pyrophosphate	
-2.5.1.1	dimethylallyl-PPi	isopentenyl-pp	-->diphosphatediphosphate;pyrophosphate	undefined	
-5.3.3.2	isopentenyl-pp	-->dimethylallyl-PPi	
-
-	Cannabidiolic acid	h+	-->cannabidiol	co2	
-1.21.3.8	undefined	o2	-->Cannabidiolic acid	h2o2	
-2.5.1.102	Olivetolic acid	undefined	-->undefined	diphosphatediphosphate;pyrophosphate	
-2.5.1.1	dimethylallyl-PPi	isopentenyl-pp	-->diphosphatediphosphate;pyrophosphate	undefined	
-5.3.3.2	isopentenyl-pp	-->dimethylallyl-PPi	
-
-	Cannabidiolic acid	h+	-->cannabidiol	co2	
-1.21.3.8	undefined	o2	-->Cannabidiolic acid	h2o2	
-2.5.1.102	Olivetolic acid	undefined	-->undefined	diphosphatediphosphate;pyrophosphate	
-2.5.1.1	dimethylallyl-PPi	isopentenyl-pp	-->diphosphatediphosphate;pyrophosphate	undefined	
-5.3.3.2	isopentenyl-pp	-->dimethylallyl-PPi	
-
-	Cannabidiolic acid	h+	-->cannabidiol	co2	
-1.21.3.8	undefined	o2	-->Cannabidiolic acid	h2o2	
-2.5.1.102	Olivetolic acid	undefined	-->undefined	diphosphatediphosphate;pyrophosphate	
-2.5.1.1	dimethylallyl-PPi	isopentenyl-pp	-->diphosphatediphosphate;pyrophosphate	undefined	
-5.3.3.2	isopentenyl-pp	-->dimethylallyl-PPi	
-
-	Cannabidiolic acid	h+	-->cannabidiol	co2	
-1.21.3.8	undefined	o2	-->Cannabidiolic acid	h2o2	
-2.5.1.102	Olivetolic acid	undefined	-->undefined	diphosphatediphosphate;pyrophosphate	
-2.5.1.1	dimethylallyl-PPi	isopentenyl-pp	-->diphosphatediphosphate;pyrophosphate	undefined	
-5.3.3.2	isopentenyl-pp	-->dimethylallyl-PPi	
-
-	Cannabidiolic acid	h+	-->cannabidiol	co2	
-1.21.3.8	undefined	o2	-->Cannabidiolic acid	h2o2	
-2.5.1.102	Olivetolic acid	undefined	-->undefined	diphosphatediphosphate;pyrophosphate	
-2.5.1.1	dimethylallyl-PPi	isopentenyl-pp	-->diphosphatediphosphate;pyrophosphate	undefined	
-5.3.3.2	isopentenyl-pp	-->dimethylallyl-PPi	
-
-	Cannabidiolic acid	h+	-->cannabidiol	co2	
-1.21.3.8	undefined	o2	-->Cannabidiolic acid	h2o2	
-2.5.1.102	Olivetolic acid	undefined	-->undefined	diphosphatediphosphate;pyrophosphate	
-2.5.1.1	dimethylallyl-PPi	isopentenyl-pp	-->diphosphatediphosphate;pyrophosphate	undefined	
-5.3.3.2	isopentenyl-pp	-->dimethylallyl-PPi	
-
-	Cannabidiolic acid	h+	-->cannabidiol	co2	
-1.21.3.8	undefined	o2	-->Cannabidiolic acid	h2o2	
-2.5.1.102	Olivetolic acid	undefined	-->undefined	diphosphatediphosphate;pyrophosphate	
-2.5.1.1	dimethylallyl-PPi	isopentenyl-pp	-->diphosphatediphosphate;pyrophosphate	undefined	
-5.3.3.2	isopentenyl-pp	-->dimethylallyl-PPi	
-
-	Cannabidiolic acid	h+	-->cannabidiol	co2	
-1.21.3.8	undefined	o2	-->Cannabidiolic acid	h2o2	
-2.5.1.102	Olivetolic acid	undefined	-->undefined	diphosphatediphosphate;pyrophosphate	
-2.5.1.1	dimethylallyl-PPi	isopentenyl-pp	-->diphosphatediphosphate;pyrophosphate	undefined	
-5.3.3.2	isopentenyl-pp	-->dimethylallyl-PPi	
-
-	Cannabidiolic acid	h+	-->cannabidiol	co2	
-1.21.3.8	undefined	o2	-->Cannabidiolic acid	h2o2	
-2.5.1.102	Olivetolic acid	undefined	-->undefined	diphosphatediphosphate;pyrophosphate	
-2.5.1.1	dimethylallyl-PPi	isopentenyl-pp	-->diphosphatediphosphate;pyrophosphate	undefined	
-5.3.3.2	isopentenyl-pp	-->dimethylallyl-PPi	
-
-	Cannabidiolic acid	h+	-->cannabidiol	co2	
-1.21.3.8	undefined	o2	-->Cannabidiolic acid	h2o2	
-2.5.1.102	Olivetolic acid	undefined	-->undefined	diphosphatediphosphate;pyrophosphate	
-2.5.1.1	dimethylallyl-PPi	isopentenyl-pp	-->diphosphatediphosphate;pyrophosphate	undefined	
-5.3.3.2	isopentenyl-pp	-->dimethylallyl-PPi	
-
-	Cannabidiolic acid	h+	-->cannabidiol	co2	
-1.21.3.8	undefined	o2	-->Cannabidiolic acid	h2o2	
-2.5.1.102	Olivetolic acid	undefined	-->undefined	diphosphatediphosphate;pyrophosphate	
-2.5.1.1	dimethylallyl-PPi	isopentenyl-pp	-->diphosphatediphosphate;pyrophosphate	undefined	
-5.3.3.2	isopentenyl-pp	-->dimethylallyl-PPi	
-
-	Cannabidiolic acid	h+	-->cannabidiol	co2	
-1.21.3.8	undefined	o2	-->Cannabidiolic acid	h2o2	
-2.5.1.102	Olivetolic acid	undefined	-->undefined	diphosphatediphosphate;pyrophosphate	
-2.5.1.1	dimethylallyl-PPi	isopentenyl-pp	-->diphosphatediphosphate;pyrophosphate	undefined	
-5.3.3.2	isopentenyl-pp	-->dimethylallyl-PPi	
-
-	Cannabidiolic acid	h+	-->cannabidiol	co2	
-1.21.3.8	undefined	o2	-->Cannabidiolic acid	h2o2	
-2.5.1.102	Olivetolic acid	undefined	-->undefined	diphosphatediphosphate;pyrophosphate	
-2.5.1.28	dimethylallyl-PPi	isopentenyl-pp	-->diphosphatediphosphate;pyrophosphate	undefined	
-5.3.3.2	isopentenyl-pp	-->dimethylallyl-PPi	
-
-	Cannabidiolic acid	h+	-->cannabidiol	co2	
-1.21.3.8	undefined	o2	-->Cannabidiolic acid	h2o2	
-2.5.1.102	Olivetolic acid	undefined	-->undefined	diphosphatediphosphate;pyrophosphate	
-2.5.1.28	dimethylallyl-PPi	isopentenyl-pp	-->diphosphatediphosphate;pyrophosphate	undefined	
-5.3.3.2	isopentenyl-pp	-->dimethylallyl-PPi	
-
-	Cannabidiolic acid	h+	-->cannabidiol	co2	
-1.21.3.8	undefined	o2	-->Cannabidiolic acid	h2o2	
-2.5.1.102	Olivetolic acid	undefined	-->undefined	diphosphatediphosphate;pyrophosphate	
-2.5.1.28	dimethylallyl-PPi	isopentenyl-pp	-->diphosphatediphosphate;pyrophosphate	undefined	
-5.3.3.2	isopentenyl-pp	-->dimethylallyl-PPi	
-
-	Cannabidiolic acid	h+	-->cannabidiol	co2	
-1.21.3.8	undefined	o2	-->Cannabidiolic acid	h2o2	
-2.5.1.102	Olivetolic acid	undefined	-->undefined	diphosphatediphosphate;pyrophosphate	
-2.5.1.28	dimethylallyl-PPi	isopentenyl-pp	-->diphosphatediphosphate;pyrophosphate	undefined	
-5.3.3.2	isopentenyl-pp	-->dimethylallyl-PPi	
-
-	Cannabidiolic acid	h+	-->cannabidiol	co2	
-1.21.3.8	undefined	o2	-->Cannabidiolic acid	h2o2	
-2.5.1.102	Olivetolic acid	undefined	-->undefined	diphosphatediphosphate;pyrophosphate	
-2.5.1.28	dimethylallyl-PPi	isopentenyl-pp	-->diphosphatediphosphate;pyrophosphate	undefined	
-5.3.3.2	isopentenyl-pp	-->dimethylallyl-PPi	
+cannabidiolate H<SUP>+</SUP>  -->cannabidiol CO<SUB>2</SUB> 
+cannabinerolate oxygen  -->cannabidiolate hydrogen peroxide 
+olivetolate neryl diphosphate  -->cannabinerolate diphosphate 
+3,5,7-trioxododecanoyl-CoA  -->coenzyme A olivetolate H<SUP>+</SUP> 
+malonyl-CoA H<SUP>+</SUP> hexanoyl-CoA  -->coenzyme A 3,5,7-trioxododecanoyl-CoA CO<SUB>2</SUB> 
+acetyl-CoA a [carboxyl-carrier protein dimer]-<i>N</i><sup>6</sup>-carboxybiotinyl-L-lysine  -->malonyl-CoA a [biotin carboxyl-carrier-protein dimer]-<i>N</i><sup>6</sup>-biotinyl-L-lysine 
+
+cannabidiolate H<SUP>+</SUP>  -->cannabidiol CO<SUB>2</SUB> 
+cannabigerolate oxygen  -->cannabidiolate hydrogen peroxide 
+olivetolate geranyl diphosphate  -->cannabigerolate diphosphate 
+3,5,7-trioxododecanoyl-CoA  -->coenzyme A olivetolate H<SUP>+</SUP> 
+malonyl-CoA H<SUP>+</SUP> hexanoyl-CoA  -->coenzyme A 3,5,7-trioxododecanoyl-CoA CO<SUB>2</SUB> 
+coenzyme A hexanoate ATP  -->AMP hexanoyl-CoA diphosphate 
+H<sub>2</sub>O N-methylhexanamide  -->hexanoate methylamine 
+
+cannabidiolate H<SUP>+</SUP>  -->cannabidiol CO<SUB>2</SUB> 
+cannabinerolate oxygen  -->cannabidiolate hydrogen peroxide 
+olivetolate neryl diphosphate  -->cannabinerolate diphosphate 
+3,5,7-trioxododecanoyl-CoA  -->coenzyme A olivetolate H<SUP>+</SUP> 
+malonyl-CoA H<SUP>+</SUP> 3,5-dioxodecanoyl-CoA  -->coenzyme A 3,5,7-trioxododecanoyl-CoA CO<SUB>2</SUB> 
+ATP hydrogencarbonate acetyl-CoA  -->malonyl-CoA H<SUP>+</SUP> phosphate ADP 
+2-hydroxyethylphosphonate oxygen  -->methylphosphonate H<SUP>+</SUP> hydrogencarbonate 
+
+cannabidiolate H<SUP>+</SUP>  -->cannabidiol CO<SUB>2</SUB> 
+cannabinerolate oxygen  -->cannabidiolate hydrogen peroxide 
+olivetolate neryl diphosphate  -->cannabinerolate diphosphate 
+3,5,7-trioxododecanoyl-CoA  -->coenzyme A olivetolate H<SUP>+</SUP> 
+malonyl-CoA H<SUP>+</SUP> hexanoyl-CoA  -->coenzyme A 3,5,7-trioxododecanoyl-CoA CO<SUB>2</SUB> 
+coenzyme A ATP malonate  -->AMP malonyl-CoA diphosphate 
+H<sub>2</sub>O 3-oxopropanoate NAD(P)<sup>+</sup>  -->H<SUP>+</SUP> malonate NAD(P)H 
+
+cannabidiolate H<SUP>+</SUP>  -->cannabidiol CO<SUB>2</SUB> 
+cannabigerolate oxygen  -->cannabidiolate hydrogen peroxide 
+olivetolate geranyl diphosphate  -->cannabigerolate diphosphate 
+3,5,7-trioxododecanoyl-CoA  -->coenzyme A olivetolate H<SUP>+</SUP> 
+malonyl-CoA H<SUP>+</SUP> 3,5-dioxodecanoyl-CoA  -->coenzyme A 3,5,7-trioxododecanoyl-CoA CO<SUB>2</SUB> 
+malonyl-CoA H<SUP>+</SUP> hexanoyl-CoA  -->coenzyme A 3,5-dioxodecanoyl-CoA CO<SUB>2</SUB> 
+coenzyme A 3-oxooctanoyl-CoA  -->hexanoyl-CoA acetyl-CoA 
+
+cannabidiolate H<SUP>+</SUP>  -->cannabidiol CO<SUB>2</SUB> 
+cannabinerolate oxygen  -->cannabidiolate hydrogen peroxide 
+olivetolate neryl diphosphate  -->cannabinerolate diphosphate 
+3,5,7-trioxododecanoyl-CoA  -->coenzyme A olivetolate H<SUP>+</SUP> 
+malonyl-CoA H<SUP>+</SUP> 3,5-dioxodecanoyl-CoA  -->coenzyme A 3,5,7-trioxododecanoyl-CoA CO<SUB>2</SUB> 
+coenzyme A ATP malonate  -->AMP malonyl-CoA diphosphate 
+H<sub>2</sub>O 3-oxopropanoate NAD(P)<sup>+</sup>  -->H<SUP>+</SUP> malonate NAD(P)H 
+
+cannabidiolate H<SUP>+</SUP>  -->cannabidiol CO<SUB>2</SUB> 
+cannabinerolate oxygen  -->cannabidiolate hydrogen peroxide 
+olivetolate neryl diphosphate  -->cannabinerolate diphosphate 
+3,5,7-trioxododecanoyl-CoA  -->coenzyme A olivetolate H<SUP>+</SUP> 
+malonyl-CoA H<SUP>+</SUP> 3,5-dioxodecanoyl-CoA  -->coenzyme A 3,5,7-trioxododecanoyl-CoA CO<SUB>2</SUB> 
+malonyl-CoA H<SUP>+</SUP> hexanoyl-CoA  -->coenzyme A 3,5-dioxodecanoyl-CoA CO<SUB>2</SUB> 
+coenzyme A cyanidin 3-<i>O</i>-[2"-<i>O</i>-(xylosyl)-6"-<i>O</i>-(p-coumaroyl) glucoside] 5-<i>O</i>-malonylglucoside  -->malonyl-CoA cyanidin 3-<i>O</i>-[2"-<i>O</i>-(xylosyl)-6"-<i>O</i>-(p-coumaroyl) glucoside] 5-<i>O</i>-glucoside 
+
+cannabidiolate H<SUP>+</SUP>  -->cannabidiol CO<SUB>2</SUB> 
+cannabinerolate oxygen  -->cannabidiolate hydrogen peroxide 
+olivetolate neryl diphosphate  -->cannabinerolate diphosphate 
+3,5,7-trioxododecanoyl-CoA  -->coenzyme A olivetolate H<SUP>+</SUP> 
+malonyl-CoA H<SUP>+</SUP> 3,5-dioxodecanoyl-CoA  -->coenzyme A 3,5,7-trioxododecanoyl-CoA CO<SUB>2</SUB> 
+malonyl-CoA H<SUP>+</SUP> hexanoyl-CoA  -->coenzyme A 3,5-dioxodecanoyl-CoA CO<SUB>2</SUB> 
+acetyl-CoA a [carboxyl-carrier protein dimer]-<i>N</i><sup>6</sup>-carboxybiotinyl-L-lysine  -->malonyl-CoA a [biotin carboxyl-carrier-protein dimer]-<i>N</i><sup>6</sup>-biotinyl-L-lysine 
+
+cannabidiolate H<SUP>+</SUP>  -->cannabidiol CO<SUB>2</SUB> 
+cannabinerolate oxygen  -->cannabidiolate hydrogen peroxide 
+olivetolate neryl diphosphate  -->cannabinerolate diphosphate 
+3,5,7-trioxododecanoyl-CoA  -->coenzyme A olivetolate H<SUP>+</SUP> 
+malonyl-CoA H<SUP>+</SUP> hexanoyl-CoA  -->coenzyme A 3,5,7-trioxododecanoyl-CoA CO<SUB>2</SUB> 
+coenzyme A hexanoate ATP  -->AMP hexanoyl-CoA diphosphate 
+H<sub>2</sub>O N-methylhexanamide  -->hexanoate methylamine 
+
+cannabidiolate H<SUP>+</SUP>  -->cannabidiol CO<SUB>2</SUB> 
+cannabinerolate oxygen  -->cannabidiolate hydrogen peroxide 
+olivetolate neryl diphosphate  -->cannabinerolate diphosphate 
+3,5,7-trioxododecanoyl-CoA  -->coenzyme A olivetolate H<SUP>+</SUP> 
+malonyl-CoA H<SUP>+</SUP> 3,5-dioxodecanoyl-CoA  -->coenzyme A 3,5,7-trioxododecanoyl-CoA CO<SUB>2</SUB> 
+coenzyme A cyanidin 3-<i>O</i>-[2"-<i>O</i>-(xylosyl)-6"-<i>O</i>-(p-coumaroyl) glucoside] 5-<i>O</i>-malonylglucoside  -->malonyl-CoA cyanidin 3-<i>O</i>-[2"-<i>O</i>-(xylosyl)-6"-<i>O</i>-(p-coumaroyl) glucoside] 5-<i>O</i>-glucoside 
+
+cannabidiolate H<SUP>+</SUP>  -->cannabidiol CO<SUB>2</SUB> 
+cannabinerolate oxygen  -->cannabidiolate hydrogen peroxide 
+olivetolate neryl diphosphate  -->cannabinerolate diphosphate 
+3,5,7-trioxododecanoyl-CoA  -->coenzyme A olivetolate H<SUP>+</SUP> 
+malonyl-CoA H<SUP>+</SUP> 3,5-dioxodecanoyl-CoA  -->coenzyme A 3,5,7-trioxododecanoyl-CoA CO<SUB>2</SUB> 
+acetyl-CoA malonate  -->malonyl-CoA acetate 
+H<sub>2</sub>O 3-oxopropanoate NAD(P)<sup>+</sup>  -->H<SUP>+</SUP> malonate NAD(P)H 
+H<sub>2</sub>O (<i>Z</i>)-3-aminoacrylate H<SUP>+</SUP>  -->3-oxopropanoate ammonium 
+
+cannabidiolate H<SUP>+</SUP>  -->cannabidiol CO<SUB>2</SUB> 
+cannabigerolate oxygen  -->cannabidiolate hydrogen peroxide 
+olivetolate geranyl diphosphate  -->cannabigerolate diphosphate 
+3,5,7-trioxododecanoyl-CoA  -->coenzyme A olivetolate H<SUP>+</SUP> 
+malonyl-CoA H<SUP>+</SUP> 3,5-dioxodecanoyl-CoA  -->coenzyme A 3,5,7-trioxododecanoyl-CoA CO<SUB>2</SUB> 
+acetyl-CoA malonate  -->malonyl-CoA acetate 
+H<sub>2</sub>O 3-oxopropanoate NAD(P)<sup>+</sup>  -->H<SUP>+</SUP> malonate NAD(P)H 
+
+cannabidiolate H<SUP>+</SUP>  -->cannabidiol CO<SUB>2</SUB> 
+cannabigerolate oxygen  -->cannabidiolate hydrogen peroxide 
+olivetolate geranyl diphosphate  -->cannabigerolate diphosphate 
+3,5,7-trioxododecanoyl-CoA  -->coenzyme A olivetolate H<SUP>+</SUP> 
+malonyl-CoA H<SUP>+</SUP> hexanoyl-CoA  -->coenzyme A 3,5,7-trioxododecanoyl-CoA CO<SUB>2</SUB> 
+acetyl-CoA malonate  -->malonyl-CoA acetate 
+H<sub>2</sub>O 3-oxopropanoate NAD(P)<sup>+</sup>  -->H<SUP>+</SUP> malonate NAD(P)H 
+H<sub>2</sub>O (<i>Z</i>)-3-aminoacrylate H<SUP>+</SUP>  -->3-oxopropanoate ammonium 
+
+cannabidiolate H<SUP>+</SUP>  -->cannabidiol CO<SUB>2</SUB> 
+cannabinerolate oxygen  -->cannabidiolate hydrogen peroxide 
+olivetolate neryl diphosphate  -->cannabinerolate diphosphate 
+3,5,7-trioxododecanoyl-CoA  -->coenzyme A olivetolate H<SUP>+</SUP> 
+malonyl-CoA H<SUP>+</SUP> hexanoyl-CoA  -->coenzyme A 3,5,7-trioxododecanoyl-CoA CO<SUB>2</SUB> 
+ATP hydrogencarbonate acetyl-CoA  -->malonyl-CoA H<SUP>+</SUP> phosphate ADP 
+2-hydroxyethylphosphonate oxygen  -->methylphosphonate H<SUP>+</SUP> hydrogencarbonate 
+
+cannabidiolate H<SUP>+</SUP>  -->cannabidiol CO<SUB>2</SUB> 
+cannabinerolate oxygen  -->cannabidiolate hydrogen peroxide 
+olivetolate neryl diphosphate  -->cannabinerolate diphosphate 
+3,5,7-trioxododecanoyl-CoA  -->coenzyme A olivetolate H<SUP>+</SUP> 
+malonyl-CoA H<SUP>+</SUP> hexanoyl-CoA  -->coenzyme A 3,5,7-trioxododecanoyl-CoA CO<SUB>2</SUB> 
+coenzyme A cyanidin 3-<i>O</i>-[2"-<i>O</i>-(xylosyl)-6"-<i>O</i>-(p-coumaroyl) glucoside] 5-<i>O</i>-malonylglucoside  -->malonyl-CoA cyanidin 3-<i>O</i>-[2"-<i>O</i>-(xylosyl)-6"-<i>O</i>-(p-coumaroyl) glucoside] 5-<i>O</i>-glucoside 
+
+cannabidiolate H<SUP>+</SUP>  -->cannabidiol CO<SUB>2</SUB> 
+cannabigerolate oxygen  -->cannabidiolate hydrogen peroxide 
+olivetolate geranyl diphosphate  -->cannabigerolate diphosphate 
+3,5,7-trioxododecanoyl-CoA  -->coenzyme A olivetolate H<SUP>+</SUP> 
+malonyl-CoA H<SUP>+</SUP> 3,5-dioxodecanoyl-CoA  -->coenzyme A 3,5,7-trioxododecanoyl-CoA CO<SUB>2</SUB> 
+ATP hydrogencarbonate acetyl-CoA  -->malonyl-CoA H<SUP>+</SUP> phosphate ADP 
+2-hydroxyethylphosphonate oxygen  -->methylphosphonate H<SUP>+</SUP> hydrogencarbonate 
+
+cannabidiolate H<SUP>+</SUP>  -->cannabidiol CO<SUB>2</SUB> 
+cannabinerolate oxygen  -->cannabidiolate hydrogen peroxide 
+olivetolate neryl diphosphate  -->cannabinerolate diphosphate 
+3,5,7-trioxododecanoyl-CoA  -->coenzyme A olivetolate H<SUP>+</SUP> 
+malonyl-CoA H<SUP>+</SUP> hexanoyl-CoA  -->coenzyme A 3,5,7-trioxododecanoyl-CoA CO<SUB>2</SUB> 
+coenzyme A ATP malonate  -->AMP malonyl-CoA diphosphate 
+H<sub>2</sub>O 3-oxopropanoate NAD(P)<sup>+</sup>  -->H<SUP>+</SUP> malonate NAD(P)H 
+H<sub>2</sub>O (<i>Z</i>)-3-aminoacrylate H<SUP>+</SUP>  -->3-oxopropanoate ammonium 
+
+cannabidiolate H<SUP>+</SUP>  -->cannabidiol CO<SUB>2</SUB> 
+cannabigerolate oxygen  -->cannabidiolate hydrogen peroxide 
+olivetolate geranyl diphosphate  -->cannabigerolate diphosphate 
+3,5,7-trioxododecanoyl-CoA  -->coenzyme A olivetolate H<SUP>+</SUP> 
+malonyl-CoA H<SUP>+</SUP> hexanoyl-CoA  -->coenzyme A 3,5,7-trioxododecanoyl-CoA CO<SUB>2</SUB> 
+coenzyme A 3-oxooctanoyl-CoA  -->hexanoyl-CoA acetyl-CoA 
+
+cannabidiolate H<SUP>+</SUP>  -->cannabidiol CO<SUB>2</SUB> 
+cannabigerolate oxygen  -->cannabidiolate hydrogen peroxide 
+olivetolate geranyl diphosphate  -->cannabigerolate diphosphate 
+3,5,7-trioxododecanoyl-CoA  -->coenzyme A olivetolate H<SUP>+</SUP> 
+malonyl-CoA H<SUP>+</SUP> 3,5-dioxodecanoyl-CoA  -->coenzyme A 3,5,7-trioxododecanoyl-CoA CO<SUB>2</SUB> 
+coenzyme A ATP malonate  -->AMP malonyl-CoA diphosphate 
+H<sub>2</sub>O 3-oxopropanoate NAD(P)<sup>+</sup>  -->H<SUP>+</SUP> malonate NAD(P)H 
+H<sub>2</sub>O (<i>Z</i>)-3-aminoacrylate H<SUP>+</SUP>  -->3-oxopropanoate ammonium 
+
+cannabidiolate H<SUP>+</SUP>  -->cannabidiol CO<SUB>2</SUB> 
+cannabigerolate oxygen  -->cannabidiolate hydrogen peroxide 
+olivetolate geranyl diphosphate  -->cannabigerolate diphosphate 
+3,5,7-trioxododecanoyl-CoA  -->coenzyme A olivetolate H<SUP>+</SUP> 
+malonyl-CoA H<SUP>+</SUP> 3,5-dioxodecanoyl-CoA  -->coenzyme A 3,5,7-trioxododecanoyl-CoA CO<SUB>2</SUB> 
+coenzyme A ATP malonate  -->AMP malonyl-CoA diphosphate 
+H<sub>2</sub>O 3-oxopropanoate NAD(P)<sup>+</sup>  -->H<SUP>+</SUP> malonate NAD(P)H 
+
+cannabidiolate H<SUP>+</SUP>  -->cannabidiol CO<SUB>2</SUB> 
+cannabigerolate oxygen  -->cannabidiolate hydrogen peroxide 
+olivetolate geranyl diphosphate  -->cannabigerolate diphosphate 
+3,5,7-trioxododecanoyl-CoA  -->coenzyme A olivetolate H<SUP>+</SUP> 
+malonyl-CoA H<SUP>+</SUP> 3,5-dioxodecanoyl-CoA  -->coenzyme A 3,5,7-trioxododecanoyl-CoA CO<SUB>2</SUB> 
+malonyl-CoA H<SUP>+</SUP> hexanoyl-CoA  -->coenzyme A 3,5-dioxodecanoyl-CoA CO<SUB>2</SUB> 
+NADH H<SUP>+</SUP> <i>trans</i>-hex-2-enoyl-CoA  -->NAD<sup>+</sup> hexanoyl-CoA 
+
+cannabidiolate H<SUP>+</SUP>  -->cannabidiol CO<SUB>2</SUB> 
+cannabigerolate oxygen  -->cannabidiolate hydrogen peroxide 
+olivetolate geranyl diphosphate  -->cannabigerolate diphosphate 
+3,5,7-trioxododecanoyl-CoA  -->coenzyme A olivetolate H<SUP>+</SUP> 
+malonyl-CoA H<SUP>+</SUP> hexanoyl-CoA  -->coenzyme A 3,5,7-trioxododecanoyl-CoA CO<SUB>2</SUB> 
+coenzyme A cyanidin 3-<i>O</i>-[2"-<i>O</i>-(xylosyl)-6"-<i>O</i>-(p-coumaroyl) glucoside] 5-<i>O</i>-malonylglucoside  -->malonyl-CoA cyanidin 3-<i>O</i>-[2"-<i>O</i>-(xylosyl)-6"-<i>O</i>-(p-coumaroyl) glucoside] 5-<i>O</i>-glucoside 
+
+cannabidiolate H<SUP>+</SUP>  -->cannabidiol CO<SUB>2</SUB> 
+cannabinerolate oxygen  -->cannabidiolate hydrogen peroxide 
+olivetolate neryl diphosphate  -->cannabinerolate diphosphate 
+3,5,7-trioxododecanoyl-CoA  -->coenzyme A olivetolate H<SUP>+</SUP> 
+malonyl-CoA H<SUP>+</SUP> hexanoyl-CoA  -->coenzyme A 3,5,7-trioxododecanoyl-CoA CO<SUB>2</SUB> 
+coenzyme A 3-oxooctanoyl-CoA  -->hexanoyl-CoA acetyl-CoA 
+
+cannabidiolate H<SUP>+</SUP>  -->cannabidiol CO<SUB>2</SUB> 
+cannabigerolate oxygen  -->cannabidiolate hydrogen peroxide 
+olivetolate geranyl diphosphate  -->cannabigerolate diphosphate 
+3,5,7-trioxododecanoyl-CoA  -->coenzyme A olivetolate H<SUP>+</SUP> 
+malonyl-CoA H<SUP>+</SUP> hexanoyl-CoA  -->coenzyme A 3,5,7-trioxododecanoyl-CoA CO<SUB>2</SUB> 
+NADH H<SUP>+</SUP> <i>trans</i>-hex-2-enoyl-CoA  -->NAD<sup>+</sup> hexanoyl-CoA 
+
+cannabidiolate H<SUP>+</SUP>  -->cannabidiol CO<SUB>2</SUB> 
+cannabigerolate oxygen  -->cannabidiolate hydrogen peroxide 
+olivetolate geranyl diphosphate  -->cannabigerolate diphosphate 
+3,5,7-trioxododecanoyl-CoA  -->coenzyme A olivetolate H<SUP>+</SUP> 
+malonyl-CoA H<SUP>+</SUP> 3,5-dioxodecanoyl-CoA  -->coenzyme A 3,5,7-trioxododecanoyl-CoA CO<SUB>2</SUB> 
+malonyl-CoA H<SUP>+</SUP> hexanoyl-CoA  -->coenzyme A 3,5-dioxodecanoyl-CoA CO<SUB>2</SUB> 
+acetyl-CoA a [carboxyl-carrier protein dimer]-<i>N</i><sup>6</sup>-carboxybiotinyl-L-lysine  -->malonyl-CoA a [biotin carboxyl-carrier-protein dimer]-<i>N</i><sup>6</sup>-biotinyl-L-lysine 
+
+cannabidiolate H<SUP>+</SUP>  -->cannabidiol CO<SUB>2</SUB> 
+cannabinerolate oxygen  -->cannabidiolate hydrogen peroxide 
+olivetolate neryl diphosphate  -->cannabinerolate diphosphate 
+3,5,7-trioxododecanoyl-CoA  -->coenzyme A olivetolate H<SUP>+</SUP> 
+malonyl-CoA H<SUP>+</SUP> 3,5-dioxodecanoyl-CoA  -->coenzyme A 3,5,7-trioxododecanoyl-CoA CO<SUB>2</SUB> 
+acetyl-CoA malonate  -->malonyl-CoA acetate 
+H<sub>2</sub>O 3-oxopropanoate NAD(P)<sup>+</sup>  -->H<SUP>+</SUP> malonate NAD(P)H 
+
+cannabidiolate H<SUP>+</SUP>  -->cannabidiol CO<SUB>2</SUB> 
+cannabinerolate oxygen  -->cannabidiolate hydrogen peroxide 
+olivetolate neryl diphosphate  -->cannabinerolate diphosphate 
+3,5,7-trioxododecanoyl-CoA  -->coenzyme A olivetolate H<SUP>+</SUP> 
+malonyl-CoA H<SUP>+</SUP> hexanoyl-CoA  -->coenzyme A 3,5,7-trioxododecanoyl-CoA CO<SUB>2</SUB> 
+acetyl-CoA malonate  -->malonyl-CoA acetate 
+H<sub>2</sub>O 3-oxopropanoate NAD(P)<sup>+</sup>  -->H<SUP>+</SUP> malonate NAD(P)H 
+
+cannabidiolate H<SUP>+</SUP>  -->cannabidiol CO<SUB>2</SUB> 
+cannabigerolate oxygen  -->cannabidiolate hydrogen peroxide 
+olivetolate geranyl diphosphate  -->cannabigerolate diphosphate 
+prenyl diphosphate isopentenyl diphosphate  -->geranyl diphosphate diphosphate 
+
+cannabidiolate H<SUP>+</SUP>  -->cannabidiol CO<SUB>2</SUB> 
+cannabigerolate oxygen  -->cannabidiolate hydrogen peroxide 
+olivetolate geranyl diphosphate  -->cannabigerolate diphosphate 
+3,5,7-trioxododecanoyl-CoA  -->coenzyme A olivetolate H<SUP>+</SUP> 
+malonyl-CoA H<SUP>+</SUP> 3,5-dioxodecanoyl-CoA  -->coenzyme A 3,5,7-trioxododecanoyl-CoA CO<SUB>2</SUB> 
+coenzyme A cyanidin 3-<i>O</i>-[2"-<i>O</i>-(xylosyl)-6"-<i>O</i>-(p-coumaroyl) glucoside] 5-<i>O</i>-malonylglucoside  -->malonyl-CoA cyanidin 3-<i>O</i>-[2"-<i>O</i>-(xylosyl)-6"-<i>O</i>-(p-coumaroyl) glucoside] 5-<i>O</i>-glucoside 
+
+cannabidiolate H<SUP>+</SUP>  -->cannabidiol CO<SUB>2</SUB> 
+cannabinerolate oxygen  -->cannabidiolate hydrogen peroxide 
+olivetolate neryl diphosphate  -->cannabinerolate diphosphate 
+prenyl diphosphate isopentenyl diphosphate  -->neryl diphosphate diphosphate 
+(R)-mevalonate diphosphate ATP  -->phosphate isopentenyl diphosphate ADP CO<SUB>2</SUB> 
+
+cannabidiolate H<SUP>+</SUP>  -->cannabidiol CO<SUB>2</SUB> 
+cannabinerolate oxygen  -->cannabidiolate hydrogen peroxide 
+olivetolate neryl diphosphate  -->cannabinerolate diphosphate 
+3,5,7-trioxododecanoyl-CoA  -->coenzyme A olivetolate H<SUP>+</SUP> 
+malonyl-CoA H<SUP>+</SUP> 3,5-dioxodecanoyl-CoA  -->coenzyme A 3,5,7-trioxododecanoyl-CoA CO<SUB>2</SUB> 
+malonyl-CoA H<SUP>+</SUP> hexanoyl-CoA  -->coenzyme A 3,5-dioxodecanoyl-CoA CO<SUB>2</SUB> 
+NADH H<SUP>+</SUP> <i>trans</i>-hex-2-enoyl-CoA  -->NAD<sup>+</sup> hexanoyl-CoA 
+
+cannabidiolate H<SUP>+</SUP>  -->cannabidiol CO<SUB>2</SUB> 
+cannabigerolate oxygen  -->cannabidiolate hydrogen peroxide 
+olivetolate geranyl diphosphate  -->cannabigerolate diphosphate 
+3,5,7-trioxododecanoyl-CoA  -->coenzyme A olivetolate H<SUP>+</SUP> 
+malonyl-CoA H<SUP>+</SUP> 3,5-dioxodecanoyl-CoA  -->coenzyme A 3,5,7-trioxododecanoyl-CoA CO<SUB>2</SUB> 
+acetyl-CoA a [carboxyl-carrier protein dimer]-<i>N</i><sup>6</sup>-carboxybiotinyl-L-lysine  -->malonyl-CoA a [biotin carboxyl-carrier-protein dimer]-<i>N</i><sup>6</sup>-biotinyl-L-lysine 
+
+cannabidiolate H<SUP>+</SUP>  -->cannabidiol CO<SUB>2</SUB> 
+cannabigerolate oxygen  -->cannabidiolate hydrogen peroxide 
+olivetolate geranyl diphosphate  -->cannabigerolate diphosphate 
+3,5,7-trioxododecanoyl-CoA  -->coenzyme A olivetolate H<SUP>+</SUP> 
+malonyl-CoA H<SUP>+</SUP> 3,5-dioxodecanoyl-CoA  -->coenzyme A 3,5,7-trioxododecanoyl-CoA CO<SUB>2</SUB> 
+acetyl-CoA malonate  -->malonyl-CoA acetate 
+H<sub>2</sub>O 3-oxopropanoate NAD(P)<sup>+</sup>  -->H<SUP>+</SUP> malonate NAD(P)H 
+H<sub>2</sub>O (<i>Z</i>)-3-aminoacrylate H<SUP>+</SUP>  -->3-oxopropanoate ammonium 
+
+cannabidiolate H<SUP>+</SUP>  -->cannabidiol CO<SUB>2</SUB> 
+cannabinerolate oxygen  -->cannabidiolate hydrogen peroxide 
+olivetolate neryl diphosphate  -->cannabinerolate diphosphate 
+3,5,7-trioxododecanoyl-CoA  -->coenzyme A olivetolate H<SUP>+</SUP> 
+malonyl-CoA H<SUP>+</SUP> hexanoyl-CoA  -->coenzyme A 3,5,7-trioxododecanoyl-CoA CO<SUB>2</SUB> 
+acetyl-CoA malonate  -->malonyl-CoA acetate 
+H<sub>2</sub>O 3-oxopropanoate NAD(P)<sup>+</sup>  -->H<SUP>+</SUP> malonate NAD(P)H 
+H<sub>2</sub>O (<i>Z</i>)-3-aminoacrylate H<SUP>+</SUP>  -->3-oxopropanoate ammonium 
+
+cannabidiolate H<SUP>+</SUP>  -->cannabidiol CO<SUB>2</SUB> 
+cannabinerolate oxygen  -->cannabidiolate hydrogen peroxide 
+olivetolate neryl diphosphate  -->cannabinerolate diphosphate 
+3,5,7-trioxododecanoyl-CoA  -->coenzyme A olivetolate H<SUP>+</SUP> 
+malonyl-CoA H<SUP>+</SUP> 3,5-dioxodecanoyl-CoA  -->coenzyme A 3,5,7-trioxododecanoyl-CoA CO<SUB>2</SUB> 
+malonyl-CoA H<SUP>+</SUP> hexanoyl-CoA  -->coenzyme A 3,5-dioxodecanoyl-CoA CO<SUB>2</SUB> 
+coenzyme A 3-oxooctanoyl-CoA  -->hexanoyl-CoA acetyl-CoA 
+
+cannabidiolate H<SUP>+</SUP>  -->cannabidiol CO<SUB>2</SUB> 
+cannabigerolate oxygen  -->cannabidiolate hydrogen peroxide 
+olivetolate geranyl diphosphate  -->cannabigerolate diphosphate 
+3,5,7-trioxododecanoyl-CoA  -->coenzyme A olivetolate H<SUP>+</SUP> 
+malonyl-CoA H<SUP>+</SUP> hexanoyl-CoA  -->coenzyme A 3,5,7-trioxododecanoyl-CoA CO<SUB>2</SUB> 
+coenzyme A ATP malonate  -->AMP malonyl-CoA diphosphate 
+H<sub>2</sub>O 3-oxopropanoate NAD(P)<sup>+</sup>  -->H<SUP>+</SUP> malonate NAD(P)H 
+
+cannabidiolate H<SUP>+</SUP>  -->cannabidiol CO<SUB>2</SUB> 
+cannabinerolate oxygen  -->cannabidiolate hydrogen peroxide 
+olivetolate neryl diphosphate  -->cannabinerolate diphosphate 
+3,5,7-trioxododecanoyl-CoA  -->coenzyme A olivetolate H<SUP>+</SUP> 
+malonyl-CoA H<SUP>+</SUP> hexanoyl-CoA  -->coenzyme A 3,5,7-trioxododecanoyl-CoA CO<SUB>2</SUB> 
+NADH H<SUP>+</SUP> <i>trans</i>-hex-2-enoyl-CoA  -->NAD<sup>+</sup> hexanoyl-CoA 
+
+cannabidiolate H<SUP>+</SUP>  -->cannabidiol CO<SUB>2</SUB> 
+cannabigerolate oxygen  -->cannabidiolate hydrogen peroxide 
+olivetolate geranyl diphosphate  -->cannabigerolate diphosphate 
+3,5,7-trioxododecanoyl-CoA  -->coenzyme A olivetolate H<SUP>+</SUP> 
+malonyl-CoA H<SUP>+</SUP> hexanoyl-CoA  -->coenzyme A 3,5,7-trioxododecanoyl-CoA CO<SUB>2</SUB> 
+acetyl-CoA malonate  -->malonyl-CoA acetate 
+H<sub>2</sub>O 3-oxopropanoate NAD(P)<sup>+</sup>  -->H<SUP>+</SUP> malonate NAD(P)H 
+
+cannabidiolate H<SUP>+</SUP>  -->cannabidiol CO<SUB>2</SUB> 
+cannabigerolate oxygen  -->cannabidiolate hydrogen peroxide 
+olivetolate geranyl diphosphate  -->cannabigerolate diphosphate 
+3,5,7-trioxododecanoyl-CoA  -->coenzyme A olivetolate H<SUP>+</SUP> 
+malonyl-CoA H<SUP>+</SUP> hexanoyl-CoA  -->coenzyme A 3,5,7-trioxododecanoyl-CoA CO<SUB>2</SUB> 
+ATP hydrogencarbonate acetyl-CoA  -->malonyl-CoA H<SUP>+</SUP> phosphate ADP 
+2-hydroxyethylphosphonate oxygen  -->methylphosphonate H<SUP>+</SUP> hydrogencarbonate 
+
+cannabidiolate H<SUP>+</SUP>  -->cannabidiol CO<SUB>2</SUB> 
+cannabinerolate oxygen  -->cannabidiolate hydrogen peroxide 
+olivetolate neryl diphosphate  -->cannabinerolate diphosphate 
+3,5,7-trioxododecanoyl-CoA  -->coenzyme A olivetolate H<SUP>+</SUP> 
+malonyl-CoA H<SUP>+</SUP> 3,5-dioxodecanoyl-CoA  -->coenzyme A 3,5,7-trioxododecanoyl-CoA CO<SUB>2</SUB> 
+coenzyme A ATP malonate  -->AMP malonyl-CoA diphosphate 
+H<sub>2</sub>O 3-oxopropanoate NAD(P)<sup>+</sup>  -->H<SUP>+</SUP> malonate NAD(P)H 
+H<sub>2</sub>O (<i>Z</i>)-3-aminoacrylate H<SUP>+</SUP>  -->3-oxopropanoate ammonium 
+
+cannabidiolate H<SUP>+</SUP>  -->cannabidiol CO<SUB>2</SUB> 
+cannabinerolate oxygen  -->cannabidiolate hydrogen peroxide 
+olivetolate neryl diphosphate  -->cannabinerolate diphosphate 
+3,5,7-trioxododecanoyl-CoA  -->coenzyme A olivetolate H<SUP>+</SUP> 
+malonyl-CoA H<SUP>+</SUP> 3,5-dioxodecanoyl-CoA  -->coenzyme A 3,5,7-trioxododecanoyl-CoA CO<SUB>2</SUB> 
+acetyl-CoA a [carboxyl-carrier protein dimer]-<i>N</i><sup>6</sup>-carboxybiotinyl-L-lysine  -->malonyl-CoA a [biotin carboxyl-carrier-protein dimer]-<i>N</i><sup>6</sup>-biotinyl-L-lysine 
+
+cannabidiolate H<SUP>+</SUP>  -->cannabidiol CO<SUB>2</SUB> 
+cannabigerolate oxygen  -->cannabidiolate hydrogen peroxide 
+olivetolate geranyl diphosphate  -->cannabigerolate diphosphate 
+3,5,7-trioxododecanoyl-CoA  -->coenzyme A olivetolate H<SUP>+</SUP> 
+malonyl-CoA H<SUP>+</SUP> hexanoyl-CoA  -->coenzyme A 3,5,7-trioxododecanoyl-CoA CO<SUB>2</SUB> 
+coenzyme A ATP malonate  -->AMP malonyl-CoA diphosphate 
+H<sub>2</sub>O 3-oxopropanoate NAD(P)<sup>+</sup>  -->H<SUP>+</SUP> malonate NAD(P)H 
+H<sub>2</sub>O (<i>Z</i>)-3-aminoacrylate H<SUP>+</SUP>  -->3-oxopropanoate ammonium 
+
+cannabidiolate H<SUP>+</SUP>  -->cannabidiol CO<SUB>2</SUB> 
+cannabigerolate oxygen  -->cannabidiolate hydrogen peroxide 
+olivetolate geranyl diphosphate  -->cannabigerolate diphosphate 
+3,5,7-trioxododecanoyl-CoA  -->coenzyme A olivetolate H<SUP>+</SUP> 
+malonyl-CoA H<SUP>+</SUP> 3,5-dioxodecanoyl-CoA  -->coenzyme A 3,5,7-trioxododecanoyl-CoA CO<SUB>2</SUB> 
+malonyl-CoA H<SUP>+</SUP> hexanoyl-CoA  -->coenzyme A 3,5-dioxodecanoyl-CoA CO<SUB>2</SUB> 
+coenzyme A cyanidin 3-<i>O</i>-[2"-<i>O</i>-(xylosyl)-6"-<i>O</i>-(p-coumaroyl) glucoside] 5-<i>O</i>-malonylglucoside  -->malonyl-CoA cyanidin 3-<i>O</i>-[2"-<i>O</i>-(xylosyl)-6"-<i>O</i>-(p-coumaroyl) glucoside] 5-<i>O</i>-glucoside 
+
+cannabidiolate H<SUP>+</SUP>  -->cannabidiol CO<SUB>2</SUB> 
+cannabigerolate oxygen  -->cannabidiolate hydrogen peroxide 
+olivetolate geranyl diphosphate  -->cannabigerolate diphosphate 
+3,5,7-trioxododecanoyl-CoA  -->coenzyme A olivetolate H<SUP>+</SUP> 
+malonyl-CoA H<SUP>+</SUP> hexanoyl-CoA  -->coenzyme A 3,5,7-trioxododecanoyl-CoA CO<SUB>2</SUB> 
+acetyl-CoA a [carboxyl-carrier protein dimer]-<i>N</i><sup>6</sup>-carboxybiotinyl-L-lysine  -->malonyl-CoA a [biotin carboxyl-carrier-protein dimer]-<i>N</i><sup>6</sup>-biotinyl-L-lysine 
 

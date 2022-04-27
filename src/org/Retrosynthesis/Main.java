@@ -12,35 +12,32 @@ import java.util.List;
 import java.util.Set;
 
 public class Main {
-    private static ExtractChem ec;
-    private static ExtractRxns er;
-    private static ExtractCoreMet ECM;
-    private static ExtractPaths ep;
+
+    private static PathEnum pe;
 
     public static void main(String[] args) throws Exception {
-        String chempath = new C5().getClass().getResource("Data" + "/" + "compounds.dat").getFile();
-        String rxnpath = new C5().getClass().getResource("Data" + "/" + "reactions.dat").getFile();
-        String CoreMetpath = new C5().getClass().getResource("Data" + "/" + "e_coli_core_metabolites.csv").getFile();
-        String PathPath = new C5().getClass().getResource("Data" + "/" + "pathways.dat").getFile();
+
+        pe = new PathEnum();
+        pe.initiate();
+        HashMap<Chems, Cascade2> cascadeMap = pe.getChemToCascadeMap();
+        HashMap<String, Chems> chemMaps = pe.getChems();
+
+        Chems butanediol = chemMaps.get("CPD-13560");
+        Set<List<Rxns>> output = pe.run(cascadeMap.get(butanediol));
+        StringBuilder sb = new StringBuilder();
+        for(List<Rxns> list : output) {
+            for (Rxns r : list) {
+                sb.append(r.toString());
+                sb.append('\n');
+            }
+            sb.append('\n');
+        }
+        String out = sb.toString();
+        FileWriter writer1 = new FileWriter("output_butanediol.txt");
+        writer1.write(out);
+        writer1.close();
 
 
-        ec = new ExtractChem();
-        ec.initiate();
-        ec.run(chempath);
-        HashMap<String, Chems> chems = ec.getChemsHashMap();
-
-        er = new ExtractRxns();
-        List<Rxns> output = er.run(rxnpath,chems);
-
-        ECM = new ExtractCoreMet();
-        List<String> natives = ECM.run(CoreMetpath);
-
-        ep = new ExtractPaths();
-        ep.initiate();
-        List<Paths> ListofPathways = ep.run(PathPath);
-
-
-        int a = 1;
 
 
 //        PathwayEnumerator pathwayEnumerator = new PathwayEnumerator();

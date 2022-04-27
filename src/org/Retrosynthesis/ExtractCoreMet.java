@@ -23,6 +23,7 @@ public class ExtractCoreMet {
             chem = chem.replaceAll("'","");
             chem = chem.replaceAll("[\\[\\](){}]","");
             chem = chem.replaceAll("^\"|\"$", "");
+            chem = chem.replaceAll(" ", "");
             if (!natives.contains(chem)) {
                 natives.add(chem);
             }

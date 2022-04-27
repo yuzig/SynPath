@@ -29,6 +29,7 @@ class ChemicalToCascade2Test {
         HashMap<String, Chems> chems = ec.getChemsHashMap();
 
         er = new ExtractRxns();
+        er.initiate();
         output = er.run(rxnpath,chems);
     }
 
@@ -40,6 +41,10 @@ class ChemicalToCascade2Test {
         Chems cannabidiol = ec.getChemsHashMap().get("CPD-7173");
         Cascade2 cannabidiol_cascade = cascades.get(cannabidiol);
         assertTrue(cannabidiol_cascade.getRxnsThatFormPdt().size() == 1);
+
+        Chems hydroxybutrylcoa = ec.getChemsHashMap().get("4-HYDROXY-BUTYRYL-COA");
+        Cascade2 hydroxybutylcoa_cascade = cascades.get(hydroxybutrylcoa);
+        assertTrue(hydroxybutylcoa_cascade.getRxnsThatFormPdt().size() == 3);
 
 
     }

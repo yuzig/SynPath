@@ -1,5 +1,6 @@
 package org.Retrosynthesis.models;
 
+import java.util.List;
 import java.util.Set;
 /**
  * A model for reactions
@@ -39,4 +40,28 @@ public class Rxns {
             return true;
         }
     }
+
+    public Set<String> getPathways() {
+        return pathways;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public String toString() {
+        StringBuilder sb = new StringBuilder();
+        for (Chems sub : substrates) {
+            sb.append(sub.getName());
+            sb.append(" ");
+        }
+        sb.append(" -->");
+        for (Chems pro : products) {
+            sb.append(pro.getName());
+            sb.append(" ");
+        }
+        String out = sb.toString();
+        return out;
+    }
 }
+
