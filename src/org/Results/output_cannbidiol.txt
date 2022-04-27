@@ -1,0 +1,527 @@
+RXN-7858 cannabidiolate H<SUP>+</SUP>  -->cannabidiol CO<SUB>2</SUB> 
+RXN-7866 cannabinerolate oxygen  -->cannabidiolate hydrogen peroxide 
+RXN-7860 olivetolate neryl diphosphate  -->cannabinerolate diphosphate 
+RXN-13612 3,5,7-trioxododecanoyl-CoA  -->coenzyme A olivetolate H<SUP>+</SUP> 
+RXN-7852 malonyl-CoA H<SUP>+</SUP> hexanoyl-CoA  -->coenzyme A 3,5,7-trioxododecanoyl-CoA CO<SUB>2</SUB> 
+RXN-8963 coenzyme A 3-oxopropanoate NADP<sup>+</sup>  -->malonyl-CoA H<SUP>+</SUP> NADPH 
+2.6.1.18-RXN pyruvate &beta;-alanine  -->3-oxopropanoate L-alanine 
+N-ACETYL-BETA-ALANINE-DEACETYLASE-RXN H<sub>2</sub>O <i>N</i>-acetyl-&beta;-alanine  -->&beta;-alanine acetate 
+
+RXN-7858 cannabidiolate H<SUP>+</SUP>  -->cannabidiol CO<SUB>2</SUB> 
+RXN-7855 cannabigerolate oxygen  -->cannabidiolate hydrogen peroxide 
+RXN-7853 olivetolate geranyl diphosphate  -->cannabigerolate diphosphate 
+RXN-13612 3,5,7-trioxododecanoyl-CoA  -->coenzyme A olivetolate H<SUP>+</SUP> 
+RXN-13663 malonyl-CoA H<SUP>+</SUP> 3,5-dioxodecanoyl-CoA  -->coenzyme A 3,5,7-trioxododecanoyl-CoA CO<SUB>2</SUB> 
+RXN-8963 coenzyme A 3-oxopropanoate NADP<sup>+</sup>  -->malonyl-CoA H<SUP>+</SUP> NADPH 
+3-HYDROXYPROPIONATE-DEHYDROGENASE-RXN NAD<sup>+</sup> 3-hydroxypropanoate  -->3-oxopropanoate NADH H<SUP>+</SUP> 
+RXN-8974 3-oxopropanoate H<SUP>+</SUP> NADPH  -->3-hydroxypropanoate NADP<sup>+</sup> 
+
+RXN-7858 cannabidiolate H<SUP>+</SUP>  -->cannabidiol CO<SUB>2</SUB> 
+RXN-7866 cannabinerolate oxygen  -->cannabidiolate hydrogen peroxide 
+RXN-7860 olivetolate neryl diphosphate  -->cannabinerolate diphosphate 
+RXN-13612 3,5,7-trioxododecanoyl-CoA  -->coenzyme A olivetolate H<SUP>+</SUP> 
+RXN-7852 malonyl-CoA H<SUP>+</SUP> hexanoyl-CoA  -->coenzyme A 3,5,7-trioxododecanoyl-CoA CO<SUB>2</SUB> 
+RXN-15331 coenzyme A cyanidin 3-<i>O</i>-[2"-<i>O</i>-(xylosyl)-6"-<i>O</i>-(p-coumaroyl) glucoside] 5-<i>O</i>-malonylglucoside  -->malonyl-CoA cyanidin 3-<i>O</i>-[2"-<i>O</i>-(xylosyl)-6"-<i>O</i>-(p-coumaroyl) glucoside] 5-<i>O</i>-glucoside 
+
+RXN-7858 cannabidiolate H<SUP>+</SUP>  -->cannabidiol CO<SUB>2</SUB> 
+RXN-7855 cannabigerolate oxygen  -->cannabidiolate hydrogen peroxide 
+RXN-7853 olivetolate geranyl diphosphate  -->cannabigerolate diphosphate 
+RXN-13612 3,5,7-trioxododecanoyl-CoA  -->coenzyme A olivetolate H<SUP>+</SUP> 
+RXN-7852 malonyl-CoA H<SUP>+</SUP> hexanoyl-CoA  -->coenzyme A 3,5,7-trioxododecanoyl-CoA CO<SUB>2</SUB> 
+RXN-14172 coenzyme A hexanoate ATP  -->AMP hexanoyl-CoA diphosphate 
+ALKYLAMIDASE-RXN H<sub>2</sub>O N-methylhexanamide  -->hexanoate methylamine 
+
+RXN-7858 cannabidiolate H<SUP>+</SUP>  -->cannabidiol CO<SUB>2</SUB> 
+RXN-7866 cannabinerolate oxygen  -->cannabidiolate hydrogen peroxide 
+RXN-7860 olivetolate neryl diphosphate  -->cannabinerolate diphosphate 
+RXN-13612 3,5,7-trioxododecanoyl-CoA  -->coenzyme A olivetolate H<SUP>+</SUP> 
+RXN-7852 malonyl-CoA H<SUP>+</SUP> hexanoyl-CoA  -->coenzyme A 3,5,7-trioxododecanoyl-CoA CO<SUB>2</SUB> 
+RXN-8963 coenzyme A 3-oxopropanoate NADP<sup>+</sup>  -->malonyl-CoA H<SUP>+</SUP> NADPH 
+RXN-2901 2-oxoglutarate &beta;-alanine  -->3-oxopropanoate L-glutamate 
+ASPDECARBOX-RXN H<SUP>+</SUP> L-aspartate  -->&beta;-alanine CO<SUB>2</SUB> 
+
+RXN-7858 cannabidiolate H<SUP>+</SUP>  -->cannabidiol CO<SUB>2</SUB> 
+RXN-7866 cannabinerolate oxygen  -->cannabidiolate hydrogen peroxide 
+RXN-7860 olivetolate neryl diphosphate  -->cannabinerolate diphosphate 
+RXN-13612 3,5,7-trioxododecanoyl-CoA  -->coenzyme A olivetolate H<SUP>+</SUP> 
+RXN-7852 malonyl-CoA H<SUP>+</SUP> hexanoyl-CoA  -->coenzyme A 3,5,7-trioxododecanoyl-CoA CO<SUB>2</SUB> 
+RXN-8963 coenzyme A 3-oxopropanoate NADP<sup>+</sup>  -->malonyl-CoA H<SUP>+</SUP> NADPH 
+RXN0-6452 H<sub>2</sub>O (<i>Z</i>)-3-aminoacrylate H<SUP>+</SUP>  -->3-oxopropanoate ammonium 
+
+RXN-7858 cannabidiolate H<SUP>+</SUP>  -->cannabidiol CO<SUB>2</SUB> 
+RXN-7855 cannabigerolate oxygen  -->cannabidiolate hydrogen peroxide 
+RXN-7853 olivetolate geranyl diphosphate  -->cannabigerolate diphosphate 
+RXN-13612 3,5,7-trioxododecanoyl-CoA  -->coenzyme A olivetolate H<SUP>+</SUP> 
+RXN-13663 malonyl-CoA H<SUP>+</SUP> 3,5-dioxodecanoyl-CoA  -->coenzyme A 3,5,7-trioxododecanoyl-CoA CO<SUB>2</SUB> 
+RXN-15331 coenzyme A cyanidin 3-<i>O</i>-[2"-<i>O</i>-(xylosyl)-6"-<i>O</i>-(p-coumaroyl) glucoside] 5-<i>O</i>-malonylglucoside  -->malonyl-CoA cyanidin 3-<i>O</i>-[2"-<i>O</i>-(xylosyl)-6"-<i>O</i>-(p-coumaroyl) glucoside] 5-<i>O</i>-glucoside 
+
+RXN-7858 cannabidiolate H<SUP>+</SUP>  -->cannabidiol CO<SUB>2</SUB> 
+RXN-7855 cannabigerolate oxygen  -->cannabidiolate hydrogen peroxide 
+RXN-7853 olivetolate geranyl diphosphate  -->cannabigerolate diphosphate 
+RXN-13612 3,5,7-trioxododecanoyl-CoA  -->coenzyme A olivetolate H<SUP>+</SUP> 
+RXN-7852 malonyl-CoA H<SUP>+</SUP> hexanoyl-CoA  -->coenzyme A 3,5,7-trioxododecanoyl-CoA CO<SUB>2</SUB> 
+MALONATE-COA-TRANSFERASE-RXN acetyl-CoA malonate  -->malonyl-CoA acetate 
+MALONATE-SEMIALDEHYDE-DEHYDROGENASE-RXN H<sub>2</sub>O 3-oxopropanoate NAD(P)<sup>+</sup>  -->H<SUP>+</SUP> malonate NAD(P)H 
+RXN0-6452 H<sub>2</sub>O (<i>Z</i>)-3-aminoacrylate H<SUP>+</SUP>  -->3-oxopropanoate ammonium 
+
+RXN-7858 cannabidiolate H<SUP>+</SUP>  -->cannabidiol CO<SUB>2</SUB> 
+RXN-7866 cannabinerolate oxygen  -->cannabidiolate hydrogen peroxide 
+RXN-7860 olivetolate neryl diphosphate  -->cannabinerolate diphosphate 
+RXN-13612 3,5,7-trioxododecanoyl-CoA  -->coenzyme A olivetolate H<SUP>+</SUP> 
+RXN-7852 malonyl-CoA H<SUP>+</SUP> hexanoyl-CoA  -->coenzyme A 3,5,7-trioxododecanoyl-CoA CO<SUB>2</SUB> 
+RXN-8963 coenzyme A 3-oxopropanoate NADP<sup>+</sup>  -->malonyl-CoA H<SUP>+</SUP> NADPH 
+RXN-2901 2-oxoglutarate &beta;-alanine  -->3-oxopropanoate L-glutamate 
+N-ACETYL-BETA-ALANINE-DEACETYLASE-RXN H<sub>2</sub>O <i>N</i>-acetyl-&beta;-alanine  -->&beta;-alanine acetate 
+
+RXN-7858 cannabidiolate H<SUP>+</SUP>  -->cannabidiol CO<SUB>2</SUB> 
+RXN-7866 cannabinerolate oxygen  -->cannabidiolate hydrogen peroxide 
+RXN-7860 olivetolate neryl diphosphate  -->cannabinerolate diphosphate 
+DIMETHYLALLYLCISTRANSFERASE-RXN prenyl diphosphate isopentenyl diphosphate  -->neryl diphosphate diphosphate 
+IPPISOM-RXN isopentenyl diphosphate  -->prenyl diphosphate 
+
+RXN-7858 cannabidiolate H<SUP>+</SUP>  -->cannabidiol CO<SUB>2</SUB> 
+RXN-7855 cannabigerolate oxygen  -->cannabidiolate hydrogen peroxide 
+RXN-7853 olivetolate geranyl diphosphate  -->cannabigerolate diphosphate 
+RXN-13612 3,5,7-trioxododecanoyl-CoA  -->coenzyme A olivetolate H<SUP>+</SUP> 
+RXN-13663 malonyl-CoA H<SUP>+</SUP> 3,5-dioxodecanoyl-CoA  -->coenzyme A 3,5,7-trioxododecanoyl-CoA CO<SUB>2</SUB> 
+RXN0-5055 acetyl-CoA a [carboxyl-carrier protein dimer]-<i>N</i><sup>6</sup>-carboxybiotinyl-L-lysine  -->malonyl-CoA a [biotin carboxyl-carrier-protein dimer]-<i>N</i><sup>6</sup>-biotinyl-L-lysine 
+
+RXN-7858 cannabidiolate H<SUP>+</SUP>  -->cannabidiol CO<SUB>2</SUB> 
+RXN-7855 cannabigerolate oxygen  -->cannabidiolate hydrogen peroxide 
+RXN-7853 olivetolate geranyl diphosphate  -->cannabigerolate diphosphate 
+RXN-13612 3,5,7-trioxododecanoyl-CoA  -->coenzyme A olivetolate H<SUP>+</SUP> 
+RXN-7852 malonyl-CoA H<SUP>+</SUP> hexanoyl-CoA  -->coenzyme A 3,5,7-trioxododecanoyl-CoA CO<SUB>2</SUB> 
+RXN-8963 coenzyme A 3-oxopropanoate NADP<sup>+</sup>  -->malonyl-CoA H<SUP>+</SUP> NADPH 
+RXN-2901 2-oxoglutarate &beta;-alanine  -->3-oxopropanoate L-glutamate 
+N-ACETYL-BETA-ALANINE-DEACETYLASE-RXN H<sub>2</sub>O <i>N</i>-acetyl-&beta;-alanine  -->&beta;-alanine acetate 
+
+RXN-7858 cannabidiolate H<SUP>+</SUP>  -->cannabidiol CO<SUB>2</SUB> 
+RXN-7855 cannabigerolate oxygen  -->cannabidiolate hydrogen peroxide 
+RXN-7853 olivetolate geranyl diphosphate  -->cannabigerolate diphosphate 
+RXN-13612 3,5,7-trioxododecanoyl-CoA  -->coenzyme A olivetolate H<SUP>+</SUP> 
+RXN-7852 malonyl-CoA H<SUP>+</SUP> hexanoyl-CoA  -->coenzyme A 3,5,7-trioxododecanoyl-CoA CO<SUB>2</SUB> 
+RXN-8963 coenzyme A 3-oxopropanoate NADP<sup>+</sup>  -->malonyl-CoA H<SUP>+</SUP> NADPH 
+RXN-2901 2-oxoglutarate &beta;-alanine  -->3-oxopropanoate L-glutamate 
+ASPDECARBOX-RXN H<SUP>+</SUP> L-aspartate  -->&beta;-alanine CO<SUB>2</SUB> 
+
+RXN-7858 cannabidiolate H<SUP>+</SUP>  -->cannabidiol CO<SUB>2</SUB> 
+RXN-7866 cannabinerolate oxygen  -->cannabidiolate hydrogen peroxide 
+RXN-7860 olivetolate neryl diphosphate  -->cannabinerolate diphosphate 
+RXN-13612 3,5,7-trioxododecanoyl-CoA  -->coenzyme A olivetolate H<SUP>+</SUP> 
+RXN-13663 malonyl-CoA H<SUP>+</SUP> 3,5-dioxodecanoyl-CoA  -->coenzyme A 3,5,7-trioxododecanoyl-CoA CO<SUB>2</SUB> 
+RXN-13662 malonyl-CoA H<SUP>+</SUP> hexanoyl-CoA  -->coenzyme A 3,5-dioxodecanoyl-CoA CO<SUB>2</SUB> 
+RXN-8963 coenzyme A 3-oxopropanoate NADP<sup>+</sup>  -->malonyl-CoA H<SUP>+</SUP> NADPH 
+RXN0-6452 H<sub>2</sub>O (<i>Z</i>)-3-aminoacrylate H<SUP>+</SUP>  -->3-oxopropanoate ammonium 
+
+RXN-7858 cannabidiolate H<SUP>+</SUP>  -->cannabidiol CO<SUB>2</SUB> 
+RXN-7855 cannabigerolate oxygen  -->cannabidiolate hydrogen peroxide 
+RXN-7853 olivetolate geranyl diphosphate  -->cannabigerolate diphosphate 
+RXN-13612 3,5,7-trioxododecanoyl-CoA  -->coenzyme A olivetolate H<SUP>+</SUP> 
+RXN-13663 malonyl-CoA H<SUP>+</SUP> 3,5-dioxodecanoyl-CoA  -->coenzyme A 3,5,7-trioxododecanoyl-CoA CO<SUB>2</SUB> 
+RXN-13662 malonyl-CoA H<SUP>+</SUP> hexanoyl-CoA  -->coenzyme A 3,5-dioxodecanoyl-CoA CO<SUB>2</SUB> 
+RXN-15331 coenzyme A cyanidin 3-<i>O</i>-[2"-<i>O</i>-(xylosyl)-6"-<i>O</i>-(p-coumaroyl) glucoside] 5-<i>O</i>-malonylglucoside  -->malonyl-CoA cyanidin 3-<i>O</i>-[2"-<i>O</i>-(xylosyl)-6"-<i>O</i>-(p-coumaroyl) glucoside] 5-<i>O</i>-glucoside 
+
+RXN-7858 cannabidiolate H<SUP>+</SUP>  -->cannabidiol CO<SUB>2</SUB> 
+RXN-7866 cannabinerolate oxygen  -->cannabidiolate hydrogen peroxide 
+RXN-7860 olivetolate neryl diphosphate  -->cannabinerolate diphosphate 
+RXN-13612 3,5,7-trioxododecanoyl-CoA  -->coenzyme A olivetolate H<SUP>+</SUP> 
+RXN-7852 malonyl-CoA H<SUP>+</SUP> hexanoyl-CoA  -->coenzyme A 3,5,7-trioxododecanoyl-CoA CO<SUB>2</SUB> 
+RXN-12359 coenzyme A ATP malonate  -->AMP malonyl-CoA diphosphate 
+MALONATE-SEMIALDEHYDE-DEHYDROGENASE-RXN H<sub>2</sub>O 3-oxopropanoate NAD(P)<sup>+</sup>  -->H<SUP>+</SUP> malonate NAD(P)H 
+RXN0-6452 H<sub>2</sub>O (<i>Z</i>)-3-aminoacrylate H<SUP>+</SUP>  -->3-oxopropanoate ammonium 
+
+RXN-7858 cannabidiolate H<SUP>+</SUP>  -->cannabidiol CO<SUB>2</SUB> 
+RXN-7866 cannabinerolate oxygen  -->cannabidiolate hydrogen peroxide 
+RXN-7860 olivetolate neryl diphosphate  -->cannabinerolate diphosphate 
+RXN-13612 3,5,7-trioxododecanoyl-CoA  -->coenzyme A olivetolate H<SUP>+</SUP> 
+RXN-13663 malonyl-CoA H<SUP>+</SUP> 3,5-dioxodecanoyl-CoA  -->coenzyme A 3,5,7-trioxododecanoyl-CoA CO<SUB>2</SUB> 
+RXN-13662 malonyl-CoA H<SUP>+</SUP> hexanoyl-CoA  -->coenzyme A 3,5-dioxodecanoyl-CoA CO<SUB>2</SUB> 
+RXN-12559 NADH H<SUP>+</SUP> <i>trans</i>-hex-2-enoyl-CoA  -->NAD<sup>+</sup> hexanoyl-CoA 
+
+RXN-7858 cannabidiolate H<SUP>+</SUP>  -->cannabidiol CO<SUB>2</SUB> 
+RXN-7855 cannabigerolate oxygen  -->cannabidiolate hydrogen peroxide 
+RXN-7853 olivetolate geranyl diphosphate  -->cannabigerolate diphosphate 
+RXN-13612 3,5,7-trioxododecanoyl-CoA  -->coenzyme A olivetolate H<SUP>+</SUP> 
+RXN-13663 malonyl-CoA H<SUP>+</SUP> 3,5-dioxodecanoyl-CoA  -->coenzyme A 3,5,7-trioxododecanoyl-CoA CO<SUB>2</SUB> 
+RXN-12359 coenzyme A ATP malonate  -->AMP malonyl-CoA diphosphate 
+MALONATE-SEMIALDEHYDE-DEHYDROGENASE-RXN H<sub>2</sub>O 3-oxopropanoate NAD(P)<sup>+</sup>  -->H<SUP>+</SUP> malonate NAD(P)H 
+RXN0-6452 H<sub>2</sub>O (<i>Z</i>)-3-aminoacrylate H<SUP>+</SUP>  -->3-oxopropanoate ammonium 
+
+RXN-7858 cannabidiolate H<SUP>+</SUP>  -->cannabidiol CO<SUB>2</SUB> 
+RXN-7855 cannabigerolate oxygen  -->cannabidiolate hydrogen peroxide 
+RXN-7853 olivetolate geranyl diphosphate  -->cannabigerolate diphosphate 
+RXN-13612 3,5,7-trioxododecanoyl-CoA  -->coenzyme A olivetolate H<SUP>+</SUP> 
+RXN-7852 malonyl-CoA H<SUP>+</SUP> hexanoyl-CoA  -->coenzyme A 3,5,7-trioxododecanoyl-CoA CO<SUB>2</SUB> 
+RXN-8963 coenzyme A 3-oxopropanoate NADP<sup>+</sup>  -->malonyl-CoA H<SUP>+</SUP> NADPH 
+2.6.1.18-RXN pyruvate &beta;-alanine  -->3-oxopropanoate L-alanine 
+N-ACETYL-BETA-ALANINE-DEACETYLASE-RXN H<sub>2</sub>O <i>N</i>-acetyl-&beta;-alanine  -->&beta;-alanine acetate 
+
+RXN-7858 cannabidiolate H<SUP>+</SUP>  -->cannabidiol CO<SUB>2</SUB> 
+RXN-7866 cannabinerolate oxygen  -->cannabidiolate hydrogen peroxide 
+RXN-7860 olivetolate neryl diphosphate  -->cannabinerolate diphosphate 
+RXN-13612 3,5,7-trioxododecanoyl-CoA  -->coenzyme A olivetolate H<SUP>+</SUP> 
+RXN-13663 malonyl-CoA H<SUP>+</SUP> 3,5-dioxodecanoyl-CoA  -->coenzyme A 3,5,7-trioxododecanoyl-CoA CO<SUB>2</SUB> 
+RXN-15331 coenzyme A cyanidin 3-<i>O</i>-[2"-<i>O</i>-(xylosyl)-6"-<i>O</i>-(p-coumaroyl) glucoside] 5-<i>O</i>-malonylglucoside  -->malonyl-CoA cyanidin 3-<i>O</i>-[2"-<i>O</i>-(xylosyl)-6"-<i>O</i>-(p-coumaroyl) glucoside] 5-<i>O</i>-glucoside 
+
+RXN-7858 cannabidiolate H<SUP>+</SUP>  -->cannabidiol CO<SUB>2</SUB> 
+RXN-7866 cannabinerolate oxygen  -->cannabidiolate hydrogen peroxide 
+RXN-7860 olivetolate neryl diphosphate  -->cannabinerolate diphosphate 
+RXN-13612 3,5,7-trioxododecanoyl-CoA  -->coenzyme A olivetolate H<SUP>+</SUP> 
+RXN-13663 malonyl-CoA H<SUP>+</SUP> 3,5-dioxodecanoyl-CoA  -->coenzyme A 3,5,7-trioxododecanoyl-CoA CO<SUB>2</SUB> 
+RXN-8963 coenzyme A 3-oxopropanoate NADP<sup>+</sup>  -->malonyl-CoA H<SUP>+</SUP> NADPH 
+2.6.1.18-RXN pyruvate &beta;-alanine  -->3-oxopropanoate L-alanine 
+N-ACETYL-BETA-ALANINE-DEACETYLASE-RXN H<sub>2</sub>O <i>N</i>-acetyl-&beta;-alanine  -->&beta;-alanine acetate 
+
+RXN-7858 cannabidiolate H<SUP>+</SUP>  -->cannabidiol CO<SUB>2</SUB> 
+RXN-7866 cannabinerolate oxygen  -->cannabidiolate hydrogen peroxide 
+RXN-7860 olivetolate neryl diphosphate  -->cannabinerolate diphosphate 
+RXN-13612 3,5,7-trioxododecanoyl-CoA  -->coenzyme A olivetolate H<SUP>+</SUP> 
+RXN-7852 malonyl-CoA H<SUP>+</SUP> hexanoyl-CoA  -->coenzyme A 3,5,7-trioxododecanoyl-CoA CO<SUB>2</SUB> 
+RXN0-5055 acetyl-CoA a [carboxyl-carrier protein dimer]-<i>N</i><sup>6</sup>-carboxybiotinyl-L-lysine  -->malonyl-CoA a [biotin carboxyl-carrier-protein dimer]-<i>N</i><sup>6</sup>-biotinyl-L-lysine 
+
+RXN-7858 cannabidiolate H<SUP>+</SUP>  -->cannabidiol CO<SUB>2</SUB> 
+RXN-7866 cannabinerolate oxygen  -->cannabidiolate hydrogen peroxide 
+RXN-7860 olivetolate neryl diphosphate  -->cannabinerolate diphosphate 
+RXN-13612 3,5,7-trioxododecanoyl-CoA  -->coenzyme A olivetolate H<SUP>+</SUP> 
+RXN-13663 malonyl-CoA H<SUP>+</SUP> 3,5-dioxodecanoyl-CoA  -->coenzyme A 3,5,7-trioxododecanoyl-CoA CO<SUB>2</SUB> 
+MALONATE-COA-TRANSFERASE-RXN acetyl-CoA malonate  -->malonyl-CoA acetate 
+MALONATE-SEMIALDEHYDE-DEHYDROGENASE-RXN H<sub>2</sub>O 3-oxopropanoate NAD(P)<sup>+</sup>  -->H<SUP>+</SUP> malonate NAD(P)H 
+RXN0-6452 H<sub>2</sub>O (<i>Z</i>)-3-aminoacrylate H<SUP>+</SUP>  -->3-oxopropanoate ammonium 
+
+RXN-7858 cannabidiolate H<SUP>+</SUP>  -->cannabidiol CO<SUB>2</SUB> 
+RXN-7855 cannabigerolate oxygen  -->cannabidiolate hydrogen peroxide 
+RXN-7853 olivetolate geranyl diphosphate  -->cannabigerolate diphosphate 
+RXN-13612 3,5,7-trioxododecanoyl-CoA  -->coenzyme A olivetolate H<SUP>+</SUP> 
+RXN-7852 malonyl-CoA H<SUP>+</SUP> hexanoyl-CoA  -->coenzyme A 3,5,7-trioxododecanoyl-CoA CO<SUB>2</SUB> 
+RXN-12559 NADH H<SUP>+</SUP> <i>trans</i>-hex-2-enoyl-CoA  -->NAD<sup>+</sup> hexanoyl-CoA 
+
+RXN-7858 cannabidiolate H<SUP>+</SUP>  -->cannabidiol CO<SUB>2</SUB> 
+RXN-7866 cannabinerolate oxygen  -->cannabidiolate hydrogen peroxide 
+RXN-7860 olivetolate neryl diphosphate  -->cannabinerolate diphosphate 
+RXN-13612 3,5,7-trioxododecanoyl-CoA  -->coenzyme A olivetolate H<SUP>+</SUP> 
+RXN-7852 malonyl-CoA H<SUP>+</SUP> hexanoyl-CoA  -->coenzyme A 3,5,7-trioxododecanoyl-CoA CO<SUB>2</SUB> 
+RXN-8963 coenzyme A 3-oxopropanoate NADP<sup>+</sup>  -->malonyl-CoA H<SUP>+</SUP> NADPH 
+3-HYDROXYPROPIONATE-DEHYDROGENASE-RXN NAD<sup>+</sup> 3-hydroxypropanoate  -->3-oxopropanoate NADH H<SUP>+</SUP> 
+RXN-8974 3-oxopropanoate H<SUP>+</SUP> NADPH  -->3-hydroxypropanoate NADP<sup>+</sup> 
+
+RXN-7858 cannabidiolate H<SUP>+</SUP>  -->cannabidiol CO<SUB>2</SUB> 
+RXN-7866 cannabinerolate oxygen  -->cannabidiolate hydrogen peroxide 
+RXN-7860 olivetolate neryl diphosphate  -->cannabinerolate diphosphate 
+RXN-13612 3,5,7-trioxododecanoyl-CoA  -->coenzyme A olivetolate H<SUP>+</SUP> 
+RXN-13663 malonyl-CoA H<SUP>+</SUP> 3,5-dioxodecanoyl-CoA  -->coenzyme A 3,5,7-trioxododecanoyl-CoA CO<SUB>2</SUB> 
+RXN-13662 malonyl-CoA H<SUP>+</SUP> hexanoyl-CoA  -->coenzyme A 3,5-dioxodecanoyl-CoA CO<SUB>2</SUB> 
+RXN-14277 coenzyme A 3-oxooctanoyl-CoA  -->hexanoyl-CoA acetyl-CoA 
+
+RXN-7858 cannabidiolate H<SUP>+</SUP>  -->cannabidiol CO<SUB>2</SUB> 
+RXN-7855 cannabigerolate oxygen  -->cannabidiolate hydrogen peroxide 
+RXN-7853 olivetolate geranyl diphosphate  -->cannabigerolate diphosphate 
+RXN-13612 3,5,7-trioxododecanoyl-CoA  -->coenzyme A olivetolate H<SUP>+</SUP> 
+RXN-7852 malonyl-CoA H<SUP>+</SUP> hexanoyl-CoA  -->coenzyme A 3,5,7-trioxododecanoyl-CoA CO<SUB>2</SUB> 
+RXN0-5055 acetyl-CoA a [carboxyl-carrier protein dimer]-<i>N</i><sup>6</sup>-carboxybiotinyl-L-lysine  -->malonyl-CoA a [biotin carboxyl-carrier-protein dimer]-<i>N</i><sup>6</sup>-biotinyl-L-lysine 
+
+RXN-7858 cannabidiolate H<SUP>+</SUP>  -->cannabidiol CO<SUB>2</SUB> 
+RXN-7866 cannabinerolate oxygen  -->cannabidiolate hydrogen peroxide 
+RXN-7860 olivetolate neryl diphosphate  -->cannabinerolate diphosphate 
+RXN-13612 3,5,7-trioxododecanoyl-CoA  -->coenzyme A olivetolate H<SUP>+</SUP> 
+RXN-13663 malonyl-CoA H<SUP>+</SUP> 3,5-dioxodecanoyl-CoA  -->coenzyme A 3,5,7-trioxododecanoyl-CoA CO<SUB>2</SUB> 
+RXN-13662 malonyl-CoA H<SUP>+</SUP> hexanoyl-CoA  -->coenzyme A 3,5-dioxodecanoyl-CoA CO<SUB>2</SUB> 
+ACETYL-COA-CARBOXYLTRANSFER-RXN ATP hydrogencarbonate acetyl-CoA  -->malonyl-CoA H<SUP>+</SUP> phosphate ADP 
+
+RXN-7858 cannabidiolate H<SUP>+</SUP>  -->cannabidiol CO<SUB>2</SUB> 
+RXN-7866 cannabinerolate oxygen  -->cannabidiolate hydrogen peroxide 
+RXN-7860 olivetolate neryl diphosphate  -->cannabinerolate diphosphate 
+RXN-13612 3,5,7-trioxododecanoyl-CoA  -->coenzyme A olivetolate H<SUP>+</SUP> 
+RXN-13663 malonyl-CoA H<SUP>+</SUP> 3,5-dioxodecanoyl-CoA  -->coenzyme A 3,5,7-trioxododecanoyl-CoA CO<SUB>2</SUB> 
+RXN-13662 malonyl-CoA H<SUP>+</SUP> hexanoyl-CoA  -->coenzyme A 3,5-dioxodecanoyl-CoA CO<SUB>2</SUB> 
+RXN0-5055 acetyl-CoA a [carboxyl-carrier protein dimer]-<i>N</i><sup>6</sup>-carboxybiotinyl-L-lysine  -->malonyl-CoA a [biotin carboxyl-carrier-protein dimer]-<i>N</i><sup>6</sup>-biotinyl-L-lysine 
+
+RXN-7858 cannabidiolate H<SUP>+</SUP>  -->cannabidiol CO<SUB>2</SUB> 
+RXN-7866 cannabinerolate oxygen  -->cannabidiolate hydrogen peroxide 
+RXN-7860 olivetolate neryl diphosphate  -->cannabinerolate diphosphate 
+RXN-13612 3,5,7-trioxododecanoyl-CoA  -->coenzyme A olivetolate H<SUP>+</SUP> 
+RXN-13663 malonyl-CoA H<SUP>+</SUP> 3,5-dioxodecanoyl-CoA  -->coenzyme A 3,5,7-trioxododecanoyl-CoA CO<SUB>2</SUB> 
+RXN-8963 coenzyme A 3-oxopropanoate NADP<sup>+</sup>  -->malonyl-CoA H<SUP>+</SUP> NADPH 
+2.6.1.18-RXN pyruvate &beta;-alanine  -->3-oxopropanoate L-alanine 
+ASPDECARBOX-RXN H<SUP>+</SUP> L-aspartate  -->&beta;-alanine CO<SUB>2</SUB> 
+
+RXN-7858 cannabidiolate H<SUP>+</SUP>  -->cannabidiol CO<SUB>2</SUB> 
+RXN-7866 cannabinerolate oxygen  -->cannabidiolate hydrogen peroxide 
+RXN-7860 olivetolate neryl diphosphate  -->cannabinerolate diphosphate 
+RXN-13612 3,5,7-trioxododecanoyl-CoA  -->coenzyme A olivetolate H<SUP>+</SUP> 
+RXN-7852 malonyl-CoA H<SUP>+</SUP> hexanoyl-CoA  -->coenzyme A 3,5,7-trioxododecanoyl-CoA CO<SUB>2</SUB> 
+RXN-12559 NADH H<SUP>+</SUP> <i>trans</i>-hex-2-enoyl-CoA  -->NAD<sup>+</sup> hexanoyl-CoA 
+
+RXN-7858 cannabidiolate H<SUP>+</SUP>  -->cannabidiol CO<SUB>2</SUB> 
+RXN-7855 cannabigerolate oxygen  -->cannabidiolate hydrogen peroxide 
+RXN-7853 olivetolate geranyl diphosphate  -->cannabigerolate diphosphate 
+GPPSYN-RXN prenyl diphosphate isopentenyl diphosphate  -->geranyl diphosphate diphosphate 
+
+RXN-7858 cannabidiolate H<SUP>+</SUP>  -->cannabidiol CO<SUB>2</SUB> 
+RXN-7855 cannabigerolate oxygen  -->cannabidiolate hydrogen peroxide 
+RXN-7853 olivetolate geranyl diphosphate  -->cannabigerolate diphosphate 
+RXN-13612 3,5,7-trioxododecanoyl-CoA  -->coenzyme A olivetolate H<SUP>+</SUP> 
+RXN-13663 malonyl-CoA H<SUP>+</SUP> 3,5-dioxodecanoyl-CoA  -->coenzyme A 3,5,7-trioxododecanoyl-CoA CO<SUB>2</SUB> 
+RXN-8963 coenzyme A 3-oxopropanoate NADP<sup>+</sup>  -->malonyl-CoA H<SUP>+</SUP> NADPH 
+RXN-2901 2-oxoglutarate &beta;-alanine  -->3-oxopropanoate L-glutamate 
+N-ACETYL-BETA-ALANINE-DEACETYLASE-RXN H<sub>2</sub>O <i>N</i>-acetyl-&beta;-alanine  -->&beta;-alanine acetate 
+
+RXN-7858 cannabidiolate H<SUP>+</SUP>  -->cannabidiol CO<SUB>2</SUB> 
+RXN-7855 cannabigerolate oxygen  -->cannabidiolate hydrogen peroxide 
+RXN-7853 olivetolate geranyl diphosphate  -->cannabigerolate diphosphate 
+RXN-13612 3,5,7-trioxododecanoyl-CoA  -->coenzyme A olivetolate H<SUP>+</SUP> 
+RXN-7852 malonyl-CoA H<SUP>+</SUP> hexanoyl-CoA  -->coenzyme A 3,5,7-trioxododecanoyl-CoA CO<SUB>2</SUB> 
+ACETYL-COA-CARBOXYLTRANSFER-RXN ATP hydrogencarbonate acetyl-CoA  -->malonyl-CoA H<SUP>+</SUP> phosphate ADP 
+
+RXN-7858 cannabidiolate H<SUP>+</SUP>  -->cannabidiol CO<SUB>2</SUB> 
+RXN-7866 cannabinerolate oxygen  -->cannabidiolate hydrogen peroxide 
+RXN-7860 olivetolate neryl diphosphate  -->cannabinerolate diphosphate 
+RXN-13612 3,5,7-trioxododecanoyl-CoA  -->coenzyme A olivetolate H<SUP>+</SUP> 
+RXN-7852 malonyl-CoA H<SUP>+</SUP> hexanoyl-CoA  -->coenzyme A 3,5,7-trioxododecanoyl-CoA CO<SUB>2</SUB> 
+RXN-14172 coenzyme A hexanoate ATP  -->AMP hexanoyl-CoA diphosphate 
+ALKYLAMIDASE-RXN H<sub>2</sub>O N-methylhexanamide  -->hexanoate methylamine 
+
+RXN-7858 cannabidiolate H<SUP>+</SUP>  -->cannabidiol CO<SUB>2</SUB> 
+RXN-7866 cannabinerolate oxygen  -->cannabidiolate hydrogen peroxide 
+RXN-7860 olivetolate neryl diphosphate  -->cannabinerolate diphosphate 
+RXN-13612 3,5,7-trioxododecanoyl-CoA  -->coenzyme A olivetolate H<SUP>+</SUP> 
+RXN-13663 malonyl-CoA H<SUP>+</SUP> 3,5-dioxodecanoyl-CoA  -->coenzyme A 3,5,7-trioxododecanoyl-CoA CO<SUB>2</SUB> 
+RXN-8963 coenzyme A 3-oxopropanoate NADP<sup>+</sup>  -->malonyl-CoA H<SUP>+</SUP> NADPH 
+RXN-2901 2-oxoglutarate &beta;-alanine  -->3-oxopropanoate L-glutamate 
+ASPDECARBOX-RXN H<SUP>+</SUP> L-aspartate  -->&beta;-alanine CO<SUB>2</SUB> 
+
+RXN-7858 cannabidiolate H<SUP>+</SUP>  -->cannabidiol CO<SUB>2</SUB> 
+RXN-7866 cannabinerolate oxygen  -->cannabidiolate hydrogen peroxide 
+RXN-7860 olivetolate neryl diphosphate  -->cannabinerolate diphosphate 
+RXN-13612 3,5,7-trioxododecanoyl-CoA  -->coenzyme A olivetolate H<SUP>+</SUP> 
+RXN-13663 malonyl-CoA H<SUP>+</SUP> 3,5-dioxodecanoyl-CoA  -->coenzyme A 3,5,7-trioxododecanoyl-CoA CO<SUB>2</SUB> 
+RXN-13662 malonyl-CoA H<SUP>+</SUP> hexanoyl-CoA  -->coenzyme A 3,5-dioxodecanoyl-CoA CO<SUB>2</SUB> 
+RXN-15331 coenzyme A cyanidin 3-<i>O</i>-[2"-<i>O</i>-(xylosyl)-6"-<i>O</i>-(p-coumaroyl) glucoside] 5-<i>O</i>-malonylglucoside  -->malonyl-CoA cyanidin 3-<i>O</i>-[2"-<i>O</i>-(xylosyl)-6"-<i>O</i>-(p-coumaroyl) glucoside] 5-<i>O</i>-glucoside 
+
+RXN-7858 cannabidiolate H<SUP>+</SUP>  -->cannabidiol CO<SUB>2</SUB> 
+RXN-7866 cannabinerolate oxygen  -->cannabidiolate hydrogen peroxide 
+RXN-7860 olivetolate neryl diphosphate  -->cannabinerolate diphosphate 
+RXN-13612 3,5,7-trioxododecanoyl-CoA  -->coenzyme A olivetolate H<SUP>+</SUP> 
+RXN-7852 malonyl-CoA H<SUP>+</SUP> hexanoyl-CoA  -->coenzyme A 3,5,7-trioxododecanoyl-CoA CO<SUB>2</SUB> 
+ACETYL-COA-CARBOXYLTRANSFER-RXN ATP hydrogencarbonate acetyl-CoA  -->malonyl-CoA H<SUP>+</SUP> phosphate ADP 
+
+RXN-7858 cannabidiolate H<SUP>+</SUP>  -->cannabidiol CO<SUB>2</SUB> 
+RXN-7855 cannabigerolate oxygen  -->cannabidiolate hydrogen peroxide 
+RXN-7853 olivetolate geranyl diphosphate  -->cannabigerolate diphosphate 
+RXN-13612 3,5,7-trioxododecanoyl-CoA  -->coenzyme A olivetolate H<SUP>+</SUP> 
+RXN-7852 malonyl-CoA H<SUP>+</SUP> hexanoyl-CoA  -->coenzyme A 3,5,7-trioxododecanoyl-CoA CO<SUB>2</SUB> 
+RXN-14277 coenzyme A 3-oxooctanoyl-CoA  -->hexanoyl-CoA acetyl-CoA 
+
+RXN-7858 cannabidiolate H<SUP>+</SUP>  -->cannabidiol CO<SUB>2</SUB> 
+RXN-7855 cannabigerolate oxygen  -->cannabidiolate hydrogen peroxide 
+RXN-7853 olivetolate geranyl diphosphate  -->cannabigerolate diphosphate 
+RXN-13612 3,5,7-trioxododecanoyl-CoA  -->coenzyme A olivetolate H<SUP>+</SUP> 
+RXN-13663 malonyl-CoA H<SUP>+</SUP> 3,5-dioxodecanoyl-CoA  -->coenzyme A 3,5,7-trioxododecanoyl-CoA CO<SUB>2</SUB> 
+RXN-8963 coenzyme A 3-oxopropanoate NADP<sup>+</sup>  -->malonyl-CoA H<SUP>+</SUP> NADPH 
+RXN-2901 2-oxoglutarate &beta;-alanine  -->3-oxopropanoate L-glutamate 
+ASPDECARBOX-RXN H<SUP>+</SUP> L-aspartate  -->&beta;-alanine CO<SUB>2</SUB> 
+
+RXN-7858 cannabidiolate H<SUP>+</SUP>  -->cannabidiol CO<SUB>2</SUB> 
+RXN-7855 cannabigerolate oxygen  -->cannabidiolate hydrogen peroxide 
+RXN-7853 olivetolate geranyl diphosphate  -->cannabigerolate diphosphate 
+RXN-13612 3,5,7-trioxododecanoyl-CoA  -->coenzyme A olivetolate H<SUP>+</SUP> 
+RXN-7852 malonyl-CoA H<SUP>+</SUP> hexanoyl-CoA  -->coenzyme A 3,5,7-trioxododecanoyl-CoA CO<SUB>2</SUB> 
+RXN-12359 coenzyme A ATP malonate  -->AMP malonyl-CoA diphosphate 
+MALONATE-SEMIALDEHYDE-DEHYDROGENASE-RXN H<sub>2</sub>O 3-oxopropanoate NAD(P)<sup>+</sup>  -->H<SUP>+</SUP> malonate NAD(P)H 
+RXN0-6452 H<sub>2</sub>O (<i>Z</i>)-3-aminoacrylate H<SUP>+</SUP>  -->3-oxopropanoate ammonium 
+
+RXN-7858 cannabidiolate H<SUP>+</SUP>  -->cannabidiol CO<SUB>2</SUB> 
+RXN-7855 cannabigerolate oxygen  -->cannabidiolate hydrogen peroxide 
+RXN-7853 olivetolate geranyl diphosphate  -->cannabigerolate diphosphate 
+RXN-13612 3,5,7-trioxododecanoyl-CoA  -->coenzyme A olivetolate H<SUP>+</SUP> 
+RXN-13663 malonyl-CoA H<SUP>+</SUP> 3,5-dioxodecanoyl-CoA  -->coenzyme A 3,5,7-trioxododecanoyl-CoA CO<SUB>2</SUB> 
+RXN-13662 malonyl-CoA H<SUP>+</SUP> hexanoyl-CoA  -->coenzyme A 3,5-dioxodecanoyl-CoA CO<SUB>2</SUB> 
+ACETYL-COA-CARBOXYLTRANSFER-RXN ATP hydrogencarbonate acetyl-CoA  -->malonyl-CoA H<SUP>+</SUP> phosphate ADP 
+
+RXN-7858 cannabidiolate H<SUP>+</SUP>  -->cannabidiol CO<SUB>2</SUB> 
+RXN-7866 cannabinerolate oxygen  -->cannabidiolate hydrogen peroxide 
+RXN-7860 olivetolate neryl diphosphate  -->cannabinerolate diphosphate 
+RXN-13612 3,5,7-trioxododecanoyl-CoA  -->coenzyme A olivetolate H<SUP>+</SUP> 
+RXN-7852 malonyl-CoA H<SUP>+</SUP> hexanoyl-CoA  -->coenzyme A 3,5,7-trioxododecanoyl-CoA CO<SUB>2</SUB> 
+RXN-14277 coenzyme A 3-oxooctanoyl-CoA  -->hexanoyl-CoA acetyl-CoA 
+
+RXN-7858 cannabidiolate H<SUP>+</SUP>  -->cannabidiol CO<SUB>2</SUB> 
+RXN-7855 cannabigerolate oxygen  -->cannabidiolate hydrogen peroxide 
+RXN-7853 olivetolate geranyl diphosphate  -->cannabigerolate diphosphate 
+RXN-13612 3,5,7-trioxododecanoyl-CoA  -->coenzyme A olivetolate H<SUP>+</SUP> 
+RXN-7852 malonyl-CoA H<SUP>+</SUP> hexanoyl-CoA  -->coenzyme A 3,5,7-trioxododecanoyl-CoA CO<SUB>2</SUB> 
+RXN-8963 coenzyme A 3-oxopropanoate NADP<sup>+</sup>  -->malonyl-CoA H<SUP>+</SUP> NADPH 
+RXN0-6452 H<sub>2</sub>O (<i>Z</i>)-3-aminoacrylate H<SUP>+</SUP>  -->3-oxopropanoate ammonium 
+
+RXN-7858 cannabidiolate H<SUP>+</SUP>  -->cannabidiol CO<SUB>2</SUB> 
+RXN-7866 cannabinerolate oxygen  -->cannabidiolate hydrogen peroxide 
+RXN-7860 olivetolate neryl diphosphate  -->cannabinerolate diphosphate 
+DIMETHYLALLYLCISTRANSFERASE-RXN prenyl diphosphate isopentenyl diphosphate  -->neryl diphosphate diphosphate 
+IPPISOM-RXN prenyl diphosphate  -->isopentenyl diphosphate 
+
+RXN-7858 cannabidiolate H<SUP>+</SUP>  -->cannabidiol CO<SUB>2</SUB> 
+RXN-7855 cannabigerolate oxygen  -->cannabidiolate hydrogen peroxide 
+RXN-7853 olivetolate geranyl diphosphate  -->cannabigerolate diphosphate 
+RXN-13612 3,5,7-trioxododecanoyl-CoA  -->coenzyme A olivetolate H<SUP>+</SUP> 
+RXN-7852 malonyl-CoA H<SUP>+</SUP> hexanoyl-CoA  -->coenzyme A 3,5,7-trioxododecanoyl-CoA CO<SUB>2</SUB> 
+RXN-8963 coenzyme A 3-oxopropanoate NADP<sup>+</sup>  -->malonyl-CoA H<SUP>+</SUP> NADPH 
+2.6.1.18-RXN pyruvate &beta;-alanine  -->3-oxopropanoate L-alanine 
+ASPDECARBOX-RXN H<SUP>+</SUP> L-aspartate  -->&beta;-alanine CO<SUB>2</SUB> 
+
+RXN-7858 cannabidiolate H<SUP>+</SUP>  -->cannabidiol CO<SUB>2</SUB> 
+RXN-7855 cannabigerolate oxygen  -->cannabidiolate hydrogen peroxide 
+RXN-7853 olivetolate geranyl diphosphate  -->cannabigerolate diphosphate 
+RXN-13612 3,5,7-trioxododecanoyl-CoA  -->coenzyme A olivetolate H<SUP>+</SUP> 
+RXN-13663 malonyl-CoA H<SUP>+</SUP> 3,5-dioxodecanoyl-CoA  -->coenzyme A 3,5,7-trioxododecanoyl-CoA CO<SUB>2</SUB> 
+RXN-13662 malonyl-CoA H<SUP>+</SUP> hexanoyl-CoA  -->coenzyme A 3,5-dioxodecanoyl-CoA CO<SUB>2</SUB> 
+RXN-8963 coenzyme A 3-oxopropanoate NADP<sup>+</sup>  -->malonyl-CoA H<SUP>+</SUP> NADPH 
+RXN0-6452 H<sub>2</sub>O (<i>Z</i>)-3-aminoacrylate H<SUP>+</SUP>  -->3-oxopropanoate ammonium 
+
+RXN-7858 cannabidiolate H<SUP>+</SUP>  -->cannabidiol CO<SUB>2</SUB> 
+RXN-7866 cannabinerolate oxygen  -->cannabidiolate hydrogen peroxide 
+RXN-7860 olivetolate neryl diphosphate  -->cannabinerolate diphosphate 
+RXN-13612 3,5,7-trioxododecanoyl-CoA  -->coenzyme A olivetolate H<SUP>+</SUP> 
+RXN-7852 malonyl-CoA H<SUP>+</SUP> hexanoyl-CoA  -->coenzyme A 3,5,7-trioxododecanoyl-CoA CO<SUB>2</SUB> 
+MALONATE-COA-TRANSFERASE-RXN acetyl-CoA malonate  -->malonyl-CoA acetate 
+MALONATE-SEMIALDEHYDE-DEHYDROGENASE-RXN H<sub>2</sub>O 3-oxopropanoate NAD(P)<sup>+</sup>  -->H<SUP>+</SUP> malonate NAD(P)H 
+RXN0-6452 H<sub>2</sub>O (<i>Z</i>)-3-aminoacrylate H<SUP>+</SUP>  -->3-oxopropanoate ammonium 
+
+RXN-7858 cannabidiolate H<SUP>+</SUP>  -->cannabidiol CO<SUB>2</SUB> 
+RXN-7866 cannabinerolate oxygen  -->cannabidiolate hydrogen peroxide 
+RXN-7860 olivetolate neryl diphosphate  -->cannabinerolate diphosphate 
+RXN-13612 3,5,7-trioxododecanoyl-CoA  -->coenzyme A olivetolate H<SUP>+</SUP> 
+RXN-13663 malonyl-CoA H<SUP>+</SUP> 3,5-dioxodecanoyl-CoA  -->coenzyme A 3,5,7-trioxododecanoyl-CoA CO<SUB>2</SUB> 
+RXN-8963 coenzyme A 3-oxopropanoate NADP<sup>+</sup>  -->malonyl-CoA H<SUP>+</SUP> NADPH 
+RXN0-6452 H<sub>2</sub>O (<i>Z</i>)-3-aminoacrylate H<SUP>+</SUP>  -->3-oxopropanoate ammonium 
+
+RXN-7858 cannabidiolate H<SUP>+</SUP>  -->cannabidiol CO<SUB>2</SUB> 
+RXN-7866 cannabinerolate oxygen  -->cannabidiolate hydrogen peroxide 
+RXN-7860 olivetolate neryl diphosphate  -->cannabinerolate diphosphate 
+RXN-13612 3,5,7-trioxododecanoyl-CoA  -->coenzyme A olivetolate H<SUP>+</SUP> 
+RXN-13663 malonyl-CoA H<SUP>+</SUP> 3,5-dioxodecanoyl-CoA  -->coenzyme A 3,5,7-trioxododecanoyl-CoA CO<SUB>2</SUB> 
+RXN0-5055 acetyl-CoA a [carboxyl-carrier protein dimer]-<i>N</i><sup>6</sup>-carboxybiotinyl-L-lysine  -->malonyl-CoA a [biotin carboxyl-carrier-protein dimer]-<i>N</i><sup>6</sup>-biotinyl-L-lysine 
+
+RXN-7858 cannabidiolate H<SUP>+</SUP>  -->cannabidiol CO<SUB>2</SUB> 
+RXN-7855 cannabigerolate oxygen  -->cannabidiolate hydrogen peroxide 
+RXN-7853 olivetolate geranyl diphosphate  -->cannabigerolate diphosphate 
+RXN-13612 3,5,7-trioxododecanoyl-CoA  -->coenzyme A olivetolate H<SUP>+</SUP> 
+RXN-13663 malonyl-CoA H<SUP>+</SUP> 3,5-dioxodecanoyl-CoA  -->coenzyme A 3,5,7-trioxododecanoyl-CoA CO<SUB>2</SUB> 
+RXN-13662 malonyl-CoA H<SUP>+</SUP> hexanoyl-CoA  -->coenzyme A 3,5-dioxodecanoyl-CoA CO<SUB>2</SUB> 
+RXN-14277 coenzyme A 3-oxooctanoyl-CoA  -->hexanoyl-CoA acetyl-CoA 
+
+RXN-7858 cannabidiolate H<SUP>+</SUP>  -->cannabidiol CO<SUB>2</SUB> 
+RXN-7866 cannabinerolate oxygen  -->cannabidiolate hydrogen peroxide 
+RXN-7860 olivetolate neryl diphosphate  -->cannabinerolate diphosphate 
+RXN-13612 3,5,7-trioxododecanoyl-CoA  -->coenzyme A olivetolate H<SUP>+</SUP> 
+RXN-13663 malonyl-CoA H<SUP>+</SUP> 3,5-dioxodecanoyl-CoA  -->coenzyme A 3,5,7-trioxododecanoyl-CoA CO<SUB>2</SUB> 
+RXN-8963 coenzyme A 3-oxopropanoate NADP<sup>+</sup>  -->malonyl-CoA H<SUP>+</SUP> NADPH 
+3-HYDROXYPROPIONATE-DEHYDROGENASE-RXN NAD<sup>+</sup> 3-hydroxypropanoate  -->3-oxopropanoate NADH H<SUP>+</SUP> 
+RXN-8974 3-oxopropanoate H<SUP>+</SUP> NADPH  -->3-hydroxypropanoate NADP<sup>+</sup> 
+
+RXN-7858 cannabidiolate H<SUP>+</SUP>  -->cannabidiol CO<SUB>2</SUB> 
+RXN-7855 cannabigerolate oxygen  -->cannabidiolate hydrogen peroxide 
+RXN-7853 olivetolate geranyl diphosphate  -->cannabigerolate diphosphate 
+RXN-13612 3,5,7-trioxododecanoyl-CoA  -->coenzyme A olivetolate H<SUP>+</SUP> 
+RXN-13663 malonyl-CoA H<SUP>+</SUP> 3,5-dioxodecanoyl-CoA  -->coenzyme A 3,5,7-trioxododecanoyl-CoA CO<SUB>2</SUB> 
+RXN-8963 coenzyme A 3-oxopropanoate NADP<sup>+</sup>  -->malonyl-CoA H<SUP>+</SUP> NADPH 
+2.6.1.18-RXN pyruvate &beta;-alanine  -->3-oxopropanoate L-alanine 
+ASPDECARBOX-RXN H<SUP>+</SUP> L-aspartate  -->&beta;-alanine CO<SUB>2</SUB> 
+
+RXN-7858 cannabidiolate H<SUP>+</SUP>  -->cannabidiol CO<SUB>2</SUB> 
+RXN-7855 cannabigerolate oxygen  -->cannabidiolate hydrogen peroxide 
+RXN-7853 olivetolate geranyl diphosphate  -->cannabigerolate diphosphate 
+RXN-13612 3,5,7-trioxododecanoyl-CoA  -->coenzyme A olivetolate H<SUP>+</SUP> 
+RXN-13663 malonyl-CoA H<SUP>+</SUP> 3,5-dioxodecanoyl-CoA  -->coenzyme A 3,5,7-trioxododecanoyl-CoA CO<SUB>2</SUB> 
+RXN-13662 malonyl-CoA H<SUP>+</SUP> hexanoyl-CoA  -->coenzyme A 3,5-dioxodecanoyl-CoA CO<SUB>2</SUB> 
+RXN-12559 NADH H<SUP>+</SUP> <i>trans</i>-hex-2-enoyl-CoA  -->NAD<sup>+</sup> hexanoyl-CoA 
+
+RXN-7858 cannabidiolate H<SUP>+</SUP>  -->cannabidiol CO<SUB>2</SUB> 
+RXN-7855 cannabigerolate oxygen  -->cannabidiolate hydrogen peroxide 
+RXN-7853 olivetolate geranyl diphosphate  -->cannabigerolate diphosphate 
+RXN-13612 3,5,7-trioxododecanoyl-CoA  -->coenzyme A olivetolate H<SUP>+</SUP> 
+RXN-13663 malonyl-CoA H<SUP>+</SUP> 3,5-dioxodecanoyl-CoA  -->coenzyme A 3,5,7-trioxododecanoyl-CoA CO<SUB>2</SUB> 
+RXN-8963 coenzyme A 3-oxopropanoate NADP<sup>+</sup>  -->malonyl-CoA H<SUP>+</SUP> NADPH 
+RXN0-6452 H<sub>2</sub>O (<i>Z</i>)-3-aminoacrylate H<SUP>+</SUP>  -->3-oxopropanoate ammonium 
+
+RXN-7858 cannabidiolate H<SUP>+</SUP>  -->cannabidiol CO<SUB>2</SUB> 
+RXN-7855 cannabigerolate oxygen  -->cannabidiolate hydrogen peroxide 
+RXN-7853 olivetolate geranyl diphosphate  -->cannabigerolate diphosphate 
+RXN-13612 3,5,7-trioxododecanoyl-CoA  -->coenzyme A olivetolate H<SUP>+</SUP> 
+RXN-7852 malonyl-CoA H<SUP>+</SUP> hexanoyl-CoA  -->coenzyme A 3,5,7-trioxododecanoyl-CoA CO<SUB>2</SUB> 
+RXN-8963 coenzyme A 3-oxopropanoate NADP<sup>+</sup>  -->malonyl-CoA H<SUP>+</SUP> NADPH 
+3-HYDROXYPROPIONATE-DEHYDROGENASE-RXN NAD<sup>+</sup> 3-hydroxypropanoate  -->3-oxopropanoate NADH H<SUP>+</SUP> 
+RXN-8974 3-oxopropanoate H<SUP>+</SUP> NADPH  -->3-hydroxypropanoate NADP<sup>+</sup> 
+
+RXN-7858 cannabidiolate H<SUP>+</SUP>  -->cannabidiol CO<SUB>2</SUB> 
+RXN-7866 cannabinerolate oxygen  -->cannabidiolate hydrogen peroxide 
+RXN-7860 olivetolate neryl diphosphate  -->cannabinerolate diphosphate 
+RXN-13612 3,5,7-trioxododecanoyl-CoA  -->coenzyme A olivetolate H<SUP>+</SUP> 
+RXN-7852 malonyl-CoA H<SUP>+</SUP> hexanoyl-CoA  -->coenzyme A 3,5,7-trioxododecanoyl-CoA CO<SUB>2</SUB> 
+RXN-8963 coenzyme A 3-oxopropanoate NADP<sup>+</sup>  -->malonyl-CoA H<SUP>+</SUP> NADPH 
+2.6.1.18-RXN pyruvate &beta;-alanine  -->3-oxopropanoate L-alanine 
+ASPDECARBOX-RXN H<SUP>+</SUP> L-aspartate  -->&beta;-alanine CO<SUB>2</SUB> 
+
+RXN-7858 cannabidiolate H<SUP>+</SUP>  -->cannabidiol CO<SUB>2</SUB> 
+RXN-7855 cannabigerolate oxygen  -->cannabidiolate hydrogen peroxide 
+RXN-7853 olivetolate geranyl diphosphate  -->cannabigerolate diphosphate 
+RXN-13612 3,5,7-trioxododecanoyl-CoA  -->coenzyme A olivetolate H<SUP>+</SUP> 
+RXN-13663 malonyl-CoA H<SUP>+</SUP> 3,5-dioxodecanoyl-CoA  -->coenzyme A 3,5,7-trioxododecanoyl-CoA CO<SUB>2</SUB> 
+RXN-8963 coenzyme A 3-oxopropanoate NADP<sup>+</sup>  -->malonyl-CoA H<SUP>+</SUP> NADPH 
+2.6.1.18-RXN pyruvate &beta;-alanine  -->3-oxopropanoate L-alanine 
+N-ACETYL-BETA-ALANINE-DEACETYLASE-RXN H<sub>2</sub>O <i>N</i>-acetyl-&beta;-alanine  -->&beta;-alanine acetate 
+
+RXN-7858 cannabidiolate H<SUP>+</SUP>  -->cannabidiol CO<SUB>2</SUB> 
+RXN-7855 cannabigerolate oxygen  -->cannabidiolate hydrogen peroxide 
+RXN-7853 olivetolate geranyl diphosphate  -->cannabigerolate diphosphate 
+RXN-13612 3,5,7-trioxododecanoyl-CoA  -->coenzyme A olivetolate H<SUP>+</SUP> 
+RXN-7852 malonyl-CoA H<SUP>+</SUP> hexanoyl-CoA  -->coenzyme A 3,5,7-trioxododecanoyl-CoA CO<SUB>2</SUB> 
+RXN-15331 coenzyme A cyanidin 3-<i>O</i>-[2"-<i>O</i>-(xylosyl)-6"-<i>O</i>-(p-coumaroyl) glucoside] 5-<i>O</i>-malonylglucoside  -->malonyl-CoA cyanidin 3-<i>O</i>-[2"-<i>O</i>-(xylosyl)-6"-<i>O</i>-(p-coumaroyl) glucoside] 5-<i>O</i>-glucoside 
+
+RXN-7858 cannabidiolate H<SUP>+</SUP>  -->cannabidiol CO<SUB>2</SUB> 
+RXN-7855 cannabigerolate oxygen  -->cannabidiolate hydrogen peroxide 
+RXN-7853 olivetolate geranyl diphosphate  -->cannabigerolate diphosphate 
+RXN-13612 3,5,7-trioxododecanoyl-CoA  -->coenzyme A olivetolate H<SUP>+</SUP> 
+RXN-13663 malonyl-CoA H<SUP>+</SUP> 3,5-dioxodecanoyl-CoA  -->coenzyme A 3,5,7-trioxododecanoyl-CoA CO<SUB>2</SUB> 
+MALONATE-COA-TRANSFERASE-RXN acetyl-CoA malonate  -->malonyl-CoA acetate 
+MALONATE-SEMIALDEHYDE-DEHYDROGENASE-RXN H<sub>2</sub>O 3-oxopropanoate NAD(P)<sup>+</sup>  -->H<SUP>+</SUP> malonate NAD(P)H 
+RXN0-6452 H<sub>2</sub>O (<i>Z</i>)-3-aminoacrylate H<SUP>+</SUP>  -->3-oxopropanoate ammonium 
+
+RXN-7858 cannabidiolate H<SUP>+</SUP>  -->cannabidiol CO<SUB>2</SUB> 
+RXN-7855 cannabigerolate oxygen  -->cannabidiolate hydrogen peroxide 
+RXN-7853 olivetolate geranyl diphosphate  -->cannabigerolate diphosphate 
+RXN-13612 3,5,7-trioxododecanoyl-CoA  -->coenzyme A olivetolate H<SUP>+</SUP> 
+RXN-13663 malonyl-CoA H<SUP>+</SUP> 3,5-dioxodecanoyl-CoA  -->coenzyme A 3,5,7-trioxododecanoyl-CoA CO<SUB>2</SUB> 
+RXN-13662 malonyl-CoA H<SUP>+</SUP> hexanoyl-CoA  -->coenzyme A 3,5-dioxodecanoyl-CoA CO<SUB>2</SUB> 
+RXN0-5055 acetyl-CoA a [carboxyl-carrier protein dimer]-<i>N</i><sup>6</sup>-carboxybiotinyl-L-lysine  -->malonyl-CoA a [biotin carboxyl-carrier-protein dimer]-<i>N</i><sup>6</sup>-biotinyl-L-lysine 
+
+RXN-7858 cannabidiolate H<SUP>+</SUP>  -->cannabidiol CO<SUB>2</SUB> 
+RXN-7855 cannabigerolate oxygen  -->cannabidiolate hydrogen peroxide 
+RXN-7853 olivetolate geranyl diphosphate  -->cannabigerolate diphosphate 
+RXN-13612 3,5,7-trioxododecanoyl-CoA  -->coenzyme A olivetolate H<SUP>+</SUP> 
+RXN-13663 malonyl-CoA H<SUP>+</SUP> 3,5-dioxodecanoyl-CoA  -->coenzyme A 3,5,7-trioxododecanoyl-CoA CO<SUB>2</SUB> 
+ACETYL-COA-CARBOXYLTRANSFER-RXN ATP hydrogencarbonate acetyl-CoA  -->malonyl-CoA H<SUP>+</SUP> phosphate ADP 
+
+RXN-7858 cannabidiolate H<SUP>+</SUP>  -->cannabidiol CO<SUB>2</SUB> 
+RXN-7866 cannabinerolate oxygen  -->cannabidiolate hydrogen peroxide 
+RXN-7860 olivetolate neryl diphosphate  -->cannabinerolate diphosphate 
+RXN-13612 3,5,7-trioxododecanoyl-CoA  -->coenzyme A olivetolate H<SUP>+</SUP> 
+RXN-13663 malonyl-CoA H<SUP>+</SUP> 3,5-dioxodecanoyl-CoA  -->coenzyme A 3,5,7-trioxododecanoyl-CoA CO<SUB>2</SUB> 
+RXN-8963 coenzyme A 3-oxopropanoate NADP<sup>+</sup>  -->malonyl-CoA H<SUP>+</SUP> NADPH 
+RXN-2901 2-oxoglutarate &beta;-alanine  -->3-oxopropanoate L-glutamate 
+N-ACETYL-BETA-ALANINE-DEACETYLASE-RXN H<sub>2</sub>O <i>N</i>-acetyl-&beta;-alanine  -->&beta;-alanine acetate 
+
+RXN-7858 cannabidiolate H<SUP>+</SUP>  -->cannabidiol CO<SUB>2</SUB> 
+RXN-7866 cannabinerolate oxygen  -->cannabidiolate hydrogen peroxide 
+RXN-7860 olivetolate neryl diphosphate  -->cannabinerolate diphosphate 
+RXN-13612 3,5,7-trioxododecanoyl-CoA  -->coenzyme A olivetolate H<SUP>+</SUP> 
+RXN-13663 malonyl-CoA H<SUP>+</SUP> 3,5-dioxodecanoyl-CoA  -->coenzyme A 3,5,7-trioxododecanoyl-CoA CO<SUB>2</SUB> 
+RXN-12359 coenzyme A ATP malonate  -->AMP malonyl-CoA diphosphate 
+MALONATE-SEMIALDEHYDE-DEHYDROGENASE-RXN H<sub>2</sub>O 3-oxopropanoate NAD(P)<sup>+</sup>  -->H<SUP>+</SUP> malonate NAD(P)H 
+RXN0-6452 H<sub>2</sub>O (<i>Z</i>)-3-aminoacrylate H<SUP>+</SUP>  -->3-oxopropanoate ammonium 
+
+RXN-7858 cannabidiolate H<SUP>+</SUP>  -->cannabidiol CO<SUB>2</SUB> 
+RXN-7866 cannabinerolate oxygen  -->cannabidiolate hydrogen peroxide 
+RXN-7860 olivetolate neryl diphosphate  -->cannabinerolate diphosphate 
+RXN-13612 3,5,7-trioxododecanoyl-CoA  -->coenzyme A olivetolate H<SUP>+</SUP> 
+RXN-13663 malonyl-CoA H<SUP>+</SUP> 3,5-dioxodecanoyl-CoA  -->coenzyme A 3,5,7-trioxododecanoyl-CoA CO<SUB>2</SUB> 
+ACETYL-COA-CARBOXYLTRANSFER-RXN ATP hydrogencarbonate acetyl-CoA  -->malonyl-CoA H<SUP>+</SUP> phosphate ADP 
+

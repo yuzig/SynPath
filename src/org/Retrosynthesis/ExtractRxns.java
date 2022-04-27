@@ -82,7 +82,7 @@ public class ExtractRxns {
                     rxnsHashmap.put(uniqueID, rxn);
                 }
 
-                if (direction == "REVERSIBLE") {
+                if (direction.equals("REVERSIBLE")) {
                     rxn = new Rxns(ECnum, products, substrates, uniqueID,pathways);
                     allRxn.add(rxn);
                     rxnsHashmap.put(uniqueID, rxn);

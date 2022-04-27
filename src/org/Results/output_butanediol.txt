@@ -1,84 +1,1220 @@
-H<SUP>+</SUP> 4-hydroxybutyraldehyde NAD(P)H  -->NAD(P)<sup>+</sup> 1,4-butanediol 
-H<SUP>+</SUP> 4-hydroxybutanoyl-CoA NAD(P)H  -->coenzyme A 4-hydroxybutyraldehyde NAD(P)<sup>+</sup> 
-coenzyme A ATP 4-hydroxybutanoate  -->AMP 4-hydroxybutanoyl-CoA diphosphate 
-NADH H<SUP>+</SUP> succinate semialdehyde  -->NAD<sup>+</sup> 4-hydroxybutanoate 
-H<SUP>+</SUP> oxygen NAD(P)H &gamma;-butyrobetaine  -->H<sub>2</sub>O succinate semialdehyde NAD(P)<sup>+</sup> trimethylamine 
-L-carnitine &gamma;-butyrobetainyl-CoA  -->(<i>R</i>)-carnitinyl-CoA &gamma;-butyrobetaine 
-null crotonobetainyl-CoA  -->null H<SUP>+</SUP> &gamma;-butyrobetainyl-CoA 
+RXN-12595 H<SUP>+</SUP> 4-hydroxybutyraldehyde NAD(P)H  -->NAD(P)<sup>+</sup> 1,4-butanediol 
+RXN-12594 H<SUP>+</SUP> 4-hydroxybutanoyl-CoA NAD(P)H  -->coenzyme A 4-hydroxybutyraldehyde NAD(P)<sup>+</sup> 
+RXN-8889 acetyl-CoA 4-hydroxybutanoate  -->acetate 4-hydroxybutanoyl-CoA 
+4-HYDROXYBUTYRATE-DEHYDROGENASE-RXN NADH H<SUP>+</SUP> succinate semialdehyde  -->NAD<sup>+</sup> 4-hydroxybutanoate 
+RXN-13328 glyoxylate 4-aminobutanoate  -->glycine succinate semialdehyde 
+RXN-13067 H<sub>2</sub>O oxygen 4-methylaminobutanoate  -->hydrogen peroxide formaldehyde 4-aminobutanoate 
+RXN-19382 H<sub>2</sub>O ATP <i>N</i>-methylpyrrolidone  -->H<SUP>+</SUP> phosphate ADP 4-methylaminobutanoate 
 
-H<SUP>+</SUP> 4-hydroxybutyraldehyde NAD(P)H  -->NAD(P)<sup>+</sup> 1,4-butanediol 
-H<SUP>+</SUP> 4-hydroxybutanoyl-CoA NAD(P)H  -->coenzyme A 4-hydroxybutyraldehyde NAD(P)<sup>+</sup> 
-acetyl-CoA 4-hydroxybutanoate  -->acetate 4-hydroxybutanoyl-CoA 
-NADH H<SUP>+</SUP> succinate semialdehyde  -->NAD<sup>+</sup> 4-hydroxybutanoate 
-H<SUP>+</SUP> oxygen NAD(P)H &gamma;-butyrobetaine  -->H<sub>2</sub>O succinate semialdehyde NAD(P)<sup>+</sup> trimethylamine 
-L-carnitine &gamma;-butyrobetainyl-CoA  -->(<i>R</i>)-carnitinyl-CoA &gamma;-butyrobetaine 
-H<sub>2</sub>O L-carnitinamide  -->L-carnitine ammonium 
+RXN-12595 H<SUP>+</SUP> 4-hydroxybutyraldehyde NAD(P)H  -->NAD(P)<sup>+</sup> 1,4-butanediol 
+RXN-12594 H<SUP>+</SUP> 4-hydroxybutanoyl-CoA NAD(P)H  -->coenzyme A 4-hydroxybutyraldehyde NAD(P)<sup>+</sup> 
+RXN-8889 acetyl-CoA 4-hydroxybutanoate  -->acetate 4-hydroxybutanoyl-CoA 
+4-HYDROXYBUTYRATE-DEHYDROGENASE-RXN NADH H<SUP>+</SUP> succinate semialdehyde  -->NAD<sup>+</sup> 4-hydroxybutanoate 
+RXN-7774 2-oxoglutarate H<SUP>+</SUP>  -->succinate semialdehyde CO<SUB>2</SUB> 
 
-H<SUP>+</SUP> 4-hydroxybutyraldehyde NAD(P)H  -->NAD(P)<sup>+</sup> 1,4-butanediol 
-H<SUP>+</SUP> 4-hydroxybutanoyl-CoA NAD(P)H  -->coenzyme A 4-hydroxybutyraldehyde NAD(P)<sup>+</sup> 
-coenzyme A ATP 4-hydroxybutanoate  -->AMP 4-hydroxybutanoyl-CoA diphosphate 
-NADH H<SUP>+</SUP> succinate semialdehyde  -->NAD<sup>+</sup> 4-hydroxybutanoate 
-2,4-dihydroxyhept-2-enedioate  -->pyruvate succinate semialdehyde 
+RXN-12595 H<SUP>+</SUP> 4-hydroxybutyraldehyde NAD(P)H  -->NAD(P)<sup>+</sup> 1,4-butanediol 
+RXN-12594 H<SUP>+</SUP> 4-hydroxybutanoyl-CoA NAD(P)H  -->coenzyme A 4-hydroxybutyraldehyde NAD(P)<sup>+</sup> 
+RXN-8889 acetyl-CoA 4-hydroxybutanoate  -->acetate 4-hydroxybutanoyl-CoA 
+4-HYDROXYBUTYRATE-DEHYDROGENASE-RXN NADH H<SUP>+</SUP> succinate semialdehyde  -->NAD<sup>+</sup> 4-hydroxybutanoate 
+RXN-13328 glyoxylate 4-aminobutanoate  -->glycine succinate semialdehyde 
+RXN-14209 H<sub>2</sub>O 4-aminobutanal NADP<sup>+</sup>  -->H<SUP>+</SUP> 4-aminobutanoate NADPH 
+SPERMIDINE-DEHYDROGENASE-RXN H<sub>2</sub>O spermidine an oxidized unknown electron carrier  -->propane-1,3-diamine a reduced unknown two electron carrier 4-aminobutanal 
+GSPAMID-RXN H<sub>2</sub>O glutathionylspermidine  -->spermidine glutathione 
 
-H<SUP>+</SUP> 4-hydroxybutyraldehyde NAD(P)H  -->NAD(P)<sup>+</sup> 1,4-butanediol 
-H<SUP>+</SUP> 4-hydroxybutanoyl-CoA NAD(P)H  -->coenzyme A 4-hydroxybutyraldehyde NAD(P)<sup>+</sup> 
-coenzyme A ATP 4-hydroxybutanoate  -->AMP 4-hydroxybutanoyl-CoA diphosphate 
-NADH H<SUP>+</SUP> succinate semialdehyde  -->NAD<sup>+</sup> 4-hydroxybutanoate 
-2-oxoglutarate H<SUP>+</SUP>  -->succinate semialdehyde CO<SUB>2</SUB> 
+RXN-12595 H<SUP>+</SUP> 4-hydroxybutyraldehyde NAD(P)H  -->NAD(P)<sup>+</sup> 1,4-butanediol 
+RXN-12594 H<SUP>+</SUP> 4-hydroxybutanoyl-CoA NAD(P)H  -->coenzyme A 4-hydroxybutyraldehyde NAD(P)<sup>+</sup> 
+RXN-8889 acetyl-CoA 4-hydroxybutanoate  -->acetate 4-hydroxybutanoyl-CoA 
+4-HYDROXYBUTYRATE-DEHYDROGENASE-RXN NADH H<SUP>+</SUP> succinate semialdehyde  -->NAD<sup>+</sup> 4-hydroxybutanoate 
+RXN-13328 glyoxylate 4-aminobutanoate  -->glycine succinate semialdehyde 
+AMINOBUTDEHYDROG-RXN H<sub>2</sub>O NAD<sup>+</sup> 4-aminobutanal  -->NADH H<SUP>+</SUP> 4-aminobutanoate 
+PUTTRANSAM-RXN putrescine 2-oxoglutarate  -->4-aminobutanal L-glutamate 
+AGMATIN-RXN H<sub>2</sub>O agmatine  -->putrescine urea 
 
-H<SUP>+</SUP> 4-hydroxybutyraldehyde NAD(P)H  -->NAD(P)<sup>+</sup> 1,4-butanediol 
-H<SUP>+</SUP> 4-hydroxybutanoyl-CoA NAD(P)H  -->coenzyme A 4-hydroxybutyraldehyde NAD(P)<sup>+</sup> 
-acetyl-CoA 4-hydroxybutanoate  -->acetate 4-hydroxybutanoyl-CoA 
-NADH H<SUP>+</SUP> succinate semialdehyde  -->NAD<sup>+</sup> 4-hydroxybutanoate 
-H<sub>2</sub>O oxygen 4-methylaminobutanoate  -->hydrogen peroxide succinate semialdehyde methylamine 
-H<sub>2</sub>O ATP <i>N</i>-methylpyrrolidone  -->H<SUP>+</SUP> phosphate ADP 4-methylaminobutanoate 
+RXN-12595 H<SUP>+</SUP> 4-hydroxybutyraldehyde NAD(P)H  -->NAD(P)<sup>+</sup> 1,4-butanediol 
+RXN-12594 H<SUP>+</SUP> 4-hydroxybutanoyl-CoA NAD(P)H  -->coenzyme A 4-hydroxybutyraldehyde NAD(P)<sup>+</sup> 
+RXN-9092 coenzyme A ATP 4-hydroxybutanoate  -->AMP 4-hydroxybutanoyl-CoA diphosphate 
+4-HYDROXYBUTYRATE-DEHYDROGENASE-RXN NADH H<SUP>+</SUP> succinate semialdehyde  -->NAD<sup>+</sup> 4-hydroxybutanoate 
+RXN-6902 pyruvate 4-aminobutanoate  -->succinate semialdehyde L-alanine 
+GABATRANSAM-RXN succinate semialdehyde L-glutamate  -->2-oxoglutarate 4-aminobutanoate 
 
-H<SUP>+</SUP> 4-hydroxybutyraldehyde NAD(P)H  -->NAD(P)<sup>+</sup> 1,4-butanediol 
-H<SUP>+</SUP> 4-hydroxybutanoyl-CoA NAD(P)H  -->coenzyme A 4-hydroxybutyraldehyde NAD(P)<sup>+</sup> 
-acetyl-CoA 4-hydroxybutanoate  -->acetate 4-hydroxybutanoyl-CoA 
-NADH H<SUP>+</SUP> succinate semialdehyde  -->NAD<sup>+</sup> 4-hydroxybutanoate 
-H<SUP>+</SUP> oxygen NAD(P)H &gamma;-butyrobetaine  -->H<sub>2</sub>O succinate semialdehyde NAD(P)<sup>+</sup> trimethylamine 
-L-carnitine &gamma;-butyrobetainyl-CoA  -->(<i>R</i>)-carnitinyl-CoA &gamma;-butyrobetaine 
-null crotonobetainyl-CoA  -->null H<SUP>+</SUP> &gamma;-butyrobetainyl-CoA 
+RXN-12595 H<SUP>+</SUP> 4-hydroxybutyraldehyde NAD(P)H  -->NAD(P)<sup>+</sup> 1,4-butanediol 
+RXN-12594 H<SUP>+</SUP> 4-hydroxybutanoyl-CoA NAD(P)H  -->coenzyme A 4-hydroxybutyraldehyde NAD(P)<sup>+</sup> 
+RXN-8889 acetyl-CoA 4-hydroxybutanoate  -->acetate 4-hydroxybutanoyl-CoA 
+4-HYDROXYBUTYRATE-DEHYDROGENASE-RXN NADH H<SUP>+</SUP> succinate semialdehyde  -->NAD<sup>+</sup> 4-hydroxybutanoate 
+RXN-13328 glyoxylate 4-aminobutanoate  -->glycine succinate semialdehyde 
+AMINOBUTDEHYDROG-RXN H<sub>2</sub>O NAD<sup>+</sup> 4-aminobutanal  -->NADH H<SUP>+</SUP> 4-aminobutanoate 
+SPERMIDINE-DEHYDROGENASE-RXN H<sub>2</sub>O spermidine an oxidized unknown electron carrier  -->propane-1,3-diamine a reduced unknown two electron carrier 4-aminobutanal 
+GSPAMID-RXN H<sub>2</sub>O glutathionylspermidine  -->spermidine glutathione 
 
-H<SUP>+</SUP> 4-hydroxybutyraldehyde NAD(P)H  -->NAD(P)<sup>+</sup> 1,4-butanediol 
-H<SUP>+</SUP> 4-hydroxybutanoyl-CoA NAD(P)H  -->coenzyme A 4-hydroxybutyraldehyde NAD(P)<sup>+</sup> 
-coenzyme A ATP 4-hydroxybutanoate  -->AMP 4-hydroxybutanoyl-CoA diphosphate 
-NADH H<SUP>+</SUP> succinate semialdehyde  -->NAD<sup>+</sup> 4-hydroxybutanoate 
-H<SUP>+</SUP> oxygen NAD(P)H &gamma;-butyrobetaine  -->H<sub>2</sub>O succinate semialdehyde NAD(P)<sup>+</sup> trimethylamine 
-L-carnitine &gamma;-butyrobetainyl-CoA  -->(<i>R</i>)-carnitinyl-CoA &gamma;-butyrobetaine 
-H<sub>2</sub>O L-carnitinamide  -->L-carnitine ammonium 
+RXN-12595 H<SUP>+</SUP> 4-hydroxybutyraldehyde NAD(P)H  -->NAD(P)<sup>+</sup> 1,4-butanediol 
+RXN-12594 H<SUP>+</SUP> 4-hydroxybutanoyl-CoA NAD(P)H  -->coenzyme A 4-hydroxybutyraldehyde NAD(P)<sup>+</sup> 
+RXN-9092 coenzyme A ATP 4-hydroxybutanoate  -->AMP 4-hydroxybutanoyl-CoA diphosphate 
+4-HYDROXYBUTYRATE-DEHYDROGENASE-RXN NADH H<SUP>+</SUP> succinate semialdehyde  -->NAD<sup>+</sup> 4-hydroxybutanoate 
+RXN-18258 H<SUP>+</SUP> oxygen NAD(P)H &gamma;-butyrobetaine  -->H<sub>2</sub>O succinate semialdehyde NAD(P)<sup>+</sup> trimethylamine 
+1.2.1.47-RXN H<sub>2</sub>O NAD<sup>+</sup> 4-trimethylammoniobutanal  -->NADH H<SUP>+</SUP> &gamma;-butyrobetaine 
+RXN-9896 3-hydroxy-<i>N</i><sup>6</sup>,<i>N</i><sup>6</sup>,<i>N</i><sup>6</sup>-trimethyl-L-lysine  -->glycine 4-trimethylammoniobutanal 
 
-H<SUP>+</SUP> 4-hydroxybutyraldehyde NAD(P)H  -->NAD(P)<sup>+</sup> 1,4-butanediol 
-H<SUP>+</SUP> 4-hydroxybutanoyl-CoA NAD(P)H  -->coenzyme A 4-hydroxybutyraldehyde NAD(P)<sup>+</sup> 
-acetyl-CoA 4-hydroxybutanoate  -->acetate 4-hydroxybutanoyl-CoA 
-H<SUP>+</SUP> succinate semialdehyde NADPH  -->4-hydroxybutanoate NADP<sup>+</sup> 
+RXN-12595 H<SUP>+</SUP> 4-hydroxybutyraldehyde NAD(P)H  -->NAD(P)<sup>+</sup> 1,4-butanediol 
+RXN-12594 H<SUP>+</SUP> 4-hydroxybutanoyl-CoA NAD(P)H  -->coenzyme A 4-hydroxybutyraldehyde NAD(P)<sup>+</sup> 
+RXN-8889 acetyl-CoA 4-hydroxybutanoate  -->acetate 4-hydroxybutanoyl-CoA 
+4-HYDROXYBUTYRATE-DEHYDROGENASE-RXN NADH H<SUP>+</SUP> succinate semialdehyde  -->NAD<sup>+</sup> 4-hydroxybutanoate 
+RXN-13328 glyoxylate 4-aminobutanoate  -->glycine succinate semialdehyde 
+GLUTDECARBOX-RXN H<SUP>+</SUP> L-glutamate  -->4-aminobutanoate CO<SUB>2</SUB> 
 
-H<SUP>+</SUP> 4-hydroxybutyraldehyde NAD(P)H  -->NAD(P)<sup>+</sup> 1,4-butanediol 
-H<SUP>+</SUP> 4-hydroxybutanoyl-CoA NAD(P)H  -->coenzyme A 4-hydroxybutyraldehyde NAD(P)<sup>+</sup> 
-coenzyme A ATP 4-hydroxybutanoate  -->AMP 4-hydroxybutanoyl-CoA diphosphate 
-NADH H<SUP>+</SUP> succinate semialdehyde  -->NAD<sup>+</sup> 4-hydroxybutanoate 
-H<sub>2</sub>O oxygen 4-methylaminobutanoate  -->hydrogen peroxide succinate semialdehyde methylamine 
-H<sub>2</sub>O ATP <i>N</i>-methylpyrrolidone  -->H<SUP>+</SUP> phosphate ADP 4-methylaminobutanoate 
+RXN-12595 H<SUP>+</SUP> 4-hydroxybutyraldehyde NAD(P)H  -->NAD(P)<sup>+</sup> 1,4-butanediol 
+RXN-12594 H<SUP>+</SUP> 4-hydroxybutanoyl-CoA NAD(P)H  -->coenzyme A 4-hydroxybutyraldehyde NAD(P)<sup>+</sup> 
+RXN-8889 acetyl-CoA 4-hydroxybutanoate  -->acetate 4-hydroxybutanoyl-CoA 
+4-HYDROXYBUTYRATE-DEHYDROGENASE-RXN NADH H<SUP>+</SUP> succinate semialdehyde  -->NAD<sup>+</sup> 4-hydroxybutanoate 
+RXN-6902 pyruvate 4-aminobutanoate  -->succinate semialdehyde L-alanine 
+RXN-13067 H<sub>2</sub>O oxygen 4-methylaminobutanoate  -->hydrogen peroxide formaldehyde 4-aminobutanoate 
+RXN-19382 H<sub>2</sub>O ATP <i>N</i>-methylpyrrolidone  -->H<SUP>+</SUP> phosphate ADP 4-methylaminobutanoate 
 
-H<SUP>+</SUP> 4-hydroxybutyraldehyde NAD(P)H  -->NAD(P)<sup>+</sup> 1,4-butanediol 
-H<SUP>+</SUP> 4-hydroxybutanoyl-CoA NAD(P)H  -->coenzyme A 4-hydroxybutyraldehyde NAD(P)<sup>+</sup> 
-acetyl-CoA 4-hydroxybutanoate  -->acetate 4-hydroxybutanoyl-CoA 
-NADH H<SUP>+</SUP> succinate semialdehyde  -->NAD<sup>+</sup> 4-hydroxybutanoate 
-2,4-dihydroxyhept-2-enedioate  -->pyruvate succinate semialdehyde 
+RXN-12595 H<SUP>+</SUP> 4-hydroxybutyraldehyde NAD(P)H  -->NAD(P)<sup>+</sup> 1,4-butanediol 
+RXN-12594 H<SUP>+</SUP> 4-hydroxybutanoyl-CoA NAD(P)H  -->coenzyme A 4-hydroxybutyraldehyde NAD(P)<sup>+</sup> 
+RXN-9092 coenzyme A ATP 4-hydroxybutanoate  -->AMP 4-hydroxybutanoyl-CoA diphosphate 
+4-HYDROXYBUTYRATE-DEHYDROGENASE-RXN NADH H<SUP>+</SUP> succinate semialdehyde  -->NAD<sup>+</sup> 4-hydroxybutanoate 
+RXN-6902 pyruvate 4-aminobutanoate  -->succinate semialdehyde L-alanine 
+RXN0-3942 H<sub>2</sub>O 4-(&gamma;-L-glutamylamino)butanoate  -->4-aminobutanoate L-glutamate 
 
-H<SUP>+</SUP> 4-hydroxybutyraldehyde NAD(P)H  -->NAD(P)<sup>+</sup> 1,4-butanediol 
-H<SUP>+</SUP> 4-hydroxybutanoyl-CoA NAD(P)H  -->coenzyme A 4-hydroxybutyraldehyde NAD(P)<sup>+</sup> 
-acetyl-CoA 4-hydroxybutanoate  -->acetate 4-hydroxybutanoyl-CoA 
-NADH H<SUP>+</SUP> succinate semialdehyde  -->NAD<sup>+</sup> 4-hydroxybutanoate 
-2-oxoglutarate H<SUP>+</SUP>  -->succinate semialdehyde CO<SUB>2</SUB> 
+RXN-12595 H<SUP>+</SUP> 4-hydroxybutyraldehyde NAD(P)H  -->NAD(P)<sup>+</sup> 1,4-butanediol 
+RXN-12594 H<SUP>+</SUP> 4-hydroxybutanoyl-CoA NAD(P)H  -->coenzyme A 4-hydroxybutyraldehyde NAD(P)<sup>+</sup> 
+RXN-9092 coenzyme A ATP 4-hydroxybutanoate  -->AMP 4-hydroxybutanoyl-CoA diphosphate 
+4-HYDROXYBUTYRATE-DEHYDROGENASE-RXN NADH H<SUP>+</SUP> succinate semialdehyde  -->NAD<sup>+</sup> 4-hydroxybutanoate 
+RXN-6902 pyruvate 4-aminobutanoate  -->succinate semialdehyde L-alanine 
+1.5.1.35-RXN 1-pyrroline H<sub>2</sub>O NAD<sup>+</sup>  -->NADH H<SUP>+</SUP> 4-aminobutanoate 
+2.6.1.82-RXN putrescine 2-oxoglutarate  -->1-pyrroline H<sub>2</sub>O L-glutamate 
+ORNDECARBOX-RXN H<SUP>+</SUP> L-ornithine  -->putrescine CO<SUB>2</SUB> 
 
-H<SUP>+</SUP> 4-hydroxybutyraldehyde NAD(P)H  -->NAD(P)<sup>+</sup> 1,4-butanediol 
-H<SUP>+</SUP> 4-hydroxybutanoyl-CoA NAD(P)H  -->coenzyme A 4-hydroxybutyraldehyde NAD(P)<sup>+</sup> 
-coenzyme A ATP 4-hydroxybutanoate  -->4-hydroxybutanoyl-CoA phosphate ADP 
+RXN-12595 H<SUP>+</SUP> 4-hydroxybutyraldehyde NAD(P)H  -->NAD(P)<sup>+</sup> 1,4-butanediol 
+RXN-12594 H<SUP>+</SUP> 4-hydroxybutanoyl-CoA NAD(P)H  -->coenzyme A 4-hydroxybutyraldehyde NAD(P)<sup>+</sup> 
+RXN-8889 acetyl-CoA 4-hydroxybutanoate  -->acetate 4-hydroxybutanoyl-CoA 
+4-HYDROXYBUTYRATE-DEHYDROGENASE-RXN NADH H<SUP>+</SUP> succinate semialdehyde  -->NAD<sup>+</sup> 4-hydroxybutanoate 
+RXN-13328 glyoxylate 4-aminobutanoate  -->glycine succinate semialdehyde 
+1.5.1.35-RXN 1-pyrroline H<sub>2</sub>O NAD<sup>+</sup>  -->NADH H<SUP>+</SUP> 4-aminobutanoate 
+2.6.1.82-RXN putrescine 2-oxoglutarate  -->1-pyrroline H<sub>2</sub>O L-glutamate 
+RXN-20175 H<SUP>+</SUP> D-ornithine  -->putrescine CO<SUB>2</SUB> 
 
-H<SUP>+</SUP> 4-hydroxybutyraldehyde NAD(P)H  -->NAD(P)<sup>+</sup> 1,4-butanediol 
-H<SUP>+</SUP> 4-hydroxybutanoyl-CoA NAD(P)H  -->coenzyme A 4-hydroxybutyraldehyde NAD(P)<sup>+</sup> 
-coenzyme A ATP 4-hydroxybutanoate  -->AMP 4-hydroxybutanoyl-CoA diphosphate 
-H<SUP>+</SUP> succinate semialdehyde NADPH  -->4-hydroxybutanoate NADP<sup>+</sup> 
+RXN-12595 H<SUP>+</SUP> 4-hydroxybutyraldehyde NAD(P)H  -->NAD(P)<sup>+</sup> 1,4-butanediol 
+RXN-12594 H<SUP>+</SUP> 4-hydroxybutanoyl-CoA NAD(P)H  -->coenzyme A 4-hydroxybutyraldehyde NAD(P)<sup>+</sup> 
+RXN-8889 acetyl-CoA 4-hydroxybutanoate  -->acetate 4-hydroxybutanoyl-CoA 
+4-HYDROXYBUTYRATE-DEHYDROGENASE-RXN NADH H<SUP>+</SUP> succinate semialdehyde  -->NAD<sup>+</sup> 4-hydroxybutanoate 
+RXN-13328 glyoxylate 4-aminobutanoate  -->glycine succinate semialdehyde 
+RXN-19944 H<sub>2</sub>O homocarnosine  -->L-histidine 4-aminobutanoate 
+
+RXN-12595 H<SUP>+</SUP> 4-hydroxybutyraldehyde NAD(P)H  -->NAD(P)<sup>+</sup> 1,4-butanediol 
+RXN-12594 H<SUP>+</SUP> 4-hydroxybutanoyl-CoA NAD(P)H  -->coenzyme A 4-hydroxybutyraldehyde NAD(P)<sup>+</sup> 
+RXN-8889 acetyl-CoA 4-hydroxybutanoate  -->acetate 4-hydroxybutanoyl-CoA 
+4-HYDROXYBUTYRATE-DEHYDROGENASE-RXN NADH H<SUP>+</SUP> succinate semialdehyde  -->NAD<sup>+</sup> 4-hydroxybutanoate 
+RXN-13328 glyoxylate 4-aminobutanoate  -->glycine succinate semialdehyde 
+RXN-14209 H<sub>2</sub>O 4-aminobutanal NADP<sup>+</sup>  -->H<SUP>+</SUP> 4-aminobutanoate NADPH 
+RXN-8 putrescine pyruvate  -->4-aminobutanal L-alanine 
+ORNDECARBOX-RXN H<SUP>+</SUP> L-ornithine  -->putrescine CO<SUB>2</SUB> 
+
+RXN-12595 H<SUP>+</SUP> 4-hydroxybutyraldehyde NAD(P)H  -->NAD(P)<sup>+</sup> 1,4-butanediol 
+RXN-12594 H<SUP>+</SUP> 4-hydroxybutanoyl-CoA NAD(P)H  -->coenzyme A 4-hydroxybutyraldehyde NAD(P)<sup>+</sup> 
+RXN-8889 acetyl-CoA 4-hydroxybutanoate  -->acetate 4-hydroxybutanoyl-CoA 
+4-HYDROXYBUTYRATE-DEHYDROGENASE-RXN NADH H<SUP>+</SUP> succinate semialdehyde  -->NAD<sup>+</sup> 4-hydroxybutanoate 
+RXN-13328 glyoxylate 4-aminobutanoate  -->glycine succinate semialdehyde 
+AMINOBUTDEHYDROG-RXN H<sub>2</sub>O NAD<sup>+</sup> 4-aminobutanal  -->NADH H<SUP>+</SUP> 4-aminobutanoate 
+PUTRESCINE-OXIDASE-RXN putrescine H<sub>2</sub>O oxygen  -->hydrogen peroxide ammonium 4-aminobutanal 
+ORNDECARBOX-RXN H<SUP>+</SUP> L-ornithine  -->putrescine CO<SUB>2</SUB> 
+
+RXN-12595 H<SUP>+</SUP> 4-hydroxybutyraldehyde NAD(P)H  -->NAD(P)<sup>+</sup> 1,4-butanediol 
+RXN-12594 H<SUP>+</SUP> 4-hydroxybutanoyl-CoA NAD(P)H  -->coenzyme A 4-hydroxybutyraldehyde NAD(P)<sup>+</sup> 
+RXN-8889 acetyl-CoA 4-hydroxybutanoate  -->acetate 4-hydroxybutanoyl-CoA 
+4-HYDROXYBUTYRATE-DEHYDROGENASE-RXN NADH H<SUP>+</SUP> succinate semialdehyde  -->NAD<sup>+</sup> 4-hydroxybutanoate 
+RXN-6902 pyruvate 4-aminobutanoate  -->succinate semialdehyde L-alanine 
+1.5.1.35-RXN 1-pyrroline H<sub>2</sub>O NAD<sup>+</sup>  -->NADH H<SUP>+</SUP> 4-aminobutanoate 
+2.6.1.82-RXN putrescine 2-oxoglutarate  -->1-pyrroline H<sub>2</sub>O L-glutamate 
+AGMATIN-RXN H<sub>2</sub>O agmatine  -->putrescine urea 
+
+RXN-12595 H<SUP>+</SUP> 4-hydroxybutyraldehyde NAD(P)H  -->NAD(P)<sup>+</sup> 1,4-butanediol 
+RXN-12594 H<SUP>+</SUP> 4-hydroxybutanoyl-CoA NAD(P)H  -->coenzyme A 4-hydroxybutyraldehyde NAD(P)<sup>+</sup> 
+RXN-9092 coenzyme A ATP 4-hydroxybutanoate  -->AMP 4-hydroxybutanoyl-CoA diphosphate 
+4-HYDROXYBUTYRATE-DEHYDROGENASE-RXN NADH H<SUP>+</SUP> succinate semialdehyde  -->NAD<sup>+</sup> 4-hydroxybutanoate 
+RXN-6902 pyruvate 4-aminobutanoate  -->succinate semialdehyde L-alanine 
+RXN-14209 H<sub>2</sub>O 4-aminobutanal NADP<sup>+</sup>  -->H<SUP>+</SUP> 4-aminobutanoate NADPH 
+RXN-10747 H<sub>2</sub>O spermidine oxygen  -->propane-1,3-diamine hydrogen peroxide 4-aminobutanal 
+GSPAMID-RXN H<sub>2</sub>O glutathionylspermidine  -->spermidine glutathione 
+
+RXN-12595 H<SUP>+</SUP> 4-hydroxybutyraldehyde NAD(P)H  -->NAD(P)<sup>+</sup> 1,4-butanediol 
+RXN-12594 H<SUP>+</SUP> 4-hydroxybutanoyl-CoA NAD(P)H  -->coenzyme A 4-hydroxybutyraldehyde NAD(P)<sup>+</sup> 
+RXN-9092 coenzyme A ATP 4-hydroxybutanoate  -->AMP 4-hydroxybutanoyl-CoA diphosphate 
+4-HYDROXYBUTYRATE-DEHYDROGENASE-RXN NADH H<SUP>+</SUP> succinate semialdehyde  -->NAD<sup>+</sup> 4-hydroxybutanoate 
+RXN-18258 H<SUP>+</SUP> oxygen NAD(P)H &gamma;-butyrobetaine  -->H<sub>2</sub>O succinate semialdehyde NAD(P)<sup>+</sup> trimethylamine 
+TRANS-RXN-100 L-carnitine &gamma;-butyrobetaine  -->L-carnitine &gamma;-butyrobetaine 
+CARNITINAMIDASE-RXN H<sub>2</sub>O L-carnitinamide  -->L-carnitine ammonium 
+
+RXN-12595 H<SUP>+</SUP> 4-hydroxybutyraldehyde NAD(P)H  -->NAD(P)<sup>+</sup> 1,4-butanediol 
+RXN-12594 H<SUP>+</SUP> 4-hydroxybutanoyl-CoA NAD(P)H  -->coenzyme A 4-hydroxybutyraldehyde NAD(P)<sup>+</sup> 
+RXN-8889 acetyl-CoA 4-hydroxybutanoate  -->acetate 4-hydroxybutanoyl-CoA 
+4-HYDROXYBUTYRATE-DEHYDROGENASE-RXN NADH H<SUP>+</SUP> succinate semialdehyde  -->NAD<sup>+</sup> 4-hydroxybutanoate 
+RXN-6902 pyruvate 4-aminobutanoate  -->succinate semialdehyde L-alanine 
+AMINOBUTDEHYDROG-RXN H<sub>2</sub>O NAD<sup>+</sup> 4-aminobutanal  -->NADH H<SUP>+</SUP> 4-aminobutanoate 
+PUTTRANSAM-RXN putrescine 2-oxoglutarate  -->4-aminobutanal L-glutamate 
+ORNDECARBOX-RXN H<SUP>+</SUP> L-ornithine  -->putrescine CO<SUB>2</SUB> 
+
+RXN-12595 H<SUP>+</SUP> 4-hydroxybutyraldehyde NAD(P)H  -->NAD(P)<sup>+</sup> 1,4-butanediol 
+RXN-12594 H<SUP>+</SUP> 4-hydroxybutanoyl-CoA NAD(P)H  -->coenzyme A 4-hydroxybutyraldehyde NAD(P)<sup>+</sup> 
+RXN-8889 acetyl-CoA 4-hydroxybutanoate  -->acetate 4-hydroxybutanoyl-CoA 
+4-HYDROXYBUTYRATE-DEHYDROGENASE-RXN NADH H<SUP>+</SUP> succinate semialdehyde  -->NAD<sup>+</sup> 4-hydroxybutanoate 
+RXN-6902 pyruvate 4-aminobutanoate  -->succinate semialdehyde L-alanine 
+RXN-14209 H<sub>2</sub>O 4-aminobutanal NADP<sup>+</sup>  -->H<SUP>+</SUP> 4-aminobutanoate NADPH 
+RXN-10747 H<sub>2</sub>O spermidine oxygen  -->propane-1,3-diamine hydrogen peroxide 4-aminobutanal 
+GSPAMID-RXN H<sub>2</sub>O glutathionylspermidine  -->spermidine glutathione 
+
+RXN-12595 H<SUP>+</SUP> 4-hydroxybutyraldehyde NAD(P)H  -->NAD(P)<sup>+</sup> 1,4-butanediol 
+RXN-12594 H<SUP>+</SUP> 4-hydroxybutanoyl-CoA NAD(P)H  -->coenzyme A 4-hydroxybutyraldehyde NAD(P)<sup>+</sup> 
+RXN-8889 acetyl-CoA 4-hydroxybutanoate  -->acetate 4-hydroxybutanoyl-CoA 
+4-HYDROXYBUTYRATE-DEHYDROGENASE-RXN NADH H<SUP>+</SUP> succinate semialdehyde  -->NAD<sup>+</sup> 4-hydroxybutanoate 
+RXN-6902 pyruvate 4-aminobutanoate  -->succinate semialdehyde L-alanine 
+AMINOBUTDEHYDROG-RXN H<sub>2</sub>O NAD<sup>+</sup> 4-aminobutanal  -->NADH H<SUP>+</SUP> 4-aminobutanoate 
+PUTRESCINE-OXIDASE-RXN putrescine H<sub>2</sub>O oxygen  -->hydrogen peroxide ammonium 4-aminobutanal 
+ORNDECARBOX-RXN H<SUP>+</SUP> L-ornithine  -->putrescine CO<SUB>2</SUB> 
+
+RXN-12595 H<SUP>+</SUP> 4-hydroxybutyraldehyde NAD(P)H  -->NAD(P)<sup>+</sup> 1,4-butanediol 
+RXN-12594 H<SUP>+</SUP> 4-hydroxybutanoyl-CoA NAD(P)H  -->coenzyme A 4-hydroxybutyraldehyde NAD(P)<sup>+</sup> 
+RXN-8889 acetyl-CoA 4-hydroxybutanoate  -->acetate 4-hydroxybutanoyl-CoA 
+4-HYDROXYBUTYRATE-DEHYDROGENASE-RXN NADH H<SUP>+</SUP> succinate semialdehyde  -->NAD<sup>+</sup> 4-hydroxybutanoate 
+RXN-13328 glyoxylate 4-aminobutanoate  -->glycine succinate semialdehyde 
+RXN-14209 H<sub>2</sub>O 4-aminobutanal NADP<sup>+</sup>  -->H<SUP>+</SUP> 4-aminobutanoate NADPH 
+PUTTRANSAM-RXN putrescine 2-oxoglutarate  -->4-aminobutanal L-glutamate 
+RXN-20175 H<SUP>+</SUP> D-ornithine  -->putrescine CO<SUB>2</SUB> 
+
+RXN-12595 H<SUP>+</SUP> 4-hydroxybutyraldehyde NAD(P)H  -->NAD(P)<sup>+</sup> 1,4-butanediol 
+RXN-12594 H<SUP>+</SUP> 4-hydroxybutanoyl-CoA NAD(P)H  -->coenzyme A 4-hydroxybutyraldehyde NAD(P)<sup>+</sup> 
+RXN-9092 coenzyme A ATP 4-hydroxybutanoate  -->AMP 4-hydroxybutanoyl-CoA diphosphate 
+4-HYDROXYBUTYRATE-DEHYDROGENASE-RXN NADH H<SUP>+</SUP> succinate semialdehyde  -->NAD<sup>+</sup> 4-hydroxybutanoate 
+RXN-6902 pyruvate 4-aminobutanoate  -->succinate semialdehyde L-alanine 
+RXN-14209 H<sub>2</sub>O 4-aminobutanal NADP<sup>+</sup>  -->H<SUP>+</SUP> 4-aminobutanoate NADPH 
+PUTTRANSAM-RXN putrescine 2-oxoglutarate  -->4-aminobutanal L-glutamate 
+ORNDECARBOX-RXN H<SUP>+</SUP> L-ornithine  -->putrescine CO<SUB>2</SUB> 
+
+RXN-12595 H<SUP>+</SUP> 4-hydroxybutyraldehyde NAD(P)H  -->NAD(P)<sup>+</sup> 1,4-butanediol 
+RXN-12594 H<SUP>+</SUP> 4-hydroxybutanoyl-CoA NAD(P)H  -->coenzyme A 4-hydroxybutyraldehyde NAD(P)<sup>+</sup> 
+RXN-8889 acetyl-CoA 4-hydroxybutanoate  -->acetate 4-hydroxybutanoyl-CoA 
+4-HYDROXYBUTYRATE-DEHYDROGENASE-RXN NADH H<SUP>+</SUP> succinate semialdehyde  -->NAD<sup>+</sup> 4-hydroxybutanoate 
+RXN-6902 pyruvate 4-aminobutanoate  -->succinate semialdehyde L-alanine 
+AMINOBUTDEHYDROG-RXN H<sub>2</sub>O NAD<sup>+</sup> 4-aminobutanal  -->NADH H<SUP>+</SUP> 4-aminobutanoate 
+RXN-8 putrescine pyruvate  -->4-aminobutanal L-alanine 
+ORNDECARBOX-RXN H<SUP>+</SUP> L-ornithine  -->putrescine CO<SUB>2</SUB> 
+
+RXN-12595 H<SUP>+</SUP> 4-hydroxybutyraldehyde NAD(P)H  -->NAD(P)<sup>+</sup> 1,4-butanediol 
+RXN-12594 H<SUP>+</SUP> 4-hydroxybutanoyl-CoA NAD(P)H  -->coenzyme A 4-hydroxybutyraldehyde NAD(P)<sup>+</sup> 
+RXN-9092 coenzyme A ATP 4-hydroxybutanoate  -->AMP 4-hydroxybutanoyl-CoA diphosphate 
+4-HYDROXYBUTYRATE-DEHYDROGENASE-RXN NADH H<SUP>+</SUP> succinate semialdehyde  -->NAD<sup>+</sup> 4-hydroxybutanoate 
+RXN-6902 pyruvate 4-aminobutanoate  -->succinate semialdehyde L-alanine 
+AMINOBUTDEHYDROG-RXN H<sub>2</sub>O NAD<sup>+</sup> 4-aminobutanal  -->NADH H<SUP>+</SUP> 4-aminobutanoate 
+PUTTRANSAM-RXN putrescine 2-oxoglutarate  -->4-aminobutanal L-glutamate 
+ORNDECARBOX-RXN H<SUP>+</SUP> L-ornithine  -->putrescine CO<SUB>2</SUB> 
+
+RXN-12595 H<SUP>+</SUP> 4-hydroxybutyraldehyde NAD(P)H  -->NAD(P)<sup>+</sup> 1,4-butanediol 
+RXN-12594 H<SUP>+</SUP> 4-hydroxybutanoyl-CoA NAD(P)H  -->coenzyme A 4-hydroxybutyraldehyde NAD(P)<sup>+</sup> 
+RXN-8889 acetyl-CoA 4-hydroxybutanoate  -->acetate 4-hydroxybutanoyl-CoA 
+4-HYDROXYBUTYRATE-DEHYDROGENASE-RXN NADH H<SUP>+</SUP> succinate semialdehyde  -->NAD<sup>+</sup> 4-hydroxybutanoate 
+RXN-8891 H<SUP>+</SUP> succinyl-CoA NADPH  -->coenzyme A succinate semialdehyde NADP<sup>+</sup> 
+
+RXN-12595 H<SUP>+</SUP> 4-hydroxybutyraldehyde NAD(P)H  -->NAD(P)<sup>+</sup> 1,4-butanediol 
+RXN-12594 H<SUP>+</SUP> 4-hydroxybutanoyl-CoA NAD(P)H  -->coenzyme A 4-hydroxybutyraldehyde NAD(P)<sup>+</sup> 
+RXN-9092 coenzyme A ATP 4-hydroxybutanoate  -->AMP 4-hydroxybutanoyl-CoA diphosphate 
+4-HYDROXYBUTYRATE-DEHYDROGENASE-RXN NADH H<SUP>+</SUP> succinate semialdehyde  -->NAD<sup>+</sup> 4-hydroxybutanoate 
+RXN-6902 pyruvate 4-aminobutanoate  -->succinate semialdehyde L-alanine 
+RXN-14209 H<sub>2</sub>O 4-aminobutanal NADP<sup>+</sup>  -->H<SUP>+</SUP> 4-aminobutanoate NADPH 
+RXN-8 putrescine pyruvate  -->4-aminobutanal L-alanine 
+RXN-20175 H<SUP>+</SUP> D-ornithine  -->putrescine CO<SUB>2</SUB> 
+
+RXN-12595 H<SUP>+</SUP> 4-hydroxybutyraldehyde NAD(P)H  -->NAD(P)<sup>+</sup> 1,4-butanediol 
+RXN-12594 H<SUP>+</SUP> 4-hydroxybutanoyl-CoA NAD(P)H  -->coenzyme A 4-hydroxybutyraldehyde NAD(P)<sup>+</sup> 
+RXN-8889 acetyl-CoA 4-hydroxybutanoate  -->acetate 4-hydroxybutanoyl-CoA 
+4-HYDROXYBUTYRATE-DEHYDROGENASE-RXN NADH H<SUP>+</SUP> succinate semialdehyde  -->NAD<sup>+</sup> 4-hydroxybutanoate 
+RXN-13328 glyoxylate 4-aminobutanoate  -->glycine succinate semialdehyde 
+RXN-14209 H<sub>2</sub>O 4-aminobutanal NADP<sup>+</sup>  -->H<SUP>+</SUP> 4-aminobutanoate NADPH 
+PUTRESCINE-OXIDASE-RXN putrescine H<sub>2</sub>O oxygen  -->hydrogen peroxide ammonium 4-aminobutanal 
+ORNDECARBOX-RXN H<SUP>+</SUP> L-ornithine  -->putrescine CO<SUB>2</SUB> 
+
+RXN-12595 H<SUP>+</SUP> 4-hydroxybutyraldehyde NAD(P)H  -->NAD(P)<sup>+</sup> 1,4-butanediol 
+RXN-12594 H<SUP>+</SUP> 4-hydroxybutanoyl-CoA NAD(P)H  -->coenzyme A 4-hydroxybutyraldehyde NAD(P)<sup>+</sup> 
+RXN-9092 coenzyme A ATP 4-hydroxybutanoate  -->AMP 4-hydroxybutanoyl-CoA diphosphate 
+4-HYDROXYBUTYRATE-DEHYDROGENASE-RXN NADH H<SUP>+</SUP> succinate semialdehyde  -->NAD<sup>+</sup> 4-hydroxybutanoate 
+RXN-13328 glyoxylate 4-aminobutanoate  -->glycine succinate semialdehyde 
+AMINOBUTDEHYDROG-RXN H<sub>2</sub>O NAD<sup>+</sup> 4-aminobutanal  -->NADH H<SUP>+</SUP> 4-aminobutanoate 
+SPERMIDINE-DEHYDROGENASE-RXN H<sub>2</sub>O spermidine an oxidized unknown electron carrier  -->propane-1,3-diamine a reduced unknown two electron carrier 4-aminobutanal 
+GSPAMID-RXN H<sub>2</sub>O glutathionylspermidine  -->spermidine glutathione 
+
+RXN-12595 H<SUP>+</SUP> 4-hydroxybutyraldehyde NAD(P)H  -->NAD(P)<sup>+</sup> 1,4-butanediol 
+RXN-12594 H<SUP>+</SUP> 4-hydroxybutanoyl-CoA NAD(P)H  -->coenzyme A 4-hydroxybutyraldehyde NAD(P)<sup>+</sup> 
+RXN-9092 coenzyme A ATP 4-hydroxybutanoate  -->AMP 4-hydroxybutanoyl-CoA diphosphate 
+4-HYDROXYBUTYRATE-DEHYDROGENASE-RXN NADH H<SUP>+</SUP> succinate semialdehyde  -->NAD<sup>+</sup> 4-hydroxybutanoate 
+RXN-13328 glyoxylate 4-aminobutanoate  -->glycine succinate semialdehyde 
+RXN-14209 H<sub>2</sub>O 4-aminobutanal NADP<sup>+</sup>  -->H<SUP>+</SUP> 4-aminobutanoate NADPH 
+PUTTRANSAM-RXN putrescine 2-oxoglutarate  -->4-aminobutanal L-glutamate 
+ORNDECARBOX-RXN H<SUP>+</SUP> L-ornithine  -->putrescine CO<SUB>2</SUB> 
+
+RXN-12595 H<SUP>+</SUP> 4-hydroxybutyraldehyde NAD(P)H  -->NAD(P)<sup>+</sup> 1,4-butanediol 
+RXN-12594 H<SUP>+</SUP> 4-hydroxybutanoyl-CoA NAD(P)H  -->coenzyme A 4-hydroxybutyraldehyde NAD(P)<sup>+</sup> 
+RXN-8889 acetyl-CoA 4-hydroxybutanoate  -->acetate 4-hydroxybutanoyl-CoA 
+4-HYDROXYBUTYRATE-DEHYDROGENASE-RXN NADH H<SUP>+</SUP> succinate semialdehyde  -->NAD<sup>+</sup> 4-hydroxybutanoate 
+RXN-13328 glyoxylate 4-aminobutanoate  -->glycine succinate semialdehyde 
+AMINOBUTDEHYDROG-RXN H<sub>2</sub>O NAD<sup>+</sup> 4-aminobutanal  -->NADH H<SUP>+</SUP> 4-aminobutanoate 
+RXN-8 putrescine pyruvate  -->4-aminobutanal L-alanine 
+ORNDECARBOX-RXN H<SUP>+</SUP> L-ornithine  -->putrescine CO<SUB>2</SUB> 
+
+RXN-12595 H<SUP>+</SUP> 4-hydroxybutyraldehyde NAD(P)H  -->NAD(P)<sup>+</sup> 1,4-butanediol 
+RXN-12594 H<SUP>+</SUP> 4-hydroxybutanoyl-CoA NAD(P)H  -->coenzyme A 4-hydroxybutyraldehyde NAD(P)<sup>+</sup> 
+RXN-8889 acetyl-CoA 4-hydroxybutanoate  -->acetate 4-hydroxybutanoyl-CoA 
+4-HYDROXYBUTYRATE-DEHYDROGENASE-RXN NADH H<SUP>+</SUP> succinate semialdehyde  -->NAD<sup>+</sup> 4-hydroxybutanoate 
+RXN-13328 glyoxylate 4-aminobutanoate  -->glycine succinate semialdehyde 
+AMINOBUTDEHYDROG-RXN H<sub>2</sub>O NAD<sup>+</sup> 4-aminobutanal  -->NADH H<SUP>+</SUP> 4-aminobutanoate 
+PUTTRANSAM-RXN putrescine 2-oxoglutarate  -->4-aminobutanal L-glutamate 
+RXN-20175 H<SUP>+</SUP> D-ornithine  -->putrescine CO<SUB>2</SUB> 
+
+RXN-12595 H<SUP>+</SUP> 4-hydroxybutyraldehyde NAD(P)H  -->NAD(P)<sup>+</sup> 1,4-butanediol 
+RXN-12594 H<SUP>+</SUP> 4-hydroxybutanoyl-CoA NAD(P)H  -->coenzyme A 4-hydroxybutyraldehyde NAD(P)<sup>+</sup> 
+RXN-8889 acetyl-CoA 4-hydroxybutanoate  -->acetate 4-hydroxybutanoyl-CoA 
+4-HYDROXYBUTYRATE-DEHYDROGENASE-RXN NADH H<SUP>+</SUP> succinate semialdehyde  -->NAD<sup>+</sup> 4-hydroxybutanoate 
+RXN-14146 2,4-dihydroxyhept-2-enedioate  -->pyruvate succinate semialdehyde 
+
+RXN-12595 H<SUP>+</SUP> 4-hydroxybutyraldehyde NAD(P)H  -->NAD(P)<sup>+</sup> 1,4-butanediol 
+RXN-12594 H<SUP>+</SUP> 4-hydroxybutanoyl-CoA NAD(P)H  -->coenzyme A 4-hydroxybutyraldehyde NAD(P)<sup>+</sup> 
+RXN-9092 coenzyme A ATP 4-hydroxybutanoate  -->AMP 4-hydroxybutanoyl-CoA diphosphate 
+4-HYDROXYBUTYRATE-DEHYDROGENASE-RXN NADH H<SUP>+</SUP> succinate semialdehyde  -->NAD<sup>+</sup> 4-hydroxybutanoate 
+RXN-6902 pyruvate 4-aminobutanoate  -->succinate semialdehyde L-alanine 
+GUANIDINOBUTYRASE-RXN H<sub>2</sub>O 4-guanidinobutanoate  -->urea 4-aminobutanoate 
+GUANIDINOBUTANAMIDE-NH3-RXN H<sub>2</sub>O 4-guanidinobutyramide  -->ammonium 4-guanidinobutanoate 
+ARGININE-2-MONOOXYGENASE-RXN L-arginine oxygen  -->H<sub>2</sub>O CO<SUB>2</SUB> 4-guanidinobutyramide 
+
+RXN-12595 H<SUP>+</SUP> 4-hydroxybutyraldehyde NAD(P)H  -->NAD(P)<sup>+</sup> 1,4-butanediol 
+RXN-12594 H<SUP>+</SUP> 4-hydroxybutanoyl-CoA NAD(P)H  -->coenzyme A 4-hydroxybutyraldehyde NAD(P)<sup>+</sup> 
+RXN-9092 coenzyme A ATP 4-hydroxybutanoate  -->AMP 4-hydroxybutanoyl-CoA diphosphate 
+4-HYDROXYBUTYRATE-DEHYDROGENASE-RXN NADH H<SUP>+</SUP> succinate semialdehyde  -->NAD<sup>+</sup> 4-hydroxybutanoate 
+RXN-13328 glyoxylate 4-aminobutanoate  -->glycine succinate semialdehyde 
+1.5.1.35-RXN 1-pyrroline H<sub>2</sub>O NAD<sup>+</sup>  -->NADH H<SUP>+</SUP> 4-aminobutanoate 
+2.6.1.82-RXN putrescine 2-oxoglutarate  -->1-pyrroline H<sub>2</sub>O L-glutamate 
+RXN-20175 H<SUP>+</SUP> D-ornithine  -->putrescine CO<SUB>2</SUB> 
+
+RXN-12595 H<SUP>+</SUP> 4-hydroxybutyraldehyde NAD(P)H  -->NAD(P)<sup>+</sup> 1,4-butanediol 
+RXN-12594 H<SUP>+</SUP> 4-hydroxybutanoyl-CoA NAD(P)H  -->coenzyme A 4-hydroxybutyraldehyde NAD(P)<sup>+</sup> 
+RXN-9092 coenzyme A ATP 4-hydroxybutanoate  -->AMP 4-hydroxybutanoyl-CoA diphosphate 
+4-HYDROXYBUTYRATE-DEHYDROGENASE-RXN NADH H<SUP>+</SUP> succinate semialdehyde  -->NAD<sup>+</sup> 4-hydroxybutanoate 
+RXN-13328 glyoxylate 4-aminobutanoate  -->glycine succinate semialdehyde 
+1.5.1.35-RXN 1-pyrroline H<sub>2</sub>O NAD<sup>+</sup>  -->NADH H<SUP>+</SUP> 4-aminobutanoate 
+2.6.1.82-RXN putrescine 2-oxoglutarate  -->1-pyrroline H<sub>2</sub>O L-glutamate 
+ORNDECARBOX-RXN H<SUP>+</SUP> L-ornithine  -->putrescine CO<SUB>2</SUB> 
+
+RXN-12595 H<SUP>+</SUP> 4-hydroxybutyraldehyde NAD(P)H  -->NAD(P)<sup>+</sup> 1,4-butanediol 
+RXN-12594 H<SUP>+</SUP> 4-hydroxybutanoyl-CoA NAD(P)H  -->coenzyme A 4-hydroxybutyraldehyde NAD(P)<sup>+</sup> 
+RXN-9092 coenzyme A ATP 4-hydroxybutanoate  -->AMP 4-hydroxybutanoyl-CoA diphosphate 
+4-HYDROXYBUTYRATE-DEHYDROGENASE-RXN NADH H<SUP>+</SUP> succinate semialdehyde  -->NAD<sup>+</sup> 4-hydroxybutanoate 
+RXN-13328 glyoxylate 4-aminobutanoate  -->glycine succinate semialdehyde 
+GLUTDECARBOX-RXN H<SUP>+</SUP> L-glutamate  -->4-aminobutanoate CO<SUB>2</SUB> 
+
+RXN-12595 H<SUP>+</SUP> 4-hydroxybutyraldehyde NAD(P)H  -->NAD(P)<sup>+</sup> 1,4-butanediol 
+RXN-12594 H<SUP>+</SUP> 4-hydroxybutanoyl-CoA NAD(P)H  -->coenzyme A 4-hydroxybutyraldehyde NAD(P)<sup>+</sup> 
+RXN-9092 coenzyme A ATP 4-hydroxybutanoate  -->AMP 4-hydroxybutanoyl-CoA diphosphate 
+4-HYDROXYBUTYRATE-DEHYDROGENASE-RXN NADH H<SUP>+</SUP> succinate semialdehyde  -->NAD<sup>+</sup> 4-hydroxybutanoate 
+RXN-13328 glyoxylate 4-aminobutanoate  -->glycine succinate semialdehyde 
+RXN-14209 H<sub>2</sub>O 4-aminobutanal NADP<sup>+</sup>  -->H<SUP>+</SUP> 4-aminobutanoate NADPH 
+RXN-8 putrescine pyruvate  -->4-aminobutanal L-alanine 
+ORNDECARBOX-RXN H<SUP>+</SUP> L-ornithine  -->putrescine CO<SUB>2</SUB> 
+
+RXN-12595 H<SUP>+</SUP> 4-hydroxybutyraldehyde NAD(P)H  -->NAD(P)<sup>+</sup> 1,4-butanediol 
+RXN-12594 H<SUP>+</SUP> 4-hydroxybutanoyl-CoA NAD(P)H  -->coenzyme A 4-hydroxybutyraldehyde NAD(P)<sup>+</sup> 
+RXN-8889 acetyl-CoA 4-hydroxybutanoate  -->acetate 4-hydroxybutanoyl-CoA 
+4-HYDROXYBUTYRATE-DEHYDROGENASE-RXN NADH H<SUP>+</SUP> succinate semialdehyde  -->NAD<sup>+</sup> 4-hydroxybutanoate 
+RXN-6902 pyruvate 4-aminobutanoate  -->succinate semialdehyde L-alanine 
+1.5.1.35-RXN 1-pyrroline H<sub>2</sub>O NAD<sup>+</sup>  -->NADH H<SUP>+</SUP> 4-aminobutanoate 
+2.6.1.82-RXN putrescine 2-oxoglutarate  -->1-pyrroline H<sub>2</sub>O L-glutamate 
+ORNDECARBOX-RXN H<SUP>+</SUP> L-ornithine  -->putrescine CO<SUB>2</SUB> 
+
+RXN-12595 H<SUP>+</SUP> 4-hydroxybutyraldehyde NAD(P)H  -->NAD(P)<sup>+</sup> 1,4-butanediol 
+RXN-12594 H<SUP>+</SUP> 4-hydroxybutanoyl-CoA NAD(P)H  -->coenzyme A 4-hydroxybutyraldehyde NAD(P)<sup>+</sup> 
+RXN-8889 acetyl-CoA 4-hydroxybutanoate  -->acetate 4-hydroxybutanoyl-CoA 
+4-HYDROXYBUTYRATE-DEHYDROGENASE-RXN NADH H<SUP>+</SUP> succinate semialdehyde  -->NAD<sup>+</sup> 4-hydroxybutanoate 
+RXN-6902 pyruvate 4-aminobutanoate  -->succinate semialdehyde L-alanine 
+AMINOBUTDEHYDROG-RXN H<sub>2</sub>O NAD<sup>+</sup> 4-aminobutanal  -->NADH H<SUP>+</SUP> 4-aminobutanoate 
+PUTTRANSAM-RXN putrescine 2-oxoglutarate  -->4-aminobutanal L-glutamate 
+AGMATIN-RXN H<sub>2</sub>O agmatine  -->putrescine urea 
+
+RXN-12595 H<SUP>+</SUP> 4-hydroxybutyraldehyde NAD(P)H  -->NAD(P)<sup>+</sup> 1,4-butanediol 
+RXN-12594 H<SUP>+</SUP> 4-hydroxybutanoyl-CoA NAD(P)H  -->coenzyme A 4-hydroxybutyraldehyde NAD(P)<sup>+</sup> 
+RXN-8889 acetyl-CoA 4-hydroxybutanoate  -->acetate 4-hydroxybutanoyl-CoA 
+4-HYDROXYBUTYRATE-DEHYDROGENASE-RXN NADH H<SUP>+</SUP> succinate semialdehyde  -->NAD<sup>+</sup> 4-hydroxybutanoate 
+RXN-6902 pyruvate 4-aminobutanoate  -->succinate semialdehyde L-alanine 
+GLUTDECARBOX-RXN H<SUP>+</SUP> L-glutamate  -->4-aminobutanoate CO<SUB>2</SUB> 
+
+RXN-12595 H<SUP>+</SUP> 4-hydroxybutyraldehyde NAD(P)H  -->NAD(P)<sup>+</sup> 1,4-butanediol 
+RXN-12594 H<SUP>+</SUP> 4-hydroxybutanoyl-CoA NAD(P)H  -->coenzyme A 4-hydroxybutyraldehyde NAD(P)<sup>+</sup> 
+RXN-8889 acetyl-CoA 4-hydroxybutanoate  -->acetate 4-hydroxybutanoyl-CoA 
+4-HYDROXYBUTYRATE-DEHYDROGENASE-RXN NADH H<SUP>+</SUP> succinate semialdehyde  -->NAD<sup>+</sup> 4-hydroxybutanoate 
+RXN-6902 pyruvate 4-aminobutanoate  -->succinate semialdehyde L-alanine 
+RXN0-3942 H<sub>2</sub>O 4-(&gamma;-L-glutamylamino)butanoate  -->4-aminobutanoate L-glutamate 
+
+RXN-12595 H<SUP>+</SUP> 4-hydroxybutyraldehyde NAD(P)H  -->NAD(P)<sup>+</sup> 1,4-butanediol 
+RXN-12594 H<SUP>+</SUP> 4-hydroxybutanoyl-CoA NAD(P)H  -->coenzyme A 4-hydroxybutyraldehyde NAD(P)<sup>+</sup> 
+RXN-8889 acetyl-CoA 4-hydroxybutanoate  -->acetate 4-hydroxybutanoyl-CoA 
+4-HYDROXYBUTYRATE-DEHYDROGENASE-RXN NADH H<SUP>+</SUP> succinate semialdehyde  -->NAD<sup>+</sup> 4-hydroxybutanoate 
+RXN-6902 pyruvate 4-aminobutanoate  -->succinate semialdehyde L-alanine 
+RXN-14209 H<sub>2</sub>O 4-aminobutanal NADP<sup>+</sup>  -->H<SUP>+</SUP> 4-aminobutanoate NADPH 
+SPERMIDINE-DEHYDROGENASE-RXN H<sub>2</sub>O spermidine an oxidized unknown electron carrier  -->propane-1,3-diamine a reduced unknown two electron carrier 4-aminobutanal 
+GSPAMID-RXN H<sub>2</sub>O glutathionylspermidine  -->spermidine glutathione 
+
+RXN-12595 H<SUP>+</SUP> 4-hydroxybutyraldehyde NAD(P)H  -->NAD(P)<sup>+</sup> 1,4-butanediol 
+RXN-12594 H<SUP>+</SUP> 4-hydroxybutanoyl-CoA NAD(P)H  -->coenzyme A 4-hydroxybutyraldehyde NAD(P)<sup>+</sup> 
+RXN-9092 coenzyme A ATP 4-hydroxybutanoate  -->AMP 4-hydroxybutanoyl-CoA diphosphate 
+4-HYDROXYBUTYRATE-DEHYDROGENASE-RXN NADH H<SUP>+</SUP> succinate semialdehyde  -->NAD<sup>+</sup> 4-hydroxybutanoate 
+RXN-6902 pyruvate 4-aminobutanoate  -->succinate semialdehyde L-alanine 
+AMINOBUTDEHYDROG-RXN H<sub>2</sub>O NAD<sup>+</sup> 4-aminobutanal  -->NADH H<SUP>+</SUP> 4-aminobutanoate 
+PUTRESCINE-OXIDASE-RXN putrescine H<sub>2</sub>O oxygen  -->hydrogen peroxide ammonium 4-aminobutanal 
+RXN-20175 H<SUP>+</SUP> D-ornithine  -->putrescine CO<SUB>2</SUB> 
+
+RXN-12595 H<SUP>+</SUP> 4-hydroxybutyraldehyde NAD(P)H  -->NAD(P)<sup>+</sup> 1,4-butanediol 
+RXN-12594 H<SUP>+</SUP> 4-hydroxybutanoyl-CoA NAD(P)H  -->coenzyme A 4-hydroxybutyraldehyde NAD(P)<sup>+</sup> 
+RXN-8889 acetyl-CoA 4-hydroxybutanoate  -->acetate 4-hydroxybutanoyl-CoA 
+4-HYDROXYBUTYRATE-DEHYDROGENASE-RXN NADH H<SUP>+</SUP> succinate semialdehyde  -->NAD<sup>+</sup> 4-hydroxybutanoate 
+RXN-13328 glyoxylate 4-aminobutanoate  -->glycine succinate semialdehyde 
+AMINOBUTDEHYDROG-RXN H<sub>2</sub>O NAD<sup>+</sup> 4-aminobutanal  -->NADH H<SUP>+</SUP> 4-aminobutanoate 
+RXN-8 putrescine pyruvate  -->4-aminobutanal L-alanine 
+AGMATIN-RXN H<sub>2</sub>O agmatine  -->putrescine urea 
+
+RXN-12595 H<SUP>+</SUP> 4-hydroxybutyraldehyde NAD(P)H  -->NAD(P)<sup>+</sup> 1,4-butanediol 
+RXN-12594 H<SUP>+</SUP> 4-hydroxybutanoyl-CoA NAD(P)H  -->coenzyme A 4-hydroxybutyraldehyde NAD(P)<sup>+</sup> 
+RXN-9092 coenzyme A ATP 4-hydroxybutanoate  -->AMP 4-hydroxybutanoyl-CoA diphosphate 
+4-HYDROXYBUTYRATE-DEHYDROGENASE-RXN NADH H<SUP>+</SUP> succinate semialdehyde  -->NAD<sup>+</sup> 4-hydroxybutanoate 
+RXN-18258 H<SUP>+</SUP> oxygen NAD(P)H &gamma;-butyrobetaine  -->H<sub>2</sub>O succinate semialdehyde NAD(P)<sup>+</sup> trimethylamine 
+TRANS-RXN-100 L-carnitine &gamma;-butyrobetaine  -->L-carnitine &gamma;-butyrobetaine 
+CARNITINAMIDASE-RXN H<sub>2</sub>O L-carnitinamide  -->L-carnitine ammonium 
+
+RXN-12595 H<SUP>+</SUP> 4-hydroxybutyraldehyde NAD(P)H  -->NAD(P)<sup>+</sup> 1,4-butanediol 
+RXN-12594 H<SUP>+</SUP> 4-hydroxybutanoyl-CoA NAD(P)H  -->coenzyme A 4-hydroxybutyraldehyde NAD(P)<sup>+</sup> 
+RXN-9092 coenzyme A ATP 4-hydroxybutanoate  -->AMP 4-hydroxybutanoyl-CoA diphosphate 
+4-HYDROXYBUTYRATE-DEHYDROGENASE-RXN NADH H<SUP>+</SUP> succinate semialdehyde  -->NAD<sup>+</sup> 4-hydroxybutanoate 
+RXN-13328 glyoxylate 4-aminobutanoate  -->glycine succinate semialdehyde 
+RXN-14209 H<sub>2</sub>O 4-aminobutanal NADP<sup>+</sup>  -->H<SUP>+</SUP> 4-aminobutanoate NADPH 
+PUTTRANSAM-RXN putrescine 2-oxoglutarate  -->4-aminobutanal L-glutamate 
+AGMATIN-RXN H<sub>2</sub>O agmatine  -->putrescine urea 
+
+RXN-12595 H<SUP>+</SUP> 4-hydroxybutyraldehyde NAD(P)H  -->NAD(P)<sup>+</sup> 1,4-butanediol 
+RXN-12594 H<SUP>+</SUP> 4-hydroxybutanoyl-CoA NAD(P)H  -->coenzyme A 4-hydroxybutyraldehyde NAD(P)<sup>+</sup> 
+RXN-9092 coenzyme A ATP 4-hydroxybutanoate  -->AMP 4-hydroxybutanoyl-CoA diphosphate 
+4-HYDROXYBUTYRATE-DEHYDROGENASE-RXN NADH H<SUP>+</SUP> succinate semialdehyde  -->NAD<sup>+</sup> 4-hydroxybutanoate 
+RXN-14146 2,4-dihydroxyhept-2-enedioate  -->pyruvate succinate semialdehyde 
+
+RXN-12595 H<SUP>+</SUP> 4-hydroxybutyraldehyde NAD(P)H  -->NAD(P)<sup>+</sup> 1,4-butanediol 
+RXN-12594 H<SUP>+</SUP> 4-hydroxybutanoyl-CoA NAD(P)H  -->coenzyme A 4-hydroxybutyraldehyde NAD(P)<sup>+</sup> 
+RXN-8889 acetyl-CoA 4-hydroxybutanoate  -->acetate 4-hydroxybutanoyl-CoA 
+4-HYDROXYBUTYRATE-DEHYDROGENASE-RXN NADH H<SUP>+</SUP> succinate semialdehyde  -->NAD<sup>+</sup> 4-hydroxybutanoate 
+RXN-6902 pyruvate 4-aminobutanoate  -->succinate semialdehyde L-alanine 
+AMINOBUTDEHYDROG-RXN H<sub>2</sub>O NAD<sup>+</sup> 4-aminobutanal  -->NADH H<SUP>+</SUP> 4-aminobutanoate 
+RXN-10747 H<sub>2</sub>O spermidine oxygen  -->propane-1,3-diamine hydrogen peroxide 4-aminobutanal 
+GSPAMID-RXN H<sub>2</sub>O glutathionylspermidine  -->spermidine glutathione 
+
+RXN-12595 H<SUP>+</SUP> 4-hydroxybutyraldehyde NAD(P)H  -->NAD(P)<sup>+</sup> 1,4-butanediol 
+RXN-12594 H<SUP>+</SUP> 4-hydroxybutanoyl-CoA NAD(P)H  -->coenzyme A 4-hydroxybutyraldehyde NAD(P)<sup>+</sup> 
+RXN-8889 acetyl-CoA 4-hydroxybutanoate  -->acetate 4-hydroxybutanoyl-CoA 
+4-HYDROXYBUTYRATE-DEHYDROGENASE-RXN NADH H<SUP>+</SUP> succinate semialdehyde  -->NAD<sup>+</sup> 4-hydroxybutanoate 
+RXN-13328 glyoxylate 4-aminobutanoate  -->glycine succinate semialdehyde 
+RXN-14209 H<sub>2</sub>O 4-aminobutanal NADP<sup>+</sup>  -->H<SUP>+</SUP> 4-aminobutanoate NADPH 
+PUTTRANSAM-RXN putrescine 2-oxoglutarate  -->4-aminobutanal L-glutamate 
+ORNDECARBOX-RXN H<SUP>+</SUP> L-ornithine  -->putrescine CO<SUB>2</SUB> 
+
+RXN-12595 H<SUP>+</SUP> 4-hydroxybutyraldehyde NAD(P)H  -->NAD(P)<sup>+</sup> 1,4-butanediol 
+RXN-12594 H<SUP>+</SUP> 4-hydroxybutanoyl-CoA NAD(P)H  -->coenzyme A 4-hydroxybutyraldehyde NAD(P)<sup>+</sup> 
+RXN-8889 acetyl-CoA 4-hydroxybutanoate  -->acetate 4-hydroxybutanoyl-CoA 
+4-HYDROXYBUTYRATE-DEHYDROGENASE-RXN NADH H<SUP>+</SUP> succinate semialdehyde  -->NAD<sup>+</sup> 4-hydroxybutanoate 
+RXN-18258 H<SUP>+</SUP> oxygen NAD(P)H &gamma;-butyrobetaine  -->H<sub>2</sub>O succinate semialdehyde NAD(P)<sup>+</sup> trimethylamine 
+RXN0-3601 L-carnitine &gamma;-butyrobetainyl-CoA  -->(<i>R</i>)-carnitinyl-CoA &gamma;-butyrobetaine 
+CARNITINAMIDASE-RXN H<sub>2</sub>O L-carnitinamide  -->L-carnitine ammonium 
+
+RXN-12595 H<SUP>+</SUP> 4-hydroxybutyraldehyde NAD(P)H  -->NAD(P)<sup>+</sup> 1,4-butanediol 
+RXN-12594 H<SUP>+</SUP> 4-hydroxybutanoyl-CoA NAD(P)H  -->coenzyme A 4-hydroxybutyraldehyde NAD(P)<sup>+</sup> 
+RXN-9092 coenzyme A ATP 4-hydroxybutanoate  -->AMP 4-hydroxybutanoyl-CoA diphosphate 
+4-HYDROXYBUTYRATE-DEHYDROGENASE-RXN NADH H<SUP>+</SUP> succinate semialdehyde  -->NAD<sup>+</sup> 4-hydroxybutanoate 
+RXN-6902 pyruvate 4-aminobutanoate  -->succinate semialdehyde L-alanine 
+1.5.1.35-RXN 1-pyrroline H<sub>2</sub>O NAD<sup>+</sup>  -->NADH H<SUP>+</SUP> 4-aminobutanoate 
+2.6.1.82-RXN putrescine 2-oxoglutarate  -->1-pyrroline H<sub>2</sub>O L-glutamate 
+AGMATIN-RXN H<sub>2</sub>O agmatine  -->putrescine urea 
+
+RXN-12595 H<SUP>+</SUP> 4-hydroxybutyraldehyde NAD(P)H  -->NAD(P)<sup>+</sup> 1,4-butanediol 
+RXN-12594 H<SUP>+</SUP> 4-hydroxybutanoyl-CoA NAD(P)H  -->coenzyme A 4-hydroxybutyraldehyde NAD(P)<sup>+</sup> 
+RXN-9092 coenzyme A ATP 4-hydroxybutanoate  -->AMP 4-hydroxybutanoyl-CoA diphosphate 
+4-HYDROXYBUTYRATE-DEHYDROGENASE-RXN NADH H<SUP>+</SUP> succinate semialdehyde  -->NAD<sup>+</sup> 4-hydroxybutanoate 
+RXN-13328 glyoxylate 4-aminobutanoate  -->glycine succinate semialdehyde 
+AMINOBUTDEHYDROG-RXN H<sub>2</sub>O NAD<sup>+</sup> 4-aminobutanal  -->NADH H<SUP>+</SUP> 4-aminobutanoate 
+PUTTRANSAM-RXN putrescine 2-oxoglutarate  -->4-aminobutanal L-glutamate 
+ORNDECARBOX-RXN H<SUP>+</SUP> L-ornithine  -->putrescine CO<SUB>2</SUB> 
+
+RXN-12595 H<SUP>+</SUP> 4-hydroxybutyraldehyde NAD(P)H  -->NAD(P)<sup>+</sup> 1,4-butanediol 
+RXN-12594 H<SUP>+</SUP> 4-hydroxybutanoyl-CoA NAD(P)H  -->coenzyme A 4-hydroxybutyraldehyde NAD(P)<sup>+</sup> 
+RXN-9092 coenzyme A ATP 4-hydroxybutanoate  -->AMP 4-hydroxybutanoyl-CoA diphosphate 
+4-HYDROXYBUTYRATE-DEHYDROGENASE-RXN NADH H<SUP>+</SUP> succinate semialdehyde  -->NAD<sup>+</sup> 4-hydroxybutanoate 
+RXN-13328 glyoxylate 4-aminobutanoate  -->glycine succinate semialdehyde 
+RXN-14209 H<sub>2</sub>O 4-aminobutanal NADP<sup>+</sup>  -->H<SUP>+</SUP> 4-aminobutanoate NADPH 
+RXN-10747 H<sub>2</sub>O spermidine oxygen  -->propane-1,3-diamine hydrogen peroxide 4-aminobutanal 
+GSPAMID-RXN H<sub>2</sub>O glutathionylspermidine  -->spermidine glutathione 
+
+RXN-12595 H<SUP>+</SUP> 4-hydroxybutyraldehyde NAD(P)H  -->NAD(P)<sup>+</sup> 1,4-butanediol 
+RXN-12594 H<SUP>+</SUP> 4-hydroxybutanoyl-CoA NAD(P)H  -->coenzyme A 4-hydroxybutyraldehyde NAD(P)<sup>+</sup> 
+RXN-8889 acetyl-CoA 4-hydroxybutanoate  -->acetate 4-hydroxybutanoyl-CoA 
+RXN-11002 H<SUP>+</SUP> succinate semialdehyde NADPH  -->4-hydroxybutanoate NADP<sup>+</sup> 
+
+RXN-12595 H<SUP>+</SUP> 4-hydroxybutyraldehyde NAD(P)H  -->NAD(P)<sup>+</sup> 1,4-butanediol 
+RXN-12594 H<SUP>+</SUP> 4-hydroxybutanoyl-CoA NAD(P)H  -->coenzyme A 4-hydroxybutyraldehyde NAD(P)<sup>+</sup> 
+RXN-8889 acetyl-CoA 4-hydroxybutanoate  -->acetate 4-hydroxybutanoyl-CoA 
+4-HYDROXYBUTYRATE-DEHYDROGENASE-RXN NADH H<SUP>+</SUP> succinate semialdehyde  -->NAD<sup>+</sup> 4-hydroxybutanoate 
+RXN-13328 glyoxylate 4-aminobutanoate  -->glycine succinate semialdehyde 
+RXN-14209 H<sub>2</sub>O 4-aminobutanal NADP<sup>+</sup>  -->H<SUP>+</SUP> 4-aminobutanoate NADPH 
+PUTTRANSAM-RXN putrescine 2-oxoglutarate  -->4-aminobutanal L-glutamate 
+AGMATIN-RXN H<sub>2</sub>O agmatine  -->putrescine urea 
+
+RXN-12595 H<SUP>+</SUP> 4-hydroxybutyraldehyde NAD(P)H  -->NAD(P)<sup>+</sup> 1,4-butanediol 
+RXN-12594 H<SUP>+</SUP> 4-hydroxybutanoyl-CoA NAD(P)H  -->coenzyme A 4-hydroxybutyraldehyde NAD(P)<sup>+</sup> 
+RXN-8889 acetyl-CoA 4-hydroxybutanoate  -->acetate 4-hydroxybutanoyl-CoA 
+4-HYDROXYBUTYRATE-DEHYDROGENASE-RXN NADH H<SUP>+</SUP> succinate semialdehyde  -->NAD<sup>+</sup> 4-hydroxybutanoate 
+RXN-6902 pyruvate 4-aminobutanoate  -->succinate semialdehyde L-alanine 
+RXN-14209 H<sub>2</sub>O 4-aminobutanal NADP<sup>+</sup>  -->H<SUP>+</SUP> 4-aminobutanoate NADPH 
+PUTTRANSAM-RXN putrescine 2-oxoglutarate  -->4-aminobutanal L-glutamate 
+RXN-20175 H<SUP>+</SUP> D-ornithine  -->putrescine CO<SUB>2</SUB> 
+
+RXN-12595 H<SUP>+</SUP> 4-hydroxybutyraldehyde NAD(P)H  -->NAD(P)<sup>+</sup> 1,4-butanediol 
+RXN-12594 H<SUP>+</SUP> 4-hydroxybutanoyl-CoA NAD(P)H  -->coenzyme A 4-hydroxybutyraldehyde NAD(P)<sup>+</sup> 
+RXN-8889 acetyl-CoA 4-hydroxybutanoate  -->acetate 4-hydroxybutanoyl-CoA 
+4-HYDROXYBUTYRATE-DEHYDROGENASE-RXN NADH H<SUP>+</SUP> succinate semialdehyde  -->NAD<sup>+</sup> 4-hydroxybutanoate 
+RXN-13328 glyoxylate 4-aminobutanoate  -->glycine succinate semialdehyde 
+RXN-14209 H<sub>2</sub>O 4-aminobutanal NADP<sup>+</sup>  -->H<SUP>+</SUP> 4-aminobutanoate NADPH 
+PUTRESCINE-OXIDASE-RXN putrescine H<sub>2</sub>O oxygen  -->hydrogen peroxide ammonium 4-aminobutanal 
+AGMATIN-RXN H<sub>2</sub>O agmatine  -->putrescine urea 
+
+RXN-12595 H<SUP>+</SUP> 4-hydroxybutyraldehyde NAD(P)H  -->NAD(P)<sup>+</sup> 1,4-butanediol 
+RXN-12594 H<SUP>+</SUP> 4-hydroxybutanoyl-CoA NAD(P)H  -->coenzyme A 4-hydroxybutyraldehyde NAD(P)<sup>+</sup> 
+RXN-9092 coenzyme A ATP 4-hydroxybutanoate  -->AMP 4-hydroxybutanoyl-CoA diphosphate 
+4-HYDROXYBUTYRATE-DEHYDROGENASE-RXN NADH H<SUP>+</SUP> succinate semialdehyde  -->NAD<sup>+</sup> 4-hydroxybutanoate 
+RXN-6902 pyruvate 4-aminobutanoate  -->succinate semialdehyde L-alanine 
+RXN-14209 H<sub>2</sub>O 4-aminobutanal NADP<sup>+</sup>  -->H<SUP>+</SUP> 4-aminobutanoate NADPH 
+RXN-8 putrescine pyruvate  -->4-aminobutanal L-alanine 
+AGMATIN-RXN H<sub>2</sub>O agmatine  -->putrescine urea 
+
+RXN-12595 H<SUP>+</SUP> 4-hydroxybutyraldehyde NAD(P)H  -->NAD(P)<sup>+</sup> 1,4-butanediol 
+RXN-12594 H<SUP>+</SUP> 4-hydroxybutanoyl-CoA NAD(P)H  -->coenzyme A 4-hydroxybutyraldehyde NAD(P)<sup>+</sup> 
+RXN-9092 coenzyme A ATP 4-hydroxybutanoate  -->AMP 4-hydroxybutanoyl-CoA diphosphate 
+4-HYDROXYBUTYRATE-DEHYDROGENASE-RXN NADH H<SUP>+</SUP> succinate semialdehyde  -->NAD<sup>+</sup> 4-hydroxybutanoate 
+RXN-6902 pyruvate 4-aminobutanoate  -->succinate semialdehyde L-alanine 
+AMINOBUTDEHYDROG-RXN H<sub>2</sub>O NAD<sup>+</sup> 4-aminobutanal  -->NADH H<SUP>+</SUP> 4-aminobutanoate 
+RXN-10747 H<sub>2</sub>O spermidine oxygen  -->propane-1,3-diamine hydrogen peroxide 4-aminobutanal 
+GSPAMID-RXN H<sub>2</sub>O glutathionylspermidine  -->spermidine glutathione 
+
+RXN-12595 H<SUP>+</SUP> 4-hydroxybutyraldehyde NAD(P)H  -->NAD(P)<sup>+</sup> 1,4-butanediol 
+RXN-12594 H<SUP>+</SUP> 4-hydroxybutanoyl-CoA NAD(P)H  -->coenzyme A 4-hydroxybutyraldehyde NAD(P)<sup>+</sup> 
+RXN-8889 acetyl-CoA 4-hydroxybutanoate  -->acetate 4-hydroxybutanoyl-CoA 
+4-HYDROXYBUTYRATE-DEHYDROGENASE-RXN NADH H<SUP>+</SUP> succinate semialdehyde  -->NAD<sup>+</sup> 4-hydroxybutanoate 
+RXN-6902 pyruvate 4-aminobutanoate  -->succinate semialdehyde L-alanine 
+RXN-14209 H<sub>2</sub>O 4-aminobutanal NADP<sup>+</sup>  -->H<SUP>+</SUP> 4-aminobutanoate NADPH 
+RXN-8 putrescine pyruvate  -->4-aminobutanal L-alanine 
+ORNDECARBOX-RXN H<SUP>+</SUP> L-ornithine  -->putrescine CO<SUB>2</SUB> 
+
+RXN-12595 H<SUP>+</SUP> 4-hydroxybutyraldehyde NAD(P)H  -->NAD(P)<sup>+</sup> 1,4-butanediol 
+RXN-12594 H<SUP>+</SUP> 4-hydroxybutanoyl-CoA NAD(P)H  -->coenzyme A 4-hydroxybutyraldehyde NAD(P)<sup>+</sup> 
+RXN-8889 acetyl-CoA 4-hydroxybutanoate  -->acetate 4-hydroxybutanoyl-CoA 
+4-HYDROXYBUTYRATE-DEHYDROGENASE-RXN NADH H<SUP>+</SUP> succinate semialdehyde  -->NAD<sup>+</sup> 4-hydroxybutanoate 
+RXN-6902 pyruvate 4-aminobutanoate  -->succinate semialdehyde L-alanine 
+RXN-19944 H<sub>2</sub>O homocarnosine  -->L-histidine 4-aminobutanoate 
+
+RXN-12595 H<SUP>+</SUP> 4-hydroxybutyraldehyde NAD(P)H  -->NAD(P)<sup>+</sup> 1,4-butanediol 
+RXN-12594 H<SUP>+</SUP> 4-hydroxybutanoyl-CoA NAD(P)H  -->coenzyme A 4-hydroxybutyraldehyde NAD(P)<sup>+</sup> 
+RXN-9092 coenzyme A ATP 4-hydroxybutanoate  -->AMP 4-hydroxybutanoyl-CoA diphosphate 
+4-HYDROXYBUTYRATE-DEHYDROGENASE-RXN NADH H<SUP>+</SUP> succinate semialdehyde  -->NAD<sup>+</sup> 4-hydroxybutanoate 
+RXN-7774 2-oxoglutarate H<SUP>+</SUP>  -->succinate semialdehyde CO<SUB>2</SUB> 
+
+RXN-12595 H<SUP>+</SUP> 4-hydroxybutyraldehyde NAD(P)H  -->NAD(P)<sup>+</sup> 1,4-butanediol 
+RXN-12594 H<SUP>+</SUP> 4-hydroxybutanoyl-CoA NAD(P)H  -->coenzyme A 4-hydroxybutyraldehyde NAD(P)<sup>+</sup> 
+RXN-9092 coenzyme A ATP 4-hydroxybutanoate  -->AMP 4-hydroxybutanoyl-CoA diphosphate 
+4-HYDROXYBUTYRATE-DEHYDROGENASE-RXN NADH H<SUP>+</SUP> succinate semialdehyde  -->NAD<sup>+</sup> 4-hydroxybutanoate 
+RXN-13328 glyoxylate 4-aminobutanoate  -->glycine succinate semialdehyde 
+AMINOBUTDEHYDROG-RXN H<sub>2</sub>O NAD<sup>+</sup> 4-aminobutanal  -->NADH H<SUP>+</SUP> 4-aminobutanoate 
+PUTRESCINE-OXIDASE-RXN putrescine H<sub>2</sub>O oxygen  -->hydrogen peroxide ammonium 4-aminobutanal 
+ORNDECARBOX-RXN H<SUP>+</SUP> L-ornithine  -->putrescine CO<SUB>2</SUB> 
+
+RXN-12595 H<SUP>+</SUP> 4-hydroxybutyraldehyde NAD(P)H  -->NAD(P)<sup>+</sup> 1,4-butanediol 
+RXN-12594 H<SUP>+</SUP> 4-hydroxybutanoyl-CoA NAD(P)H  -->coenzyme A 4-hydroxybutyraldehyde NAD(P)<sup>+</sup> 
+RXN-9092 coenzyme A ATP 4-hydroxybutanoate  -->AMP 4-hydroxybutanoyl-CoA diphosphate 
+4-HYDROXYBUTYRATE-DEHYDROGENASE-RXN NADH H<SUP>+</SUP> succinate semialdehyde  -->NAD<sup>+</sup> 4-hydroxybutanoate 
+RXN-6902 pyruvate 4-aminobutanoate  -->succinate semialdehyde L-alanine 
+AMINOBUTDEHYDROG-RXN H<sub>2</sub>O NAD<sup>+</sup> 4-aminobutanal  -->NADH H<SUP>+</SUP> 4-aminobutanoate 
+PUTTRANSAM-RXN putrescine 2-oxoglutarate  -->4-aminobutanal L-glutamate 
+RXN-20175 H<SUP>+</SUP> D-ornithine  -->putrescine CO<SUB>2</SUB> 
+
+RXN-12595 H<SUP>+</SUP> 4-hydroxybutyraldehyde NAD(P)H  -->NAD(P)<sup>+</sup> 1,4-butanediol 
+RXN-12594 H<SUP>+</SUP> 4-hydroxybutanoyl-CoA NAD(P)H  -->coenzyme A 4-hydroxybutyraldehyde NAD(P)<sup>+</sup> 
+RXN-8889 acetyl-CoA 4-hydroxybutanoate  -->acetate 4-hydroxybutanoyl-CoA 
+4-HYDROXYBUTYRATE-DEHYDROGENASE-RXN NADH H<SUP>+</SUP> succinate semialdehyde  -->NAD<sup>+</sup> 4-hydroxybutanoate 
+RXN-6902 pyruvate 4-aminobutanoate  -->succinate semialdehyde L-alanine 
+AMINOBUTDEHYDROG-RXN H<sub>2</sub>O NAD<sup>+</sup> 4-aminobutanal  -->NADH H<SUP>+</SUP> 4-aminobutanoate 
+PUTRESCINE-OXIDASE-RXN putrescine H<sub>2</sub>O oxygen  -->hydrogen peroxide ammonium 4-aminobutanal 
+RXN-20175 H<SUP>+</SUP> D-ornithine  -->putrescine CO<SUB>2</SUB> 
+
+RXN-12595 H<SUP>+</SUP> 4-hydroxybutyraldehyde NAD(P)H  -->NAD(P)<sup>+</sup> 1,4-butanediol 
+RXN-12594 H<SUP>+</SUP> 4-hydroxybutanoyl-CoA NAD(P)H  -->coenzyme A 4-hydroxybutyraldehyde NAD(P)<sup>+</sup> 
+RXN-9092 coenzyme A ATP 4-hydroxybutanoate  -->AMP 4-hydroxybutanoyl-CoA diphosphate 
+4-HYDROXYBUTYRATE-DEHYDROGENASE-RXN NADH H<SUP>+</SUP> succinate semialdehyde  -->NAD<sup>+</sup> 4-hydroxybutanoate 
+RXN-13328 glyoxylate 4-aminobutanoate  -->glycine succinate semialdehyde 
+AMINOBUTDEHYDROG-RXN H<sub>2</sub>O NAD<sup>+</sup> 4-aminobutanal  -->NADH H<SUP>+</SUP> 4-aminobutanoate 
+PUTRESCINE-OXIDASE-RXN putrescine H<sub>2</sub>O oxygen  -->hydrogen peroxide ammonium 4-aminobutanal 
+AGMATIN-RXN H<sub>2</sub>O agmatine  -->putrescine urea 
+
+RXN-12595 H<SUP>+</SUP> 4-hydroxybutyraldehyde NAD(P)H  -->NAD(P)<sup>+</sup> 1,4-butanediol 
+RXN-12594 H<SUP>+</SUP> 4-hydroxybutanoyl-CoA NAD(P)H  -->coenzyme A 4-hydroxybutyraldehyde NAD(P)<sup>+</sup> 
+RXN-8889 acetyl-CoA 4-hydroxybutanoate  -->acetate 4-hydroxybutanoyl-CoA 
+4-HYDROXYBUTYRATE-DEHYDROGENASE-RXN NADH H<SUP>+</SUP> succinate semialdehyde  -->NAD<sup>+</sup> 4-hydroxybutanoate 
+RXN-18258 H<SUP>+</SUP> oxygen NAD(P)H &gamma;-butyrobetaine  -->H<sub>2</sub>O succinate semialdehyde NAD(P)<sup>+</sup> trimethylamine 
+TRANS-RXN-100 L-carnitine &gamma;-butyrobetaine  -->L-carnitine &gamma;-butyrobetaine 
+CARNITINAMIDASE-RXN H<sub>2</sub>O L-carnitinamide  -->L-carnitine ammonium 
+
+RXN-12595 H<SUP>+</SUP> 4-hydroxybutyraldehyde NAD(P)H  -->NAD(P)<sup>+</sup> 1,4-butanediol 
+RXN-12594 H<SUP>+</SUP> 4-hydroxybutanoyl-CoA NAD(P)H  -->coenzyme A 4-hydroxybutyraldehyde NAD(P)<sup>+</sup> 
+RXN-9092 coenzyme A ATP 4-hydroxybutanoate  -->AMP 4-hydroxybutanoyl-CoA diphosphate 
+4-HYDROXYBUTYRATE-DEHYDROGENASE-RXN NADH H<SUP>+</SUP> succinate semialdehyde  -->NAD<sup>+</sup> 4-hydroxybutanoate 
+RXN-6902 pyruvate 4-aminobutanoate  -->succinate semialdehyde L-alanine 
+GLUTDECARBOX-RXN H<SUP>+</SUP> L-glutamate  -->4-aminobutanoate CO<SUB>2</SUB> 
+
+RXN-12595 H<SUP>+</SUP> 4-hydroxybutyraldehyde NAD(P)H  -->NAD(P)<sup>+</sup> 1,4-butanediol 
+RXN-12594 H<SUP>+</SUP> 4-hydroxybutanoyl-CoA NAD(P)H  -->coenzyme A 4-hydroxybutyraldehyde NAD(P)<sup>+</sup> 
+RXN-8889 acetyl-CoA 4-hydroxybutanoate  -->acetate 4-hydroxybutanoyl-CoA 
+4-HYDROXYBUTYRATE-DEHYDROGENASE-RXN NADH H<SUP>+</SUP> succinate semialdehyde  -->NAD<sup>+</sup> 4-hydroxybutanoate 
+RXN-6902 pyruvate 4-aminobutanoate  -->succinate semialdehyde L-alanine 
+AMINOBUTDEHYDROG-RXN H<sub>2</sub>O NAD<sup>+</sup> 4-aminobutanal  -->NADH H<SUP>+</SUP> 4-aminobutanoate 
+PUTRESCINE-OXIDASE-RXN putrescine H<sub>2</sub>O oxygen  -->hydrogen peroxide ammonium 4-aminobutanal 
+AGMATIN-RXN H<sub>2</sub>O agmatine  -->putrescine urea 
+
+RXN-12595 H<SUP>+</SUP> 4-hydroxybutyraldehyde NAD(P)H  -->NAD(P)<sup>+</sup> 1,4-butanediol 
+RXN-12594 H<SUP>+</SUP> 4-hydroxybutanoyl-CoA NAD(P)H  -->coenzyme A 4-hydroxybutyraldehyde NAD(P)<sup>+</sup> 
+RXN-9092 coenzyme A ATP 4-hydroxybutanoate  -->AMP 4-hydroxybutanoyl-CoA diphosphate 
+4-HYDROXYBUTYRATE-DEHYDROGENASE-RXN NADH H<SUP>+</SUP> succinate semialdehyde  -->NAD<sup>+</sup> 4-hydroxybutanoate 
+RXN-18258 H<SUP>+</SUP> oxygen NAD(P)H &gamma;-butyrobetaine  -->H<sub>2</sub>O succinate semialdehyde NAD(P)<sup>+</sup> trimethylamine 
+RXN0-3601 L-carnitine &gamma;-butyrobetainyl-CoA  -->(<i>R</i>)-carnitinyl-CoA &gamma;-butyrobetaine 
+CARNITINAMIDASE-RXN H<sub>2</sub>O L-carnitinamide  -->L-carnitine ammonium 
+
+RXN-12595 H<SUP>+</SUP> 4-hydroxybutyraldehyde NAD(P)H  -->NAD(P)<sup>+</sup> 1,4-butanediol 
+RXN-12594 H<SUP>+</SUP> 4-hydroxybutanoyl-CoA NAD(P)H  -->coenzyme A 4-hydroxybutyraldehyde NAD(P)<sup>+</sup> 
+RXN-9092 coenzyme A ATP 4-hydroxybutanoate  -->AMP 4-hydroxybutanoyl-CoA diphosphate 
+4-HYDROXYBUTYRATE-DEHYDROGENASE-RXN NADH H<SUP>+</SUP> succinate semialdehyde  -->NAD<sup>+</sup> 4-hydroxybutanoate 
+RXN-13328 glyoxylate 4-aminobutanoate  -->glycine succinate semialdehyde 
+AMINOBUTDEHYDROG-RXN H<sub>2</sub>O NAD<sup>+</sup> 4-aminobutanal  -->NADH H<SUP>+</SUP> 4-aminobutanoate 
+PUTRESCINE-OXIDASE-RXN putrescine H<sub>2</sub>O oxygen  -->hydrogen peroxide ammonium 4-aminobutanal 
+RXN-20175 H<SUP>+</SUP> D-ornithine  -->putrescine CO<SUB>2</SUB> 
+
+RXN-12595 H<SUP>+</SUP> 4-hydroxybutyraldehyde NAD(P)H  -->NAD(P)<sup>+</sup> 1,4-butanediol 
+RXN-12594 H<SUP>+</SUP> 4-hydroxybutanoyl-CoA NAD(P)H  -->coenzyme A 4-hydroxybutyraldehyde NAD(P)<sup>+</sup> 
+RXN-8889 acetyl-CoA 4-hydroxybutanoate  -->acetate 4-hydroxybutanoyl-CoA 
+4-HYDROXYBUTYRATE-DEHYDROGENASE-RXN NADH H<SUP>+</SUP> succinate semialdehyde  -->NAD<sup>+</sup> 4-hydroxybutanoate 
+RXN-6902 pyruvate 4-aminobutanoate  -->succinate semialdehyde L-alanine 
+RXN-14209 H<sub>2</sub>O 4-aminobutanal NADP<sup>+</sup>  -->H<SUP>+</SUP> 4-aminobutanoate NADPH 
+PUTRESCINE-OXIDASE-RXN putrescine H<sub>2</sub>O oxygen  -->hydrogen peroxide ammonium 4-aminobutanal 
+AGMATIN-RXN H<sub>2</sub>O agmatine  -->putrescine urea 
+
+RXN-12595 H<SUP>+</SUP> 4-hydroxybutyraldehyde NAD(P)H  -->NAD(P)<sup>+</sup> 1,4-butanediol 
+RXN-12594 H<SUP>+</SUP> 4-hydroxybutanoyl-CoA NAD(P)H  -->coenzyme A 4-hydroxybutyraldehyde NAD(P)<sup>+</sup> 
+RXN-18387 coenzyme A ATP 4-hydroxybutanoate  -->4-hydroxybutanoyl-CoA phosphate ADP 
+
+RXN-12595 H<SUP>+</SUP> 4-hydroxybutyraldehyde NAD(P)H  -->NAD(P)<sup>+</sup> 1,4-butanediol 
+RXN-12594 H<SUP>+</SUP> 4-hydroxybutanoyl-CoA NAD(P)H  -->coenzyme A 4-hydroxybutyraldehyde NAD(P)<sup>+</sup> 
+RXN-9092 coenzyme A ATP 4-hydroxybutanoate  -->AMP 4-hydroxybutanoyl-CoA diphosphate 
+4-HYDROXYBUTYRATE-DEHYDROGENASE-RXN NADH H<SUP>+</SUP> succinate semialdehyde  -->NAD<sup>+</sup> 4-hydroxybutanoate 
+RXN-6902 pyruvate 4-aminobutanoate  -->succinate semialdehyde L-alanine 
+RXN-19944 H<sub>2</sub>O homocarnosine  -->L-histidine 4-aminobutanoate 
+
+RXN-12595 H<SUP>+</SUP> 4-hydroxybutyraldehyde NAD(P)H  -->NAD(P)<sup>+</sup> 1,4-butanediol 
+RXN-12594 H<SUP>+</SUP> 4-hydroxybutanoyl-CoA NAD(P)H  -->coenzyme A 4-hydroxybutyraldehyde NAD(P)<sup>+</sup> 
+RXN-9092 coenzyme A ATP 4-hydroxybutanoate  -->AMP 4-hydroxybutanoyl-CoA diphosphate 
+4-HYDROXYBUTYRATE-DEHYDROGENASE-RXN NADH H<SUP>+</SUP> succinate semialdehyde  -->NAD<sup>+</sup> 4-hydroxybutanoate 
+RXN-13328 glyoxylate 4-aminobutanoate  -->glycine succinate semialdehyde 
+RXN-14209 H<sub>2</sub>O 4-aminobutanal NADP<sup>+</sup>  -->H<SUP>+</SUP> 4-aminobutanoate NADPH 
+PUTRESCINE-OXIDASE-RXN putrescine H<sub>2</sub>O oxygen  -->hydrogen peroxide ammonium 4-aminobutanal 
+AGMATIN-RXN H<sub>2</sub>O agmatine  -->putrescine urea 
+
+RXN-12595 H<SUP>+</SUP> 4-hydroxybutyraldehyde NAD(P)H  -->NAD(P)<sup>+</sup> 1,4-butanediol 
+RXN-12594 H<SUP>+</SUP> 4-hydroxybutanoyl-CoA NAD(P)H  -->coenzyme A 4-hydroxybutyraldehyde NAD(P)<sup>+</sup> 
+RXN-9092 coenzyme A ATP 4-hydroxybutanoate  -->AMP 4-hydroxybutanoyl-CoA diphosphate 
+RXN-11002 H<SUP>+</SUP> succinate semialdehyde NADPH  -->4-hydroxybutanoate NADP<sup>+</sup> 
+
+RXN-12595 H<SUP>+</SUP> 4-hydroxybutyraldehyde NAD(P)H  -->NAD(P)<sup>+</sup> 1,4-butanediol 
+RXN-12594 H<SUP>+</SUP> 4-hydroxybutanoyl-CoA NAD(P)H  -->coenzyme A 4-hydroxybutyraldehyde NAD(P)<sup>+</sup> 
+RXN-9092 coenzyme A ATP 4-hydroxybutanoate  -->AMP 4-hydroxybutanoyl-CoA diphosphate 
+4-HYDROXYBUTYRATE-DEHYDROGENASE-RXN NADH H<SUP>+</SUP> succinate semialdehyde  -->NAD<sup>+</sup> 4-hydroxybutanoate 
+RXN-6902 pyruvate 4-aminobutanoate  -->succinate semialdehyde L-alanine 
+RXN-14209 H<sub>2</sub>O 4-aminobutanal NADP<sup>+</sup>  -->H<SUP>+</SUP> 4-aminobutanoate NADPH 
+SPERMIDINE-DEHYDROGENASE-RXN H<sub>2</sub>O spermidine an oxidized unknown electron carrier  -->propane-1,3-diamine a reduced unknown two electron carrier 4-aminobutanal 
+GSPAMID-RXN H<sub>2</sub>O glutathionylspermidine  -->spermidine glutathione 
+
+RXN-12595 H<SUP>+</SUP> 4-hydroxybutyraldehyde NAD(P)H  -->NAD(P)<sup>+</sup> 1,4-butanediol 
+RXN-12594 H<SUP>+</SUP> 4-hydroxybutanoyl-CoA NAD(P)H  -->coenzyme A 4-hydroxybutyraldehyde NAD(P)<sup>+</sup> 
+RXN-9092 coenzyme A ATP 4-hydroxybutanoate  -->AMP 4-hydroxybutanoyl-CoA diphosphate 
+4-HYDROXYBUTYRATE-DEHYDROGENASE-RXN NADH H<SUP>+</SUP> succinate semialdehyde  -->NAD<sup>+</sup> 4-hydroxybutanoate 
+RXN-6902 pyruvate 4-aminobutanoate  -->succinate semialdehyde L-alanine 
+RXN-14209 H<sub>2</sub>O 4-aminobutanal NADP<sup>+</sup>  -->H<SUP>+</SUP> 4-aminobutanoate NADPH 
+PUTTRANSAM-RXN putrescine 2-oxoglutarate  -->4-aminobutanal L-glutamate 
+RXN-20175 H<SUP>+</SUP> D-ornithine  -->putrescine CO<SUB>2</SUB> 
+
+RXN-12595 H<SUP>+</SUP> 4-hydroxybutyraldehyde NAD(P)H  -->NAD(P)<sup>+</sup> 1,4-butanediol 
+RXN-12594 H<SUP>+</SUP> 4-hydroxybutanoyl-CoA NAD(P)H  -->coenzyme A 4-hydroxybutyraldehyde NAD(P)<sup>+</sup> 
+RXN-8889 acetyl-CoA 4-hydroxybutanoate  -->acetate 4-hydroxybutanoyl-CoA 
+4-HYDROXYBUTYRATE-DEHYDROGENASE-RXN NADH H<SUP>+</SUP> succinate semialdehyde  -->NAD<sup>+</sup> 4-hydroxybutanoate 
+RXN-13328 glyoxylate 4-aminobutanoate  -->glycine succinate semialdehyde 
+RXN0-3942 H<sub>2</sub>O 4-(&gamma;-L-glutamylamino)butanoate  -->4-aminobutanoate L-glutamate 
+
+RXN-12595 H<SUP>+</SUP> 4-hydroxybutyraldehyde NAD(P)H  -->NAD(P)<sup>+</sup> 1,4-butanediol 
+RXN-12594 H<SUP>+</SUP> 4-hydroxybutanoyl-CoA NAD(P)H  -->coenzyme A 4-hydroxybutyraldehyde NAD(P)<sup>+</sup> 
+RXN-9092 coenzyme A ATP 4-hydroxybutanoate  -->AMP 4-hydroxybutanoyl-CoA diphosphate 
+4-HYDROXYBUTYRATE-DEHYDROGENASE-RXN NADH H<SUP>+</SUP> succinate semialdehyde  -->NAD<sup>+</sup> 4-hydroxybutanoate 
+RXN-13328 glyoxylate 4-aminobutanoate  -->glycine succinate semialdehyde 
+AMINOBUTDEHYDROG-RXN H<sub>2</sub>O NAD<sup>+</sup> 4-aminobutanal  -->NADH H<SUP>+</SUP> 4-aminobutanoate 
+RXN-8 putrescine pyruvate  -->4-aminobutanal L-alanine 
+RXN-20175 H<SUP>+</SUP> D-ornithine  -->putrescine CO<SUB>2</SUB> 
+
+RXN-12595 H<SUP>+</SUP> 4-hydroxybutyraldehyde NAD(P)H  -->NAD(P)<sup>+</sup> 1,4-butanediol 
+RXN-12594 H<SUP>+</SUP> 4-hydroxybutanoyl-CoA NAD(P)H  -->coenzyme A 4-hydroxybutyraldehyde NAD(P)<sup>+</sup> 
+RXN-9092 coenzyme A ATP 4-hydroxybutanoate  -->AMP 4-hydroxybutanoyl-CoA diphosphate 
+4-HYDROXYBUTYRATE-DEHYDROGENASE-RXN NADH H<SUP>+</SUP> succinate semialdehyde  -->NAD<sup>+</sup> 4-hydroxybutanoate 
+RXN-13328 glyoxylate 4-aminobutanoate  -->glycine succinate semialdehyde 
+RXN-14209 H<sub>2</sub>O 4-aminobutanal NADP<sup>+</sup>  -->H<SUP>+</SUP> 4-aminobutanoate NADPH 
+PUTRESCINE-OXIDASE-RXN putrescine H<sub>2</sub>O oxygen  -->hydrogen peroxide ammonium 4-aminobutanal 
+RXN-20175 H<SUP>+</SUP> D-ornithine  -->putrescine CO<SUB>2</SUB> 
+
+RXN-12595 H<SUP>+</SUP> 4-hydroxybutyraldehyde NAD(P)H  -->NAD(P)<sup>+</sup> 1,4-butanediol 
+RXN-12594 H<SUP>+</SUP> 4-hydroxybutanoyl-CoA NAD(P)H  -->coenzyme A 4-hydroxybutyraldehyde NAD(P)<sup>+</sup> 
+RXN-8889 acetyl-CoA 4-hydroxybutanoate  -->acetate 4-hydroxybutanoyl-CoA 
+4-HYDROXYBUTYRATE-DEHYDROGENASE-RXN NADH H<SUP>+</SUP> succinate semialdehyde  -->NAD<sup>+</sup> 4-hydroxybutanoate 
+RXN-6902 pyruvate 4-aminobutanoate  -->succinate semialdehyde L-alanine 
+RXN-14209 H<sub>2</sub>O 4-aminobutanal NADP<sup>+</sup>  -->H<SUP>+</SUP> 4-aminobutanoate NADPH 
+PUTRESCINE-OXIDASE-RXN putrescine H<sub>2</sub>O oxygen  -->hydrogen peroxide ammonium 4-aminobutanal 
+RXN-20175 H<SUP>+</SUP> D-ornithine  -->putrescine CO<SUB>2</SUB> 
+
+RXN-12595 H<SUP>+</SUP> 4-hydroxybutyraldehyde NAD(P)H  -->NAD(P)<sup>+</sup> 1,4-butanediol 
+RXN-12594 H<SUP>+</SUP> 4-hydroxybutanoyl-CoA NAD(P)H  -->coenzyme A 4-hydroxybutyraldehyde NAD(P)<sup>+</sup> 
+RXN-8889 acetyl-CoA 4-hydroxybutanoate  -->acetate 4-hydroxybutanoyl-CoA 
+4-HYDROXYBUTYRATE-DEHYDROGENASE-RXN NADH H<SUP>+</SUP> succinate semialdehyde  -->NAD<sup>+</sup> 4-hydroxybutanoate 
+RXN-6902 pyruvate 4-aminobutanoate  -->succinate semialdehyde L-alanine 
+RXN-14209 H<sub>2</sub>O 4-aminobutanal NADP<sup>+</sup>  -->H<SUP>+</SUP> 4-aminobutanoate NADPH 
+RXN-8 putrescine pyruvate  -->4-aminobutanal L-alanine 
+AGMATIN-RXN H<sub>2</sub>O agmatine  -->putrescine urea 
+
+RXN-12595 H<SUP>+</SUP> 4-hydroxybutyraldehyde NAD(P)H  -->NAD(P)<sup>+</sup> 1,4-butanediol 
+RXN-12594 H<SUP>+</SUP> 4-hydroxybutanoyl-CoA NAD(P)H  -->coenzyme A 4-hydroxybutyraldehyde NAD(P)<sup>+</sup> 
+RXN-9092 coenzyme A ATP 4-hydroxybutanoate  -->AMP 4-hydroxybutanoyl-CoA diphosphate 
+4-HYDROXYBUTYRATE-DEHYDROGENASE-RXN NADH H<SUP>+</SUP> succinate semialdehyde  -->NAD<sup>+</sup> 4-hydroxybutanoate 
+RXN-6902 pyruvate 4-aminobutanoate  -->succinate semialdehyde L-alanine 
+RXN-14209 H<sub>2</sub>O 4-aminobutanal NADP<sup>+</sup>  -->H<SUP>+</SUP> 4-aminobutanoate NADPH 
+RXN-8 putrescine pyruvate  -->4-aminobutanal L-alanine 
+ORNDECARBOX-RXN H<SUP>+</SUP> L-ornithine  -->putrescine CO<SUB>2</SUB> 
+
+RXN-12595 H<SUP>+</SUP> 4-hydroxybutyraldehyde NAD(P)H  -->NAD(P)<sup>+</sup> 1,4-butanediol 
+RXN-12594 H<SUP>+</SUP> 4-hydroxybutanoyl-CoA NAD(P)H  -->coenzyme A 4-hydroxybutyraldehyde NAD(P)<sup>+</sup> 
+RXN-8889 acetyl-CoA 4-hydroxybutanoate  -->acetate 4-hydroxybutanoyl-CoA 
+4-HYDROXYBUTYRATE-DEHYDROGENASE-RXN NADH H<SUP>+</SUP> succinate semialdehyde  -->NAD<sup>+</sup> 4-hydroxybutanoate 
+RXN-13328 glyoxylate 4-aminobutanoate  -->glycine succinate semialdehyde 
+1.5.1.35-RXN 1-pyrroline H<sub>2</sub>O NAD<sup>+</sup>  -->NADH H<SUP>+</SUP> 4-aminobutanoate 
+2.6.1.82-RXN putrescine 2-oxoglutarate  -->1-pyrroline H<sub>2</sub>O L-glutamate 
+ORNDECARBOX-RXN H<SUP>+</SUP> L-ornithine  -->putrescine CO<SUB>2</SUB> 
+
+RXN-12595 H<SUP>+</SUP> 4-hydroxybutyraldehyde NAD(P)H  -->NAD(P)<sup>+</sup> 1,4-butanediol 
+RXN-12594 H<SUP>+</SUP> 4-hydroxybutanoyl-CoA NAD(P)H  -->coenzyme A 4-hydroxybutyraldehyde NAD(P)<sup>+</sup> 
+RXN-9092 coenzyme A ATP 4-hydroxybutanoate  -->AMP 4-hydroxybutanoyl-CoA diphosphate 
+4-HYDROXYBUTYRATE-DEHYDROGENASE-RXN NADH H<SUP>+</SUP> succinate semialdehyde  -->NAD<sup>+</sup> 4-hydroxybutanoate 
+RXN-6902 pyruvate 4-aminobutanoate  -->succinate semialdehyde L-alanine 
+RXN-13067 H<sub>2</sub>O oxygen 4-methylaminobutanoate  -->hydrogen peroxide formaldehyde 4-aminobutanoate 
+RXN-19382 H<sub>2</sub>O ATP <i>N</i>-methylpyrrolidone  -->H<SUP>+</SUP> phosphate ADP 4-methylaminobutanoate 
+
+RXN-12595 H<SUP>+</SUP> 4-hydroxybutyraldehyde NAD(P)H  -->NAD(P)<sup>+</sup> 1,4-butanediol 
+RXN-12594 H<SUP>+</SUP> 4-hydroxybutanoyl-CoA NAD(P)H  -->coenzyme A 4-hydroxybutyraldehyde NAD(P)<sup>+</sup> 
+RXN-8889 acetyl-CoA 4-hydroxybutanoate  -->acetate 4-hydroxybutanoyl-CoA 
+4-HYDROXYBUTYRATE-DEHYDROGENASE-RXN NADH H<SUP>+</SUP> succinate semialdehyde  -->NAD<sup>+</sup> 4-hydroxybutanoate 
+RXN-13065 H<sub>2</sub>O oxygen 4-methylaminobutanoate  -->hydrogen peroxide succinate semialdehyde methylamine 
+RXN-19382 H<sub>2</sub>O ATP <i>N</i>-methylpyrrolidone  -->H<SUP>+</SUP> phosphate ADP 4-methylaminobutanoate 
+
+RXN-12595 H<SUP>+</SUP> 4-hydroxybutyraldehyde NAD(P)H  -->NAD(P)<sup>+</sup> 1,4-butanediol 
+RXN-12594 H<SUP>+</SUP> 4-hydroxybutanoyl-CoA NAD(P)H  -->coenzyme A 4-hydroxybutyraldehyde NAD(P)<sup>+</sup> 
+RXN-9092 coenzyme A ATP 4-hydroxybutanoate  -->AMP 4-hydroxybutanoyl-CoA diphosphate 
+4-HYDROXYBUTYRATE-DEHYDROGENASE-RXN NADH H<SUP>+</SUP> succinate semialdehyde  -->NAD<sup>+</sup> 4-hydroxybutanoate 
+RXN-6902 pyruvate 4-aminobutanoate  -->succinate semialdehyde L-alanine 
+AMINOBUTDEHYDROG-RXN H<sub>2</sub>O NAD<sup>+</sup> 4-aminobutanal  -->NADH H<SUP>+</SUP> 4-aminobutanoate 
+PUTTRANSAM-RXN putrescine 2-oxoglutarate  -->4-aminobutanal L-glutamate 
+AGMATIN-RXN H<sub>2</sub>O agmatine  -->putrescine urea 
+
+RXN-12595 H<SUP>+</SUP> 4-hydroxybutyraldehyde NAD(P)H  -->NAD(P)<sup>+</sup> 1,4-butanediol 
+RXN-12594 H<SUP>+</SUP> 4-hydroxybutanoyl-CoA NAD(P)H  -->coenzyme A 4-hydroxybutyraldehyde NAD(P)<sup>+</sup> 
+RXN-9092 coenzyme A ATP 4-hydroxybutanoate  -->AMP 4-hydroxybutanoyl-CoA diphosphate 
+4-HYDROXYBUTYRATE-DEHYDROGENASE-RXN NADH H<SUP>+</SUP> succinate semialdehyde  -->NAD<sup>+</sup> 4-hydroxybutanoate 
+RXN-6902 pyruvate 4-aminobutanoate  -->succinate semialdehyde L-alanine 
+1.5.1.35-RXN 1-pyrroline H<sub>2</sub>O NAD<sup>+</sup>  -->NADH H<SUP>+</SUP> 4-aminobutanoate 
+2.6.1.82-RXN putrescine 2-oxoglutarate  -->1-pyrroline H<sub>2</sub>O L-glutamate 
+RXN-20175 H<SUP>+</SUP> D-ornithine  -->putrescine CO<SUB>2</SUB> 
+
+RXN-12595 H<SUP>+</SUP> 4-hydroxybutyraldehyde NAD(P)H  -->NAD(P)<sup>+</sup> 1,4-butanediol 
+RXN-12594 H<SUP>+</SUP> 4-hydroxybutanoyl-CoA NAD(P)H  -->coenzyme A 4-hydroxybutyraldehyde NAD(P)<sup>+</sup> 
+RXN-9092 coenzyme A ATP 4-hydroxybutanoate  -->AMP 4-hydroxybutanoyl-CoA diphosphate 
+4-HYDROXYBUTYRATE-DEHYDROGENASE-RXN NADH H<SUP>+</SUP> succinate semialdehyde  -->NAD<sup>+</sup> 4-hydroxybutanoate 
+RXN-13328 glyoxylate 4-aminobutanoate  -->glycine succinate semialdehyde 
+RXN-14209 H<sub>2</sub>O 4-aminobutanal NADP<sup>+</sup>  -->H<SUP>+</SUP> 4-aminobutanoate NADPH 
+RXN-8 putrescine pyruvate  -->4-aminobutanal L-alanine 
+RXN-20175 H<SUP>+</SUP> D-ornithine  -->putrescine CO<SUB>2</SUB> 
+
+RXN-12595 H<SUP>+</SUP> 4-hydroxybutyraldehyde NAD(P)H  -->NAD(P)<sup>+</sup> 1,4-butanediol 
+RXN-12594 H<SUP>+</SUP> 4-hydroxybutanoyl-CoA NAD(P)H  -->coenzyme A 4-hydroxybutyraldehyde NAD(P)<sup>+</sup> 
+RXN-9092 coenzyme A ATP 4-hydroxybutanoate  -->AMP 4-hydroxybutanoyl-CoA diphosphate 
+4-HYDROXYBUTYRATE-DEHYDROGENASE-RXN NADH H<SUP>+</SUP> succinate semialdehyde  -->NAD<sup>+</sup> 4-hydroxybutanoate 
+RXN-6902 pyruvate 4-aminobutanoate  -->succinate semialdehyde L-alanine 
+RXN-14209 H<sub>2</sub>O 4-aminobutanal NADP<sup>+</sup>  -->H<SUP>+</SUP> 4-aminobutanoate NADPH 
+PUTRESCINE-OXIDASE-RXN putrescine H<sub>2</sub>O oxygen  -->hydrogen peroxide ammonium 4-aminobutanal 
+ORNDECARBOX-RXN H<SUP>+</SUP> L-ornithine  -->putrescine CO<SUB>2</SUB> 
+
+RXN-12595 H<SUP>+</SUP> 4-hydroxybutyraldehyde NAD(P)H  -->NAD(P)<sup>+</sup> 1,4-butanediol 
+RXN-12594 H<SUP>+</SUP> 4-hydroxybutanoyl-CoA NAD(P)H  -->coenzyme A 4-hydroxybutyraldehyde NAD(P)<sup>+</sup> 
+RXN-9092 coenzyme A ATP 4-hydroxybutanoate  -->AMP 4-hydroxybutanoyl-CoA diphosphate 
+4-HYDROXYBUTYRATE-DEHYDROGENASE-RXN NADH H<SUP>+</SUP> succinate semialdehyde  -->NAD<sup>+</sup> 4-hydroxybutanoate 
+RXN-13328 glyoxylate 4-aminobutanoate  -->glycine succinate semialdehyde 
+GUANIDINOBUTYRASE-RXN H<sub>2</sub>O 4-guanidinobutanoate  -->urea 4-aminobutanoate 
+GUANIDINOBUTANAMIDE-NH3-RXN H<sub>2</sub>O 4-guanidinobutyramide  -->ammonium 4-guanidinobutanoate 
+ARGININE-2-MONOOXYGENASE-RXN L-arginine oxygen  -->H<sub>2</sub>O CO<SUB>2</SUB> 4-guanidinobutyramide 
+
+RXN-12595 H<SUP>+</SUP> 4-hydroxybutyraldehyde NAD(P)H  -->NAD(P)<sup>+</sup> 1,4-butanediol 
+RXN-12594 H<SUP>+</SUP> 4-hydroxybutanoyl-CoA NAD(P)H  -->coenzyme A 4-hydroxybutyraldehyde NAD(P)<sup>+</sup> 
+RXN-8889 acetyl-CoA 4-hydroxybutanoate  -->acetate 4-hydroxybutanoyl-CoA 
+4-HYDROXYBUTYRATE-DEHYDROGENASE-RXN NADH H<SUP>+</SUP> succinate semialdehyde  -->NAD<sup>+</sup> 4-hydroxybutanoate 
+RXN-13328 glyoxylate 4-aminobutanoate  -->glycine succinate semialdehyde 
+RXN-14209 H<sub>2</sub>O 4-aminobutanal NADP<sup>+</sup>  -->H<SUP>+</SUP> 4-aminobutanoate NADPH 
+RXN-8 putrescine pyruvate  -->4-aminobutanal L-alanine 
+RXN-20175 H<SUP>+</SUP> D-ornithine  -->putrescine CO<SUB>2</SUB> 
+
+RXN-12595 H<SUP>+</SUP> 4-hydroxybutyraldehyde NAD(P)H  -->NAD(P)<sup>+</sup> 1,4-butanediol 
+RXN-12594 H<SUP>+</SUP> 4-hydroxybutanoyl-CoA NAD(P)H  -->coenzyme A 4-hydroxybutyraldehyde NAD(P)<sup>+</sup> 
+RXN-9092 coenzyme A ATP 4-hydroxybutanoate  -->AMP 4-hydroxybutanoyl-CoA diphosphate 
+4-HYDROXYBUTYRATE-DEHYDROGENASE-RXN NADH H<SUP>+</SUP> succinate semialdehyde  -->NAD<sup>+</sup> 4-hydroxybutanoate 
+RXN-6902 pyruvate 4-aminobutanoate  -->succinate semialdehyde L-alanine 
+AMINOBUTDEHYDROG-RXN H<sub>2</sub>O NAD<sup>+</sup> 4-aminobutanal  -->NADH H<SUP>+</SUP> 4-aminobutanoate 
+SPERMIDINE-DEHYDROGENASE-RXN H<sub>2</sub>O spermidine an oxidized unknown electron carrier  -->propane-1,3-diamine a reduced unknown two electron carrier 4-aminobutanal 
+GSPAMID-RXN H<sub>2</sub>O glutathionylspermidine  -->spermidine glutathione 
+
+RXN-12595 H<SUP>+</SUP> 4-hydroxybutyraldehyde NAD(P)H  -->NAD(P)<sup>+</sup> 1,4-butanediol 
+RXN-12594 H<SUP>+</SUP> 4-hydroxybutanoyl-CoA NAD(P)H  -->coenzyme A 4-hydroxybutyraldehyde NAD(P)<sup>+</sup> 
+RXN-8889 acetyl-CoA 4-hydroxybutanoate  -->acetate 4-hydroxybutanoyl-CoA 
+4-HYDROXYBUTYRATE-DEHYDROGENASE-RXN NADH H<SUP>+</SUP> succinate semialdehyde  -->NAD<sup>+</sup> 4-hydroxybutanoate 
+RXN-13328 glyoxylate 4-aminobutanoate  -->glycine succinate semialdehyde 
+AMINOBUTDEHYDROG-RXN H<sub>2</sub>O NAD<sup>+</sup> 4-aminobutanal  -->NADH H<SUP>+</SUP> 4-aminobutanoate 
+RXN-8 putrescine pyruvate  -->4-aminobutanal L-alanine 
+RXN-20175 H<SUP>+</SUP> D-ornithine  -->putrescine CO<SUB>2</SUB> 
+
+RXN-12595 H<SUP>+</SUP> 4-hydroxybutyraldehyde NAD(P)H  -->NAD(P)<sup>+</sup> 1,4-butanediol 
+RXN-12594 H<SUP>+</SUP> 4-hydroxybutanoyl-CoA NAD(P)H  -->coenzyme A 4-hydroxybutyraldehyde NAD(P)<sup>+</sup> 
+RXN-9092 coenzyme A ATP 4-hydroxybutanoate  -->AMP 4-hydroxybutanoyl-CoA diphosphate 
+4-HYDROXYBUTYRATE-DEHYDROGENASE-RXN NADH H<SUP>+</SUP> succinate semialdehyde  -->NAD<sup>+</sup> 4-hydroxybutanoate 
+RXN-6902 pyruvate 4-aminobutanoate  -->succinate semialdehyde L-alanine 
+AMINOBUTDEHYDROG-RXN H<sub>2</sub>O NAD<sup>+</sup> 4-aminobutanal  -->NADH H<SUP>+</SUP> 4-aminobutanoate 
+RXN-8 putrescine pyruvate  -->4-aminobutanal L-alanine 
+ORNDECARBOX-RXN H<SUP>+</SUP> L-ornithine  -->putrescine CO<SUB>2</SUB> 
+
+RXN-12595 H<SUP>+</SUP> 4-hydroxybutyraldehyde NAD(P)H  -->NAD(P)<sup>+</sup> 1,4-butanediol 
+RXN-12594 H<SUP>+</SUP> 4-hydroxybutanoyl-CoA NAD(P)H  -->coenzyme A 4-hydroxybutyraldehyde NAD(P)<sup>+</sup> 
+RXN-8889 acetyl-CoA 4-hydroxybutanoate  -->acetate 4-hydroxybutanoyl-CoA 
+4-HYDROXYBUTYRATE-DEHYDROGENASE-RXN NADH H<SUP>+</SUP> succinate semialdehyde  -->NAD<sup>+</sup> 4-hydroxybutanoate 
+RXN-13328 glyoxylate 4-aminobutanoate  -->glycine succinate semialdehyde 
+GUANIDINOBUTYRASE-RXN H<sub>2</sub>O 4-guanidinobutanoate  -->urea 4-aminobutanoate 
+GUANIDINOBUTANAMIDE-NH3-RXN H<sub>2</sub>O 4-guanidinobutyramide  -->ammonium 4-guanidinobutanoate 
+ARGININE-2-MONOOXYGENASE-RXN L-arginine oxygen  -->H<sub>2</sub>O CO<SUB>2</SUB> 4-guanidinobutyramide 
+
+RXN-12595 H<SUP>+</SUP> 4-hydroxybutyraldehyde NAD(P)H  -->NAD(P)<sup>+</sup> 1,4-butanediol 
+RXN-12594 H<SUP>+</SUP> 4-hydroxybutanoyl-CoA NAD(P)H  -->coenzyme A 4-hydroxybutyraldehyde NAD(P)<sup>+</sup> 
+RXN-9092 coenzyme A ATP 4-hydroxybutanoate  -->AMP 4-hydroxybutanoyl-CoA diphosphate 
+4-HYDROXYBUTYRATE-DEHYDROGENASE-RXN NADH H<SUP>+</SUP> succinate semialdehyde  -->NAD<sup>+</sup> 4-hydroxybutanoate 
+RXN-8891 H<SUP>+</SUP> succinyl-CoA NADPH  -->coenzyme A succinate semialdehyde NADP<sup>+</sup> 
+
+RXN-12595 H<SUP>+</SUP> 4-hydroxybutyraldehyde NAD(P)H  -->NAD(P)<sup>+</sup> 1,4-butanediol 
+RXN-12594 H<SUP>+</SUP> 4-hydroxybutanoyl-CoA NAD(P)H  -->coenzyme A 4-hydroxybutyraldehyde NAD(P)<sup>+</sup> 
+RXN-8889 acetyl-CoA 4-hydroxybutanoate  -->acetate 4-hydroxybutanoyl-CoA 
+4-HYDROXYBUTYRATE-DEHYDROGENASE-RXN NADH H<SUP>+</SUP> succinate semialdehyde  -->NAD<sup>+</sup> 4-hydroxybutanoate 
+RXN-13328 glyoxylate 4-aminobutanoate  -->glycine succinate semialdehyde 
+RXN-14209 H<sub>2</sub>O 4-aminobutanal NADP<sup>+</sup>  -->H<SUP>+</SUP> 4-aminobutanoate NADPH 
+RXN-10747 H<sub>2</sub>O spermidine oxygen  -->propane-1,3-diamine hydrogen peroxide 4-aminobutanal 
+GSPAMID-RXN H<sub>2</sub>O glutathionylspermidine  -->spermidine glutathione 
+
+RXN-12595 H<SUP>+</SUP> 4-hydroxybutyraldehyde NAD(P)H  -->NAD(P)<sup>+</sup> 1,4-butanediol 
+RXN-12594 H<SUP>+</SUP> 4-hydroxybutanoyl-CoA NAD(P)H  -->coenzyme A 4-hydroxybutyraldehyde NAD(P)<sup>+</sup> 
+RXN-8889 acetyl-CoA 4-hydroxybutanoate  -->acetate 4-hydroxybutanoyl-CoA 
+4-HYDROXYBUTYRATE-DEHYDROGENASE-RXN NADH H<SUP>+</SUP> succinate semialdehyde  -->NAD<sup>+</sup> 4-hydroxybutanoate 
+RXN-6902 pyruvate 4-aminobutanoate  -->succinate semialdehyde L-alanine 
+AMINOBUTDEHYDROG-RXN H<sub>2</sub>O NAD<sup>+</sup> 4-aminobutanal  -->NADH H<SUP>+</SUP> 4-aminobutanoate 
+RXN-8 putrescine pyruvate  -->4-aminobutanal L-alanine 
+RXN-20175 H<SUP>+</SUP> D-ornithine  -->putrescine CO<SUB>2</SUB> 
+
+RXN-12595 H<SUP>+</SUP> 4-hydroxybutyraldehyde NAD(P)H  -->NAD(P)<sup>+</sup> 1,4-butanediol 
+RXN-12594 H<SUP>+</SUP> 4-hydroxybutanoyl-CoA NAD(P)H  -->coenzyme A 4-hydroxybutyraldehyde NAD(P)<sup>+</sup> 
+RXN-9092 coenzyme A ATP 4-hydroxybutanoate  -->AMP 4-hydroxybutanoyl-CoA diphosphate 
+4-HYDROXYBUTYRATE-DEHYDROGENASE-RXN NADH H<SUP>+</SUP> succinate semialdehyde  -->NAD<sup>+</sup> 4-hydroxybutanoate 
+RXN-13328 glyoxylate 4-aminobutanoate  -->glycine succinate semialdehyde 
+RXN-14209 H<sub>2</sub>O 4-aminobutanal NADP<sup>+</sup>  -->H<SUP>+</SUP> 4-aminobutanoate NADPH 
+PUTTRANSAM-RXN putrescine 2-oxoglutarate  -->4-aminobutanal L-glutamate 
+RXN-20175 H<SUP>+</SUP> D-ornithine  -->putrescine CO<SUB>2</SUB> 
+
+RXN-12595 H<SUP>+</SUP> 4-hydroxybutyraldehyde NAD(P)H  -->NAD(P)<sup>+</sup> 1,4-butanediol 
+RXN-12594 H<SUP>+</SUP> 4-hydroxybutanoyl-CoA NAD(P)H  -->coenzyme A 4-hydroxybutyraldehyde NAD(P)<sup>+</sup> 
+RXN-9092 coenzyme A ATP 4-hydroxybutanoate  -->AMP 4-hydroxybutanoyl-CoA diphosphate 
+4-HYDROXYBUTYRATE-DEHYDROGENASE-RXN NADH H<SUP>+</SUP> succinate semialdehyde  -->NAD<sup>+</sup> 4-hydroxybutanoate 
+RXN-13328 glyoxylate 4-aminobutanoate  -->glycine succinate semialdehyde 
+RXN0-3942 H<sub>2</sub>O 4-(&gamma;-L-glutamylamino)butanoate  -->4-aminobutanoate L-glutamate 
+
+RXN-12595 H<SUP>+</SUP> 4-hydroxybutyraldehyde NAD(P)H  -->NAD(P)<sup>+</sup> 1,4-butanediol 
+RXN-12594 H<SUP>+</SUP> 4-hydroxybutanoyl-CoA NAD(P)H  -->coenzyme A 4-hydroxybutyraldehyde NAD(P)<sup>+</sup> 
+RXN-9092 coenzyme A ATP 4-hydroxybutanoate  -->AMP 4-hydroxybutanoyl-CoA diphosphate 
+4-HYDROXYBUTYRATE-DEHYDROGENASE-RXN NADH H<SUP>+</SUP> succinate semialdehyde  -->NAD<sup>+</sup> 4-hydroxybutanoate 
+RXN-13328 glyoxylate 4-aminobutanoate  -->glycine succinate semialdehyde 
+AMINOBUTDEHYDROG-RXN H<sub>2</sub>O NAD<sup>+</sup> 4-aminobutanal  -->NADH H<SUP>+</SUP> 4-aminobutanoate 
+RXN-8 putrescine pyruvate  -->4-aminobutanal L-alanine 
+AGMATIN-RXN H<sub>2</sub>O agmatine  -->putrescine urea 
+
+RXN-12595 H<SUP>+</SUP> 4-hydroxybutyraldehyde NAD(P)H  -->NAD(P)<sup>+</sup> 1,4-butanediol 
+RXN-12594 H<SUP>+</SUP> 4-hydroxybutanoyl-CoA NAD(P)H  -->coenzyme A 4-hydroxybutyraldehyde NAD(P)<sup>+</sup> 
+RXN-8889 acetyl-CoA 4-hydroxybutanoate  -->acetate 4-hydroxybutanoyl-CoA 
+4-HYDROXYBUTYRATE-DEHYDROGENASE-RXN NADH H<SUP>+</SUP> succinate semialdehyde  -->NAD<sup>+</sup> 4-hydroxybutanoate 
+RXN-13328 glyoxylate 4-aminobutanoate  -->glycine succinate semialdehyde 
+AMINOBUTDEHYDROG-RXN H<sub>2</sub>O NAD<sup>+</sup> 4-aminobutanal  -->NADH H<SUP>+</SUP> 4-aminobutanoate 
+PUTTRANSAM-RXN putrescine 2-oxoglutarate  -->4-aminobutanal L-glutamate 
+ORNDECARBOX-RXN H<SUP>+</SUP> L-ornithine  -->putrescine CO<SUB>2</SUB> 
+
+RXN-12595 H<SUP>+</SUP> 4-hydroxybutyraldehyde NAD(P)H  -->NAD(P)<sup>+</sup> 1,4-butanediol 
+RXN-12594 H<SUP>+</SUP> 4-hydroxybutanoyl-CoA NAD(P)H  -->coenzyme A 4-hydroxybutyraldehyde NAD(P)<sup>+</sup> 
+RXN-8889 acetyl-CoA 4-hydroxybutanoate  -->acetate 4-hydroxybutanoyl-CoA 
+4-HYDROXYBUTYRATE-DEHYDROGENASE-RXN NADH H<SUP>+</SUP> succinate semialdehyde  -->NAD<sup>+</sup> 4-hydroxybutanoate 
+GABATRANSAM-RXN 2-oxoglutarate 4-aminobutanoate  -->succinate semialdehyde L-glutamate 
+
+RXN-12595 H<SUP>+</SUP> 4-hydroxybutyraldehyde NAD(P)H  -->NAD(P)<sup>+</sup> 1,4-butanediol 
+RXN-12594 H<SUP>+</SUP> 4-hydroxybutanoyl-CoA NAD(P)H  -->coenzyme A 4-hydroxybutyraldehyde NAD(P)<sup>+</sup> 
+RXN-9092 coenzyme A ATP 4-hydroxybutanoate  -->AMP 4-hydroxybutanoyl-CoA diphosphate 
+4-HYDROXYBUTYRATE-DEHYDROGENASE-RXN NADH H<SUP>+</SUP> succinate semialdehyde  -->NAD<sup>+</sup> 4-hydroxybutanoate 
+RXN-6902 pyruvate 4-aminobutanoate  -->succinate semialdehyde L-alanine 
+AMINOBUTDEHYDROG-RXN H<sub>2</sub>O NAD<sup>+</sup> 4-aminobutanal  -->NADH H<SUP>+</SUP> 4-aminobutanoate 
+PUTRESCINE-OXIDASE-RXN putrescine H<sub>2</sub>O oxygen  -->hydrogen peroxide ammonium 4-aminobutanal 
+AGMATIN-RXN H<sub>2</sub>O agmatine  -->putrescine urea 
+
+RXN-12595 H<SUP>+</SUP> 4-hydroxybutyraldehyde NAD(P)H  -->NAD(P)<sup>+</sup> 1,4-butanediol 
+RXN-12594 H<SUP>+</SUP> 4-hydroxybutanoyl-CoA NAD(P)H  -->coenzyme A 4-hydroxybutyraldehyde NAD(P)<sup>+</sup> 
+RXN-9092 coenzyme A ATP 4-hydroxybutanoate  -->AMP 4-hydroxybutanoyl-CoA diphosphate 
+4-HYDROXYBUTYRATE-DEHYDROGENASE-RXN NADH H<SUP>+</SUP> succinate semialdehyde  -->NAD<sup>+</sup> 4-hydroxybutanoate 
+RXN-13328 glyoxylate 4-aminobutanoate  -->glycine succinate semialdehyde 
+RXN-13067 H<sub>2</sub>O oxygen 4-methylaminobutanoate  -->hydrogen peroxide formaldehyde 4-aminobutanoate 
+RXN-19382 H<sub>2</sub>O ATP <i>N</i>-methylpyrrolidone  -->H<SUP>+</SUP> phosphate ADP 4-methylaminobutanoate 
+
+RXN-12595 H<SUP>+</SUP> 4-hydroxybutyraldehyde NAD(P)H  -->NAD(P)<sup>+</sup> 1,4-butanediol 
+RXN-12594 H<SUP>+</SUP> 4-hydroxybutanoyl-CoA NAD(P)H  -->coenzyme A 4-hydroxybutyraldehyde NAD(P)<sup>+</sup> 
+RXN-8889 acetyl-CoA 4-hydroxybutanoate  -->acetate 4-hydroxybutanoyl-CoA 
+4-HYDROXYBUTYRATE-DEHYDROGENASE-RXN NADH H<SUP>+</SUP> succinate semialdehyde  -->NAD<sup>+</sup> 4-hydroxybutanoate 
+RXN-13328 glyoxylate 4-aminobutanoate  -->glycine succinate semialdehyde 
+RXN-14209 H<sub>2</sub>O 4-aminobutanal NADP<sup>+</sup>  -->H<SUP>+</SUP> 4-aminobutanoate NADPH 
+PUTRESCINE-OXIDASE-RXN putrescine H<sub>2</sub>O oxygen  -->hydrogen peroxide ammonium 4-aminobutanal 
+RXN-20175 H<SUP>+</SUP> D-ornithine  -->putrescine CO<SUB>2</SUB> 
+
+RXN-12595 H<SUP>+</SUP> 4-hydroxybutyraldehyde NAD(P)H  -->NAD(P)<sup>+</sup> 1,4-butanediol 
+RXN-12594 H<SUP>+</SUP> 4-hydroxybutanoyl-CoA NAD(P)H  -->coenzyme A 4-hydroxybutyraldehyde NAD(P)<sup>+</sup> 
+RXN-9092 coenzyme A ATP 4-hydroxybutanoate  -->AMP 4-hydroxybutanoyl-CoA diphosphate 
+4-HYDROXYBUTYRATE-DEHYDROGENASE-RXN NADH H<SUP>+</SUP> succinate semialdehyde  -->NAD<sup>+</sup> 4-hydroxybutanoate 
+RXN-6902 pyruvate 4-aminobutanoate  -->succinate semialdehyde L-alanine 
+RXN-14209 H<sub>2</sub>O 4-aminobutanal NADP<sup>+</sup>  -->H<SUP>+</SUP> 4-aminobutanoate NADPH 
+PUTRESCINE-OXIDASE-RXN putrescine H<sub>2</sub>O oxygen  -->hydrogen peroxide ammonium 4-aminobutanal 
+AGMATIN-RXN H<sub>2</sub>O agmatine  -->putrescine urea 
+
+RXN-12595 H<SUP>+</SUP> 4-hydroxybutyraldehyde NAD(P)H  -->NAD(P)<sup>+</sup> 1,4-butanediol 
+RXN-12594 H<SUP>+</SUP> 4-hydroxybutanoyl-CoA NAD(P)H  -->coenzyme A 4-hydroxybutyraldehyde NAD(P)<sup>+</sup> 
+RXN-9092 coenzyme A ATP 4-hydroxybutanoate  -->AMP 4-hydroxybutanoyl-CoA diphosphate 
+4-HYDROXYBUTYRATE-DEHYDROGENASE-RXN NADH H<SUP>+</SUP> succinate semialdehyde  -->NAD<sup>+</sup> 4-hydroxybutanoate 
+RXN-13328 glyoxylate 4-aminobutanoate  -->glycine succinate semialdehyde 
+RXN-14209 H<sub>2</sub>O 4-aminobutanal NADP<sup>+</sup>  -->H<SUP>+</SUP> 4-aminobutanoate NADPH 
+SPERMIDINE-DEHYDROGENASE-RXN H<sub>2</sub>O spermidine an oxidized unknown electron carrier  -->propane-1,3-diamine a reduced unknown two electron carrier 4-aminobutanal 
+GSPAMID-RXN H<sub>2</sub>O glutathionylspermidine  -->spermidine glutathione 
+
+RXN-12595 H<SUP>+</SUP> 4-hydroxybutyraldehyde NAD(P)H  -->NAD(P)<sup>+</sup> 1,4-butanediol 
+RXN-12594 H<SUP>+</SUP> 4-hydroxybutanoyl-CoA NAD(P)H  -->coenzyme A 4-hydroxybutyraldehyde NAD(P)<sup>+</sup> 
+RXN-9092 coenzyme A ATP 4-hydroxybutanoate  -->AMP 4-hydroxybutanoyl-CoA diphosphate 
+4-HYDROXYBUTYRATE-DEHYDROGENASE-RXN NADH H<SUP>+</SUP> succinate semialdehyde  -->NAD<sup>+</sup> 4-hydroxybutanoate 
+RXN-13328 glyoxylate 4-aminobutanoate  -->glycine succinate semialdehyde 
+RXN-19944 H<sub>2</sub>O homocarnosine  -->L-histidine 4-aminobutanoate 
+
+RXN-12595 H<SUP>+</SUP> 4-hydroxybutyraldehyde NAD(P)H  -->NAD(P)<sup>+</sup> 1,4-butanediol 
+RXN-12594 H<SUP>+</SUP> 4-hydroxybutanoyl-CoA NAD(P)H  -->coenzyme A 4-hydroxybutyraldehyde NAD(P)<sup>+</sup> 
+RXN-9092 coenzyme A ATP 4-hydroxybutanoate  -->AMP 4-hydroxybutanoyl-CoA diphosphate 
+4-HYDROXYBUTYRATE-DEHYDROGENASE-RXN NADH H<SUP>+</SUP> succinate semialdehyde  -->NAD<sup>+</sup> 4-hydroxybutanoate 
+RXN-13328 glyoxylate 4-aminobutanoate  -->glycine succinate semialdehyde 
+AMINOBUTDEHYDROG-RXN H<sub>2</sub>O NAD<sup>+</sup> 4-aminobutanal  -->NADH H<SUP>+</SUP> 4-aminobutanoate 
+PUTTRANSAM-RXN putrescine 2-oxoglutarate  -->4-aminobutanal L-glutamate 
+AGMATIN-RXN H<sub>2</sub>O agmatine  -->putrescine urea 
+
+RXN-12595 H<SUP>+</SUP> 4-hydroxybutyraldehyde NAD(P)H  -->NAD(P)<sup>+</sup> 1,4-butanediol 
+RXN-12594 H<SUP>+</SUP> 4-hydroxybutanoyl-CoA NAD(P)H  -->coenzyme A 4-hydroxybutyraldehyde NAD(P)<sup>+</sup> 
+RXN-9092 coenzyme A ATP 4-hydroxybutanoate  -->AMP 4-hydroxybutanoyl-CoA diphosphate 
+4-HYDROXYBUTYRATE-DEHYDROGENASE-RXN NADH H<SUP>+</SUP> succinate semialdehyde  -->NAD<sup>+</sup> 4-hydroxybutanoate 
+RXN-6902 pyruvate 4-aminobutanoate  -->succinate semialdehyde L-alanine 
+RXN-14209 H<sub>2</sub>O 4-aminobutanal NADP<sup>+</sup>  -->H<SUP>+</SUP> 4-aminobutanoate NADPH 
+PUTRESCINE-OXIDASE-RXN putrescine H<sub>2</sub>O oxygen  -->hydrogen peroxide ammonium 4-aminobutanal 
+RXN-20175 H<SUP>+</SUP> D-ornithine  -->putrescine CO<SUB>2</SUB> 
+
+RXN-12595 H<SUP>+</SUP> 4-hydroxybutyraldehyde NAD(P)H  -->NAD(P)<sup>+</sup> 1,4-butanediol 
+RXN-12594 H<SUP>+</SUP> 4-hydroxybutanoyl-CoA NAD(P)H  -->coenzyme A 4-hydroxybutyraldehyde NAD(P)<sup>+</sup> 
+RXN-9092 coenzyme A ATP 4-hydroxybutanoate  -->AMP 4-hydroxybutanoyl-CoA diphosphate 
+4-HYDROXYBUTYRATE-DEHYDROGENASE-RXN NADH H<SUP>+</SUP> succinate semialdehyde  -->NAD<sup>+</sup> 4-hydroxybutanoate 
+RXN-13328 glyoxylate 4-aminobutanoate  -->glycine succinate semialdehyde 
+AMINOBUTDEHYDROG-RXN H<sub>2</sub>O NAD<sup>+</sup> 4-aminobutanal  -->NADH H<SUP>+</SUP> 4-aminobutanoate 
+PUTTRANSAM-RXN putrescine 2-oxoglutarate  -->4-aminobutanal L-glutamate 
+RXN-20175 H<SUP>+</SUP> D-ornithine  -->putrescine CO<SUB>2</SUB> 
+
+RXN-12595 H<SUP>+</SUP> 4-hydroxybutyraldehyde NAD(P)H  -->NAD(P)<sup>+</sup> 1,4-butanediol 
+RXN-12594 H<SUP>+</SUP> 4-hydroxybutanoyl-CoA NAD(P)H  -->coenzyme A 4-hydroxybutyraldehyde NAD(P)<sup>+</sup> 
+RXN-8889 acetyl-CoA 4-hydroxybutanoate  -->acetate 4-hydroxybutanoyl-CoA 
+4-HYDROXYBUTYRATE-DEHYDROGENASE-RXN NADH H<SUP>+</SUP> succinate semialdehyde  -->NAD<sup>+</sup> 4-hydroxybutanoate 
+RXN-18258 H<SUP>+</SUP> oxygen NAD(P)H &gamma;-butyrobetaine  -->H<sub>2</sub>O succinate semialdehyde NAD(P)<sup>+</sup> trimethylamine 
+TRANS-RXN-100 L-carnitine &gamma;-butyrobetaine  -->L-carnitine &gamma;-butyrobetaine 
+CARNITINAMIDASE-RXN H<sub>2</sub>O L-carnitinamide  -->L-carnitine ammonium 
+
+RXN-12595 H<SUP>+</SUP> 4-hydroxybutyraldehyde NAD(P)H  -->NAD(P)<sup>+</sup> 1,4-butanediol 
+RXN-12594 H<SUP>+</SUP> 4-hydroxybutanoyl-CoA NAD(P)H  -->coenzyme A 4-hydroxybutyraldehyde NAD(P)<sup>+</sup> 
+RXN-9092 coenzyme A ATP 4-hydroxybutanoate  -->AMP 4-hydroxybutanoyl-CoA diphosphate 
+4-HYDROXYBUTYRATE-DEHYDROGENASE-RXN NADH H<SUP>+</SUP> succinate semialdehyde  -->NAD<sup>+</sup> 4-hydroxybutanoate 
+RXN-6902 pyruvate 4-aminobutanoate  -->succinate semialdehyde L-alanine 
+AMINOBUTDEHYDROG-RXN H<sub>2</sub>O NAD<sup>+</sup> 4-aminobutanal  -->NADH H<SUP>+</SUP> 4-aminobutanoate 
+RXN-8 putrescine pyruvate  -->4-aminobutanal L-alanine 
+RXN-20175 H<SUP>+</SUP> D-ornithine  -->putrescine CO<SUB>2</SUB> 
+
+RXN-12595 H<SUP>+</SUP> 4-hydroxybutyraldehyde NAD(P)H  -->NAD(P)<sup>+</sup> 1,4-butanediol 
+RXN-12594 H<SUP>+</SUP> 4-hydroxybutanoyl-CoA NAD(P)H  -->coenzyme A 4-hydroxybutyraldehyde NAD(P)<sup>+</sup> 
+RXN-8889 acetyl-CoA 4-hydroxybutanoate  -->acetate 4-hydroxybutanoyl-CoA 
+4-HYDROXYBUTYRATE-DEHYDROGENASE-RXN NADH H<SUP>+</SUP> succinate semialdehyde  -->NAD<sup>+</sup> 4-hydroxybutanoate 
+RXN-6902 pyruvate 4-aminobutanoate  -->succinate semialdehyde L-alanine 
+AMINOBUTDEHYDROG-RXN H<sub>2</sub>O NAD<sup>+</sup> 4-aminobutanal  -->NADH H<SUP>+</SUP> 4-aminobutanoate 
+PUTTRANSAM-RXN putrescine 2-oxoglutarate  -->4-aminobutanal L-glutamate 
+RXN-20175 H<SUP>+</SUP> D-ornithine  -->putrescine CO<SUB>2</SUB> 
+
+RXN-12595 H<SUP>+</SUP> 4-hydroxybutyraldehyde NAD(P)H  -->NAD(P)<sup>+</sup> 1,4-butanediol 
+RXN-12594 H<SUP>+</SUP> 4-hydroxybutanoyl-CoA NAD(P)H  -->coenzyme A 4-hydroxybutyraldehyde NAD(P)<sup>+</sup> 
+RXN-8889 acetyl-CoA 4-hydroxybutanoate  -->acetate 4-hydroxybutanoyl-CoA 
+4-HYDROXYBUTYRATE-DEHYDROGENASE-RXN NADH H<SUP>+</SUP> succinate semialdehyde  -->NAD<sup>+</sup> 4-hydroxybutanoate 
+RXN-13328 glyoxylate 4-aminobutanoate  -->glycine succinate semialdehyde 
+AMINOBUTDEHYDROG-RXN H<sub>2</sub>O NAD<sup>+</sup> 4-aminobutanal  -->NADH H<SUP>+</SUP> 4-aminobutanoate 
+PUTRESCINE-OXIDASE-RXN putrescine H<sub>2</sub>O oxygen  -->hydrogen peroxide ammonium 4-aminobutanal 
+AGMATIN-RXN H<sub>2</sub>O agmatine  -->putrescine urea 
+
+RXN-12595 H<SUP>+</SUP> 4-hydroxybutyraldehyde NAD(P)H  -->NAD(P)<sup>+</sup> 1,4-butanediol 
+RXN-12594 H<SUP>+</SUP> 4-hydroxybutanoyl-CoA NAD(P)H  -->coenzyme A 4-hydroxybutyraldehyde NAD(P)<sup>+</sup> 
+RXN-9092 coenzyme A ATP 4-hydroxybutanoate  -->AMP 4-hydroxybutanoyl-CoA diphosphate 
+4-HYDROXYBUTYRATE-DEHYDROGENASE-RXN NADH H<SUP>+</SUP> succinate semialdehyde  -->NAD<sup>+</sup> 4-hydroxybutanoate 
+RXN-13328 glyoxylate 4-aminobutanoate  -->glycine succinate semialdehyde 
+GABATRANSAM-RXN succinate semialdehyde L-glutamate  -->2-oxoglutarate 4-aminobutanoate 
+
+RXN-12595 H<SUP>+</SUP> 4-hydroxybutyraldehyde NAD(P)H  -->NAD(P)<sup>+</sup> 1,4-butanediol 
+RXN-12594 H<SUP>+</SUP> 4-hydroxybutanoyl-CoA NAD(P)H  -->coenzyme A 4-hydroxybutyraldehyde NAD(P)<sup>+</sup> 
+RXN-9092 coenzyme A ATP 4-hydroxybutanoate  -->AMP 4-hydroxybutanoyl-CoA diphosphate 
+4-HYDROXYBUTYRATE-DEHYDROGENASE-RXN NADH H<SUP>+</SUP> succinate semialdehyde  -->NAD<sup>+</sup> 4-hydroxybutanoate 
+GABATRANSAM-RXN 2-oxoglutarate 4-aminobutanoate  -->succinate semialdehyde L-glutamate 
+
+RXN-12595 H<SUP>+</SUP> 4-hydroxybutyraldehyde NAD(P)H  -->NAD(P)<sup>+</sup> 1,4-butanediol 
+RXN-12594 H<SUP>+</SUP> 4-hydroxybutanoyl-CoA NAD(P)H  -->coenzyme A 4-hydroxybutyraldehyde NAD(P)<sup>+</sup> 
+RXN-8889 acetyl-CoA 4-hydroxybutanoate  -->acetate 4-hydroxybutanoyl-CoA 
+4-HYDROXYBUTYRATE-DEHYDROGENASE-RXN NADH H<SUP>+</SUP> succinate semialdehyde  -->NAD<sup>+</sup> 4-hydroxybutanoate 
+RXN-6902 pyruvate 4-aminobutanoate  -->succinate semialdehyde L-alanine 
+AMINOBUTDEHYDROG-RXN H<sub>2</sub>O NAD<sup>+</sup> 4-aminobutanal  -->NADH H<SUP>+</SUP> 4-aminobutanoate 
+SPERMIDINE-DEHYDROGENASE-RXN H<sub>2</sub>O spermidine an oxidized unknown electron carrier  -->propane-1,3-diamine a reduced unknown two electron carrier 4-aminobutanal 
+GSPAMID-RXN H<sub>2</sub>O glutathionylspermidine  -->spermidine glutathione 
+
+RXN-12595 H<SUP>+</SUP> 4-hydroxybutyraldehyde NAD(P)H  -->NAD(P)<sup>+</sup> 1,4-butanediol 
+RXN-12594 H<SUP>+</SUP> 4-hydroxybutanoyl-CoA NAD(P)H  -->coenzyme A 4-hydroxybutyraldehyde NAD(P)<sup>+</sup> 
+RXN-8889 acetyl-CoA 4-hydroxybutanoate  -->acetate 4-hydroxybutanoyl-CoA 
+4-HYDROXYBUTYRATE-DEHYDROGENASE-RXN NADH H<SUP>+</SUP> succinate semialdehyde  -->NAD<sup>+</sup> 4-hydroxybutanoate 
+RXN-6902 pyruvate 4-aminobutanoate  -->succinate semialdehyde L-alanine 
+RXN-14209 H<sub>2</sub>O 4-aminobutanal NADP<sup>+</sup>  -->H<SUP>+</SUP> 4-aminobutanoate NADPH 
+PUTTRANSAM-RXN putrescine 2-oxoglutarate  -->4-aminobutanal L-glutamate 
+AGMATIN-RXN H<sub>2</sub>O agmatine  -->putrescine urea 
+
+RXN-12595 H<SUP>+</SUP> 4-hydroxybutyraldehyde NAD(P)H  -->NAD(P)<sup>+</sup> 1,4-butanediol 
+RXN-12594 H<SUP>+</SUP> 4-hydroxybutanoyl-CoA NAD(P)H  -->coenzyme A 4-hydroxybutyraldehyde NAD(P)<sup>+</sup> 
+RXN-9092 coenzyme A ATP 4-hydroxybutanoate  -->AMP 4-hydroxybutanoyl-CoA diphosphate 
+4-HYDROXYBUTYRATE-DEHYDROGENASE-RXN NADH H<SUP>+</SUP> succinate semialdehyde  -->NAD<sup>+</sup> 4-hydroxybutanoate 
+RXN-13328 glyoxylate 4-aminobutanoate  -->glycine succinate semialdehyde 
+AMINOBUTDEHYDROG-RXN H<sub>2</sub>O NAD<sup>+</sup> 4-aminobutanal  -->NADH H<SUP>+</SUP> 4-aminobutanoate 
+RXN-8 putrescine pyruvate  -->4-aminobutanal L-alanine 
+ORNDECARBOX-RXN H<SUP>+</SUP> L-ornithine  -->putrescine CO<SUB>2</SUB> 
+
+RXN-12595 H<SUP>+</SUP> 4-hydroxybutyraldehyde NAD(P)H  -->NAD(P)<sup>+</sup> 1,4-butanediol 
+RXN-12594 H<SUP>+</SUP> 4-hydroxybutanoyl-CoA NAD(P)H  -->coenzyme A 4-hydroxybutyraldehyde NAD(P)<sup>+</sup> 
+RXN-9092 coenzyme A ATP 4-hydroxybutanoate  -->AMP 4-hydroxybutanoyl-CoA diphosphate 
+4-HYDROXYBUTYRATE-DEHYDROGENASE-RXN NADH H<SUP>+</SUP> succinate semialdehyde  -->NAD<sup>+</sup> 4-hydroxybutanoate 
+RXN-6902 pyruvate 4-aminobutanoate  -->succinate semialdehyde L-alanine 
+AMINOBUTDEHYDROG-RXN H<sub>2</sub>O NAD<sup>+</sup> 4-aminobutanal  -->NADH H<SUP>+</SUP> 4-aminobutanoate 
+PUTRESCINE-OXIDASE-RXN putrescine H<sub>2</sub>O oxygen  -->hydrogen peroxide ammonium 4-aminobutanal 
+ORNDECARBOX-RXN H<SUP>+</SUP> L-ornithine  -->putrescine CO<SUB>2</SUB> 
+
+RXN-12595 H<SUP>+</SUP> 4-hydroxybutyraldehyde NAD(P)H  -->NAD(P)<sup>+</sup> 1,4-butanediol 
+RXN-12594 H<SUP>+</SUP> 4-hydroxybutanoyl-CoA NAD(P)H  -->coenzyme A 4-hydroxybutyraldehyde NAD(P)<sup>+</sup> 
+RXN-8889 acetyl-CoA 4-hydroxybutanoate  -->acetate 4-hydroxybutanoyl-CoA 
+4-HYDROXYBUTYRATE-DEHYDROGENASE-RXN NADH H<SUP>+</SUP> succinate semialdehyde  -->NAD<sup>+</sup> 4-hydroxybutanoate 
+RXN-6902 pyruvate 4-aminobutanoate  -->succinate semialdehyde L-alanine 
+RXN-14209 H<sub>2</sub>O 4-aminobutanal NADP<sup>+</sup>  -->H<SUP>+</SUP> 4-aminobutanoate NADPH 
+PUTRESCINE-OXIDASE-RXN putrescine H<sub>2</sub>O oxygen  -->hydrogen peroxide ammonium 4-aminobutanal 
+ORNDECARBOX-RXN H<SUP>+</SUP> L-ornithine  -->putrescine CO<SUB>2</SUB> 
+
+RXN-12595 H<SUP>+</SUP> 4-hydroxybutyraldehyde NAD(P)H  -->NAD(P)<sup>+</sup> 1,4-butanediol 
+RXN-12594 H<SUP>+</SUP> 4-hydroxybutanoyl-CoA NAD(P)H  -->coenzyme A 4-hydroxybutyraldehyde NAD(P)<sup>+</sup> 
+RXN-8889 acetyl-CoA 4-hydroxybutanoate  -->acetate 4-hydroxybutanoyl-CoA 
+4-HYDROXYBUTYRATE-DEHYDROGENASE-RXN NADH H<SUP>+</SUP> succinate semialdehyde  -->NAD<sup>+</sup> 4-hydroxybutanoate 
+RXN-13328 glyoxylate 4-aminobutanoate  -->glycine succinate semialdehyde 
+AMINOBUTDEHYDROG-RXN H<sub>2</sub>O NAD<sup>+</sup> 4-aminobutanal  -->NADH H<SUP>+</SUP> 4-aminobutanoate 
+PUTRESCINE-OXIDASE-RXN putrescine H<sub>2</sub>O oxygen  -->hydrogen peroxide ammonium 4-aminobutanal 
+RXN-20175 H<SUP>+</SUP> D-ornithine  -->putrescine CO<SUB>2</SUB> 
+
+RXN-12595 H<SUP>+</SUP> 4-hydroxybutyraldehyde NAD(P)H  -->NAD(P)<sup>+</sup> 1,4-butanediol 
+RXN-12594 H<SUP>+</SUP> 4-hydroxybutanoyl-CoA NAD(P)H  -->coenzyme A 4-hydroxybutyraldehyde NAD(P)<sup>+</sup> 
+RXN-8889 acetyl-CoA 4-hydroxybutanoate  -->acetate 4-hydroxybutanoyl-CoA 
+4-HYDROXYBUTYRATE-DEHYDROGENASE-RXN NADH H<SUP>+</SUP> succinate semialdehyde  -->NAD<sup>+</sup> 4-hydroxybutanoate 
+RXN-6902 pyruvate 4-aminobutanoate  -->succinate semialdehyde L-alanine 
+GABATRANSAM-RXN succinate semialdehyde L-glutamate  -->2-oxoglutarate 4-aminobutanoate 
+
+RXN-12595 H<SUP>+</SUP> 4-hydroxybutyraldehyde NAD(P)H  -->NAD(P)<sup>+</sup> 1,4-butanediol 
+RXN-12594 H<SUP>+</SUP> 4-hydroxybutanoyl-CoA NAD(P)H  -->coenzyme A 4-hydroxybutyraldehyde NAD(P)<sup>+</sup> 
+RXN-9092 coenzyme A ATP 4-hydroxybutanoate  -->AMP 4-hydroxybutanoyl-CoA diphosphate 
+4-HYDROXYBUTYRATE-DEHYDROGENASE-RXN NADH H<SUP>+</SUP> succinate semialdehyde  -->NAD<sup>+</sup> 4-hydroxybutanoate 
+RXN-6902 pyruvate 4-aminobutanoate  -->succinate semialdehyde L-alanine 
+AMINOBUTDEHYDROG-RXN H<sub>2</sub>O NAD<sup>+</sup> 4-aminobutanal  -->NADH H<SUP>+</SUP> 4-aminobutanoate 
+RXN-8 putrescine pyruvate  -->4-aminobutanal L-alanine 
+AGMATIN-RXN H<sub>2</sub>O agmatine  -->putrescine urea 
+
+RXN-12595 H<SUP>+</SUP> 4-hydroxybutyraldehyde NAD(P)H  -->NAD(P)<sup>+</sup> 1,4-butanediol 
+RXN-12594 H<SUP>+</SUP> 4-hydroxybutanoyl-CoA NAD(P)H  -->coenzyme A 4-hydroxybutyraldehyde NAD(P)<sup>+</sup> 
+RXN-9092 coenzyme A ATP 4-hydroxybutanoate  -->AMP 4-hydroxybutanoyl-CoA diphosphate 
+4-HYDROXYBUTYRATE-DEHYDROGENASE-RXN NADH H<SUP>+</SUP> succinate semialdehyde  -->NAD<sup>+</sup> 4-hydroxybutanoate 
+RXN-13328 glyoxylate 4-aminobutanoate  -->glycine succinate semialdehyde 
+RXN-14209 H<sub>2</sub>O 4-aminobutanal NADP<sup>+</sup>  -->H<SUP>+</SUP> 4-aminobutanoate NADPH 
+PUTRESCINE-OXIDASE-RXN putrescine H<sub>2</sub>O oxygen  -->hydrogen peroxide ammonium 4-aminobutanal 
+ORNDECARBOX-RXN H<SUP>+</SUP> L-ornithine  -->putrescine CO<SUB>2</SUB> 
+
+RXN-12595 H<SUP>+</SUP> 4-hydroxybutyraldehyde NAD(P)H  -->NAD(P)<sup>+</sup> 1,4-butanediol 
+RXN-12594 H<SUP>+</SUP> 4-hydroxybutanoyl-CoA NAD(P)H  -->coenzyme A 4-hydroxybutyraldehyde NAD(P)<sup>+</sup> 
+RXN-8889 acetyl-CoA 4-hydroxybutanoate  -->acetate 4-hydroxybutanoyl-CoA 
+4-HYDROXYBUTYRATE-DEHYDROGENASE-RXN NADH H<SUP>+</SUP> succinate semialdehyde  -->NAD<sup>+</sup> 4-hydroxybutanoate 
+RXN-13328 glyoxylate 4-aminobutanoate  -->glycine succinate semialdehyde 
+RXN-14209 H<sub>2</sub>O 4-aminobutanal NADP<sup>+</sup>  -->H<SUP>+</SUP> 4-aminobutanoate NADPH 
+RXN-8 putrescine pyruvate  -->4-aminobutanal L-alanine 
+AGMATIN-RXN H<sub>2</sub>O agmatine  -->putrescine urea 
+
+RXN-12595 H<SUP>+</SUP> 4-hydroxybutyraldehyde NAD(P)H  -->NAD(P)<sup>+</sup> 1,4-butanediol 
+RXN-12594 H<SUP>+</SUP> 4-hydroxybutanoyl-CoA NAD(P)H  -->coenzyme A 4-hydroxybutyraldehyde NAD(P)<sup>+</sup> 
+RXN-8889 acetyl-CoA 4-hydroxybutanoate  -->acetate 4-hydroxybutanoyl-CoA 
+4-HYDROXYBUTYRATE-DEHYDROGENASE-RXN NADH H<SUP>+</SUP> succinate semialdehyde  -->NAD<sup>+</sup> 4-hydroxybutanoate 
+RXN-13328 glyoxylate 4-aminobutanoate  -->glycine succinate semialdehyde 
+AMINOBUTDEHYDROG-RXN H<sub>2</sub>O NAD<sup>+</sup> 4-aminobutanal  -->NADH H<SUP>+</SUP> 4-aminobutanoate 
+RXN-10747 H<sub>2</sub>O spermidine oxygen  -->propane-1,3-diamine hydrogen peroxide 4-aminobutanal 
+GSPAMID-RXN H<sub>2</sub>O glutathionylspermidine  -->spermidine glutathione 
+
+RXN-12595 H<SUP>+</SUP> 4-hydroxybutyraldehyde NAD(P)H  -->NAD(P)<sup>+</sup> 1,4-butanediol 
+RXN-12594 H<SUP>+</SUP> 4-hydroxybutanoyl-CoA NAD(P)H  -->coenzyme A 4-hydroxybutyraldehyde NAD(P)<sup>+</sup> 
+RXN-8889 acetyl-CoA 4-hydroxybutanoate  -->acetate 4-hydroxybutanoyl-CoA 
+4-HYDROXYBUTYRATE-DEHYDROGENASE-RXN NADH H<SUP>+</SUP> succinate semialdehyde  -->NAD<sup>+</sup> 4-hydroxybutanoate 
+RXN-6902 pyruvate 4-aminobutanoate  -->succinate semialdehyde L-alanine 
+1.5.1.35-RXN 1-pyrroline H<sub>2</sub>O NAD<sup>+</sup>  -->NADH H<SUP>+</SUP> 4-aminobutanoate 
+2.6.1.82-RXN putrescine 2-oxoglutarate  -->1-pyrroline H<sub>2</sub>O L-glutamate 
+RXN-20175 H<SUP>+</SUP> D-ornithine  -->putrescine CO<SUB>2</SUB> 
+
+RXN-12595 H<SUP>+</SUP> 4-hydroxybutyraldehyde NAD(P)H  -->NAD(P)<sup>+</sup> 1,4-butanediol 
+RXN-12594 H<SUP>+</SUP> 4-hydroxybutanoyl-CoA NAD(P)H  -->coenzyme A 4-hydroxybutyraldehyde NAD(P)<sup>+</sup> 
+RXN-8889 acetyl-CoA 4-hydroxybutanoate  -->acetate 4-hydroxybutanoyl-CoA 
+4-HYDROXYBUTYRATE-DEHYDROGENASE-RXN NADH H<SUP>+</SUP> succinate semialdehyde  -->NAD<sup>+</sup> 4-hydroxybutanoate 
+RXN-6902 pyruvate 4-aminobutanoate  -->succinate semialdehyde L-alanine 
+GUANIDINOBUTYRASE-RXN H<sub>2</sub>O 4-guanidinobutanoate  -->urea 4-aminobutanoate 
+GUANIDINOBUTANAMIDE-NH3-RXN H<sub>2</sub>O 4-guanidinobutyramide  -->ammonium 4-guanidinobutanoate 
+ARGININE-2-MONOOXYGENASE-RXN L-arginine oxygen  -->H<sub>2</sub>O CO<SUB>2</SUB> 4-guanidinobutyramide 
+
+RXN-12595 H<SUP>+</SUP> 4-hydroxybutyraldehyde NAD(P)H  -->NAD(P)<sup>+</sup> 1,4-butanediol 
+RXN-12594 H<SUP>+</SUP> 4-hydroxybutanoyl-CoA NAD(P)H  -->coenzyme A 4-hydroxybutyraldehyde NAD(P)<sup>+</sup> 
+RXN-9092 coenzyme A ATP 4-hydroxybutanoate  -->AMP 4-hydroxybutanoyl-CoA diphosphate 
+4-HYDROXYBUTYRATE-DEHYDROGENASE-RXN NADH H<SUP>+</SUP> succinate semialdehyde  -->NAD<sup>+</sup> 4-hydroxybutanoate 
+RXN-13328 glyoxylate 4-aminobutanoate  -->glycine succinate semialdehyde 
+AMINOBUTDEHYDROG-RXN H<sub>2</sub>O NAD<sup>+</sup> 4-aminobutanal  -->NADH H<SUP>+</SUP> 4-aminobutanoate 
+RXN-10747 H<sub>2</sub>O spermidine oxygen  -->propane-1,3-diamine hydrogen peroxide 4-aminobutanal 
+GSPAMID-RXN H<sub>2</sub>O glutathionylspermidine  -->spermidine glutathione 
+
+RXN-12595 H<SUP>+</SUP> 4-hydroxybutyraldehyde NAD(P)H  -->NAD(P)<sup>+</sup> 1,4-butanediol 
+RXN-12594 H<SUP>+</SUP> 4-hydroxybutanoyl-CoA NAD(P)H  -->coenzyme A 4-hydroxybutyraldehyde NAD(P)<sup>+</sup> 
+RXN-8889 acetyl-CoA 4-hydroxybutanoate  -->acetate 4-hydroxybutanoyl-CoA 
+4-HYDROXYBUTYRATE-DEHYDROGENASE-RXN NADH H<SUP>+</SUP> succinate semialdehyde  -->NAD<sup>+</sup> 4-hydroxybutanoate 
+RXN-13328 glyoxylate 4-aminobutanoate  -->glycine succinate semialdehyde 
+1.5.1.35-RXN 1-pyrroline H<sub>2</sub>O NAD<sup>+</sup>  -->NADH H<SUP>+</SUP> 4-aminobutanoate 
+2.6.1.82-RXN putrescine 2-oxoglutarate  -->1-pyrroline H<sub>2</sub>O L-glutamate 
+AGMATIN-RXN H<sub>2</sub>O agmatine  -->putrescine urea 
+
+RXN-12595 H<SUP>+</SUP> 4-hydroxybutyraldehyde NAD(P)H  -->NAD(P)<sup>+</sup> 1,4-butanediol 
+RXN-12594 H<SUP>+</SUP> 4-hydroxybutanoyl-CoA NAD(P)H  -->coenzyme A 4-hydroxybutyraldehyde NAD(P)<sup>+</sup> 
+RXN-8889 acetyl-CoA 4-hydroxybutanoate  -->acetate 4-hydroxybutanoyl-CoA 
+4-HYDROXYBUTYRATE-DEHYDROGENASE-RXN NADH H<SUP>+</SUP> succinate semialdehyde  -->NAD<sup>+</sup> 4-hydroxybutanoate 
+RXN-18258 H<SUP>+</SUP> oxygen NAD(P)H &gamma;-butyrobetaine  -->H<sub>2</sub>O succinate semialdehyde NAD(P)<sup>+</sup> trimethylamine 
+1.2.1.47-RXN H<sub>2</sub>O NAD<sup>+</sup> 4-trimethylammoniobutanal  -->NADH H<SUP>+</SUP> &gamma;-butyrobetaine 
+RXN-9896 3-hydroxy-<i>N</i><sup>6</sup>,<i>N</i><sup>6</sup>,<i>N</i><sup>6</sup>-trimethyl-L-lysine  -->glycine 4-trimethylammoniobutanal 
+
+RXN-12595 H<SUP>+</SUP> 4-hydroxybutyraldehyde NAD(P)H  -->NAD(P)<sup>+</sup> 1,4-butanediol 
+RXN-12594 H<SUP>+</SUP> 4-hydroxybutanoyl-CoA NAD(P)H  -->coenzyme A 4-hydroxybutyraldehyde NAD(P)<sup>+</sup> 
+RXN-9092 coenzyme A ATP 4-hydroxybutanoate  -->AMP 4-hydroxybutanoyl-CoA diphosphate 
+4-HYDROXYBUTYRATE-DEHYDROGENASE-RXN NADH H<SUP>+</SUP> succinate semialdehyde  -->NAD<sup>+</sup> 4-hydroxybutanoate 
+RXN-13328 glyoxylate 4-aminobutanoate  -->glycine succinate semialdehyde 
+RXN-14209 H<sub>2</sub>O 4-aminobutanal NADP<sup>+</sup>  -->H<SUP>+</SUP> 4-aminobutanoate NADPH 
+RXN-8 putrescine pyruvate  -->4-aminobutanal L-alanine 
+AGMATIN-RXN H<sub>2</sub>O agmatine  -->putrescine urea 
+
+RXN-12595 H<SUP>+</SUP> 4-hydroxybutyraldehyde NAD(P)H  -->NAD(P)<sup>+</sup> 1,4-butanediol 
+RXN-12594 H<SUP>+</SUP> 4-hydroxybutanoyl-CoA NAD(P)H  -->coenzyme A 4-hydroxybutyraldehyde NAD(P)<sup>+</sup> 
+RXN-9092 coenzyme A ATP 4-hydroxybutanoate  -->AMP 4-hydroxybutanoyl-CoA diphosphate 
+4-HYDROXYBUTYRATE-DEHYDROGENASE-RXN NADH H<SUP>+</SUP> succinate semialdehyde  -->NAD<sup>+</sup> 4-hydroxybutanoate 
+RXN-13328 glyoxylate 4-aminobutanoate  -->glycine succinate semialdehyde 
+1.5.1.35-RXN 1-pyrroline H<sub>2</sub>O NAD<sup>+</sup>  -->NADH H<SUP>+</SUP> 4-aminobutanoate 
+2.6.1.82-RXN putrescine 2-oxoglutarate  -->1-pyrroline H<sub>2</sub>O L-glutamate 
+AGMATIN-RXN H<sub>2</sub>O agmatine  -->putrescine urea 
+
+RXN-12595 H<SUP>+</SUP> 4-hydroxybutyraldehyde NAD(P)H  -->NAD(P)<sup>+</sup> 1,4-butanediol 
+RXN-12594 H<SUP>+</SUP> 4-hydroxybutanoyl-CoA NAD(P)H  -->coenzyme A 4-hydroxybutyraldehyde NAD(P)<sup>+</sup> 
+RXN-8889 acetyl-CoA 4-hydroxybutanoate  -->acetate 4-hydroxybutanoyl-CoA 
+4-HYDROXYBUTYRATE-DEHYDROGENASE-RXN NADH H<SUP>+</SUP> succinate semialdehyde  -->NAD<sup>+</sup> 4-hydroxybutanoate 
+RXN-6902 pyruvate 4-aminobutanoate  -->succinate semialdehyde L-alanine 
+RXN-14209 H<sub>2</sub>O 4-aminobutanal NADP<sup>+</sup>  -->H<SUP>+</SUP> 4-aminobutanoate NADPH 
+RXN-8 putrescine pyruvate  -->4-aminobutanal L-alanine 
+RXN-20175 H<SUP>+</SUP> D-ornithine  -->putrescine CO<SUB>2</SUB> 
+
+RXN-12595 H<SUP>+</SUP> 4-hydroxybutyraldehyde NAD(P)H  -->NAD(P)<sup>+</sup> 1,4-butanediol 
+RXN-12594 H<SUP>+</SUP> 4-hydroxybutanoyl-CoA NAD(P)H  -->coenzyme A 4-hydroxybutyraldehyde NAD(P)<sup>+</sup> 
+RXN-8889 acetyl-CoA 4-hydroxybutanoate  -->acetate 4-hydroxybutanoyl-CoA 
+4-HYDROXYBUTYRATE-DEHYDROGENASE-RXN NADH H<SUP>+</SUP> succinate semialdehyde  -->NAD<sup>+</sup> 4-hydroxybutanoate 
+RXN-13328 glyoxylate 4-aminobutanoate  -->glycine succinate semialdehyde 
+GABATRANSAM-RXN succinate semialdehyde L-glutamate  -->2-oxoglutarate 4-aminobutanoate 
+
+RXN-12595 H<SUP>+</SUP> 4-hydroxybutyraldehyde NAD(P)H  -->NAD(P)<sup>+</sup> 1,4-butanediol 
+RXN-12594 H<SUP>+</SUP> 4-hydroxybutanoyl-CoA NAD(P)H  -->coenzyme A 4-hydroxybutyraldehyde NAD(P)<sup>+</sup> 
+RXN-9092 coenzyme A ATP 4-hydroxybutanoate  -->AMP 4-hydroxybutanoyl-CoA diphosphate 
+4-HYDROXYBUTYRATE-DEHYDROGENASE-RXN NADH H<SUP>+</SUP> succinate semialdehyde  -->NAD<sup>+</sup> 4-hydroxybutanoate 
+RXN-13065 H<sub>2</sub>O oxygen 4-methylaminobutanoate  -->hydrogen peroxide succinate semialdehyde methylamine 
+RXN-19382 H<sub>2</sub>O ATP <i>N</i>-methylpyrrolidone  -->H<SUP>+</SUP> phosphate ADP 4-methylaminobutanoate 
+
+RXN-12595 H<SUP>+</SUP> 4-hydroxybutyraldehyde NAD(P)H  -->NAD(P)<sup>+</sup> 1,4-butanediol 
+RXN-12594 H<SUP>+</SUP> 4-hydroxybutanoyl-CoA NAD(P)H  -->coenzyme A 4-hydroxybutyraldehyde NAD(P)<sup>+</sup> 
+RXN-8889 acetyl-CoA 4-hydroxybutanoate  -->acetate 4-hydroxybutanoyl-CoA 
+4-HYDROXYBUTYRATE-DEHYDROGENASE-RXN NADH H<SUP>+</SUP> succinate semialdehyde  -->NAD<sup>+</sup> 4-hydroxybutanoate 
+RXN-6902 pyruvate 4-aminobutanoate  -->succinate semialdehyde L-alanine 
+RXN-14209 H<sub>2</sub>O 4-aminobutanal NADP<sup>+</sup>  -->H<SUP>+</SUP> 4-aminobutanoate NADPH 
+PUTTRANSAM-RXN putrescine 2-oxoglutarate  -->4-aminobutanal L-glutamate 
+ORNDECARBOX-RXN H<SUP>+</SUP> L-ornithine  -->putrescine CO<SUB>2</SUB> 
+
+RXN-12595 H<SUP>+</SUP> 4-hydroxybutyraldehyde NAD(P)H  -->NAD(P)<sup>+</sup> 1,4-butanediol 
+RXN-12594 H<SUP>+</SUP> 4-hydroxybutanoyl-CoA NAD(P)H  -->coenzyme A 4-hydroxybutyraldehyde NAD(P)<sup>+</sup> 
+RXN-9092 coenzyme A ATP 4-hydroxybutanoate  -->AMP 4-hydroxybutanoyl-CoA diphosphate 
+4-HYDROXYBUTYRATE-DEHYDROGENASE-RXN NADH H<SUP>+</SUP> succinate semialdehyde  -->NAD<sup>+</sup> 4-hydroxybutanoate 
+RXN-6902 pyruvate 4-aminobutanoate  -->succinate semialdehyde L-alanine 
+RXN-14209 H<sub>2</sub>O 4-aminobutanal NADP<sup>+</sup>  -->H<SUP>+</SUP> 4-aminobutanoate NADPH 
+PUTTRANSAM-RXN putrescine 2-oxoglutarate  -->4-aminobutanal L-glutamate 
+AGMATIN-RXN H<sub>2</sub>O agmatine  -->putrescine urea 
+
+RXN-12595 H<SUP>+</SUP> 4-hydroxybutyraldehyde NAD(P)H  -->NAD(P)<sup>+</sup> 1,4-butanediol 
+RXN-12594 H<SUP>+</SUP> 4-hydroxybutanoyl-CoA NAD(P)H  -->coenzyme A 4-hydroxybutyraldehyde NAD(P)<sup>+</sup> 
+RXN-8889 acetyl-CoA 4-hydroxybutanoate  -->acetate 4-hydroxybutanoyl-CoA 
+4-HYDROXYBUTYRATE-DEHYDROGENASE-RXN NADH H<SUP>+</SUP> succinate semialdehyde  -->NAD<sup>+</sup> 4-hydroxybutanoate 
+RXN-6902 pyruvate 4-aminobutanoate  -->succinate semialdehyde L-alanine 
+AMINOBUTDEHYDROG-RXN H<sub>2</sub>O NAD<sup>+</sup> 4-aminobutanal  -->NADH H<SUP>+</SUP> 4-aminobutanoate 
+RXN-8 putrescine pyruvate  -->4-aminobutanal L-alanine 
+AGMATIN-RXN H<sub>2</sub>O agmatine  -->putrescine urea 
 

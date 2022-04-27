@@ -33,12 +33,14 @@ public class PathEnum {
         String PathPath = new C5().getClass().getResource("Data" + "/" + "pathways.dat").getFile();
 
         List<Chems> listofchems = ec.run(chempath);
+        List<String> aminoacids = ec.getAAlists();
         ep.run(PathPath);
         rxnsHashMap = er.getRxnsHashmap();
         chems = ec.getChemsHashMap();
         reactions = er.run(rxnpath,chems);
         PathMap = ep.getPathMap();
         natives = ecm.run(CoreMetpath);
+        natives.addAll(aminoacids);
         chemToCascadeMap = ctc2.run(reactions, listofchems);
     }
 

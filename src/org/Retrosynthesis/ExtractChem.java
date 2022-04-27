@@ -6,6 +6,7 @@ import org.Utils.FileUtils;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
+import java.util.Set;
 
 /**
  * This extracts chemical compounds from metacyc compound database
@@ -13,9 +14,11 @@ import java.util.List;
  */
 public class ExtractChem {
     private HashMap<String, Chems> chemsHashMap;
+    private List<String> AAlists;
 
     public void initiate(){
         chemsHashMap = new HashMap<>();
+        AAlists = new ArrayList<>();
     }
 
     public List<Chems> run(String chempath) throws Exception {
@@ -27,6 +30,7 @@ public class ExtractChem {
         String commonName = null;
         String uniqueID = null;
         String Inchi = null;
+        Boolean isAA = false;
 
         for (int i = 2; i < lines.length; i++) {
             String aCompound = lines[i];
@@ -52,14 +56,32 @@ public class ExtractChem {
                     commonName = tabs[1];
                     continue;
                 }
+
+                if (str.startsWith("TYPES")) {
+                    tabs = str.split(" - ");
+                    if (tabs[1].contains("Inorganic-Compounds") || tabs[1].contains("Electorin-Carriers") || tabs[1].contains("Amino-Acids") || tabs[1].contains("Amino-Acid") || tabs[1].contains("Glutathione") || tabs[1].contains("Polyphosphates") || tabs[1].contains("Metal-Cations") || tabs[1].contains("Inorganic-Anions")){
+                        isAA = true;
+                        continue;
+                    }
+                }
+
+                if (str.startsWith("COMMON-NAME")) {
+                    tabs = str.split(" - ");
+                    commonName = tabs[1];
+                    continue;
+                }
             }
 
             Chems achem = new Chems(uniqueID, Inchi,commonName);
+            if (isAA == true){
+                AAlists.add(achem.getID());
+            }
             allChemicals.add(achem);
             chemsHashMap.put(uniqueID, achem);
             commonName = null;
             uniqueID = null;
             Inchi = null;
+            isAA = false;
         }
         System.out.println("done populating chemicals");
         return allChemicals;
@@ -67,4 +89,7 @@ public class ExtractChem {
     public HashMap<String, Chems> getChemsHashMap() {
         return chemsHashMap; }
 
+    public List<String> getAAlists() {
+        return AAlists;
+    }
 }
