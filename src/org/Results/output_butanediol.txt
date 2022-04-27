@@ -2,28 +2,36 @@ H<SUP>+</SUP> 4-hydroxybutyraldehyde NAD(P)H  -->NAD(P)<sup>+</sup> 1,4-butanedi
 H<SUP>+</SUP> 4-hydroxybutanoyl-CoA NAD(P)H  -->coenzyme A 4-hydroxybutyraldehyde NAD(P)<sup>+</sup> 
 coenzyme A ATP 4-hydroxybutanoate  -->AMP 4-hydroxybutanoyl-CoA diphosphate 
 NADH H<SUP>+</SUP> succinate semialdehyde  -->NAD<sup>+</sup> 4-hydroxybutanoate 
-H<sub>2</sub>O oxygen 4-methylaminobutanoate  -->hydrogen peroxide succinate semialdehyde methylamine 
-H<sub>2</sub>O ATP <i>N</i>-methylpyrrolidone  -->H<SUP>+</SUP> phosphate ADP 4-methylaminobutanoate 
+H<SUP>+</SUP> oxygen NAD(P)H &gamma;-butyrobetaine  -->H<sub>2</sub>O succinate semialdehyde NAD(P)<sup>+</sup> trimethylamine 
+L-carnitine &gamma;-butyrobetainyl-CoA  -->(<i>R</i>)-carnitinyl-CoA &gamma;-butyrobetaine 
+null crotonobetainyl-CoA  -->null H<SUP>+</SUP> &gamma;-butyrobetainyl-CoA 
 
 H<SUP>+</SUP> 4-hydroxybutyraldehyde NAD(P)H  -->NAD(P)<sup>+</sup> 1,4-butanediol 
 H<SUP>+</SUP> 4-hydroxybutanoyl-CoA NAD(P)H  -->coenzyme A 4-hydroxybutyraldehyde NAD(P)<sup>+</sup> 
 acetyl-CoA 4-hydroxybutanoate  -->acetate 4-hydroxybutanoyl-CoA 
 NADH H<SUP>+</SUP> succinate semialdehyde  -->NAD<sup>+</sup> 4-hydroxybutanoate 
+H<SUP>+</SUP> oxygen NAD(P)H &gamma;-butyrobetaine  -->H<sub>2</sub>O succinate semialdehyde NAD(P)<sup>+</sup> trimethylamine 
+L-carnitine &gamma;-butyrobetainyl-CoA  -->(<i>R</i>)-carnitinyl-CoA &gamma;-butyrobetaine 
+H<sub>2</sub>O L-carnitinamide  -->L-carnitine ammonium 
+
+H<SUP>+</SUP> 4-hydroxybutyraldehyde NAD(P)H  -->NAD(P)<sup>+</sup> 1,4-butanediol 
+H<SUP>+</SUP> 4-hydroxybutanoyl-CoA NAD(P)H  -->coenzyme A 4-hydroxybutyraldehyde NAD(P)<sup>+</sup> 
+coenzyme A ATP 4-hydroxybutanoate  -->AMP 4-hydroxybutanoyl-CoA diphosphate 
+NADH H<SUP>+</SUP> succinate semialdehyde  -->NAD<sup>+</sup> 4-hydroxybutanoate 
 2,4-dihydroxyhept-2-enedioate  -->pyruvate succinate semialdehyde 
 
 H<SUP>+</SUP> 4-hydroxybutyraldehyde NAD(P)H  -->NAD(P)<sup>+</sup> 1,4-butanediol 
 H<SUP>+</SUP> 4-hydroxybutanoyl-CoA NAD(P)H  -->coenzyme A 4-hydroxybutyraldehyde NAD(P)<sup>+</sup> 
 coenzyme A ATP 4-hydroxybutanoate  -->AMP 4-hydroxybutanoyl-CoA diphosphate 
+NADH H<SUP>+</SUP> succinate semialdehyde  -->NAD<sup>+</sup> 4-hydroxybutanoate 
+2-oxoglutarate H<SUP>+</SUP>  -->succinate semialdehyde CO<SUB>2</SUB> 
+
+H<SUP>+</SUP> 4-hydroxybutyraldehyde NAD(P)H  -->NAD(P)<sup>+</sup> 1,4-butanediol 
+H<SUP>+</SUP> 4-hydroxybutanoyl-CoA NAD(P)H  -->coenzyme A 4-hydroxybutyraldehyde NAD(P)<sup>+</sup> 
+acetyl-CoA 4-hydroxybutanoate  -->acetate 4-hydroxybutanoyl-CoA 
 NADH H<SUP>+</SUP> succinate semialdehyde  -->NAD<sup>+</sup> 4-hydroxybutanoate 
 H<sub>2</sub>O oxygen 4-methylaminobutanoate  -->hydrogen peroxide succinate semialdehyde methylamine 
-H<sub>2</sub>O 2,6-dihydroxypseudooxynicotine  -->H<SUP>+</SUP> 2,6-dihydroxypyridine 4-methylaminobutanoate 
-H<sub>2</sub>O 6-hydroxypseudooxynicotine an oxidized unknown electron carrier  -->2,6-dihydroxypseudooxynicotine a reduced unknown two electron carrier 
-
-H<SUP>+</SUP> 4-hydroxybutyraldehyde NAD(P)H  -->NAD(P)<sup>+</sup> 1,4-butanediol 
-H<SUP>+</SUP> 4-hydroxybutanoyl-CoA NAD(P)H  -->coenzyme A 4-hydroxybutyraldehyde NAD(P)<sup>+</sup> 
-coenzyme A ATP 4-hydroxybutanoate  -->AMP 4-hydroxybutanoyl-CoA diphosphate 
-NADH H<SUP>+</SUP> succinate semialdehyde  -->NAD<sup>+</sup> 4-hydroxybutanoate 
-2,4-dihydroxyhept-2-enedioate  -->pyruvate succinate semialdehyde 
+H<sub>2</sub>O ATP <i>N</i>-methylpyrrolidone  -->H<SUP>+</SUP> phosphate ADP 4-methylaminobutanoate 
 
 H<SUP>+</SUP> 4-hydroxybutyraldehyde NAD(P)H  -->NAD(P)<sup>+</sup> 1,4-butanediol 
 H<SUP>+</SUP> 4-hydroxybutanoyl-CoA NAD(P)H  -->coenzyme A 4-hydroxybutyraldehyde NAD(P)<sup>+</sup> 
@@ -32,19 +40,6 @@ NADH H<SUP>+</SUP> succinate semialdehyde  -->NAD<sup>+</sup> 4-hydroxybutanoate
 H<SUP>+</SUP> oxygen NAD(P)H &gamma;-butyrobetaine  -->H<sub>2</sub>O succinate semialdehyde NAD(P)<sup>+</sup> trimethylamine 
 L-carnitine &gamma;-butyrobetainyl-CoA  -->(<i>R</i>)-carnitinyl-CoA &gamma;-butyrobetaine 
 null crotonobetainyl-CoA  -->null H<SUP>+</SUP> &gamma;-butyrobetainyl-CoA 
-
-H<SUP>+</SUP> 4-hydroxybutyraldehyde NAD(P)H  -->NAD(P)<sup>+</sup> 1,4-butanediol 
-H<SUP>+</SUP> 4-hydroxybutanoyl-CoA NAD(P)H  -->coenzyme A 4-hydroxybutyraldehyde NAD(P)<sup>+</sup> 
-acetyl-CoA 4-hydroxybutanoate  -->acetate 4-hydroxybutanoyl-CoA 
-H<SUP>+</SUP> succinate semialdehyde NADPH  -->4-hydroxybutanoate NADP<sup>+</sup> 
-
-H<SUP>+</SUP> 4-hydroxybutyraldehyde NAD(P)H  -->NAD(P)<sup>+</sup> 1,4-butanediol 
-H<SUP>+</SUP> 4-hydroxybutanoyl-CoA NAD(P)H  -->coenzyme A 4-hydroxybutyraldehyde NAD(P)<sup>+</sup> 
-coenzyme A ATP 4-hydroxybutanoate  -->AMP 4-hydroxybutanoyl-CoA diphosphate 
-NADH H<SUP>+</SUP> succinate semialdehyde  -->NAD<sup>+</sup> 4-hydroxybutanoate 
-H<SUP>+</SUP> oxygen NAD(P)H &gamma;-butyrobetaine  -->H<sub>2</sub>O succinate semialdehyde NAD(P)<sup>+</sup> trimethylamine 
-L-carnitine &gamma;-butyrobetainyl-CoA  -->(<i>R</i>)-carnitinyl-CoA &gamma;-butyrobetaine 
-H<sub>2</sub>O an <i>O</i>-long-chain-acyl-L-carnitine  -->L-carnitine a long-chain fatty acid H<SUP>+</SUP> 
 
 H<SUP>+</SUP> 4-hydroxybutyraldehyde NAD(P)H  -->NAD(P)<sup>+</sup> 1,4-butanediol 
 H<SUP>+</SUP> 4-hydroxybutanoyl-CoA NAD(P)H  -->coenzyme A 4-hydroxybutyraldehyde NAD(P)<sup>+</sup> 
@@ -56,19 +51,21 @@ H<sub>2</sub>O L-carnitinamide  -->L-carnitine ammonium
 
 H<SUP>+</SUP> 4-hydroxybutyraldehyde NAD(P)H  -->NAD(P)<sup>+</sup> 1,4-butanediol 
 H<SUP>+</SUP> 4-hydroxybutanoyl-CoA NAD(P)H  -->coenzyme A 4-hydroxybutyraldehyde NAD(P)<sup>+</sup> 
+acetyl-CoA 4-hydroxybutanoate  -->acetate 4-hydroxybutanoyl-CoA 
+H<SUP>+</SUP> succinate semialdehyde NADPH  -->4-hydroxybutanoate NADP<sup>+</sup> 
+
+H<SUP>+</SUP> 4-hydroxybutyraldehyde NAD(P)H  -->NAD(P)<sup>+</sup> 1,4-butanediol 
+H<SUP>+</SUP> 4-hydroxybutanoyl-CoA NAD(P)H  -->coenzyme A 4-hydroxybutyraldehyde NAD(P)<sup>+</sup> 
 coenzyme A ATP 4-hydroxybutanoate  -->AMP 4-hydroxybutanoyl-CoA diphosphate 
 NADH H<SUP>+</SUP> succinate semialdehyde  -->NAD<sup>+</sup> 4-hydroxybutanoate 
-H<SUP>+</SUP> oxygen NAD(P)H &gamma;-butyrobetaine  -->H<sub>2</sub>O succinate semialdehyde NAD(P)<sup>+</sup> trimethylamine 
-L-carnitine &gamma;-butyrobetainyl-CoA  -->(<i>R</i>)-carnitinyl-CoA &gamma;-butyrobetaine 
-null crotonobetainyl-CoA  -->null H<SUP>+</SUP> &gamma;-butyrobetainyl-CoA 
+H<sub>2</sub>O oxygen 4-methylaminobutanoate  -->hydrogen peroxide succinate semialdehyde methylamine 
+H<sub>2</sub>O ATP <i>N</i>-methylpyrrolidone  -->H<SUP>+</SUP> phosphate ADP 4-methylaminobutanoate 
 
 H<SUP>+</SUP> 4-hydroxybutyraldehyde NAD(P)H  -->NAD(P)<sup>+</sup> 1,4-butanediol 
 H<SUP>+</SUP> 4-hydroxybutanoyl-CoA NAD(P)H  -->coenzyme A 4-hydroxybutyraldehyde NAD(P)<sup>+</sup> 
 acetyl-CoA 4-hydroxybutanoate  -->acetate 4-hydroxybutanoyl-CoA 
 NADH H<SUP>+</SUP> succinate semialdehyde  -->NAD<sup>+</sup> 4-hydroxybutanoate 
-H<SUP>+</SUP> oxygen NAD(P)H &gamma;-butyrobetaine  -->H<sub>2</sub>O succinate semialdehyde NAD(P)<sup>+</sup> trimethylamine 
-L-carnitine &gamma;-butyrobetainyl-CoA  -->(<i>R</i>)-carnitinyl-CoA &gamma;-butyrobetaine 
-H<sub>2</sub>O an <i>O</i>-medium-chain-acyl-L-carnitine  -->L-carnitine a medium chain fatty acid H<SUP>+</SUP> 
+2,4-dihydroxyhept-2-enedioate  -->pyruvate succinate semialdehyde 
 
 H<SUP>+</SUP> 4-hydroxybutyraldehyde NAD(P)H  -->NAD(P)<sup>+</sup> 1,4-butanediol 
 H<SUP>+</SUP> 4-hydroxybutanoyl-CoA NAD(P)H  -->coenzyme A 4-hydroxybutyraldehyde NAD(P)<sup>+</sup> 
@@ -82,65 +79,6 @@ coenzyme A ATP 4-hydroxybutanoate  -->4-hydroxybutanoyl-CoA phosphate ADP
 
 H<SUP>+</SUP> 4-hydroxybutyraldehyde NAD(P)H  -->NAD(P)<sup>+</sup> 1,4-butanediol 
 H<SUP>+</SUP> 4-hydroxybutanoyl-CoA NAD(P)H  -->coenzyme A 4-hydroxybutyraldehyde NAD(P)<sup>+</sup> 
-acetyl-CoA 4-hydroxybutanoate  -->acetate 4-hydroxybutanoyl-CoA 
-NADH H<SUP>+</SUP> succinate semialdehyde  -->NAD<sup>+</sup> 4-hydroxybutanoate 
-H<SUP>+</SUP> oxygen NAD(P)H &gamma;-butyrobetaine  -->H<sub>2</sub>O succinate semialdehyde NAD(P)<sup>+</sup> trimethylamine 
-L-carnitine &gamma;-butyrobetainyl-CoA  -->(<i>R</i>)-carnitinyl-CoA &gamma;-butyrobetaine 
-H<sub>2</sub>O an <i>O</i>-long-chain-acyl-L-carnitine  -->L-carnitine a long-chain fatty acid H<SUP>+</SUP> 
-
-H<SUP>+</SUP> 4-hydroxybutyraldehyde NAD(P)H  -->NAD(P)<sup>+</sup> 1,4-butanediol 
-H<SUP>+</SUP> 4-hydroxybutanoyl-CoA NAD(P)H  -->coenzyme A 4-hydroxybutyraldehyde NAD(P)<sup>+</sup> 
-coenzyme A ATP 4-hydroxybutanoate  -->AMP 4-hydroxybutanoyl-CoA diphosphate 
-NADH H<SUP>+</SUP> succinate semialdehyde  -->NAD<sup>+</sup> 4-hydroxybutanoate 
-2-oxoglutarate H<SUP>+</SUP>  -->succinate semialdehyde CO<SUB>2</SUB> 
-
-H<SUP>+</SUP> 4-hydroxybutyraldehyde NAD(P)H  -->NAD(P)<sup>+</sup> 1,4-butanediol 
-H<SUP>+</SUP> 4-hydroxybutanoyl-CoA NAD(P)H  -->coenzyme A 4-hydroxybutyraldehyde NAD(P)<sup>+</sup> 
 coenzyme A ATP 4-hydroxybutanoate  -->AMP 4-hydroxybutanoyl-CoA diphosphate 
 H<SUP>+</SUP> succinate semialdehyde NADPH  -->4-hydroxybutanoate NADP<sup>+</sup> 
-
-H<SUP>+</SUP> 4-hydroxybutyraldehyde NAD(P)H  -->NAD(P)<sup>+</sup> 1,4-butanediol 
-H<SUP>+</SUP> 4-hydroxybutanoyl-CoA NAD(P)H  -->coenzyme A 4-hydroxybutyraldehyde NAD(P)<sup>+</sup> 
-acetyl-CoA 4-hydroxybutanoate  -->acetate 4-hydroxybutanoyl-CoA 
-NADH H<SUP>+</SUP> succinate semialdehyde  -->NAD<sup>+</sup> 4-hydroxybutanoate 
-NADH H<SUP>+</SUP> oxygen 6-hydroxy-3-succinoyl-pyridine  -->2,5-dihydroxypyridine H<sub>2</sub>O NAD<sup>+</sup> succinate semialdehyde 
-H<sub>2</sub>O 4-oxo-4-(3-pyridyl)-butanoate an oxidized unknown electron carrier  -->a reduced unknown two electron carrier 6-hydroxy-3-succinoyl-pyridine 
-
-H<SUP>+</SUP> 4-hydroxybutyraldehyde NAD(P)H  -->NAD(P)<sup>+</sup> 1,4-butanediol 
-H<SUP>+</SUP> 4-hydroxybutanoyl-CoA NAD(P)H  -->coenzyme A 4-hydroxybutyraldehyde NAD(P)<sup>+</sup> 
-acetyl-CoA 4-hydroxybutanoate  -->acetate 4-hydroxybutanoyl-CoA 
-NADH H<SUP>+</SUP> succinate semialdehyde  -->NAD<sup>+</sup> 4-hydroxybutanoate 
-H<SUP>+</SUP> oxygen NAD(P)H &gamma;-butyrobetaine  -->H<sub>2</sub>O succinate semialdehyde NAD(P)<sup>+</sup> trimethylamine 
-L-carnitine &gamma;-butyrobetainyl-CoA  -->(<i>R</i>)-carnitinyl-CoA &gamma;-butyrobetaine 
-H<sub>2</sub>O L-carnitinamide  -->L-carnitine ammonium 
-
-H<SUP>+</SUP> 4-hydroxybutyraldehyde NAD(P)H  -->NAD(P)<sup>+</sup> 1,4-butanediol 
-H<SUP>+</SUP> 4-hydroxybutanoyl-CoA NAD(P)H  -->coenzyme A 4-hydroxybutyraldehyde NAD(P)<sup>+</sup> 
-coenzyme A ATP 4-hydroxybutanoate  -->AMP 4-hydroxybutanoyl-CoA diphosphate 
-NADH H<SUP>+</SUP> succinate semialdehyde  -->NAD<sup>+</sup> 4-hydroxybutanoate 
-H<SUP>+</SUP> oxygen NAD(P)H &gamma;-butyrobetaine  -->H<sub>2</sub>O succinate semialdehyde NAD(P)<sup>+</sup> trimethylamine 
-L-carnitine &gamma;-butyrobetainyl-CoA  -->(<i>R</i>)-carnitinyl-CoA &gamma;-butyrobetaine 
-H<sub>2</sub>O an <i>O</i>-medium-chain-acyl-L-carnitine  -->L-carnitine a medium chain fatty acid H<SUP>+</SUP> 
-
-H<SUP>+</SUP> 4-hydroxybutyraldehyde NAD(P)H  -->NAD(P)<sup>+</sup> 1,4-butanediol 
-H<SUP>+</SUP> 4-hydroxybutanoyl-CoA NAD(P)H  -->coenzyme A 4-hydroxybutyraldehyde NAD(P)<sup>+</sup> 
-acetyl-CoA 4-hydroxybutanoate  -->acetate 4-hydroxybutanoyl-CoA 
-NADH H<SUP>+</SUP> succinate semialdehyde  -->NAD<sup>+</sup> 4-hydroxybutanoate 
-H<sub>2</sub>O oxygen 4-methylaminobutanoate  -->hydrogen peroxide succinate semialdehyde methylamine 
-H<sub>2</sub>O 2,6-dihydroxypseudooxynicotine  -->H<SUP>+</SUP> 2,6-dihydroxypyridine 4-methylaminobutanoate 
-H<sub>2</sub>O 6-hydroxypseudooxynicotine an oxidized unknown electron carrier  -->2,6-dihydroxypseudooxynicotine a reduced unknown two electron carrier 
-
-H<SUP>+</SUP> 4-hydroxybutyraldehyde NAD(P)H  -->NAD(P)<sup>+</sup> 1,4-butanediol 
-H<SUP>+</SUP> 4-hydroxybutanoyl-CoA NAD(P)H  -->coenzyme A 4-hydroxybutyraldehyde NAD(P)<sup>+</sup> 
-coenzyme A ATP 4-hydroxybutanoate  -->AMP 4-hydroxybutanoyl-CoA diphosphate 
-NADH H<SUP>+</SUP> succinate semialdehyde  -->NAD<sup>+</sup> 4-hydroxybutanoate 
-NADH H<SUP>+</SUP> oxygen 6-hydroxy-3-succinoyl-pyridine  -->2,5-dihydroxypyridine H<sub>2</sub>O NAD<sup>+</sup> succinate semialdehyde 
-H<sub>2</sub>O 4-oxo-4-(3-pyridyl)-butanoate an oxidized unknown electron carrier  -->a reduced unknown two electron carrier 6-hydroxy-3-succinoyl-pyridine 
-
-H<SUP>+</SUP> 4-hydroxybutyraldehyde NAD(P)H  -->NAD(P)<sup>+</sup> 1,4-butanediol 
-H<SUP>+</SUP> 4-hydroxybutanoyl-CoA NAD(P)H  -->coenzyme A 4-hydroxybutyraldehyde NAD(P)<sup>+</sup> 
-acetyl-CoA 4-hydroxybutanoate  -->acetate 4-hydroxybutanoyl-CoA 
-NADH H<SUP>+</SUP> succinate semialdehyde  -->NAD<sup>+</sup> 4-hydroxybutanoate 
-H<sub>2</sub>O oxygen 4-methylaminobutanoate  -->hydrogen peroxide succinate semialdehyde methylamine 
-H<sub>2</sub>O ATP <i>N</i>-methylpyrrolidone  -->H<SUP>+</SUP> phosphate ADP 4-methylaminobutanoate 
 

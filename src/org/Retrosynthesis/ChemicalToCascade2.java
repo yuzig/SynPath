@@ -15,6 +15,9 @@ public class ChemicalToCascade2 {
 
     public HashMap<Chems, Cascade2> run(List<Rxns> rxn, List<Chems> allchems) throws Exception {
         for (Chems c : allchems){
+            if (c.getInchi() == null){
+                continue;
+            }
             Cascade2 newCascade = new Cascade2(c, new HashSet<>());
             out.put(c, newCascade);
         }

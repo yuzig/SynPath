@@ -1,343 +1,279 @@
-cannabidiolate H<SUP>+</SUP>  -->cannabidiol CO<SUB>2</SUB> 
-cannabinerolate oxygen  -->cannabidiolate hydrogen peroxide 
+H<SUP>+</SUP> cannabidiolate  -->cannabidiol CO<SUB>2</SUB> 
+oxygen cannabigerolate  -->hydrogen peroxide cannabidiolate 
+geranyl diphosphate olivetolate  -->cannabigerolate diphosphate 
+3,5,7-trioxododecanoyl-CoA  -->H<SUP>+</SUP> coenzyme A olivetolate 
+malonyl-CoA H<SUP>+</SUP> 3,5-dioxodecanoyl-CoA  -->3,5,7-trioxododecanoyl-CoA coenzyme A CO<SUB>2</SUB> 
+hexanoyl-CoA malonyl-CoA H<SUP>+</SUP>  -->coenzyme A CO<SUB>2</SUB> 3,5-dioxodecanoyl-CoA 
+cyanidin 3-<i>O</i>-[2"-<i>O</i>-(xylosyl)-6"-<i>O</i>-(p-coumaroyl) glucoside] 5-<i>O</i>-malonylglucoside coenzyme A  -->malonyl-CoA cyanidin 3-<i>O</i>-[2"-<i>O</i>-(xylosyl)-6"-<i>O</i>-(p-coumaroyl) glucoside] 5-<i>O</i>-glucoside 
+
+H<SUP>+</SUP> cannabidiolate  -->cannabidiol CO<SUB>2</SUB> 
+oxygen cannabinerolate  -->hydrogen peroxide cannabidiolate 
 olivetolate neryl diphosphate  -->cannabinerolate diphosphate 
-3,5,7-trioxododecanoyl-CoA  -->coenzyme A olivetolate H<SUP>+</SUP> 
-malonyl-CoA H<SUP>+</SUP> hexanoyl-CoA  -->coenzyme A 3,5,7-trioxododecanoyl-CoA CO<SUB>2</SUB> 
+3,5,7-trioxododecanoyl-CoA  -->H<SUP>+</SUP> coenzyme A olivetolate 
+malonyl-CoA H<SUP>+</SUP> 3,5-dioxodecanoyl-CoA  -->3,5,7-trioxododecanoyl-CoA coenzyme A CO<SUB>2</SUB> 
+cyanidin 3-<i>O</i>-[2"-<i>O</i>-(xylosyl)-6"-<i>O</i>-(p-coumaroyl) glucoside] 5-<i>O</i>-malonylglucoside coenzyme A  -->malonyl-CoA cyanidin 3-<i>O</i>-[2"-<i>O</i>-(xylosyl)-6"-<i>O</i>-(p-coumaroyl) glucoside] 5-<i>O</i>-glucoside 
+
+H<SUP>+</SUP> cannabidiolate  -->cannabidiol CO<SUB>2</SUB> 
+oxygen cannabinerolate  -->hydrogen peroxide cannabidiolate 
+olivetolate neryl diphosphate  -->cannabinerolate diphosphate 
+3,5,7-trioxododecanoyl-CoA  -->H<SUP>+</SUP> coenzyme A olivetolate 
+malonyl-CoA H<SUP>+</SUP> 3,5-dioxodecanoyl-CoA  -->3,5,7-trioxododecanoyl-CoA coenzyme A CO<SUB>2</SUB> 
 acetyl-CoA a [carboxyl-carrier protein dimer]-<i>N</i><sup>6</sup>-carboxybiotinyl-L-lysine  -->malonyl-CoA a [biotin carboxyl-carrier-protein dimer]-<i>N</i><sup>6</sup>-biotinyl-L-lysine 
 
-cannabidiolate H<SUP>+</SUP>  -->cannabidiol CO<SUB>2</SUB> 
-cannabigerolate oxygen  -->cannabidiolate hydrogen peroxide 
-olivetolate geranyl diphosphate  -->cannabigerolate diphosphate 
-3,5,7-trioxododecanoyl-CoA  -->coenzyme A olivetolate H<SUP>+</SUP> 
-malonyl-CoA H<SUP>+</SUP> hexanoyl-CoA  -->coenzyme A 3,5,7-trioxododecanoyl-CoA CO<SUB>2</SUB> 
-coenzyme A hexanoate ATP  -->AMP hexanoyl-CoA diphosphate 
-H<sub>2</sub>O N-methylhexanamide  -->hexanoate methylamine 
-
-cannabidiolate H<SUP>+</SUP>  -->cannabidiol CO<SUB>2</SUB> 
-cannabinerolate oxygen  -->cannabidiolate hydrogen peroxide 
-olivetolate neryl diphosphate  -->cannabinerolate diphosphate 
-3,5,7-trioxododecanoyl-CoA  -->coenzyme A olivetolate H<SUP>+</SUP> 
-malonyl-CoA H<SUP>+</SUP> 3,5-dioxodecanoyl-CoA  -->coenzyme A 3,5,7-trioxododecanoyl-CoA CO<SUB>2</SUB> 
-ATP hydrogencarbonate acetyl-CoA  -->malonyl-CoA H<SUP>+</SUP> phosphate ADP 
-2-hydroxyethylphosphonate oxygen  -->methylphosphonate H<SUP>+</SUP> hydrogencarbonate 
-
-cannabidiolate H<SUP>+</SUP>  -->cannabidiol CO<SUB>2</SUB> 
-cannabinerolate oxygen  -->cannabidiolate hydrogen peroxide 
-olivetolate neryl diphosphate  -->cannabinerolate diphosphate 
-3,5,7-trioxododecanoyl-CoA  -->coenzyme A olivetolate H<SUP>+</SUP> 
-malonyl-CoA H<SUP>+</SUP> hexanoyl-CoA  -->coenzyme A 3,5,7-trioxododecanoyl-CoA CO<SUB>2</SUB> 
-coenzyme A ATP malonate  -->AMP malonyl-CoA diphosphate 
-H<sub>2</sub>O 3-oxopropanoate NAD(P)<sup>+</sup>  -->H<SUP>+</SUP> malonate NAD(P)H 
-
-cannabidiolate H<SUP>+</SUP>  -->cannabidiol CO<SUB>2</SUB> 
-cannabigerolate oxygen  -->cannabidiolate hydrogen peroxide 
-olivetolate geranyl diphosphate  -->cannabigerolate diphosphate 
-3,5,7-trioxododecanoyl-CoA  -->coenzyme A olivetolate H<SUP>+</SUP> 
-malonyl-CoA H<SUP>+</SUP> 3,5-dioxodecanoyl-CoA  -->coenzyme A 3,5,7-trioxododecanoyl-CoA CO<SUB>2</SUB> 
-malonyl-CoA H<SUP>+</SUP> hexanoyl-CoA  -->coenzyme A 3,5-dioxodecanoyl-CoA CO<SUB>2</SUB> 
-coenzyme A 3-oxooctanoyl-CoA  -->hexanoyl-CoA acetyl-CoA 
-
-cannabidiolate H<SUP>+</SUP>  -->cannabidiol CO<SUB>2</SUB> 
-cannabinerolate oxygen  -->cannabidiolate hydrogen peroxide 
-olivetolate neryl diphosphate  -->cannabinerolate diphosphate 
-3,5,7-trioxododecanoyl-CoA  -->coenzyme A olivetolate H<SUP>+</SUP> 
-malonyl-CoA H<SUP>+</SUP> 3,5-dioxodecanoyl-CoA  -->coenzyme A 3,5,7-trioxododecanoyl-CoA CO<SUB>2</SUB> 
-coenzyme A ATP malonate  -->AMP malonyl-CoA diphosphate 
-H<sub>2</sub>O 3-oxopropanoate NAD(P)<sup>+</sup>  -->H<SUP>+</SUP> malonate NAD(P)H 
-
-cannabidiolate H<SUP>+</SUP>  -->cannabidiol CO<SUB>2</SUB> 
-cannabinerolate oxygen  -->cannabidiolate hydrogen peroxide 
-olivetolate neryl diphosphate  -->cannabinerolate diphosphate 
-3,5,7-trioxododecanoyl-CoA  -->coenzyme A olivetolate H<SUP>+</SUP> 
-malonyl-CoA H<SUP>+</SUP> 3,5-dioxodecanoyl-CoA  -->coenzyme A 3,5,7-trioxododecanoyl-CoA CO<SUB>2</SUB> 
-malonyl-CoA H<SUP>+</SUP> hexanoyl-CoA  -->coenzyme A 3,5-dioxodecanoyl-CoA CO<SUB>2</SUB> 
-coenzyme A cyanidin 3-<i>O</i>-[2"-<i>O</i>-(xylosyl)-6"-<i>O</i>-(p-coumaroyl) glucoside] 5-<i>O</i>-malonylglucoside  -->malonyl-CoA cyanidin 3-<i>O</i>-[2"-<i>O</i>-(xylosyl)-6"-<i>O</i>-(p-coumaroyl) glucoside] 5-<i>O</i>-glucoside 
-
-cannabidiolate H<SUP>+</SUP>  -->cannabidiol CO<SUB>2</SUB> 
-cannabinerolate oxygen  -->cannabidiolate hydrogen peroxide 
-olivetolate neryl diphosphate  -->cannabinerolate diphosphate 
-3,5,7-trioxododecanoyl-CoA  -->coenzyme A olivetolate H<SUP>+</SUP> 
-malonyl-CoA H<SUP>+</SUP> 3,5-dioxodecanoyl-CoA  -->coenzyme A 3,5,7-trioxododecanoyl-CoA CO<SUB>2</SUB> 
-malonyl-CoA H<SUP>+</SUP> hexanoyl-CoA  -->coenzyme A 3,5-dioxodecanoyl-CoA CO<SUB>2</SUB> 
+H<SUP>+</SUP> cannabidiolate  -->cannabidiol CO<SUB>2</SUB> 
+oxygen cannabigerolate  -->hydrogen peroxide cannabidiolate 
+geranyl diphosphate olivetolate  -->cannabigerolate diphosphate 
+3,5,7-trioxododecanoyl-CoA  -->H<SUP>+</SUP> coenzyme A olivetolate 
+malonyl-CoA H<SUP>+</SUP> 3,5-dioxodecanoyl-CoA  -->3,5,7-trioxododecanoyl-CoA coenzyme A CO<SUB>2</SUB> 
+hexanoyl-CoA malonyl-CoA H<SUP>+</SUP>  -->coenzyme A CO<SUB>2</SUB> 3,5-dioxodecanoyl-CoA 
 acetyl-CoA a [carboxyl-carrier protein dimer]-<i>N</i><sup>6</sup>-carboxybiotinyl-L-lysine  -->malonyl-CoA a [biotin carboxyl-carrier-protein dimer]-<i>N</i><sup>6</sup>-biotinyl-L-lysine 
 
-cannabidiolate H<SUP>+</SUP>  -->cannabidiol CO<SUB>2</SUB> 
-cannabinerolate oxygen  -->cannabidiolate hydrogen peroxide 
-olivetolate neryl diphosphate  -->cannabinerolate diphosphate 
-3,5,7-trioxododecanoyl-CoA  -->coenzyme A olivetolate H<SUP>+</SUP> 
-malonyl-CoA H<SUP>+</SUP> hexanoyl-CoA  -->coenzyme A 3,5,7-trioxododecanoyl-CoA CO<SUB>2</SUB> 
-coenzyme A hexanoate ATP  -->AMP hexanoyl-CoA diphosphate 
-H<sub>2</sub>O N-methylhexanamide  -->hexanoate methylamine 
+H<SUP>+</SUP> cannabidiolate  -->cannabidiol CO<SUB>2</SUB> 
+oxygen cannabigerolate  -->hydrogen peroxide cannabidiolate 
+geranyl diphosphate olivetolate  -->cannabigerolate diphosphate 
+3,5,7-trioxododecanoyl-CoA  -->H<SUP>+</SUP> coenzyme A olivetolate 
+malonyl-CoA H<SUP>+</SUP> 3,5-dioxodecanoyl-CoA  -->3,5,7-trioxododecanoyl-CoA coenzyme A CO<SUB>2</SUB> 
+hexanoyl-CoA malonyl-CoA H<SUP>+</SUP>  -->coenzyme A CO<SUB>2</SUB> 3,5-dioxodecanoyl-CoA 
+NADH <i>trans</i>-hex-2-enoyl-CoA H<SUP>+</SUP>  -->hexanoyl-CoA NAD<sup>+</sup> 
 
-cannabidiolate H<SUP>+</SUP>  -->cannabidiol CO<SUB>2</SUB> 
-cannabinerolate oxygen  -->cannabidiolate hydrogen peroxide 
-olivetolate neryl diphosphate  -->cannabinerolate diphosphate 
-3,5,7-trioxododecanoyl-CoA  -->coenzyme A olivetolate H<SUP>+</SUP> 
-malonyl-CoA H<SUP>+</SUP> 3,5-dioxodecanoyl-CoA  -->coenzyme A 3,5,7-trioxododecanoyl-CoA CO<SUB>2</SUB> 
-coenzyme A cyanidin 3-<i>O</i>-[2"-<i>O</i>-(xylosyl)-6"-<i>O</i>-(p-coumaroyl) glucoside] 5-<i>O</i>-malonylglucoside  -->malonyl-CoA cyanidin 3-<i>O</i>-[2"-<i>O</i>-(xylosyl)-6"-<i>O</i>-(p-coumaroyl) glucoside] 5-<i>O</i>-glucoside 
-
-cannabidiolate H<SUP>+</SUP>  -->cannabidiol CO<SUB>2</SUB> 
-cannabinerolate oxygen  -->cannabidiolate hydrogen peroxide 
-olivetolate neryl diphosphate  -->cannabinerolate diphosphate 
-3,5,7-trioxododecanoyl-CoA  -->coenzyme A olivetolate H<SUP>+</SUP> 
-malonyl-CoA H<SUP>+</SUP> 3,5-dioxodecanoyl-CoA  -->coenzyme A 3,5,7-trioxododecanoyl-CoA CO<SUB>2</SUB> 
-acetyl-CoA malonate  -->malonyl-CoA acetate 
-H<sub>2</sub>O 3-oxopropanoate NAD(P)<sup>+</sup>  -->H<SUP>+</SUP> malonate NAD(P)H 
-H<sub>2</sub>O (<i>Z</i>)-3-aminoacrylate H<SUP>+</SUP>  -->3-oxopropanoate ammonium 
-
-cannabidiolate H<SUP>+</SUP>  -->cannabidiol CO<SUB>2</SUB> 
-cannabigerolate oxygen  -->cannabidiolate hydrogen peroxide 
-olivetolate geranyl diphosphate  -->cannabigerolate diphosphate 
-3,5,7-trioxododecanoyl-CoA  -->coenzyme A olivetolate H<SUP>+</SUP> 
-malonyl-CoA H<SUP>+</SUP> 3,5-dioxodecanoyl-CoA  -->coenzyme A 3,5,7-trioxododecanoyl-CoA CO<SUB>2</SUB> 
-acetyl-CoA malonate  -->malonyl-CoA acetate 
-H<sub>2</sub>O 3-oxopropanoate NAD(P)<sup>+</sup>  -->H<SUP>+</SUP> malonate NAD(P)H 
-
-cannabidiolate H<SUP>+</SUP>  -->cannabidiol CO<SUB>2</SUB> 
-cannabigerolate oxygen  -->cannabidiolate hydrogen peroxide 
-olivetolate geranyl diphosphate  -->cannabigerolate diphosphate 
-3,5,7-trioxododecanoyl-CoA  -->coenzyme A olivetolate H<SUP>+</SUP> 
-malonyl-CoA H<SUP>+</SUP> hexanoyl-CoA  -->coenzyme A 3,5,7-trioxododecanoyl-CoA CO<SUB>2</SUB> 
-acetyl-CoA malonate  -->malonyl-CoA acetate 
-H<sub>2</sub>O 3-oxopropanoate NAD(P)<sup>+</sup>  -->H<SUP>+</SUP> malonate NAD(P)H 
-H<sub>2</sub>O (<i>Z</i>)-3-aminoacrylate H<SUP>+</SUP>  -->3-oxopropanoate ammonium 
-
-cannabidiolate H<SUP>+</SUP>  -->cannabidiol CO<SUB>2</SUB> 
-cannabinerolate oxygen  -->cannabidiolate hydrogen peroxide 
-olivetolate neryl diphosphate  -->cannabinerolate diphosphate 
-3,5,7-trioxododecanoyl-CoA  -->coenzyme A olivetolate H<SUP>+</SUP> 
-malonyl-CoA H<SUP>+</SUP> hexanoyl-CoA  -->coenzyme A 3,5,7-trioxododecanoyl-CoA CO<SUB>2</SUB> 
-ATP hydrogencarbonate acetyl-CoA  -->malonyl-CoA H<SUP>+</SUP> phosphate ADP 
-2-hydroxyethylphosphonate oxygen  -->methylphosphonate H<SUP>+</SUP> hydrogencarbonate 
-
-cannabidiolate H<SUP>+</SUP>  -->cannabidiol CO<SUB>2</SUB> 
-cannabinerolate oxygen  -->cannabidiolate hydrogen peroxide 
-olivetolate neryl diphosphate  -->cannabinerolate diphosphate 
-3,5,7-trioxododecanoyl-CoA  -->coenzyme A olivetolate H<SUP>+</SUP> 
-malonyl-CoA H<SUP>+</SUP> hexanoyl-CoA  -->coenzyme A 3,5,7-trioxododecanoyl-CoA CO<SUB>2</SUB> 
-coenzyme A cyanidin 3-<i>O</i>-[2"-<i>O</i>-(xylosyl)-6"-<i>O</i>-(p-coumaroyl) glucoside] 5-<i>O</i>-malonylglucoside  -->malonyl-CoA cyanidin 3-<i>O</i>-[2"-<i>O</i>-(xylosyl)-6"-<i>O</i>-(p-coumaroyl) glucoside] 5-<i>O</i>-glucoside 
-
-cannabidiolate H<SUP>+</SUP>  -->cannabidiol CO<SUB>2</SUB> 
-cannabigerolate oxygen  -->cannabidiolate hydrogen peroxide 
-olivetolate geranyl diphosphate  -->cannabigerolate diphosphate 
-3,5,7-trioxododecanoyl-CoA  -->coenzyme A olivetolate H<SUP>+</SUP> 
-malonyl-CoA H<SUP>+</SUP> 3,5-dioxodecanoyl-CoA  -->coenzyme A 3,5,7-trioxododecanoyl-CoA CO<SUB>2</SUB> 
-ATP hydrogencarbonate acetyl-CoA  -->malonyl-CoA H<SUP>+</SUP> phosphate ADP 
-2-hydroxyethylphosphonate oxygen  -->methylphosphonate H<SUP>+</SUP> hydrogencarbonate 
-
-cannabidiolate H<SUP>+</SUP>  -->cannabidiol CO<SUB>2</SUB> 
-cannabinerolate oxygen  -->cannabidiolate hydrogen peroxide 
-olivetolate neryl diphosphate  -->cannabinerolate diphosphate 
-3,5,7-trioxododecanoyl-CoA  -->coenzyme A olivetolate H<SUP>+</SUP> 
-malonyl-CoA H<SUP>+</SUP> hexanoyl-CoA  -->coenzyme A 3,5,7-trioxododecanoyl-CoA CO<SUB>2</SUB> 
-coenzyme A ATP malonate  -->AMP malonyl-CoA diphosphate 
-H<sub>2</sub>O 3-oxopropanoate NAD(P)<sup>+</sup>  -->H<SUP>+</SUP> malonate NAD(P)H 
-H<sub>2</sub>O (<i>Z</i>)-3-aminoacrylate H<SUP>+</SUP>  -->3-oxopropanoate ammonium 
-
-cannabidiolate H<SUP>+</SUP>  -->cannabidiol CO<SUB>2</SUB> 
-cannabigerolate oxygen  -->cannabidiolate hydrogen peroxide 
-olivetolate geranyl diphosphate  -->cannabigerolate diphosphate 
-3,5,7-trioxododecanoyl-CoA  -->coenzyme A olivetolate H<SUP>+</SUP> 
-malonyl-CoA H<SUP>+</SUP> hexanoyl-CoA  -->coenzyme A 3,5,7-trioxododecanoyl-CoA CO<SUB>2</SUB> 
-coenzyme A 3-oxooctanoyl-CoA  -->hexanoyl-CoA acetyl-CoA 
-
-cannabidiolate H<SUP>+</SUP>  -->cannabidiol CO<SUB>2</SUB> 
-cannabigerolate oxygen  -->cannabidiolate hydrogen peroxide 
-olivetolate geranyl diphosphate  -->cannabigerolate diphosphate 
-3,5,7-trioxododecanoyl-CoA  -->coenzyme A olivetolate H<SUP>+</SUP> 
-malonyl-CoA H<SUP>+</SUP> 3,5-dioxodecanoyl-CoA  -->coenzyme A 3,5,7-trioxododecanoyl-CoA CO<SUB>2</SUB> 
-coenzyme A ATP malonate  -->AMP malonyl-CoA diphosphate 
-H<sub>2</sub>O 3-oxopropanoate NAD(P)<sup>+</sup>  -->H<SUP>+</SUP> malonate NAD(P)H 
-H<sub>2</sub>O (<i>Z</i>)-3-aminoacrylate H<SUP>+</SUP>  -->3-oxopropanoate ammonium 
-
-cannabidiolate H<SUP>+</SUP>  -->cannabidiol CO<SUB>2</SUB> 
-cannabigerolate oxygen  -->cannabidiolate hydrogen peroxide 
-olivetolate geranyl diphosphate  -->cannabigerolate diphosphate 
-3,5,7-trioxododecanoyl-CoA  -->coenzyme A olivetolate H<SUP>+</SUP> 
-malonyl-CoA H<SUP>+</SUP> 3,5-dioxodecanoyl-CoA  -->coenzyme A 3,5,7-trioxododecanoyl-CoA CO<SUB>2</SUB> 
-coenzyme A ATP malonate  -->AMP malonyl-CoA diphosphate 
-H<sub>2</sub>O 3-oxopropanoate NAD(P)<sup>+</sup>  -->H<SUP>+</SUP> malonate NAD(P)H 
-
-cannabidiolate H<SUP>+</SUP>  -->cannabidiol CO<SUB>2</SUB> 
-cannabigerolate oxygen  -->cannabidiolate hydrogen peroxide 
-olivetolate geranyl diphosphate  -->cannabigerolate diphosphate 
-3,5,7-trioxododecanoyl-CoA  -->coenzyme A olivetolate H<SUP>+</SUP> 
-malonyl-CoA H<SUP>+</SUP> 3,5-dioxodecanoyl-CoA  -->coenzyme A 3,5,7-trioxododecanoyl-CoA CO<SUB>2</SUB> 
-malonyl-CoA H<SUP>+</SUP> hexanoyl-CoA  -->coenzyme A 3,5-dioxodecanoyl-CoA CO<SUB>2</SUB> 
-NADH H<SUP>+</SUP> <i>trans</i>-hex-2-enoyl-CoA  -->NAD<sup>+</sup> hexanoyl-CoA 
-
-cannabidiolate H<SUP>+</SUP>  -->cannabidiol CO<SUB>2</SUB> 
-cannabigerolate oxygen  -->cannabidiolate hydrogen peroxide 
-olivetolate geranyl diphosphate  -->cannabigerolate diphosphate 
-3,5,7-trioxododecanoyl-CoA  -->coenzyme A olivetolate H<SUP>+</SUP> 
-malonyl-CoA H<SUP>+</SUP> hexanoyl-CoA  -->coenzyme A 3,5,7-trioxododecanoyl-CoA CO<SUB>2</SUB> 
-coenzyme A cyanidin 3-<i>O</i>-[2"-<i>O</i>-(xylosyl)-6"-<i>O</i>-(p-coumaroyl) glucoside] 5-<i>O</i>-malonylglucoside  -->malonyl-CoA cyanidin 3-<i>O</i>-[2"-<i>O</i>-(xylosyl)-6"-<i>O</i>-(p-coumaroyl) glucoside] 5-<i>O</i>-glucoside 
-
-cannabidiolate H<SUP>+</SUP>  -->cannabidiol CO<SUB>2</SUB> 
-cannabinerolate oxygen  -->cannabidiolate hydrogen peroxide 
-olivetolate neryl diphosphate  -->cannabinerolate diphosphate 
-3,5,7-trioxododecanoyl-CoA  -->coenzyme A olivetolate H<SUP>+</SUP> 
-malonyl-CoA H<SUP>+</SUP> hexanoyl-CoA  -->coenzyme A 3,5,7-trioxododecanoyl-CoA CO<SUB>2</SUB> 
-coenzyme A 3-oxooctanoyl-CoA  -->hexanoyl-CoA acetyl-CoA 
-
-cannabidiolate H<SUP>+</SUP>  -->cannabidiol CO<SUB>2</SUB> 
-cannabigerolate oxygen  -->cannabidiolate hydrogen peroxide 
-olivetolate geranyl diphosphate  -->cannabigerolate diphosphate 
-3,5,7-trioxododecanoyl-CoA  -->coenzyme A olivetolate H<SUP>+</SUP> 
-malonyl-CoA H<SUP>+</SUP> hexanoyl-CoA  -->coenzyme A 3,5,7-trioxododecanoyl-CoA CO<SUB>2</SUB> 
-NADH H<SUP>+</SUP> <i>trans</i>-hex-2-enoyl-CoA  -->NAD<sup>+</sup> hexanoyl-CoA 
-
-cannabidiolate H<SUP>+</SUP>  -->cannabidiol CO<SUB>2</SUB> 
-cannabigerolate oxygen  -->cannabidiolate hydrogen peroxide 
-olivetolate geranyl diphosphate  -->cannabigerolate diphosphate 
-3,5,7-trioxododecanoyl-CoA  -->coenzyme A olivetolate H<SUP>+</SUP> 
-malonyl-CoA H<SUP>+</SUP> 3,5-dioxodecanoyl-CoA  -->coenzyme A 3,5,7-trioxododecanoyl-CoA CO<SUB>2</SUB> 
-malonyl-CoA H<SUP>+</SUP> hexanoyl-CoA  -->coenzyme A 3,5-dioxodecanoyl-CoA CO<SUB>2</SUB> 
-acetyl-CoA a [carboxyl-carrier protein dimer]-<i>N</i><sup>6</sup>-carboxybiotinyl-L-lysine  -->malonyl-CoA a [biotin carboxyl-carrier-protein dimer]-<i>N</i><sup>6</sup>-biotinyl-L-lysine 
-
-cannabidiolate H<SUP>+</SUP>  -->cannabidiol CO<SUB>2</SUB> 
-cannabinerolate oxygen  -->cannabidiolate hydrogen peroxide 
-olivetolate neryl diphosphate  -->cannabinerolate diphosphate 
-3,5,7-trioxododecanoyl-CoA  -->coenzyme A olivetolate H<SUP>+</SUP> 
-malonyl-CoA H<SUP>+</SUP> 3,5-dioxodecanoyl-CoA  -->coenzyme A 3,5,7-trioxododecanoyl-CoA CO<SUB>2</SUB> 
-acetyl-CoA malonate  -->malonyl-CoA acetate 
-H<sub>2</sub>O 3-oxopropanoate NAD(P)<sup>+</sup>  -->H<SUP>+</SUP> malonate NAD(P)H 
-
-cannabidiolate H<SUP>+</SUP>  -->cannabidiol CO<SUB>2</SUB> 
-cannabinerolate oxygen  -->cannabidiolate hydrogen peroxide 
-olivetolate neryl diphosphate  -->cannabinerolate diphosphate 
-3,5,7-trioxododecanoyl-CoA  -->coenzyme A olivetolate H<SUP>+</SUP> 
-malonyl-CoA H<SUP>+</SUP> hexanoyl-CoA  -->coenzyme A 3,5,7-trioxododecanoyl-CoA CO<SUB>2</SUB> 
-acetyl-CoA malonate  -->malonyl-CoA acetate 
-H<sub>2</sub>O 3-oxopropanoate NAD(P)<sup>+</sup>  -->H<SUP>+</SUP> malonate NAD(P)H 
-
-cannabidiolate H<SUP>+</SUP>  -->cannabidiol CO<SUB>2</SUB> 
-cannabigerolate oxygen  -->cannabidiolate hydrogen peroxide 
-olivetolate geranyl diphosphate  -->cannabigerolate diphosphate 
+H<SUP>+</SUP> cannabidiolate  -->cannabidiol CO<SUB>2</SUB> 
+oxygen cannabigerolate  -->hydrogen peroxide cannabidiolate 
+geranyl diphosphate olivetolate  -->cannabigerolate diphosphate 
 prenyl diphosphate isopentenyl diphosphate  -->geranyl diphosphate diphosphate 
 
-cannabidiolate H<SUP>+</SUP>  -->cannabidiol CO<SUB>2</SUB> 
-cannabigerolate oxygen  -->cannabidiolate hydrogen peroxide 
-olivetolate geranyl diphosphate  -->cannabigerolate diphosphate 
-3,5,7-trioxododecanoyl-CoA  -->coenzyme A olivetolate H<SUP>+</SUP> 
-malonyl-CoA H<SUP>+</SUP> 3,5-dioxodecanoyl-CoA  -->coenzyme A 3,5,7-trioxododecanoyl-CoA CO<SUB>2</SUB> 
-coenzyme A cyanidin 3-<i>O</i>-[2"-<i>O</i>-(xylosyl)-6"-<i>O</i>-(p-coumaroyl) glucoside] 5-<i>O</i>-malonylglucoside  -->malonyl-CoA cyanidin 3-<i>O</i>-[2"-<i>O</i>-(xylosyl)-6"-<i>O</i>-(p-coumaroyl) glucoside] 5-<i>O</i>-glucoside 
+H<SUP>+</SUP> cannabidiolate  -->cannabidiol CO<SUB>2</SUB> 
+oxygen cannabinerolate  -->hydrogen peroxide cannabidiolate 
+olivetolate neryl diphosphate  -->cannabinerolate diphosphate 
+3,5,7-trioxododecanoyl-CoA  -->H<SUP>+</SUP> coenzyme A olivetolate 
+hexanoyl-CoA malonyl-CoA H<SUP>+</SUP>  -->3,5,7-trioxododecanoyl-CoA coenzyme A CO<SUB>2</SUB> 
+3-oxooctanoyl-CoA coenzyme A  -->acetyl-CoA hexanoyl-CoA 
 
-cannabidiolate H<SUP>+</SUP>  -->cannabidiol CO<SUB>2</SUB> 
-cannabinerolate oxygen  -->cannabidiolate hydrogen peroxide 
+H<SUP>+</SUP> cannabidiolate  -->cannabidiol CO<SUB>2</SUB> 
+oxygen cannabinerolate  -->hydrogen peroxide cannabidiolate 
+olivetolate neryl diphosphate  -->cannabinerolate diphosphate 
+3,5,7-trioxododecanoyl-CoA  -->H<SUP>+</SUP> coenzyme A olivetolate 
+hexanoyl-CoA malonyl-CoA H<SUP>+</SUP>  -->3,5,7-trioxododecanoyl-CoA coenzyme A CO<SUB>2</SUB> 
+acetyl-CoA ATP hydrogencarbonate  -->malonyl-CoA phosphate H<SUP>+</SUP> ADP 
+oxygen 2-hydroxyethylphosphonate  -->H<SUP>+</SUP> methylphosphonate hydrogencarbonate 
+
+H<SUP>+</SUP> cannabidiolate  -->cannabidiol CO<SUB>2</SUB> 
+oxygen cannabinerolate  -->hydrogen peroxide cannabidiolate 
+olivetolate neryl diphosphate  -->cannabinerolate diphosphate 
+3,5,7-trioxododecanoyl-CoA  -->H<SUP>+</SUP> coenzyme A olivetolate 
+hexanoyl-CoA malonyl-CoA H<SUP>+</SUP>  -->3,5,7-trioxododecanoyl-CoA coenzyme A CO<SUB>2</SUB> 
+NADH <i>trans</i>-hex-2-enoyl-CoA H<SUP>+</SUP>  -->hexanoyl-CoA NAD<sup>+</sup> 
+
+H<SUP>+</SUP> cannabidiolate  -->cannabidiol CO<SUB>2</SUB> 
+oxygen cannabinerolate  -->hydrogen peroxide cannabidiolate 
+olivetolate neryl diphosphate  -->cannabinerolate diphosphate 
+3,5,7-trioxododecanoyl-CoA  -->H<SUP>+</SUP> coenzyme A olivetolate 
+hexanoyl-CoA malonyl-CoA H<SUP>+</SUP>  -->3,5,7-trioxododecanoyl-CoA coenzyme A CO<SUB>2</SUB> 
+acetyl-CoA a [carboxyl-carrier protein dimer]-<i>N</i><sup>6</sup>-carboxybiotinyl-L-lysine  -->malonyl-CoA a [biotin carboxyl-carrier-protein dimer]-<i>N</i><sup>6</sup>-biotinyl-L-lysine 
+
+H<SUP>+</SUP> cannabidiolate  -->cannabidiol CO<SUB>2</SUB> 
+oxygen cannabinerolate  -->hydrogen peroxide cannabidiolate 
+olivetolate neryl diphosphate  -->cannabinerolate diphosphate 
+3,5,7-trioxododecanoyl-CoA  -->H<SUP>+</SUP> coenzyme A olivetolate 
+malonyl-CoA H<SUP>+</SUP> 3,5-dioxodecanoyl-CoA  -->3,5,7-trioxododecanoyl-CoA coenzyme A CO<SUB>2</SUB> 
+acetyl-CoA ATP hydrogencarbonate  -->malonyl-CoA phosphate H<SUP>+</SUP> ADP 
+oxygen 2-hydroxyethylphosphonate  -->H<SUP>+</SUP> methylphosphonate hydrogencarbonate 
+
+H<SUP>+</SUP> cannabidiolate  -->cannabidiol CO<SUB>2</SUB> 
+oxygen cannabinerolate  -->hydrogen peroxide cannabidiolate 
+olivetolate neryl diphosphate  -->cannabinerolate diphosphate 
+3,5,7-trioxododecanoyl-CoA  -->H<SUP>+</SUP> coenzyme A olivetolate 
+malonyl-CoA H<SUP>+</SUP> 3,5-dioxodecanoyl-CoA  -->3,5,7-trioxododecanoyl-CoA coenzyme A CO<SUB>2</SUB> 
+hexanoyl-CoA malonyl-CoA H<SUP>+</SUP>  -->coenzyme A CO<SUB>2</SUB> 3,5-dioxodecanoyl-CoA 
+cyanidin 3-<i>O</i>-[2"-<i>O</i>-(xylosyl)-6"-<i>O</i>-(p-coumaroyl) glucoside] 5-<i>O</i>-malonylglucoside coenzyme A  -->malonyl-CoA cyanidin 3-<i>O</i>-[2"-<i>O</i>-(xylosyl)-6"-<i>O</i>-(p-coumaroyl) glucoside] 5-<i>O</i>-glucoside 
+
+H<SUP>+</SUP> cannabidiolate  -->cannabidiol CO<SUB>2</SUB> 
+oxygen cannabigerolate  -->hydrogen peroxide cannabidiolate 
+geranyl diphosphate olivetolate  -->cannabigerolate diphosphate 
+3,5,7-trioxododecanoyl-CoA  -->H<SUP>+</SUP> coenzyme A olivetolate 
+malonyl-CoA H<SUP>+</SUP> 3,5-dioxodecanoyl-CoA  -->3,5,7-trioxododecanoyl-CoA coenzyme A CO<SUB>2</SUB> 
+acetyl-CoA malonate  -->malonyl-CoA acetate 
+H<sub>2</sub>O NAD(P)<sup>+</sup> 3-oxopropanoate  -->malonate H<SUP>+</SUP> NAD(P)H 
+H<sub>2</sub>O H<SUP>+</SUP> (<i>Z</i>)-3-aminoacrylate  -->ammonium 3-oxopropanoate 
+
+H<SUP>+</SUP> cannabidiolate  -->cannabidiol CO<SUB>2</SUB> 
+oxygen cannabigerolate  -->hydrogen peroxide cannabidiolate 
+geranyl diphosphate olivetolate  -->cannabigerolate diphosphate 
+3,5,7-trioxododecanoyl-CoA  -->H<SUP>+</SUP> coenzyme A olivetolate 
+hexanoyl-CoA malonyl-CoA H<SUP>+</SUP>  -->3,5,7-trioxododecanoyl-CoA coenzyme A CO<SUB>2</SUB> 
+acetyl-CoA malonate  -->malonyl-CoA acetate 
+H<sub>2</sub>O NAD(P)<sup>+</sup> 3-oxopropanoate  -->malonate H<SUP>+</SUP> NAD(P)H 
+H<sub>2</sub>O H<SUP>+</SUP> (<i>Z</i>)-3-aminoacrylate  -->ammonium 3-oxopropanoate 
+
+H<SUP>+</SUP> cannabidiolate  -->cannabidiol CO<SUB>2</SUB> 
+oxygen cannabigerolate  -->hydrogen peroxide cannabidiolate 
+geranyl diphosphate olivetolate  -->cannabigerolate diphosphate 
+3,5,7-trioxododecanoyl-CoA  -->H<SUP>+</SUP> coenzyme A olivetolate 
+hexanoyl-CoA malonyl-CoA H<SUP>+</SUP>  -->3,5,7-trioxododecanoyl-CoA coenzyme A CO<SUB>2</SUB> 
+3-oxooctanoyl-CoA coenzyme A  -->acetyl-CoA hexanoyl-CoA 
+
+H<SUP>+</SUP> cannabidiolate  -->cannabidiol CO<SUB>2</SUB> 
+oxygen cannabigerolate  -->hydrogen peroxide cannabidiolate 
+geranyl diphosphate olivetolate  -->cannabigerolate diphosphate 
+3,5,7-trioxododecanoyl-CoA  -->H<SUP>+</SUP> coenzyme A olivetolate 
+hexanoyl-CoA malonyl-CoA H<SUP>+</SUP>  -->3,5,7-trioxododecanoyl-CoA coenzyme A CO<SUB>2</SUB> 
+NADH <i>trans</i>-hex-2-enoyl-CoA H<SUP>+</SUP>  -->hexanoyl-CoA NAD<sup>+</sup> 
+
+H<SUP>+</SUP> cannabidiolate  -->cannabidiol CO<SUB>2</SUB> 
+oxygen cannabigerolate  -->hydrogen peroxide cannabidiolate 
+geranyl diphosphate olivetolate  -->cannabigerolate diphosphate 
+3,5,7-trioxododecanoyl-CoA  -->H<SUP>+</SUP> coenzyme A olivetolate 
+malonyl-CoA H<SUP>+</SUP> 3,5-dioxodecanoyl-CoA  -->3,5,7-trioxododecanoyl-CoA coenzyme A CO<SUB>2</SUB> 
+cyanidin 3-<i>O</i>-[2"-<i>O</i>-(xylosyl)-6"-<i>O</i>-(p-coumaroyl) glucoside] 5-<i>O</i>-malonylglucoside coenzyme A  -->malonyl-CoA cyanidin 3-<i>O</i>-[2"-<i>O</i>-(xylosyl)-6"-<i>O</i>-(p-coumaroyl) glucoside] 5-<i>O</i>-glucoside 
+
+H<SUP>+</SUP> cannabidiolate  -->cannabidiol CO<SUB>2</SUB> 
+oxygen cannabinerolate  -->hydrogen peroxide cannabidiolate 
+olivetolate neryl diphosphate  -->cannabinerolate diphosphate 
+3,5,7-trioxododecanoyl-CoA  -->H<SUP>+</SUP> coenzyme A olivetolate 
+hexanoyl-CoA malonyl-CoA H<SUP>+</SUP>  -->3,5,7-trioxododecanoyl-CoA coenzyme A CO<SUB>2</SUB> 
+acetyl-CoA malonate  -->malonyl-CoA acetate 
+H<sub>2</sub>O NAD(P)<sup>+</sup> 3-oxopropanoate  -->malonate H<SUP>+</SUP> NAD(P)H 
+H<sub>2</sub>O H<SUP>+</SUP> (<i>Z</i>)-3-aminoacrylate  -->ammonium 3-oxopropanoate 
+
+H<SUP>+</SUP> cannabidiolate  -->cannabidiol CO<SUB>2</SUB> 
+oxygen cannabinerolate  -->hydrogen peroxide cannabidiolate 
+olivetolate neryl diphosphate  -->cannabinerolate diphosphate 
+3,5,7-trioxododecanoyl-CoA  -->H<SUP>+</SUP> coenzyme A olivetolate 
+hexanoyl-CoA malonyl-CoA H<SUP>+</SUP>  -->3,5,7-trioxododecanoyl-CoA coenzyme A CO<SUB>2</SUB> 
+malonate coenzyme A ATP  -->malonyl-CoA AMP diphosphate 
+H<sub>2</sub>O NAD(P)<sup>+</sup> 3-oxopropanoate  -->malonate H<SUP>+</SUP> NAD(P)H 
+H<sub>2</sub>O H<SUP>+</SUP> (<i>Z</i>)-3-aminoacrylate  -->ammonium 3-oxopropanoate 
+
+H<SUP>+</SUP> cannabidiolate  -->cannabidiol CO<SUB>2</SUB> 
+oxygen cannabigerolate  -->hydrogen peroxide cannabidiolate 
+geranyl diphosphate olivetolate  -->cannabigerolate diphosphate 
+3,5,7-trioxododecanoyl-CoA  -->H<SUP>+</SUP> coenzyme A olivetolate 
+malonyl-CoA H<SUP>+</SUP> 3,5-dioxodecanoyl-CoA  -->3,5,7-trioxododecanoyl-CoA coenzyme A CO<SUB>2</SUB> 
+hexanoyl-CoA malonyl-CoA H<SUP>+</SUP>  -->coenzyme A CO<SUB>2</SUB> 3,5-dioxodecanoyl-CoA 
+3-oxooctanoyl-CoA coenzyme A  -->acetyl-CoA hexanoyl-CoA 
+
+H<SUP>+</SUP> cannabidiolate  -->cannabidiol CO<SUB>2</SUB> 
+oxygen cannabigerolate  -->hydrogen peroxide cannabidiolate 
+geranyl diphosphate olivetolate  -->cannabigerolate diphosphate 
+3,5,7-trioxododecanoyl-CoA  -->H<SUP>+</SUP> coenzyme A olivetolate 
+hexanoyl-CoA malonyl-CoA H<SUP>+</SUP>  -->3,5,7-trioxododecanoyl-CoA coenzyme A CO<SUB>2</SUB> 
+acetyl-CoA ATP hydrogencarbonate  -->malonyl-CoA phosphate H<SUP>+</SUP> ADP 
+oxygen 2-hydroxyethylphosphonate  -->H<SUP>+</SUP> methylphosphonate hydrogencarbonate 
+
+H<SUP>+</SUP> cannabidiolate  -->cannabidiol CO<SUB>2</SUB> 
+oxygen cannabinerolate  -->hydrogen peroxide cannabidiolate 
+olivetolate neryl diphosphate  -->cannabinerolate diphosphate 
+3,5,7-trioxododecanoyl-CoA  -->H<SUP>+</SUP> coenzyme A olivetolate 
+malonyl-CoA H<SUP>+</SUP> 3,5-dioxodecanoyl-CoA  -->3,5,7-trioxododecanoyl-CoA coenzyme A CO<SUB>2</SUB> 
+malonate coenzyme A ATP  -->malonyl-CoA AMP diphosphate 
+H<sub>2</sub>O NAD(P)<sup>+</sup> 3-oxopropanoate  -->malonate H<SUP>+</SUP> NAD(P)H 
+H<sub>2</sub>O H<SUP>+</SUP> (<i>Z</i>)-3-aminoacrylate  -->ammonium 3-oxopropanoate 
+
+H<SUP>+</SUP> cannabidiolate  -->cannabidiol CO<SUB>2</SUB> 
+oxygen cannabinerolate  -->hydrogen peroxide cannabidiolate 
+olivetolate neryl diphosphate  -->cannabinerolate diphosphate 
+3,5,7-trioxododecanoyl-CoA  -->H<SUP>+</SUP> coenzyme A olivetolate 
+malonyl-CoA H<SUP>+</SUP> 3,5-dioxodecanoyl-CoA  -->3,5,7-trioxododecanoyl-CoA coenzyme A CO<SUB>2</SUB> 
+acetyl-CoA malonate  -->malonyl-CoA acetate 
+H<sub>2</sub>O NAD(P)<sup>+</sup> 3-oxopropanoate  -->malonate H<SUP>+</SUP> NAD(P)H 
+H<sub>2</sub>O H<SUP>+</SUP> (<i>Z</i>)-3-aminoacrylate  -->ammonium 3-oxopropanoate 
+
+H<SUP>+</SUP> cannabidiolate  -->cannabidiol CO<SUB>2</SUB> 
+oxygen cannabinerolate  -->hydrogen peroxide cannabidiolate 
+olivetolate neryl diphosphate  -->cannabinerolate diphosphate 
+3,5,7-trioxododecanoyl-CoA  -->H<SUP>+</SUP> coenzyme A olivetolate 
+hexanoyl-CoA malonyl-CoA H<SUP>+</SUP>  -->3,5,7-trioxododecanoyl-CoA coenzyme A CO<SUB>2</SUB> 
+hexanoate coenzyme A ATP  -->hexanoyl-CoA AMP diphosphate 
+H<sub>2</sub>O N-methylhexanamide  -->methylamine hexanoate 
+
+H<SUP>+</SUP> cannabidiolate  -->cannabidiol CO<SUB>2</SUB> 
+oxygen cannabigerolate  -->hydrogen peroxide cannabidiolate 
+geranyl diphosphate olivetolate  -->cannabigerolate diphosphate 
+3,5,7-trioxododecanoyl-CoA  -->H<SUP>+</SUP> coenzyme A olivetolate 
+hexanoyl-CoA malonyl-CoA H<SUP>+</SUP>  -->3,5,7-trioxododecanoyl-CoA coenzyme A CO<SUB>2</SUB> 
+acetyl-CoA a [carboxyl-carrier protein dimer]-<i>N</i><sup>6</sup>-carboxybiotinyl-L-lysine  -->malonyl-CoA a [biotin carboxyl-carrier-protein dimer]-<i>N</i><sup>6</sup>-biotinyl-L-lysine 
+
+H<SUP>+</SUP> cannabidiolate  -->cannabidiol CO<SUB>2</SUB> 
+oxygen cannabinerolate  -->hydrogen peroxide cannabidiolate 
 olivetolate neryl diphosphate  -->cannabinerolate diphosphate 
 prenyl diphosphate isopentenyl diphosphate  -->neryl diphosphate diphosphate 
 (R)-mevalonate diphosphate ATP  -->phosphate isopentenyl diphosphate ADP CO<SUB>2</SUB> 
 
-cannabidiolate H<SUP>+</SUP>  -->cannabidiol CO<SUB>2</SUB> 
-cannabinerolate oxygen  -->cannabidiolate hydrogen peroxide 
-olivetolate neryl diphosphate  -->cannabinerolate diphosphate 
-3,5,7-trioxododecanoyl-CoA  -->coenzyme A olivetolate H<SUP>+</SUP> 
-malonyl-CoA H<SUP>+</SUP> 3,5-dioxodecanoyl-CoA  -->coenzyme A 3,5,7-trioxododecanoyl-CoA CO<SUB>2</SUB> 
-malonyl-CoA H<SUP>+</SUP> hexanoyl-CoA  -->coenzyme A 3,5-dioxodecanoyl-CoA CO<SUB>2</SUB> 
-NADH H<SUP>+</SUP> <i>trans</i>-hex-2-enoyl-CoA  -->NAD<sup>+</sup> hexanoyl-CoA 
-
-cannabidiolate H<SUP>+</SUP>  -->cannabidiol CO<SUB>2</SUB> 
-cannabigerolate oxygen  -->cannabidiolate hydrogen peroxide 
-olivetolate geranyl diphosphate  -->cannabigerolate diphosphate 
-3,5,7-trioxododecanoyl-CoA  -->coenzyme A olivetolate H<SUP>+</SUP> 
-malonyl-CoA H<SUP>+</SUP> 3,5-dioxodecanoyl-CoA  -->coenzyme A 3,5,7-trioxododecanoyl-CoA CO<SUB>2</SUB> 
+H<SUP>+</SUP> cannabidiolate  -->cannabidiol CO<SUB>2</SUB> 
+oxygen cannabigerolate  -->hydrogen peroxide cannabidiolate 
+geranyl diphosphate olivetolate  -->cannabigerolate diphosphate 
+3,5,7-trioxododecanoyl-CoA  -->H<SUP>+</SUP> coenzyme A olivetolate 
+malonyl-CoA H<SUP>+</SUP> 3,5-dioxodecanoyl-CoA  -->3,5,7-trioxododecanoyl-CoA coenzyme A CO<SUB>2</SUB> 
 acetyl-CoA a [carboxyl-carrier protein dimer]-<i>N</i><sup>6</sup>-carboxybiotinyl-L-lysine  -->malonyl-CoA a [biotin carboxyl-carrier-protein dimer]-<i>N</i><sup>6</sup>-biotinyl-L-lysine 
 
-cannabidiolate H<SUP>+</SUP>  -->cannabidiol CO<SUB>2</SUB> 
-cannabigerolate oxygen  -->cannabidiolate hydrogen peroxide 
-olivetolate geranyl diphosphate  -->cannabigerolate diphosphate 
-3,5,7-trioxododecanoyl-CoA  -->coenzyme A olivetolate H<SUP>+</SUP> 
-malonyl-CoA H<SUP>+</SUP> 3,5-dioxodecanoyl-CoA  -->coenzyme A 3,5,7-trioxododecanoyl-CoA CO<SUB>2</SUB> 
-acetyl-CoA malonate  -->malonyl-CoA acetate 
-H<sub>2</sub>O 3-oxopropanoate NAD(P)<sup>+</sup>  -->H<SUP>+</SUP> malonate NAD(P)H 
-H<sub>2</sub>O (<i>Z</i>)-3-aminoacrylate H<SUP>+</SUP>  -->3-oxopropanoate ammonium 
-
-cannabidiolate H<SUP>+</SUP>  -->cannabidiol CO<SUB>2</SUB> 
-cannabinerolate oxygen  -->cannabidiolate hydrogen peroxide 
+H<SUP>+</SUP> cannabidiolate  -->cannabidiol CO<SUB>2</SUB> 
+oxygen cannabinerolate  -->hydrogen peroxide cannabidiolate 
 olivetolate neryl diphosphate  -->cannabinerolate diphosphate 
-3,5,7-trioxododecanoyl-CoA  -->coenzyme A olivetolate H<SUP>+</SUP> 
-malonyl-CoA H<SUP>+</SUP> hexanoyl-CoA  -->coenzyme A 3,5,7-trioxododecanoyl-CoA CO<SUB>2</SUB> 
-acetyl-CoA malonate  -->malonyl-CoA acetate 
-H<sub>2</sub>O 3-oxopropanoate NAD(P)<sup>+</sup>  -->H<SUP>+</SUP> malonate NAD(P)H 
-H<sub>2</sub>O (<i>Z</i>)-3-aminoacrylate H<SUP>+</SUP>  -->3-oxopropanoate ammonium 
+3,5,7-trioxododecanoyl-CoA  -->H<SUP>+</SUP> coenzyme A olivetolate 
+hexanoyl-CoA malonyl-CoA H<SUP>+</SUP>  -->3,5,7-trioxododecanoyl-CoA coenzyme A CO<SUB>2</SUB> 
+cyanidin 3-<i>O</i>-[2"-<i>O</i>-(xylosyl)-6"-<i>O</i>-(p-coumaroyl) glucoside] 5-<i>O</i>-malonylglucoside coenzyme A  -->malonyl-CoA cyanidin 3-<i>O</i>-[2"-<i>O</i>-(xylosyl)-6"-<i>O</i>-(p-coumaroyl) glucoside] 5-<i>O</i>-glucoside 
 
-cannabidiolate H<SUP>+</SUP>  -->cannabidiol CO<SUB>2</SUB> 
-cannabinerolate oxygen  -->cannabidiolate hydrogen peroxide 
+H<SUP>+</SUP> cannabidiolate  -->cannabidiol CO<SUB>2</SUB> 
+oxygen cannabinerolate  -->hydrogen peroxide cannabidiolate 
 olivetolate neryl diphosphate  -->cannabinerolate diphosphate 
-3,5,7-trioxododecanoyl-CoA  -->coenzyme A olivetolate H<SUP>+</SUP> 
-malonyl-CoA H<SUP>+</SUP> 3,5-dioxodecanoyl-CoA  -->coenzyme A 3,5,7-trioxododecanoyl-CoA CO<SUB>2</SUB> 
-malonyl-CoA H<SUP>+</SUP> hexanoyl-CoA  -->coenzyme A 3,5-dioxodecanoyl-CoA CO<SUB>2</SUB> 
-coenzyme A 3-oxooctanoyl-CoA  -->hexanoyl-CoA acetyl-CoA 
+3,5,7-trioxododecanoyl-CoA  -->H<SUP>+</SUP> coenzyme A olivetolate 
+malonyl-CoA H<SUP>+</SUP> 3,5-dioxodecanoyl-CoA  -->3,5,7-trioxododecanoyl-CoA coenzyme A CO<SUB>2</SUB> 
+hexanoyl-CoA malonyl-CoA H<SUP>+</SUP>  -->coenzyme A CO<SUB>2</SUB> 3,5-dioxodecanoyl-CoA 
+NADH <i>trans</i>-hex-2-enoyl-CoA H<SUP>+</SUP>  -->hexanoyl-CoA NAD<sup>+</sup> 
 
-cannabidiolate H<SUP>+</SUP>  -->cannabidiol CO<SUB>2</SUB> 
-cannabigerolate oxygen  -->cannabidiolate hydrogen peroxide 
-olivetolate geranyl diphosphate  -->cannabigerolate diphosphate 
-3,5,7-trioxododecanoyl-CoA  -->coenzyme A olivetolate H<SUP>+</SUP> 
-malonyl-CoA H<SUP>+</SUP> hexanoyl-CoA  -->coenzyme A 3,5,7-trioxododecanoyl-CoA CO<SUB>2</SUB> 
-coenzyme A ATP malonate  -->AMP malonyl-CoA diphosphate 
-H<sub>2</sub>O 3-oxopropanoate NAD(P)<sup>+</sup>  -->H<SUP>+</SUP> malonate NAD(P)H 
-
-cannabidiolate H<SUP>+</SUP>  -->cannabidiol CO<SUB>2</SUB> 
-cannabinerolate oxygen  -->cannabidiolate hydrogen peroxide 
+H<SUP>+</SUP> cannabidiolate  -->cannabidiol CO<SUB>2</SUB> 
+oxygen cannabinerolate  -->hydrogen peroxide cannabidiolate 
 olivetolate neryl diphosphate  -->cannabinerolate diphosphate 
-3,5,7-trioxododecanoyl-CoA  -->coenzyme A olivetolate H<SUP>+</SUP> 
-malonyl-CoA H<SUP>+</SUP> hexanoyl-CoA  -->coenzyme A 3,5,7-trioxododecanoyl-CoA CO<SUB>2</SUB> 
-NADH H<SUP>+</SUP> <i>trans</i>-hex-2-enoyl-CoA  -->NAD<sup>+</sup> hexanoyl-CoA 
+3,5,7-trioxododecanoyl-CoA  -->H<SUP>+</SUP> coenzyme A olivetolate 
+malonyl-CoA H<SUP>+</SUP> 3,5-dioxodecanoyl-CoA  -->3,5,7-trioxododecanoyl-CoA coenzyme A CO<SUB>2</SUB> 
+hexanoyl-CoA malonyl-CoA H<SUP>+</SUP>  -->coenzyme A CO<SUB>2</SUB> 3,5-dioxodecanoyl-CoA 
+3-oxooctanoyl-CoA coenzyme A  -->acetyl-CoA hexanoyl-CoA 
 
-cannabidiolate H<SUP>+</SUP>  -->cannabidiol CO<SUB>2</SUB> 
-cannabigerolate oxygen  -->cannabidiolate hydrogen peroxide 
-olivetolate geranyl diphosphate  -->cannabigerolate diphosphate 
-3,5,7-trioxododecanoyl-CoA  -->coenzyme A olivetolate H<SUP>+</SUP> 
-malonyl-CoA H<SUP>+</SUP> hexanoyl-CoA  -->coenzyme A 3,5,7-trioxododecanoyl-CoA CO<SUB>2</SUB> 
-acetyl-CoA malonate  -->malonyl-CoA acetate 
-H<sub>2</sub>O 3-oxopropanoate NAD(P)<sup>+</sup>  -->H<SUP>+</SUP> malonate NAD(P)H 
-
-cannabidiolate H<SUP>+</SUP>  -->cannabidiol CO<SUB>2</SUB> 
-cannabigerolate oxygen  -->cannabidiolate hydrogen peroxide 
-olivetolate geranyl diphosphate  -->cannabigerolate diphosphate 
-3,5,7-trioxododecanoyl-CoA  -->coenzyme A olivetolate H<SUP>+</SUP> 
-malonyl-CoA H<SUP>+</SUP> hexanoyl-CoA  -->coenzyme A 3,5,7-trioxododecanoyl-CoA CO<SUB>2</SUB> 
-ATP hydrogencarbonate acetyl-CoA  -->malonyl-CoA H<SUP>+</SUP> phosphate ADP 
-2-hydroxyethylphosphonate oxygen  -->methylphosphonate H<SUP>+</SUP> hydrogencarbonate 
-
-cannabidiolate H<SUP>+</SUP>  -->cannabidiol CO<SUB>2</SUB> 
-cannabinerolate oxygen  -->cannabidiolate hydrogen peroxide 
+H<SUP>+</SUP> cannabidiolate  -->cannabidiol CO<SUB>2</SUB> 
+oxygen cannabinerolate  -->hydrogen peroxide cannabidiolate 
 olivetolate neryl diphosphate  -->cannabinerolate diphosphate 
-3,5,7-trioxododecanoyl-CoA  -->coenzyme A olivetolate H<SUP>+</SUP> 
-malonyl-CoA H<SUP>+</SUP> 3,5-dioxodecanoyl-CoA  -->coenzyme A 3,5,7-trioxododecanoyl-CoA CO<SUB>2</SUB> 
-coenzyme A ATP malonate  -->AMP malonyl-CoA diphosphate 
-H<sub>2</sub>O 3-oxopropanoate NAD(P)<sup>+</sup>  -->H<SUP>+</SUP> malonate NAD(P)H 
-H<sub>2</sub>O (<i>Z</i>)-3-aminoacrylate H<SUP>+</SUP>  -->3-oxopropanoate ammonium 
-
-cannabidiolate H<SUP>+</SUP>  -->cannabidiol CO<SUB>2</SUB> 
-cannabinerolate oxygen  -->cannabidiolate hydrogen peroxide 
-olivetolate neryl diphosphate  -->cannabinerolate diphosphate 
-3,5,7-trioxododecanoyl-CoA  -->coenzyme A olivetolate H<SUP>+</SUP> 
-malonyl-CoA H<SUP>+</SUP> 3,5-dioxodecanoyl-CoA  -->coenzyme A 3,5,7-trioxododecanoyl-CoA CO<SUB>2</SUB> 
+3,5,7-trioxododecanoyl-CoA  -->H<SUP>+</SUP> coenzyme A olivetolate 
+malonyl-CoA H<SUP>+</SUP> 3,5-dioxodecanoyl-CoA  -->3,5,7-trioxododecanoyl-CoA coenzyme A CO<SUB>2</SUB> 
+hexanoyl-CoA malonyl-CoA H<SUP>+</SUP>  -->coenzyme A CO<SUB>2</SUB> 3,5-dioxodecanoyl-CoA 
 acetyl-CoA a [carboxyl-carrier protein dimer]-<i>N</i><sup>6</sup>-carboxybiotinyl-L-lysine  -->malonyl-CoA a [biotin carboxyl-carrier-protein dimer]-<i>N</i><sup>6</sup>-biotinyl-L-lysine 
 
-cannabidiolate H<SUP>+</SUP>  -->cannabidiol CO<SUB>2</SUB> 
-cannabigerolate oxygen  -->cannabidiolate hydrogen peroxide 
-olivetolate geranyl diphosphate  -->cannabigerolate diphosphate 
-3,5,7-trioxododecanoyl-CoA  -->coenzyme A olivetolate H<SUP>+</SUP> 
-malonyl-CoA H<SUP>+</SUP> hexanoyl-CoA  -->coenzyme A 3,5,7-trioxododecanoyl-CoA CO<SUB>2</SUB> 
-coenzyme A ATP malonate  -->AMP malonyl-CoA diphosphate 
-H<sub>2</sub>O 3-oxopropanoate NAD(P)<sup>+</sup>  -->H<SUP>+</SUP> malonate NAD(P)H 
-H<sub>2</sub>O (<i>Z</i>)-3-aminoacrylate H<SUP>+</SUP>  -->3-oxopropanoate ammonium 
+H<SUP>+</SUP> cannabidiolate  -->cannabidiol CO<SUB>2</SUB> 
+oxygen cannabigerolate  -->hydrogen peroxide cannabidiolate 
+geranyl diphosphate olivetolate  -->cannabigerolate diphosphate 
+3,5,7-trioxododecanoyl-CoA  -->H<SUP>+</SUP> coenzyme A olivetolate 
+hexanoyl-CoA malonyl-CoA H<SUP>+</SUP>  -->3,5,7-trioxododecanoyl-CoA coenzyme A CO<SUB>2</SUB> 
+hexanoate coenzyme A ATP  -->hexanoyl-CoA AMP diphosphate 
+H<sub>2</sub>O N-methylhexanamide  -->methylamine hexanoate 
 
-cannabidiolate H<SUP>+</SUP>  -->cannabidiol CO<SUB>2</SUB> 
-cannabigerolate oxygen  -->cannabidiolate hydrogen peroxide 
-olivetolate geranyl diphosphate  -->cannabigerolate diphosphate 
-3,5,7-trioxododecanoyl-CoA  -->coenzyme A olivetolate H<SUP>+</SUP> 
-malonyl-CoA H<SUP>+</SUP> 3,5-dioxodecanoyl-CoA  -->coenzyme A 3,5,7-trioxododecanoyl-CoA CO<SUB>2</SUB> 
-malonyl-CoA H<SUP>+</SUP> hexanoyl-CoA  -->coenzyme A 3,5-dioxodecanoyl-CoA CO<SUB>2</SUB> 
-coenzyme A cyanidin 3-<i>O</i>-[2"-<i>O</i>-(xylosyl)-6"-<i>O</i>-(p-coumaroyl) glucoside] 5-<i>O</i>-malonylglucoside  -->malonyl-CoA cyanidin 3-<i>O</i>-[2"-<i>O</i>-(xylosyl)-6"-<i>O</i>-(p-coumaroyl) glucoside] 5-<i>O</i>-glucoside 
+H<SUP>+</SUP> cannabidiolate  -->cannabidiol CO<SUB>2</SUB> 
+oxygen cannabigerolate  -->hydrogen peroxide cannabidiolate 
+geranyl diphosphate olivetolate  -->cannabigerolate diphosphate 
+3,5,7-trioxododecanoyl-CoA  -->H<SUP>+</SUP> coenzyme A olivetolate 
+malonyl-CoA H<SUP>+</SUP> 3,5-dioxodecanoyl-CoA  -->3,5,7-trioxododecanoyl-CoA coenzyme A CO<SUB>2</SUB> 
+malonate coenzyme A ATP  -->malonyl-CoA AMP diphosphate 
+H<sub>2</sub>O NAD(P)<sup>+</sup> 3-oxopropanoate  -->malonate H<SUP>+</SUP> NAD(P)H 
+H<sub>2</sub>O H<SUP>+</SUP> (<i>Z</i>)-3-aminoacrylate  -->ammonium 3-oxopropanoate 
 
-cannabidiolate H<SUP>+</SUP>  -->cannabidiol CO<SUB>2</SUB> 
-cannabigerolate oxygen  -->cannabidiolate hydrogen peroxide 
-olivetolate geranyl diphosphate  -->cannabigerolate diphosphate 
-3,5,7-trioxododecanoyl-CoA  -->coenzyme A olivetolate H<SUP>+</SUP> 
-malonyl-CoA H<SUP>+</SUP> hexanoyl-CoA  -->coenzyme A 3,5,7-trioxododecanoyl-CoA CO<SUB>2</SUB> 
-acetyl-CoA a [carboxyl-carrier protein dimer]-<i>N</i><sup>6</sup>-carboxybiotinyl-L-lysine  -->malonyl-CoA a [biotin carboxyl-carrier-protein dimer]-<i>N</i><sup>6</sup>-biotinyl-L-lysine 
+H<SUP>+</SUP> cannabidiolate  -->cannabidiol CO<SUB>2</SUB> 
+oxygen cannabigerolate  -->hydrogen peroxide cannabidiolate 
+geranyl diphosphate olivetolate  -->cannabigerolate diphosphate 
+3,5,7-trioxododecanoyl-CoA  -->H<SUP>+</SUP> coenzyme A olivetolate 
+hexanoyl-CoA malonyl-CoA H<SUP>+</SUP>  -->3,5,7-trioxododecanoyl-CoA coenzyme A CO<SUB>2</SUB> 
+malonate coenzyme A ATP  -->malonyl-CoA AMP diphosphate 
+H<sub>2</sub>O NAD(P)<sup>+</sup> 3-oxopropanoate  -->malonate H<SUP>+</SUP> NAD(P)H 
+H<sub>2</sub>O H<SUP>+</SUP> (<i>Z</i>)-3-aminoacrylate  -->ammonium 3-oxopropanoate 
+
+H<SUP>+</SUP> cannabidiolate  -->cannabidiol CO<SUB>2</SUB> 
+oxygen cannabigerolate  -->hydrogen peroxide cannabidiolate 
+geranyl diphosphate olivetolate  -->cannabigerolate diphosphate 
+3,5,7-trioxododecanoyl-CoA  -->H<SUP>+</SUP> coenzyme A olivetolate 
+hexanoyl-CoA malonyl-CoA H<SUP>+</SUP>  -->3,5,7-trioxododecanoyl-CoA coenzyme A CO<SUB>2</SUB> 
+cyanidin 3-<i>O</i>-[2"-<i>O</i>-(xylosyl)-6"-<i>O</i>-(p-coumaroyl) glucoside] 5-<i>O</i>-malonylglucoside coenzyme A  -->malonyl-CoA cyanidin 3-<i>O</i>-[2"-<i>O</i>-(xylosyl)-6"-<i>O</i>-(p-coumaroyl) glucoside] 5-<i>O</i>-glucoside 
+
+H<SUP>+</SUP> cannabidiolate  -->cannabidiol CO<SUB>2</SUB> 
+oxygen cannabigerolate  -->hydrogen peroxide cannabidiolate 
+geranyl diphosphate olivetolate  -->cannabigerolate diphosphate 
+3,5,7-trioxododecanoyl-CoA  -->H<SUP>+</SUP> coenzyme A olivetolate 
+malonyl-CoA H<SUP>+</SUP> 3,5-dioxodecanoyl-CoA  -->3,5,7-trioxododecanoyl-CoA coenzyme A CO<SUB>2</SUB> 
+acetyl-CoA ATP hydrogencarbonate  -->malonyl-CoA phosphate H<SUP>+</SUP> ADP 
+oxygen 2-hydroxyethylphosphonate  -->H<SUP>+</SUP> methylphosphonate hydrogencarbonate 
 
