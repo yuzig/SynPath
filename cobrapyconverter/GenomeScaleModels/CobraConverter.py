@@ -3,7 +3,6 @@ from cobra import Model, Reaction, Metabolite
 from cobra.util.solver import linear_reaction_coefficients
 from cobra.flux_analysis import flux_variability_analysis
 import copy
-
 import sys
 
 
