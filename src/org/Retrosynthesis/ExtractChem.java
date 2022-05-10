@@ -3,6 +3,7 @@ package org.Retrosynthesis;
 import org.Retrosynthesis.models.Chems;
 import org.Utils.FileUtils;
 
+import java.io.FileWriter;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -31,6 +32,7 @@ public class ExtractChem {
         String uniqueID = null;
         String Inchi = null;
         Boolean isAA = false;
+        String Smiles = null;
 
         for (int i = 2; i < lines.length; i++) {
             String aCompound = lines[i];
@@ -70,9 +72,14 @@ public class ExtractChem {
                     commonName = tabs[1];
                     continue;
                 }
+                if (str.startsWith("SMILES")) {
+                    tabs = str.split(" - ");
+                    Smiles = tabs[1];
+                    continue;
+                }
             }
 
-            Chems achem = new Chems(uniqueID, Inchi,commonName);
+            Chems achem = new Chems(uniqueID, Inchi,commonName,Smiles);
             if (isAA == true){
                 AAlists.add(achem.getID());
             }
@@ -82,8 +89,8 @@ public class ExtractChem {
             uniqueID = null;
             Inchi = null;
             isAA = false;
+            Smiles = null;
         }
-        System.out.println("done populating chemicals");
         return allChemicals;
     }
     public HashMap<String, Chems> getChemsHashMap() {

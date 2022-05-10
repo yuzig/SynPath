@@ -1,9 +1,6 @@
 package org.Retrosynthesis;
 
-import org.Retrosynthesis.models.Chems;
 import org.Retrosynthesis.models.Paths;
-import org.Retrosynthesis.models.Pathway;
-import org.Retrosynthesis.models.Rxns;
 import org.Utils.FileUtils;
 
 import java.util.*;

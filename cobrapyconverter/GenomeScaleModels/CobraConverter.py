@@ -2,8 +2,9 @@ import cobra
 from cobra import Model, Reaction, Metabolite
 from cobra.util.solver import linear_reaction_coefficients
 from cobra.flux_analysis import flux_variability_analysis
-import pandas as pd
 import copy
+
+import sys
 
 
 class CobraConverter:
@@ -14,6 +15,7 @@ class CobraConverter:
     dict_metabolite2 = {}
     model = None
     model_copy = None
+    last_reactions = []
 
     def __init__(self, model_file_path):
 
@@ -34,7 +36,8 @@ class CobraConverter:
             if c.annotation.get('metanetx.chemical') is not None:
                 self.dict_metabolite2metanetx[c.annotation.get('metanetx.chemical')] = c
 
-        with open('biocyc2metanetx.txt') as f:
+        with open(
+                '/Users/carol_gyz/IdeaProjects/SBOLmetPathDesign/cobrapyconverter/GenomeScaleModels/biocyc2metanetx.txt') as f:
             lines = f.readlines()
             for line in lines:
                 line = line.replace("\n", "")
@@ -56,21 +59,23 @@ class CobraConverter:
             if i == 0:
                 isLastRxn = True
             r = list_of_rxns[i]
-            if r == '':
+            if r == '' or r == ' ':
                 continue
             tabs = r.split("\t")
+            t = tabs[0].replace(" ", "")
+            reaction = Reaction(t)
 
             if "META:" + tabs[0] in self.dict_rxn or tabs[0] == '':
                 if isLastRxn:
                     self.model_copy.objective = self.dict_rxn.get("META:" + tabs[0]).id
+                    self.last_reactions.append(reaction)
                     isLastRxn = False
                 continue
-
-            reaction = Reaction(tabs[0])
             self.model_copy.add_reactions({reaction})
 
             if isLastRxn:
                 self.model_copy.objective = reaction.id
+                self.last_reactions.append(reaction)
 
             metabolites = tabs[1].split(" --> ")
             reactants = metabolites[0].split(' ')
@@ -115,73 +120,60 @@ class CobraConverter:
         return metabolite
 
     def run(self, list_of_pathways):
-        theoretical_yield = []
         for pathway in list_of_pathways:
             self.add_rxn(pathway)
             linear_reaction_coefficients(self.model)
             self.model_copy.optimize()
-            RXN14985 = self.model_copy.reactions.get_by_id('RXN-14985')
-            ETHYLMALATESYNTHASERXN = self.model_copy.reactions.get_by_id('3-ETHYLMALATE-SYNTHASE-RXN')
-            RXN12558 = self.model_copy.reactions.get_by_id('RXN-12558')
-            ENZRX201RXN = self.model_copy.reactions.get_by_id('ENZRXN-201-RXN')
-            RXN18210 = self.model_copy.reactions.get_by_id('RXN-18210')
-            RXN18211 = self.model_copy.reactions.get_by_id('RXN-18211')
-            glucose_exchange = self.model_copy.reactions.get_by_id('EX_glc__D_e')
+            theoretical_yield = flux_variability_analysis(self.model_copy, self.last_reactions[-1])
 
-            rxns = [ENZRX201RXN, ETHYLMALATESYNTHASERXN, RXN14985,RXN18210,RXN18211, RXN12558,glucose_exchange]
-            out = flux_variability_analysis(self.model_copy, rxns)
-
-            print(out)
-            # linear_reaction_coefficients(self.model)
-            # model_solution = self.model_copy.optimize()
-            # theoretical_yield.append(model_solution.objective_value)
-        #     self.model_copy = None
-        #     self.dict_metabolite2 = {}
-        # print(theoretical_yield)
-        # return theoretical_yield
+            print(theoretical_yield)
 
 
-class runCobrapy:
-    def runner(model_path, list_of_paths):
-        list_of_paths = list_of_paths.split('//')
-        converter = CobraConverter(model_path)
-        converter.run(list_of_paths)
+def runner():
+    model_path = sys.argv[1]
+    list_of_paths = sys.argv[2]
+    list_of_paths = list_of_paths.split("//")
+    converter = CobraConverter(model_path)
+    converter.run(list_of_paths)
 
+
+runner()
 
 if __name__ == "__main__":
-    runCobrapy.runner(
+    runner(
         "/Users/carol_gyz/IdeaProjects/SBOLmetPathDesign/cobrapyconverter/src/GenomeScaleModels/iJO1366.xml",
-       "ENZRXN-201-RXN\tNADPH PROTON BUTANAL  --> NADP BUTANOL\n"
-       "RXN-14985\tCPD-3618 PROTON  --> CARBON-DIOXIDE BUTANAL\n"
-       "RXN-18211\tCPD-19492 PROTON  --> CPD-3618 CARBON-DIOXIDE\n"
-       "RXN-18210\tNAD CPD-1130  --> NADH CPD-19492 PROTON\n"
-       "3-ETHYLMALATE-SYNTHASE-RXN\tWATER GLYOX BUTYRYL-COA  --> CO-A CPD-1130 PROTON\n"
-       "RXN-12558\tNADH CROTONYL-COA PROTON  --> NAD BUTYRYL-COA\n"
+        # "ENZRXN-201-RXN\tNADPH PROTON BUTANAL  --> NADP BUTANOL\n"
+        # "RXN-14985\tCPD-3618 PROTON  --> CARBON-DIOXIDE BUTANAL\n"
+        # "RXN-18211\tCPD-19492 PROTON  --> CPD-3618 CARBON-DIOXIDE\n"
+        # "RXN-18210\tNAD CPD-1130  --> NADH CPD-19492 PROTON\n"
+        # "3-ETHYLMALATE-SYNTHASE-RXN\tWATER GLYOX BUTYRYL-COA  --> CO-A CPD-1130 PROTON\n"
+        # "RXN-12558\tNADH CROTONYL-COA PROTON  --> NAD BUTYRYL-COA\n" + "//" +
+        # "ENZRXN-201-RXN\tNADPH PROTON BUTANAL  --> NADP BUTANOL\n"
+        # "RXN-14985\tCPD-3618 PROTON  --> CARBON-DIOXIDE BUTANAL\n "
+        # "RXN-14986\tNAD CPD-1130  --> NADH CPD-3618 CARBON-DIOXIDE\n"
+        # "3-ETHYLMALATE-SYNTHASE-RXN\tWATER GLYOX BUTYRYL-COA  --> CO-A CPD-1130 PROTON\n"
+        # "RXN-12558\tNADH CROTONYL-COA PROTON  --> NAD BUTYRYL-COA\n" + "//" +
+        # "ENZRXN-201-RXN\tNADPH PROTON BUTANAL  --> NADP BUTANOL\n"
+        # "BUTANAL-DEHYDROGENASE-RXN\tBUTYRYL-COA PROTON NADPH  --> CO-A NADP BUTANAL\n" + "//" +
+        # "ENZRXN-201-RXN\tNADPH PROTON BUTANAL  --> NADP BUTANOL\n"
+        # "RXN-14985\tCPD-3618 PROTON  --> CARBON-DIOXIDE BUTANAL\n"
+        # "RXN-14986\tNAD CPD-1130  --> NADH CPD-3618 CARBON-DIOXIDE\n"
+        # "3-ETHYLMALATE-SYNTHASE-RXN\tWATER GLYOX BUTYRYL-COA  --> CO-A CPD-1130 PROTON\n"
+        # "BUTYRYL-COA-DEHYDROGENASE-RXN\tETF-Reduced CROTONYL-COA  --> ETF-Oxidized BUTYRYL-COA PROTON\n" + "//" +
+        # "RXN-12595\tPROTON CPD-13555 NADH  --> CPD-13560 NAD\n"
+        # "RXN-12594\tPROTON 4-HYDROXY-BUTYRYL-COA NADH  --> CPD-13555 NAD CO-A\n "
+        # "RXN-8889\tACETYL-COA 4-HYDROXY-BUTYRATE  --> ACET 4-HYDROXY-BUTYRYL-COA\n"
+        # "4-HYDROXYBUTYRATE-DEHYDROGENASE-RXN\tSUCC-S-ALD PROTON NADH  --> 4-HYDROXY-BUTYRATE NAD\n"
+        # "RXN-13328\tGLYOX 4-AMINO-BUTYRATE  --> SUCC-S-ALD GLY\n"
+        # "1.5.1.35-RXN\tWATER NAD CPD-6124  --> PROTON 4-AMINO-BUTYRATE NADH\n"
+        # "2.6.1.82-RXN\t2-KETOGLUTARATE PUTRESCINE  --> WATER GLT CPD-6124\n"
+        # "ORNDECARBOX-RXN\tPROTON L-ORNITHINE  --> CARBON-DIOXIDE PUTRESCINE\n" + "//" +
+        "RXN-12595\tPROTON CPD-13555 NADH  --> CPD-13560 NAD\n"
+        "RXN-12594\tPROTON 4-HYDROXY-BUTYRYL-COA NADH  --> CPD-13555 NAD CO-A\n"
+        "RXN-9092\t4-HYDROXY-BUTYRATE ATP CO-A  --> PPI 4-HYDROXY-BUTYRYL-COA AMP\n"
+        "4-HYDROXYBUTYRATE-DEHYDROGENASE-RXN\tSUCC-S-ALD PROTON NADH  --> 4-HYDROXY-BUTYRATE NAD\n"
+        "RXN-13328\tGLYOX 4-AMINO-BUTYRATE  --> SUCC-S-ALD GLY\n"
+        "GUANIDINOBUTYRASE-RXN\tWATER CPD-592  --> UREA 4-AMINO-BUTYRATE\n"
+        "GUANIDINOBUTANAMIDE-NH3-RXN\t4-GUANIDO-BUTYRAMIDE WATER  --> CPD-592 AMMONIUM\n"
+        "ARGININE-2-MONOOXYGENASE-RXN\tOXYGEN-MOLECULE ARG  --> 4-GUANIDO-BUTYRAMIDE WATER CARBON-DIOXIDE\n"
     )
-
-# columns= [["ID", "name", "Biocyc_Annotation"]]
-# for m in model.metabolites:
-#     chem = [m.id, m.name, m.annotation.get('biocyc')]
-#     chem = m.annotation.get('biocyc')
-#
-# columns.append(chem)
-# df = pd.DataFrame(columns)
-# df.to_csv('ijo1366_metabolites.csv')
-#
-# def run(string):
-
-
-# #
-# columns_rxn= [["ID", "name", "ec_num","Biocyc_Annotation"]]
-# for r in model.reactions:
-#     if r.annotation.get('biocyc') is None:
-#         continue
-#     rxn = [r.id, r.name, r.annotation.get('ec-code'), r.annotation.get('biocyc')]
-#     columns_rxn.append(rxn)
-# df = pd.DataFrame(columns_rxn)
-# df.to_csv('ijo1366_reactions.csv')
-#
-#
-#
-#
-#

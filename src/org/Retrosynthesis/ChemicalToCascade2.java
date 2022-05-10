@@ -5,7 +5,10 @@ import org.Retrosynthesis.models.*;
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.List;
-
+/**
+ * This creates a hashmap of reaction to cascade
+ * @author Y. C. Gao
+ */
 public class ChemicalToCascade2 {
     private HashMap<Chems, Cascade2> out;
 
@@ -28,7 +31,6 @@ public class ChemicalToCascade2 {
                 }
                 out.get(c).addRxn(r);}
         }
-        System.out.println("done populating cascademap");
         return out;
     }
 }

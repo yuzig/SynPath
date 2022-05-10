@@ -61,14 +61,14 @@ public class PathEnum {
     private void depthSearch(Chems chem, Set<List<Rxns>> allPaths,List<Rxns> CurrPath,Set<String> visitedChem,int layer){
         Cascade2 cascade = chemToCascadeMap.get(chem);
         if (layer > 7 || cascade == null){
-            List<Rxns> newPath = new ArrayList<>(CurrPath);
-            allPaths.add(newPath);
+//            List<Rxns> newPath = new ArrayList<>(CurrPath);
+//            allPaths.add(newPath);
             return;
         }
 
         if (cascade.getRxnsThatFormPdt().size() == 0){
-            List<Rxns> newPath = new ArrayList<>(CurrPath);
-            allPaths.add(newPath);
+//            List<Rxns> newPath = new ArrayList<>(CurrPath);
+//            allPaths.add(newPath);
             return;
         }
 

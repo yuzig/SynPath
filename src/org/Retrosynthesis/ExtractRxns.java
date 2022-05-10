@@ -48,7 +48,7 @@ public class ExtractRxns {
                     tabs = str.split(" - ");
                     Chems substrate = allchems.get(tabs[1]);
                     if (substrate == null){
-                        substrate = new Chems(tabs[1],null, null);
+                        substrate = new Chems(tabs[1],null, null,null);
                     }
                     substrates.add(substrate);
                     continue;
@@ -62,7 +62,7 @@ public class ExtractRxns {
                     tabs = str.split(" - ");
                     Chems product = allchems.get(tabs[1]);
                     if (product == null){
-                        product = new Chems(tabs[1],null, null);
+                        product = new Chems(tabs[1],null, null,null);
                     }
                     products.add(product);
                     continue;
@@ -105,7 +105,6 @@ public class ExtractRxns {
             pathways = new HashSet<>();
             direction = null;
             }
-
 
         return allRxn;
     }
