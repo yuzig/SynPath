@@ -52,12 +52,12 @@ public class Rxns {
     public String toString() {
         StringBuilder sb = new StringBuilder();
         for (Chems sub : substrates) {
-            sb.append(sub.getName());
+            sb.append(sub.getID());
             sb.append(" ");
         }
-        sb.append(" -->");
+        sb.append(" --> ");
         for (Chems pro : products) {
-            sb.append(pro.getName());
+            sb.append(pro.getID());
             sb.append(" ");
         }
         String out = sb.toString();

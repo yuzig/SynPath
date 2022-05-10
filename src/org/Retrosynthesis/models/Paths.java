@@ -1,6 +1,10 @@
 package org.Retrosynthesis.models;
 
 import java.util.Set;
+/**
+ * This extracts pathway data from metacyc reaction database
+ * @author Y. C. Gao
+ */
 
 public class Paths {
 

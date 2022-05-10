@@ -1,6 +1,11 @@
 package org.Retrosynthesis.models;
 
 import java.util.Set;
+/**
+ * model for cascades
+ * includes a product, and all reactions that form the product
+ * @author Y. C. Gao
+ */
 
 public class Cascade2 {
 

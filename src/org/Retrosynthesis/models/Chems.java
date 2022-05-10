@@ -9,11 +9,13 @@ public class Chems {
     private final String inchi;
     private final String name;
     private final String id;
+    private final String Smiles;
 
-    public Chems(String id, String inchi, String name) {
+    public Chems(String id, String inchi, String name, String Smiles) {
         this.inchi = inchi;
         this.name = name;
         this.id = id;
+        this.Smiles = Smiles;
     }
 
 
@@ -27,6 +29,10 @@ public class Chems {
 
     public String getID() {
         return id;
+    }
+
+    public String getSmiles() {
+        return Smiles;
     }
 }
 
