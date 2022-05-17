@@ -45,10 +45,19 @@ public class ExtractRxns {
                     continue;
                 }
                 if (str.startsWith("LEFT")) {
+                    Chems substrate = null;
                     tabs = str.split(" - ");
-                    Chems substrate = allchems.get(tabs[1]);
-                    if (substrate == null){
+                    if (tabs[1] == "NADH-P-OR-NOP") {
+                        substrate = allchems.get("NADH");
+                    }
+                    if (tabs[1] == "NAD-P-OR-NOP") {
+                        substrate = allchems.get("NAD");
+                    }
+                    if (allchems.get(tabs[1]) == null){
                         substrate = new Chems(tabs[1],null, null,null);
+                    }
+                    else {
+                        substrate = allchems.get(tabs[1]);
                     }
                     substrates.add(substrate);
                     continue;
@@ -59,10 +68,19 @@ public class ExtractRxns {
                     continue;
                 }
                 if (str.startsWith("RIGHT")) {
+                    Chems product = null;
                     tabs = str.split(" - ");
-                    Chems product = allchems.get(tabs[1]);
-                    if (product == null){
+                    if (tabs[1] == "NADH-P-OR-NOP") {
+                        product = allchems.get("NADH");
+                    }
+                    if (tabs[1] == "NAD-P-OR-NOP") {
+                        product = allchems.get("NAD");
+                    }
+                    if (allchems.get(tabs[1]) == null){
                         product = new Chems(tabs[1],null, null,null);
+                    }
+                    else {
+                        product = allchems.get(tabs[1]);
                     }
                     products.add(product);
                     continue;

@@ -34,7 +34,8 @@ class CobraConverter:
                     self.dict_metabolite2biocyc[biocyc_id] = c
             if c.annotation.get('metanetx.chemical') is not None:
                 self.dict_metabolite2metanetx[c.annotation.get('metanetx.chemical')] = c
-
+            self.dict_metabolite2biocyc["META:NADH-P-OR-NOP"] = self.model.metabolites.get_by_id('nadh_c')
+            self.dict_metabolite2biocyc["META:NAD-P-OR-NOP"] = self.model.metabolites.get_by_id('nad_c')
         with open(
                 '/Users/carol_gyz/IdeaProjects/SBOLmetPathDesign/cobrapyconverter/GenomeScaleModels/biocyc2metanetx.txt') as f:
             lines = f.readlines()
@@ -122,9 +123,8 @@ class CobraConverter:
         for pathway in list_of_pathways:
             self.add_rxn(pathway)
             linear_reaction_coefficients(self.model)
-            self.model_copy.optimize()
-            theoretical_yield = flux_variability_analysis(self.model_copy, self.last_reactions[-1])
-
+            theoretical_yield = self.model_copy.optimize().objective_value
+            # theoretical_yield = flux_variability_analysis(self.model_copy, self.last_reactions[-1])
             print(theoretical_yield)
 
 
@@ -140,39 +140,11 @@ runner()
 
 if __name__ == "__main__":
     runner(
-        "/Users/carol_gyz/IdeaProjects/SBOLmetPathDesign/cobrapyconverter/src/GenomeScaleModels/iJO1366.xml",
-        # "ENZRXN-201-RXN\tNADPH PROTON BUTANAL  --> NADP BUTANOL\n"
-        # "RXN-14985\tCPD-3618 PROTON  --> CARBON-DIOXIDE BUTANAL\n"
-        # "RXN-18211\tCPD-19492 PROTON  --> CPD-3618 CARBON-DIOXIDE\n"
-        # "RXN-18210\tNAD CPD-1130  --> NADH CPD-19492 PROTON\n"
-        # "3-ETHYLMALATE-SYNTHASE-RXN\tWATER GLYOX BUTYRYL-COA  --> CO-A CPD-1130 PROTON\n"
-        # "RXN-12558\tNADH CROTONYL-COA PROTON  --> NAD BUTYRYL-COA\n" + "//" +
-        # "ENZRXN-201-RXN\tNADPH PROTON BUTANAL  --> NADP BUTANOL\n"
-        # "RXN-14985\tCPD-3618 PROTON  --> CARBON-DIOXIDE BUTANAL\n "
-        # "RXN-14986\tNAD CPD-1130  --> NADH CPD-3618 CARBON-DIOXIDE\n"
-        # "3-ETHYLMALATE-SYNTHASE-RXN\tWATER GLYOX BUTYRYL-COA  --> CO-A CPD-1130 PROTON\n"
-        # "RXN-12558\tNADH CROTONYL-COA PROTON  --> NAD BUTYRYL-COA\n" + "//" +
-        # "ENZRXN-201-RXN\tNADPH PROTON BUTANAL  --> NADP BUTANOL\n"
-        # "BUTANAL-DEHYDROGENASE-RXN\tBUTYRYL-COA PROTON NADPH  --> CO-A NADP BUTANAL\n" + "//" +
-        # "ENZRXN-201-RXN\tNADPH PROTON BUTANAL  --> NADP BUTANOL\n"
-        # "RXN-14985\tCPD-3618 PROTON  --> CARBON-DIOXIDE BUTANAL\n"
-        # "RXN-14986\tNAD CPD-1130  --> NADH CPD-3618 CARBON-DIOXIDE\n"
-        # "3-ETHYLMALATE-SYNTHASE-RXN\tWATER GLYOX BUTYRYL-COA  --> CO-A CPD-1130 PROTON\n"
-        # "BUTYRYL-COA-DEHYDROGENASE-RXN\tETF-Reduced CROTONYL-COA  --> ETF-Oxidized BUTYRYL-COA PROTON\n" + "//" +
-        # "RXN-12595\tPROTON CPD-13555 NADH  --> CPD-13560 NAD\n"
-        # "RXN-12594\tPROTON 4-HYDROXY-BUTYRYL-COA NADH  --> CPD-13555 NAD CO-A\n "
-        # "RXN-8889\tACETYL-COA 4-HYDROXY-BUTYRATE  --> ACET 4-HYDROXY-BUTYRYL-COA\n"
-        # "4-HYDROXYBUTYRATE-DEHYDROGENASE-RXN\tSUCC-S-ALD PROTON NADH  --> 4-HYDROXY-BUTYRATE NAD\n"
-        # "RXN-13328\tGLYOX 4-AMINO-BUTYRATE  --> SUCC-S-ALD GLY\n"
-        # "1.5.1.35-RXN\tWATER NAD CPD-6124  --> PROTON 4-AMINO-BUTYRATE NADH\n"
-        # "2.6.1.82-RXN\t2-KETOGLUTARATE PUTRESCINE  --> WATER GLT CPD-6124\n"
-        # "ORNDECARBOX-RXN\tPROTON L-ORNITHINE  --> CARBON-DIOXIDE PUTRESCINE\n" + "//" +
-        "RXN-12595\tPROTON CPD-13555 NADH  --> CPD-13560 NAD\n"
-        "RXN-12594\tPROTON 4-HYDROXY-BUTYRYL-COA NADH  --> CPD-13555 NAD CO-A\n"
-        "RXN-9092\t4-HYDROXY-BUTYRATE ATP CO-A  --> PPI 4-HYDROXY-BUTYRYL-COA AMP\n"
-        "4-HYDROXYBUTYRATE-DEHYDROGENASE-RXN\tSUCC-S-ALD PROTON NADH  --> 4-HYDROXY-BUTYRATE NAD\n"
-        "RXN-13328\tGLYOX 4-AMINO-BUTYRATE  --> SUCC-S-ALD GLY\n"
-        "GUANIDINOBUTYRASE-RXN\tWATER CPD-592  --> UREA 4-AMINO-BUTYRATE\n"
-        "GUANIDINOBUTANAMIDE-NH3-RXN\t4-GUANIDO-BUTYRAMIDE WATER  --> CPD-592 AMMONIUM\n"
-        "ARGININE-2-MONOOXYGENASE-RXN\tOXYGEN-MOLECULE ARG  --> 4-GUANIDO-BUTYRAMIDE WATER CARBON-DIOXIDE\n"
+        "/Users/carol_gyz/IdeaProjects/SBOLmetPathDesign/cobrapyconverter/GenomeScaleModels/iJO1366.xml",
+        "RXN-12595\tNADH-P-OR-NOP CPD-13555 PROTON  --> NAD-P-OR-NOP CPD-13560\n" +
+        "RXN-12594\t4-HYDROXY-BUTYRYL-COA NADH-P-OR-NOP PROTON  --> CO-A NAD-P-OR-NOP CPD-13555\n" +
+        "RXN-8889\t4-HYDROXY-BUTYRATE ACETYL-COA  --> 4-HYDROXY-BUTYRYL-COA ACET\n" +
+        "4-HYDROXYBUTYRATE-DEHYDROGENASE-RXN\tNADH PROTON SUCC-S-ALD  --> 4-HYDROXY-BUTYRATE NAD\n" +
+        "RXN-6902\t4-AMINO-BUTYRATE PYRUVATE  --> L-ALPHA-ALANINE SUCC-S-ALD\n" +
+        "RXN-19944\tCPD-12185 WATER  --> HIS 4-AMINO-BUTYRATE\n"
     )

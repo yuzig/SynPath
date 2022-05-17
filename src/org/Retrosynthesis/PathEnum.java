@@ -48,32 +48,40 @@ public class PathEnum {
         chemToCascadeMap = ctc2.run(reactions, listofchems);
     }
 
-    public Set<List<Rxns>> run(Cascade2 cascade){
+    public List<List<Rxns>> run(Cascade2 cascade){
         Chems product = cascade.getProduct();
         List<Rxns> CurrPath = new ArrayList<>();
-        Set<List<Rxns>> enumPath = new HashSet<>();
+        List<List<Rxns>> enumPath = new ArrayList<>();
         Set<String> visited = new HashSet<>();
+        Set<String> visited_rxn = new HashSet<>();
         visited.add(product.getID());
-        depthSearch(product,enumPath,CurrPath,visited,0);
+        depthSearch(product,enumPath,CurrPath,visited,visited_rxn, 0);
         return enumPath;
     }
 
-    private void depthSearch(Chems chem, Set<List<Rxns>> allPaths,List<Rxns> CurrPath,Set<String> visitedChem,int layer){
+    private void depthSearch(Chems chem, List<List<Rxns>> allPaths,List<Rxns> CurrPath,Set<String> visitedChem, Set<String> visited_rxn, int layer){
         Cascade2 cascade = chemToCascadeMap.get(chem);
-        if (layer > 7 || cascade == null){
-//            List<Rxns> newPath = new ArrayList<>(CurrPath);
-//            allPaths.add(newPath);
+        if (layer > 6 || cascade == null){
             return;
         }
 
         if (cascade.getRxnsThatFormPdt().size() == 0){
-//            List<Rxns> newPath = new ArrayList<>(CurrPath);
-//            allPaths.add(newPath);
+            allPaths.add(CurrPath);
             return;
         }
 
         for (Rxns r : cascade.getRxnsThatFormPdt()) {
             List<Rxns> helperlist = new ArrayList<>(CurrPath);
+
+            boolean visited = false;
+            for (Chems substrate : r.getSubstrates()) {
+                if (visitedChem.contains(substrate.getID())) {
+                    visited = true;
+                }
+            }
+            if (visited) {
+                continue;
+            }
             helperlist.add(r);
 
             if (allNatives(r.getSubstrates()) || isNativeRxn(r)) {
@@ -86,6 +94,7 @@ public class PathEnum {
                         continue;
                     }
                     if (visitedChem.contains(c.getID())) {
+                        helperlist.remove(r);
                         break;
                     }
                     if (c.getInchi() == null){
@@ -93,14 +102,13 @@ public class PathEnum {
                     }
                     else {
                         visitedChem.add(c.getID());
-                        depthSearch(c, allPaths, helperlist, visitedChem, layer + 1);
+                        depthSearch(c, allPaths, helperlist, visitedChem, visited_rxn, layer + 1);
                         visitedChem.remove(c.getID());
                         continue;
                     }
 
                 }
             }
-
         }
     }
 
