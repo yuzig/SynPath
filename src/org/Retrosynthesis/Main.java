@@ -7,7 +7,6 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.util.HashMap;
 import java.util.List;
-import java.util.Map;
 import java.util.Set;
 
 public class Main {
@@ -27,14 +26,13 @@ public class Main {
         Chems butanediol = chemMaps.get("CPD-13560");
         List<List<Rxns>> output = pe.run(cascadeMap.get(butanediol));
         String pathways = Pathway2String(output);
-        HashMap<Integer, Double> out = pr.runCobraPy("/Users/carol_gyz/IdeaProjects/SBOLmetPathDesign/cobrapyconverter/GenomeScaleModels/iJO1366.xml",pathways);
-        for (Integer key : out.keySet()) {
-            List<Rxns> path = output.get(key);
-            String pathway = OnePathway2String(path);
-            Double theoretical_yield = out.get(key);
-
-            System.out.println("Theoretical Yield:" + theoretical_yield);
-            System.out.println(pathway);
+        Set<RankedPathsObj> out = pr.runCobraPy("/Users/carol_gyz/IdeaProjects/SBOLmetPathDesign/cobrapyconverter/GenomeScaleModels/iJO1366.xml",pathways);
+        for (RankedPathsObj obj : out) {
+            System.out.println("Theoretical Yield: " + obj.getTheoretical_yield());
+            System.out.println("atp: " + obj.getAtpm_generation());
+            System.out.println("nadph_consumption: " + obj.getNadph_consumption());
+            System.out.println("nadh_consumption: " + obj.getNadh_consumption());
+            System.out.println("pathway: " + obj.getPathway());
         }
 
 

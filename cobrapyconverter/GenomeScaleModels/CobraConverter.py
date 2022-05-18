@@ -1,5 +1,6 @@
 import cobra
 from cobra import Model, Reaction, Metabolite
+from cobra.flux_analysis import single_reaction_deletion
 from cobra.util.solver import linear_reaction_coefficients
 from cobra.flux_analysis import flux_variability_analysis
 import copy
@@ -71,6 +72,7 @@ class CobraConverter:
                     self.last_reactions.append(reaction)
                     isLastRxn = False
                 continue
+
             self.model_copy.add_reactions({reaction})
 
             if isLastRxn:
@@ -86,7 +88,7 @@ class CobraConverter:
                 if "META:" + c in self.dict_metabolite2:
                     c = self.dict_metabolite2.get("META:" + c)
                     reaction.add_metabolites({c.id: -1})
-                    continue;
+                    continue
 
                 if self.dict_biocyc2metanetx.get(c) in self.dict_metabolite2metanetx:
                     c = self.dict_metabolite2metanetx.get(self.dict_biocyc2metanetx.get(c))
@@ -124,8 +126,18 @@ class CobraConverter:
             self.add_rxn(pathway)
             linear_reaction_coefficients(self.model)
             theoretical_yield = self.model_copy.optimize().objective_value
-            # theoretical_yield = flux_variability_analysis(self.model_copy, self.last_reactions[-1])
-            print(theoretical_yield)
+
+            nadh_summary = self.model_copy.metabolites.nadh_c.summary()
+            nadh_consumption = nadh_summary.consuming_flux["flux"].sum()
+
+            nadph_summary = self.model_copy.metabolites.nadph_c.summary()
+            nadph_consumption = nadph_summary.consuming_flux["flux"].sum()
+
+            atp_summary = self.model_copy.metabolites.atp_c.summary()
+            atp_consumption = atp_summary.consuming_flux["flux"].sum()
+
+            print(str(theoretical_yield) + "\t" + str(atp_consumption)+ "\t" + str(nadh_consumption) + "\t" + str(nadph_consumption))
+            self.model_copy = None
 
 
 def runner():
@@ -141,10 +153,17 @@ runner()
 if __name__ == "__main__":
     runner(
         "/Users/carol_gyz/IdeaProjects/SBOLmetPathDesign/cobrapyconverter/GenomeScaleModels/iJO1366.xml",
-        "RXN-12595\tNADH-P-OR-NOP CPD-13555 PROTON  --> NAD-P-OR-NOP CPD-13560\n" +
-        "RXN-12594\t4-HYDROXY-BUTYRYL-COA NADH-P-OR-NOP PROTON  --> CO-A NAD-P-OR-NOP CPD-13555\n" +
-        "RXN-8889\t4-HYDROXY-BUTYRATE ACETYL-COA  --> 4-HYDROXY-BUTYRYL-COA ACET\n" +
-        "4-HYDROXYBUTYRATE-DEHYDROGENASE-RXN\tNADH PROTON SUCC-S-ALD  --> 4-HYDROXY-BUTYRATE NAD\n" +
-        "RXN-6902\t4-AMINO-BUTYRATE PYRUVATE  --> L-ALPHA-ALANINE SUCC-S-ALD\n" +
-        "RXN-19944\tCPD-12185 WATER  --> HIS 4-AMINO-BUTYRATE\n"
+        "ENZRXN-201-RXN\tNADPH PROTON BUTANAL  --> NADP BUTANOL\n"
+        "RXN-14985\tCPD-3618 PROTON  --> CARBON-DIOXIDE BUTANAL\n"
+        "RXN-14986\tNAD CPD-1130  --> NADH CPD-3618 CARBON-DIOXIDE\n"
+        "3-ETHYLMALATE-SYNTHASE-RXN\tWATER GLYOX BUTYRYL-COA  --> CO-A CPD-1130 PROTON\n"
+        "RXN-11726\tNADPH CROTONYL-COA PROTON  --> NADP BUTYRYL-COA\n"
+        "3-HYDROXBUTYRYL-COA-DEHYDRATASE-RXN\tCPD-650  --> WATER CROTONYL-COA\n"
+        "RXN-5901\tACETOACETYL-COA NADPH PROTON  --> NADP CPD-650\n" + "//" +
+        "ENZRXN-201-RXN\tNADPH PROTON BUTANAL  --> NADP BUTANOL\n" 
+        "RXN-14985\tCPD-3618 PROTON  --> CARBON-DIOXIDE BUTANAL\n"
+        "RXN-14986\tNAD CPD-1130  --> NADH CPD-3618 CARBON-DIOXIDE\n"
+        "3-ETHYLMALATE-SYNTHASE-RXN\tWATER GLYOX BUTYRYL-COA  --> CO-A CPD-1130 PROTON\n"
+        "2.8.3.9-RXN\tACETOACETYL-COA BUTYRIC_ACID  --> 3-KETOBUTYRATE BUTYRYL-COA\n"
+        "RXN-11662\tNAD S-3-HYDROXYBUTANOYL-COA  --> NADH ACETOACETYL-COA PROTON\n"
     )

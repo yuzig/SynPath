@@ -14,7 +14,6 @@ public class ExtractRxns {
     private HashMap<String, Rxns> rxnsHashmap;
     public void initiate(){
         rxnsHashmap = new HashMap<>();
-
     }
     public List<Rxns> run(String filepath, HashMap<String, Chems> allchems) throws Exception {
         List<Rxns> allRxn = new ArrayList<>();
@@ -23,6 +22,7 @@ public class ExtractRxns {
         rxndata = null;
         String uniqueID = null;
         String ECnum = null;
+        Double gibbs = null;
         Set<Chems> substrates = new HashSet<>();
         Set<Chems> products = new HashSet<>();
         Set<String> pathways = new HashSet<>();
@@ -42,6 +42,11 @@ public class ExtractRxns {
                 if (str.startsWith("EC-NUMBER")) {
                     tabs = str.split(" - ");
                     ECnum = tabs[1];
+                    continue;
+                }
+                if (str.startsWith("GIBBS-0")) {
+                    tabs = str.split(" - ");
+                    gibbs = Double.parseDouble(tabs[1]);
                     continue;
                 }
                 if (str.startsWith("LEFT")) {
@@ -95,32 +100,33 @@ public class ExtractRxns {
             Rxns rxn = null;
             if (direction != null ){
                 if (direction.equals("PHYSIOL-RIGHT-TO-LEFT") || direction.equals( "RIGHT-TO-LEFT")){
-                    rxn = new Rxns(ECnum, products, substrates, uniqueID,pathways);
+                    rxn = new Rxns(ECnum, products, substrates, uniqueID,pathways, gibbs);
                     allRxn.add(rxn);
                     rxnsHashmap.put(uniqueID, rxn);
                 }
 
                 if (direction.equals("REVERSIBLE")) {
-                    rxn = new Rxns(ECnum, products, substrates, uniqueID,pathways);
+                    rxn = new Rxns(ECnum, products, substrates, uniqueID,pathways, gibbs);
                     allRxn.add(rxn);
                     rxnsHashmap.put(uniqueID, rxn);
-                    rxn = new Rxns(ECnum, substrates, products, uniqueID,pathways);
+                    rxn = new Rxns(ECnum, substrates, products, uniqueID,pathways, gibbs);
                     allRxn.add(rxn);
                     rxnsHashmap.put(uniqueID, rxn);
                 }
                 if (direction.equals("PHYSIOL-LEFT-TO-RIGHT") || direction.equals("LEFT-TO-RIGHT")){
-                    rxn = new Rxns(ECnum, substrates, products, uniqueID,pathways);
+                    rxn = new Rxns(ECnum, substrates, products, uniqueID,pathways, gibbs);
                     allRxn.add(rxn);
                     rxnsHashmap.put(uniqueID, rxn);
                 }
             }  else {
-                rxn = new Rxns(ECnum, substrates, products, uniqueID,pathways);
+                rxn = new Rxns(ECnum, substrates, products, uniqueID,pathways, gibbs);
                 allRxn.add(rxn);
                 rxnsHashmap.put(uniqueID, rxn);
             }
             substrates = new HashSet<>();
             products = new HashSet<>();
             pathways = new HashSet<>();
+            gibbs = null;
             direction = null;
             }
 

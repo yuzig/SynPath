@@ -1,6 +1,6 @@
 package org.Retrosynthesis.models;
 
-import java.util.List;
+
 import java.util.Set;
 /**
  * A model for reactions
@@ -12,13 +12,15 @@ public class Rxns {
     private final Set<Chems> products;
     private final String name;
     private final Set<String> pathways;
+    private final Double gibbs;
 
-    public Rxns(String ecnum, Set<Chems> substrates, Set<Chems> products, String name, Set<String> pathways) {
+    public Rxns(String ecnum, Set<Chems> substrates, Set<Chems> products, String name, Set<String> pathways, Double Gibbs) {
         this.ecnum = ecnum;
         this.substrates = substrates;
         this.products = products;
         this.name = name;
         this.pathways = pathways;
+        this.gibbs = Gibbs;
     }
 
     public String getecnum() {
@@ -62,6 +64,10 @@ public class Rxns {
         }
         String out = sb.toString();
         return out;
+    }
+
+    public Double getGibbs() {
+        return gibbs;
     }
 }
 

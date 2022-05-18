@@ -61,7 +61,7 @@ public class PathEnum {
 
     private void depthSearch(Chems chem, List<List<Rxns>> allPaths,List<Rxns> CurrPath,Set<String> visitedChem, Set<String> visited_rxn, int layer){
         Cascade2 cascade = chemToCascadeMap.get(chem);
-        if (layer > 6 || cascade == null){
+        if (layer > 5 || cascade == null){
             return;
         }
 
