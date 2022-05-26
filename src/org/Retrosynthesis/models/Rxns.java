@@ -11,15 +11,15 @@ public class Rxns {
     private final Set<Chems> substrates;
     private final Set<Chems> products;
     private final String name;
-    private final Set<String> pathways;
+//    private final Set<String> pathways;
     private final Double gibbs;
 
-    public Rxns(String ecnum, Set<Chems> substrates, Set<Chems> products, String name, Set<String> pathways, Double Gibbs) {
+    public Rxns(String ecnum, Set<Chems> substrates, Set<Chems> products, String name, Double Gibbs) {
         this.ecnum = ecnum;
         this.substrates = substrates;
         this.products = products;
         this.name = name;
-        this.pathways = pathways;
+//        this.pathways = pathways;
         this.gibbs = Gibbs;
     }
 
@@ -35,17 +35,17 @@ public class Rxns {
         return products;
     }
 
-    public boolean inPathway() {
-        if (pathways.isEmpty()){
-            return false;
-        } else {
-            return true;
-        }
-    }
+//    public boolean inPathway() {
+//        if (pathways.isEmpty()){
+//            return false;
+//        } else {
+//            return true;
+//        }
+//    }
 
-    public Set<String> getPathways() {
-        return pathways;
-    }
+//    public Set<String> getPathways() {
+//        return pathways;
+//    }
 
     public String getName() {
         return name;

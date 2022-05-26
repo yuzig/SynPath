@@ -90,42 +90,42 @@ public class ExtractRxns {
                     products.add(product);
                     continue;
                 }
-                if (str.startsWith("IN-PATHWAY")){
-                    tabs = str.split(" - ");
-                    if (tabs[1].startsWith("PWY")){
-                        pathways.add(tabs[1]);
-                    }
-                }
+//                if (str.startsWith("IN-PATHWAY")){
+//                    tabs = str.split(" - ");
+//                    if (tabs[1].startsWith("PWY")){
+//                        pathways.add(tabs[1]);
+//                    }
+//                }
             }
             Rxns rxn = null;
             if (direction != null ){
                 if (direction.equals("PHYSIOL-RIGHT-TO-LEFT") || direction.equals( "RIGHT-TO-LEFT")){
-                    rxn = new Rxns(ECnum, products, substrates, uniqueID,pathways, gibbs);
+                    rxn = new Rxns(ECnum, products, substrates, uniqueID,gibbs);
                     allRxn.add(rxn);
                     rxnsHashmap.put(uniqueID, rxn);
                 }
 
                 if (direction.equals("REVERSIBLE")) {
-                    rxn = new Rxns(ECnum, products, substrates, uniqueID,pathways, gibbs);
+                    rxn = new Rxns(ECnum, products, substrates, uniqueID,gibbs);
                     allRxn.add(rxn);
                     rxnsHashmap.put(uniqueID, rxn);
-                    rxn = new Rxns(ECnum, substrates, products, uniqueID,pathways, gibbs);
+                    rxn = new Rxns(ECnum, substrates, products, uniqueID,gibbs);
                     allRxn.add(rxn);
                     rxnsHashmap.put(uniqueID, rxn);
                 }
                 if (direction.equals("PHYSIOL-LEFT-TO-RIGHT") || direction.equals("LEFT-TO-RIGHT")){
-                    rxn = new Rxns(ECnum, substrates, products, uniqueID,pathways, gibbs);
+                    rxn = new Rxns(ECnum, substrates, products, uniqueID, gibbs);
                     allRxn.add(rxn);
                     rxnsHashmap.put(uniqueID, rxn);
                 }
             }  else {
-                rxn = new Rxns(ECnum, substrates, products, uniqueID,pathways, gibbs);
+                rxn = new Rxns(ECnum, substrates, products, uniqueID, gibbs);
                 allRxn.add(rxn);
                 rxnsHashmap.put(uniqueID, rxn);
             }
             substrates = new HashSet<>();
             products = new HashSet<>();
-            pathways = new HashSet<>();
+//            pathways = new HashSet<>();
             gibbs = null;
             direction = null;
             }

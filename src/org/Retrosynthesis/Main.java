@@ -20,33 +20,31 @@ public class Main {
         pe.initiate();
         pr = new PathRanker();
         pr.initiate();
+        Pathway2SBOLdoc pathway2SBOLdoc = new Pathway2SBOLdoc();
+        pathway2SBOLdoc.initiate(pe.getRxnsHashMap());
+
         HashMap<Chems, Cascade2> cascadeMap = pe.getChemToCascadeMap();
         HashMap<String, Chems> chemMaps = pe.getChems();
 
-        Chems butanediol = chemMaps.get("CPD-13560");
-        List<List<Rxns>> output = pe.run(cascadeMap.get(butanediol));
+
+        Chems butanediol = chemMaps.get("CPD-13248");
+        List<List<Rxns>> output = pe.run(cascadeMap.get(butanediol), "FARNESYL-PP");
         String pathways = Pathway2String(output);
-        Set<RankedPathsObj> out = pr.runCobraPy("/Users/carol_gyz/IdeaProjects/SBOLmetPathDesign/cobrapyconverter/GenomeScaleModels/iJO1366.xml",pathways);
-        for (RankedPathsObj obj : out) {
-            System.out.println("Theoretical Yield: " + obj.getTheoretical_yield());
-            System.out.println("atp: " + obj.getAtpm_generation());
-            System.out.println("nadph_consumption: " + obj.getNadph_consumption());
-            System.out.println("nadh_consumption: " + obj.getNadh_consumption());
-            System.out.println("pathway: " + obj.getPathway());
-        }
-
-
-//        Pathway2SBOLdoc pathway2SBOLdoc = new Pathway2SBOLdoc();
-//        pathway2SBOLdoc.initiate();
-//        List<List<Rxns>> output_list = output.stream().toList();
-//
-//        for (int i = 0; i < 10; i ++) {
-//            pathway2SBOLdoc.run(output_list.get(i), i);
+        Set<RankedPathsObj> out = pr.runCobraPy("/Users/carol_gyz/IdeaProjects/SBOLmetPathDesign/cobrapyconverter/GenomeScaleModels/iML1515.xml",pathways);
+//        for (RankedPathsObj obj : out) {
+//            System.out.println("Theoretical Yield: " + obj.getTheoretical_yield());
+//            System.out.println("atp consumption: " + obj.getAtpm_generation());
+//            System.out.println("nadph_consumption: " + obj.getNadph_consumption());
+//            System.out.println("nadh_consumption: " + obj.getNadh_consumption());
+//            System.out.println("eng_yield: " + obj.getFva_dif());
+//            System.out.println("pathway: " + obj.getPathway());
 //        }
-//
-//        pathway2SBOLdoc.out("test.xml");
-
-
+        int i = 1;
+        for (RankedPathsObj obj : out) {
+            pathway2SBOLdoc.run(obj, i);
+            i = i + 1;
+        }
+        pathway2SBOLdoc.out("artemisinic_acid_test.xml");
 
     }
     public static String OnePathway2String(List<Rxns> output) {

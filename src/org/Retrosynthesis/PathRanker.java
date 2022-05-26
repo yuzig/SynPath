@@ -23,19 +23,11 @@ public class PathRanker  {
         Process process = processBuilder.start();
         Set<RankedPathsObj> ret = new HashSet<>();
         List<String> results = readProcessOutput(process.getInputStream());
-        for (int i = 3; i < results.size() - 1; i ++) {
+        for (int i = 3; i < results.size(); i ++) {
             String[] tabs = results.get(i).split("\t");
-            RankedPathsObj rankedPathsObj = new RankedPathsObj(Double.parseDouble(tabs[0]), Double.parseDouble(tabs[1]), Double.parseDouble(tabs[2]), Double.parseDouble(tabs[3]), paths[i-3]);
+            RankedPathsObj rankedPathsObj = new RankedPathsObj(Double.parseDouble(tabs[0]), Double.parseDouble(tabs[1]), Double.parseDouble(tabs[2]), Double.parseDouble(tabs[3]), Double.parseDouble(tabs[4]), paths[Integer.parseInt(tabs[5])]);
             ret.add(rankedPathsObj);
         }
-//
-//        ArrayIndexComparator comparator = new ArrayIndexComparator(ranked_pwy);
-//        Integer[] indexes = comparator.createIndexArray();
-//        Arrays.sort(indexes, comparator);
-//        HashMap<Integer, Double> ret = new HashMap<>();
-//        for (int i = indexes.length - 1; i > indexes.length - 9; i--) {
-//            ret.pu        HashMap<Integer, Double> ret = new HashMap<>();t(indexes[i], ranked_pwy[indexes[i]]);
-//        }
         return ret;
     }
 

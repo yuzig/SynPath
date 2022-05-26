@@ -18,6 +18,10 @@ public class PathEnum {
     private HashMap<Chems, Cascade2> chemToCascadeMap;
     private HashMap<String, Rxns> rxnsHashMap;
 
+    public HashMap<String, Rxns> getRxnsHashMap() {
+        return rxnsHashMap;
+    }
+
     public void initiate() throws Exception{
         ExtractPaths ep = new ExtractPaths();
         ExtractChem ec = new ExtractChem();
@@ -48,20 +52,23 @@ public class PathEnum {
         chemToCascadeMap = ctc2.run(reactions, listofchems);
     }
 
-    public List<List<Rxns>> run(Cascade2 cascade){
+    public List<List<Rxns>> run(Cascade2 cascade, String precursor){
         Chems product = cascade.getProduct();
         List<Rxns> CurrPath = new ArrayList<>();
         List<List<Rxns>> enumPath = new ArrayList<>();
         Set<String> visited = new HashSet<>();
-        Set<String> visited_rxn = new HashSet<>();
         visited.add(product.getID());
-        depthSearch(product,enumPath,CurrPath,visited,visited_rxn, 0);
+        depthSearch(product,enumPath,CurrPath,visited,precursor, 0);
         return enumPath;
     }
 
-    private void depthSearch(Chems chem, List<List<Rxns>> allPaths,List<Rxns> CurrPath,Set<String> visitedChem, Set<String> visited_rxn, int layer){
+    private void depthSearch(Chems chem, List<List<Rxns>> allPaths,List<Rxns> CurrPath,Set<String> visitedChem, String precursor, int layer){
         Cascade2 cascade = chemToCascadeMap.get(chem);
-        if (layer > 5 || cascade == null){
+        if (layer > 8 || cascade == null){
+            return;
+        }
+        if (cascade.getRxnsThatFormPdt().size() > 10) {
+            allPaths.add(CurrPath);
             return;
         }
 
@@ -72,7 +79,6 @@ public class PathEnum {
 
         for (Rxns r : cascade.getRxnsThatFormPdt()) {
             List<Rxns> helperlist = new ArrayList<>(CurrPath);
-
             boolean visited = false;
             for (Chems substrate : r.getSubstrates()) {
                 if (visitedChem.contains(substrate.getID())) {
@@ -83,8 +89,12 @@ public class PathEnum {
                 continue;
             }
             helperlist.add(r);
-
-            if (allNatives(r.getSubstrates()) || isNativeRxn(r)) {
+            if (containsPrecursor(r, precursor)) {
+                List<Rxns> newPath = new ArrayList<>(helperlist);
+                allPaths.add(newPath);
+                continue;
+            }
+            if (allNatives(r.getSubstrates())) {
                 List<Rxns> newPath = new ArrayList<>(helperlist);
                 allPaths.add(newPath);
                 continue;
@@ -102,11 +112,10 @@ public class PathEnum {
                     }
                     else {
                         visitedChem.add(c.getID());
-                        depthSearch(c, allPaths, helperlist, visitedChem, visited_rxn, layer + 1);
+                        depthSearch(c, allPaths, helperlist, visitedChem, precursor, layer + 1);
                         visitedChem.remove(c.getID());
                         continue;
                     }
-
                 }
             }
         }
@@ -130,21 +139,35 @@ public class PathEnum {
         return ret;
     }
 
-    private Boolean isNativeRxn(Rxns r){
-        boolean ret = false;
-        if (!r.inPathway()){
-            return ret;
-        } else {
-            for (String str : r.getPathways()){
-                Paths p = PathMap.get(str);
-                if (p.containSpecies("Escherichia coli K-12 substr. MG1655")) {
-                    ret = true;
-                    break;
-                }
+    private boolean containsPrecursor(Rxns reaction, String precursor) {
+        if (precursor == null) {
+            return false;
+        }
+        Boolean containsPrecursor = false;
+        for (Chems substrate: reaction.getSubstrates()) {
+            if (substrate.getID().equals(precursor)) {
+                containsPrecursor = true;
+                break;
             }
         }
-        return ret;
+        return containsPrecursor;
     }
+
+//    private Boolean isNativeRxn(Rxns r){
+//        boolean ret = false;
+//        if (!r.inPathway()){
+//            return ret;
+//        } else {
+//            for (String str : r.getPathways()){
+//                Paths p = PathMap.get(str);
+//                if (p.containSpecies("Escherichia coli K-12 substr. MG1655")) {
+//                    ret = true;
+//                    break;
+//                }
+//            }
+//        }
+//        return ret;
+//    }
 
     public HashMap<Chems, Cascade2> getChemToCascadeMap() {
         return chemToCascadeMap;

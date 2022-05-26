@@ -2,10 +2,9 @@ import cobra
 from cobra import Model, Reaction, Metabolite
 from cobra.flux_analysis import single_reaction_deletion
 from cobra.util.solver import linear_reaction_coefficients
-from cobra.flux_analysis import flux_variability_analysis
+from cobra.flux_analysis import flux_variability_analysis, single_gene_deletion
 import copy
 import sys
-
 
 class CobraConverter:
     dict_metabolite2biocyc = {}
@@ -16,6 +15,8 @@ class CobraConverter:
     model = None
     model_copy = None
     last_reactions = []
+    growth_rate = 0
+    atpm = 0
 
     def __init__(self, model_file_path):
 
@@ -35,8 +36,11 @@ class CobraConverter:
                     self.dict_metabolite2biocyc[biocyc_id] = c
             if c.annotation.get('metanetx.chemical') is not None:
                 self.dict_metabolite2metanetx[c.annotation.get('metanetx.chemical')] = c
-            self.dict_metabolite2biocyc["META:NADH-P-OR-NOP"] = self.model.metabolites.get_by_id('nadh_c')
-            self.dict_metabolite2biocyc["META:NAD-P-OR-NOP"] = self.model.metabolites.get_by_id('nad_c')
+        self.dict_metabolite2biocyc["META:NADH-P-OR-NOP"] = self.model.metabolites.get_by_id('nadh_c')
+        self.dict_metabolite2biocyc["META:NAD-P-OR-NOP"] = self.model.metabolites.get_by_id('nad_c')
+        self.dict_metabolite2biocyc["META:Acceptor"] = self.model.metabolites.get_by_id('fad_c')
+        self.dict_metabolite2biocyc["META:Donor-H2"] = self.model.metabolites.get_by_id('fadh2_c')
+
         with open(
                 '/Users/carol_gyz/IdeaProjects/SBOLmetPathDesign/cobrapyconverter/GenomeScaleModels/biocyc2metanetx.txt') as f:
             lines = f.readlines()
@@ -47,19 +51,52 @@ class CobraConverter:
                     continue
                 else:
                     metanetx = line[1].replace('"', '')
-                    ""
                     self.dict_biocyc2metanetx[line[0]] = metanetx
+        with open(
+                '/Users/carol_gyz/IdeaProjects/SBOLmetPathDesign/cobrapyconverter/GenomeScaleModels/biocyc2bigg.txt') as f:
+            lines = f.readlines()
+            for line in lines:
+                line = line.replace("\n", "")
+                line = line.split("\t")
+                if line[1] == "null":
+                    continue
+                else:
+                    bigg_id = line[1].replace('"', '')
+                    bigg_id = bigg_id + "_c"
+                    try:
+                        self.dict_metabolite2biocyc[line[0]] = self.model.metabolites.get_by_id(bigg_id)
+                    except:
+                        continue
+
+        linear_reaction_coefficients(self.model)
+        solution = self.model.optimize()
+        self.growth_rate = solution.objective_value
 
     def add_rxn(self, list_of_rxns):
         list_of_rxns = list_of_rxns.split("\n")
         self.model_copy = self.model.copy()
+        self.model_copy.reactions.get_by_id("BIOMASS_Ec_iML1515_core_75p37M").lower_bound = 0.8 * self.growth_rate
+
         self.dict_metabolite2 = copy.deepcopy(self.dict_metabolite2biocyc)
         isLastRxn = False
+        for i in range(len(list_of_rxns)):
+            if list_of_rxns[i] == "":
+                list_of_rxns.pop(i)
+        possible = False
+
+        for i in range(1, len(list_of_rxns)):
+            if self.is_native(list_of_rxns[len(list_of_rxns) - i]):
+                possible = True
+                break
+
+        if not possible:
+            return False
 
         for i in range(len(list_of_rxns)):
             if i == 0:
                 isLastRxn = True
             r = list_of_rxns[i]
+
             if r == '' or r == ' ':
                 continue
             tabs = r.split("\t")
@@ -84,6 +121,8 @@ class CobraConverter:
             products = metabolites[1].split(' ')
             for c in reactants:
                 if c == '':
+                    continue
+                if c == 'Red-NADPH-Hemoprotein-Reductases' or c == 'Ox-NADPH-Hemoprotein-Reductases':
                     continue
                 if "META:" + c in self.dict_metabolite2:
                     c = self.dict_metabolite2.get("META:" + c)
@@ -114,6 +153,18 @@ class CobraConverter:
                         self.model_copy.add_boundary(self.model_copy.metabolites.get_by_id("META:" + c), type="demand")
 
             isLastRxn = False
+        return True
+
+    def is_native(self, reaction_str):
+        metabolites = reaction_str.split(" --> ")
+        metabolites = metabolites[0].split("\t")
+        reactants = metabolites[1].split(' ')
+        for c in reactants:
+            if c == '':
+                continue
+            if not self.dict_biocyc2metanetx.get(c) in self.dict_metabolite2metanetx and not "META:" + c in self.dict_metabolite2:
+                return False
+        return True
 
     def add_metabolite(self, biocyc_unique_id):
         metabolite = Metabolite(biocyc_unique_id)
@@ -122,22 +173,71 @@ class CobraConverter:
         return metabolite
 
     def run(self, list_of_pathways):
+        idx = 0
         for pathway in list_of_pathways:
-            self.add_rxn(pathway)
+            if not self.add_rxn(pathway):
+                idx = idx + 1
+                continue
+
+            # Theoretical yield calculation
             linear_reaction_coefficients(self.model)
             theoretical_yield = self.model_copy.optimize().objective_value
+            if theoretical_yield == 0.0:
+                idx = idx + 1
+                continue
 
-            nadh_summary = self.model_copy.metabolites.nadh_c.summary()
-            nadh_consumption = nadh_summary.consuming_flux["flux"].sum()
+            # deletion_results = single_reaction_deletion(self.model_copy)
+            #
+            # i = 0
+            # deletion_set = set()
+            # while i <= 3:
+            #     idx = deletion_results["growth"].idxmax()
+            #     max_gene = deletion_results.loc[idx, "ids"]
+            #     max_gene1 = "".join(max_gene)
+            #     max_gene1 = self.model_copy.reactions.get_by_id(max_gene1)
+            #     deletion_set.add(max_gene1)
+            #     deletion_results.drop(idx,axis=0,inplace=True)
+            #     i = i + 1
+            #
+            # self.model_copy.remove_reactions(deletion_set)
+            # eng_yield = self.model_copy.optimize().objective_value
+            #
+            # # cofactor calculation
+            # nadh_summary = self.model_copy.metabolites.nadh_c.summary()
+            # nadh_consumption = nadh_summary.consuming_flux["flux"].sum()
+            #
+            # # fmnh2_summary = self.model_copy.metabolites.fmnh2_c.summary()
+            # # fmnh2_consumption = fmnh2_summary.consuming_flux["flux"].sum()
+            #
+            # # fadh2_summary = self.model_copy.metabolites.fadh2_c.summary()
+            # # fadh2_consumption = fadh2_summary.consuming_flux["flux"].sum()
+            #
+            # nadph_summary = self.model_copy.metabolites.nadph_c.summary()
+            # nadph_consumption = nadph_summary.consuming_flux["flux"].sum()
+            #
+            # atp_summary = self.model_copy.metabolites.atp_c.summary()
+            # atp_consumption = atp_summary.consuming_flux["flux"].sum()
+            # #
+            # # FVA span calculation
+            # # self.model_copy.reactions.get_by_id("BIOMASS_Ec_iML1515_core_75p37M").lower_bound = 0.5 * self.growth_rate
+            # # FVA = flux_variability_analysis(self.model_copy)
+            # # dif = FVA["maximum"] - FVA["minimum"]
+            # # fva = dif.sum()
 
-            nadph_summary = self.model_copy.metabolites.nadph_c.summary()
-            nadph_consumption = nadph_summary.consuming_flux["flux"].sum()
+            atp_consumption = 0
+            nadh_consumption = 0
+            nadph_consumption = 0
+            eng_yield = 0
 
-            atp_summary = self.model_copy.metabolites.atp_c.summary()
-            atp_consumption = atp_summary.consuming_flux["flux"].sum()
+            print(str(theoretical_yield)
+                  + "\t" + str(atp_consumption)
+                  + "\t" + str(nadh_consumption)
+                  + "\t" + str(nadph_consumption)
+                  + "\t" + str(eng_yield)
+                  + "\t" + str(idx))
 
-            print(str(theoretical_yield) + "\t" + str(atp_consumption)+ "\t" + str(nadh_consumption) + "\t" + str(nadph_consumption))
             self.model_copy = None
+            idx = idx + 1
 
 
 def runner():
@@ -147,23 +247,16 @@ def runner():
     converter = CobraConverter(model_path)
     converter.run(list_of_paths)
 
-
+#
 runner()
 
 if __name__ == "__main__":
     runner(
-        "/Users/carol_gyz/IdeaProjects/SBOLmetPathDesign/cobrapyconverter/GenomeScaleModels/iJO1366.xml",
-        "ENZRXN-201-RXN\tNADPH PROTON BUTANAL  --> NADP BUTANOL\n"
-        "RXN-14985\tCPD-3618 PROTON  --> CARBON-DIOXIDE BUTANAL\n"
-        "RXN-14986\tNAD CPD-1130  --> NADH CPD-3618 CARBON-DIOXIDE\n"
-        "3-ETHYLMALATE-SYNTHASE-RXN\tWATER GLYOX BUTYRYL-COA  --> CO-A CPD-1130 PROTON\n"
-        "RXN-11726\tNADPH CROTONYL-COA PROTON  --> NADP BUTYRYL-COA\n"
-        "3-HYDROXBUTYRYL-COA-DEHYDRATASE-RXN\tCPD-650  --> WATER CROTONYL-COA\n"
-        "RXN-5901\tACETOACETYL-COA NADPH PROTON  --> NADP CPD-650\n" + "//" +
-        "ENZRXN-201-RXN\tNADPH PROTON BUTANAL  --> NADP BUTANOL\n" 
-        "RXN-14985\tCPD-3618 PROTON  --> CARBON-DIOXIDE BUTANAL\n"
-        "RXN-14986\tNAD CPD-1130  --> NADH CPD-3618 CARBON-DIOXIDE\n"
-        "3-ETHYLMALATE-SYNTHASE-RXN\tWATER GLYOX BUTYRYL-COA  --> CO-A CPD-1130 PROTON\n"
-        "2.8.3.9-RXN\tACETOACETYL-COA BUTYRIC_ACID  --> 3-KETOBUTYRATE BUTYRYL-COA\n"
-        "RXN-11662\tNAD S-3-HYDROXYBUTANOYL-COA  --> NADH ACETOACETYL-COA PROTON\n"
+        "/Users/carol_gyz/IdeaProjects/SBOLmetPathDesign/cobrapyconverter/GenomeScaleModels/iML1515.xml",
+        "RXN-13432\tRed-NADPH-Hemoprotein-Reductases CPD-7554 OXYGEN-MOLECULE  --> CPD-13248 PROTON Ox-NADPH-Hemoprotein-Reductases WATER\n"
+        "RXN-8046\tFARNESYL-PP  --> PPI CPD-7554\n"
+        "//RXN-12314\tRed-NADPH-Hemoprotein-Reductases CPD-7557 OXYGEN-MOLECULE  --> Ox-NADPH-Hemoprotein-Reductases CPD-13248 PROTON WATER\n"
+        "RXN-8051\tRed-NADPH-Hemoprotein-Reductases CPD-7556 OXYGEN-MOLECULE  --> Ox-NADPH-Hemoprotein-Reductases CPD-7557 WATER\n"
+        "RXN-8050\tRed-NADPH-Hemoprotein-Reductases CPD-7554 OXYGEN-MOLECULE  --> CPD-7556 Ox-NADPH-Hemoprotein-Reductases WATER\n"
+        "RXN-8046\tFARNESYL-PP  --> PPI CPD-7554\n"
     )

@@ -3,6 +3,8 @@ package org.Retrosynthesis;
 import org.Retrosynthesis.models.Chems;
 import org.Utils.FileUtils;
 
+import java.io.BufferedWriter;
+import java.io.File;
 import java.io.FileWriter;
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -61,7 +63,7 @@ public class ExtractChem {
 
                 if (str.startsWith("TYPES")) {
                     tabs = str.split(" - ");
-                    if (tabs[1].contains("Inorganic-Compounds") || tabs[1].contains("Electorin-Carriers") || tabs[1].contains("Amino-Acids") || tabs[1].contains("Amino-Acid") || tabs[1].contains("Glutathione") || tabs[1].contains("Polyphosphates") || tabs[1].contains("Metal-Cations") || tabs[1].contains("Inorganic-Anions")){
+                    if (tabs[1].contains("Inorganic-Compounds") || tabs[1].contains("Electorin-Carriers") || tabs[1].contains("Amino-Acids") || tabs[1].contains("Amino-Acid") || tabs[1].contains("Glutathione") || tabs[1].contains("Polyphosphates") || tabs[1].contains("Metal-Cations") || tabs[1].contains("Inorganic-Anions")||tabs[1].contains("Pyrimidines")){
                         isAA = true;
                         continue;
                     }
@@ -72,6 +74,7 @@ public class ExtractChem {
                     commonName = tabs[1];
                     continue;
                 }
+
                 if (str.startsWith("SMILES")) {
                     tabs = str.split(" - ");
                     Smiles = tabs[1];
@@ -91,6 +94,7 @@ public class ExtractChem {
             isAA = false;
             Smiles = null;
         }
+
         return allChemicals;
     }
     public HashMap<String, Chems> getChemsHashMap() {
