@@ -1,10 +1,7 @@
 package org.Retrosynthesis;
 
 
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.InputStreamReader;
+import java.io.*;
 import java.util.*;
 import java.util.stream.Collectors;
 import org.Retrosynthesis.ArrayIndexComparator;
@@ -18,11 +15,17 @@ public class PathRanker  {
     }
 
     public Set<RankedPathsObj> runCobraPy(String chasismodelPath, String listOfPaths) throws Exception {
-        ProcessBuilder processBuilder = new ProcessBuilder("python3", "/Users/carol_gyz/IdeaProjects/SBOLmetPathDesign/cobrapyconverter/GenomeScaleModels/CobraConverter.py",  chasismodelPath, listOfPaths);
+        String file = "file.txt";
+        Pathway2Files(listOfPaths, file);
+        String pathwayFile = "/Users/carol_gyz/IdeaProjects/SBOLmetPathDesign/file.txt";
+
+        ProcessBuilder processBuilder = new ProcessBuilder("python3", "/Users/carol_gyz/IdeaProjects/SBOLmetPathDesign/cobrapyconverter/GenomeScaleModels/CobraConverter.py",  chasismodelPath, pathwayFile);
+        processBuilder.redirectErrorStream(true);
         String[] paths = listOfPaths.split("//");
         Process process = processBuilder.start();
         Set<RankedPathsObj> ret = new HashSet<>();
         List<String> results = readProcessOutput(process.getInputStream());
+
         for (int i = 3; i < results.size(); i ++) {
             String[] tabs = results.get(i).split("\t");
             RankedPathsObj rankedPathsObj = new RankedPathsObj(Double.parseDouble(tabs[0]), Double.parseDouble(tabs[1]), Double.parseDouble(tabs[2]), Double.parseDouble(tabs[3]), Double.parseDouble(tabs[4]), paths[Integer.parseInt(tabs[5])]);
@@ -38,14 +41,9 @@ public class PathRanker  {
         }
     }
 
-    public Double ThermodynamicCalculator(List<Rxns> pathway) {
-        Double bottle_neck = -1000.0;
-
-            for (Rxns rxn : pathway) {
-                if (rxn.getGibbs() > bottle_neck) {
-                    bottle_neck = rxn.getGibbs();
-                }
-            }
-        return bottle_neck;
+    public static void Pathway2Files(String Pathways, String fileName) throws IOException {
+        FileWriter writer1 = new FileWriter(fileName);
+        writer1.write(Pathways);
+        writer1.close();
     }
 }

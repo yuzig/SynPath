@@ -67,12 +67,12 @@ public class PathEnum {
         if (layer > 8 || cascade == null){
             return;
         }
-        if (cascade.getRxnsThatFormPdt().size() > 10) {
+        if (cascade.getRxnsThatFormPdt().size() > 10 && containsPrecursor(CurrPath.get(CurrPath.size() - 1), precursor)) {
             allPaths.add(CurrPath);
             return;
         }
 
-        if (cascade.getRxnsThatFormPdt().size() == 0){
+        if (cascade.getRxnsThatFormPdt().size() == 0 && containsPrecursor(CurrPath.get(CurrPath.size() - 1), precursor)){
             allPaths.add(CurrPath);
             return;
         }
@@ -141,7 +141,7 @@ public class PathEnum {
 
     private boolean containsPrecursor(Rxns reaction, String precursor) {
         if (precursor == null) {
-            return false;
+            return true;
         }
         Boolean containsPrecursor = false;
         for (Chems substrate: reaction.getSubstrates()) {

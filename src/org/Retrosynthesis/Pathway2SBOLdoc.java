@@ -66,7 +66,7 @@ public class Pathway2SBOLdoc {
         List<Chems> metabolites = new ArrayList<>();
         ModuleDefinition moduleDef = document.createModuleDefinition("generic_pathway" + String.valueOf(i));
         moduleDef.createAnnotation(new QName("http://sbols.org/dummy_uri/annotation/metrics#", "Theoretical_Yield", "cobrapy"), pathway.getTheoretical_yield());
-        moduleDef.createAnnotation(new QName("http://sbols.org/dummy_uri/annotation/metrics#", "Eng_yield", "cobrapy"), 1);
+        moduleDef.createAnnotation(new QName("http://sbols.org/dummy_uri/annotation/metrics#", "Eng_yield", "cobrapy"), pathway.getFva_dif());
         moduleDef.createAnnotation(new QName("http://sbols.org/dummy_uri/annotation/metrics#", "nadph_consumption", "cofactor"), 1);
         moduleDef.createAnnotation(new QName("http://sbols.org/dummy_uri/annotation/metrics#", "nadh_consumption", "cofactor"), 1);
         ComponentDefinition Curr;
