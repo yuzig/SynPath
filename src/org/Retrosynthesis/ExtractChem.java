@@ -3,9 +3,7 @@ package org.Retrosynthesis;
 import org.Retrosynthesis.models.Chems;
 import org.Utils.FileUtils;
 
-import java.io.BufferedWriter;
-import java.io.File;
-import java.io.FileWriter;
+import java.io.*;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -15,7 +13,7 @@ import java.util.Set;
  * This extracts chemical compounds from metacyc compound database
  * @author Y. C. Gao
  */
-public class ExtractChem {
+public class  ExtractChem  {
     private HashMap<String, Chems> chemsHashMap;
     private List<String> AAlists;
 
@@ -24,10 +22,18 @@ public class ExtractChem {
         AAlists = new ArrayList<>();
     }
 
-    public List<Chems> run(String chempath) throws Exception {
+    public List<Chems> run(InputStream chempath) throws Exception {
         //Read in all the chemicals
+        BufferedReader reader = new BufferedReader(new InputStreamReader(chempath));
+        StringBuilder sb = new StringBuilder();
+        String line;
+        while ((line = reader.readLine()) != null) {
+            sb.append(line);
+            sb.append("\n");
+        }
+        String chemdata = sb.toString();
         List<Chems> allChemicals = new ArrayList<>();
-        String chemdata = FileUtils.readFile(chempath);
+//        String chemdata = FileUtils.readFile(chempath);
         String[] lines = chemdata.trim().split("//");
         chemdata = null;
         String commonName = null;
@@ -63,7 +69,7 @@ public class ExtractChem {
 
                 if (str.startsWith("TYPES")) {
                     tabs = str.split(" - ");
-                    if (tabs[1].contains("Inorganic-Compounds") || tabs[1].contains("Electorin-Carriers") || tabs[1].contains("Amino-Acids") || tabs[1].contains("Amino-Acid") || tabs[1].contains("Glutathione") || tabs[1].contains("Polyphosphates") || tabs[1].contains("Metal-Cations") || tabs[1].contains("Inorganic-Anions")||tabs[1].contains("Pyrimidines")){
+                    if (tabs[1].contains("Inorganic-Compounds") || tabs[1].contains("Electorin-Carriers") || tabs[1].contains("Amino-Acids") || tabs[1].contains("Amino-Acid") || tabs[1].contains("Glutathione") || tabs[1].contains("Polyphosphates") || tabs[1].contains("Metal-Cations") || tabs[1].contains("Inorganic-Anions")||tabs[1].contains("Pyrimidines") || tabs[1].contains("Purine-ribonucleosides-5-PPP")){
                         isAA = true;
                         continue;
                     }

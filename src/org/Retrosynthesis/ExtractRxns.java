@@ -4,6 +4,9 @@ import org.Retrosynthesis.models.Chems;
 import org.Retrosynthesis.models.Rxns;
 import org.Utils.FileUtils;
 
+import java.io.BufferedReader;
+import java.io.InputStream;
+import java.io.InputStreamReader;
 import java.util.*;
 /**
  * This extracts reaction data from metacyc reaction database
@@ -15,9 +18,17 @@ public class ExtractRxns {
     public void initiate(){
         rxnsHashmap = new HashMap<>();
     }
-    public List<Rxns> run(String filepath, HashMap<String, Chems> allchems) throws Exception {
+    public List<Rxns> run(InputStream filepath, HashMap<String, Chems> allchems) throws Exception {
         List<Rxns> allRxn = new ArrayList<>();
-        String rxndata = FileUtils.readFile(filepath);
+        BufferedReader reader = new BufferedReader(new InputStreamReader(filepath));
+        StringBuilder sb = new StringBuilder();
+        String line;
+        while ((line = reader.readLine()) != null) {
+            sb.append(line);
+            sb.append("\n");
+        }
+        String rxndata = sb.toString();
+//        String rxndata = FileUtils.readFile(filepath);
         String[] lines = rxndata.trim().split("//");
         rxndata = null;
         String uniqueID = null;
@@ -60,6 +71,7 @@ public class ExtractRxns {
                     }
                     if (allchems.get(tabs[1]) == null){
                         substrate = new Chems(tabs[1],null, null,null);
+//                        continue;
                     }
                     else {
                         substrate = allchems.get(tabs[1]);
@@ -83,6 +95,7 @@ public class ExtractRxns {
                     }
                     if (allchems.get(tabs[1]) == null){
                         product = new Chems(tabs[1],null, null,null);
+//                        continue;
                     }
                     else {
                         product = allchems.get(tabs[1]);
@@ -97,16 +110,16 @@ public class ExtractRxns {
 //                    }
 //                }
             }
-            Rxns rxn = null;
+//            Rxns rxn = null;
             if (direction != null ){
                 if (direction.equals("PHYSIOL-RIGHT-TO-LEFT") || direction.equals( "RIGHT-TO-LEFT")){
-                    rxn = new Rxns(ECnum, products, substrates, uniqueID,gibbs);
+                    Rxns rxn = new Rxns(ECnum, products, substrates, uniqueID,gibbs);
                     allRxn.add(rxn);
                     rxnsHashmap.put(uniqueID, rxn);
                 }
 
                 if (direction.equals("REVERSIBLE")) {
-                    rxn = new Rxns(ECnum, products, substrates, uniqueID,gibbs);
+                    Rxns rxn = new Rxns(ECnum, products, substrates, uniqueID,gibbs);
                     allRxn.add(rxn);
                     rxnsHashmap.put(uniqueID, rxn);
                     rxn = new Rxns(ECnum, substrates, products, uniqueID,gibbs);
@@ -114,12 +127,12 @@ public class ExtractRxns {
                     rxnsHashmap.put(uniqueID, rxn);
                 }
                 if (direction.equals("PHYSIOL-LEFT-TO-RIGHT") || direction.equals("LEFT-TO-RIGHT")){
-                    rxn = new Rxns(ECnum, substrates, products, uniqueID, gibbs);
+                    Rxns rxn = new Rxns(ECnum, substrates, products, uniqueID, gibbs);
                     allRxn.add(rxn);
                     rxnsHashmap.put(uniqueID, rxn);
                 }
             }  else {
-                rxn = new Rxns(ECnum, substrates, products, uniqueID, gibbs);
+                Rxns rxn = new Rxns(ECnum, substrates, products, uniqueID, gibbs);
                 allRxn.add(rxn);
                 rxnsHashmap.put(uniqueID, rxn);
             }

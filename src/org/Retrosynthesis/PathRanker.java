@@ -15,18 +15,24 @@ public class PathRanker  {
     }
 
     public Set<RankedPathsObj> runCobraPy(String chasismodelPath, String listOfPaths) throws Exception {
-        String file = "file.txt";
-        Pathway2Files(listOfPaths, file);
-        String pathwayFile = "/Users/carol_gyz/IdeaProjects/SBOLmetPathDesign/file.txt";
+//        String file = "file.txt";
+//        Pathway2Files(listOfPaths, file);
+//        String pathwayFile = "/Users/carol_gyz/IdeaProjects/SBOLmetPathDesign/file.txt";
 
-        ProcessBuilder processBuilder = new ProcessBuilder("python3", "/Users/carol_gyz/IdeaProjects/SBOLmetPathDesign/cobrapyconverter/GenomeScaleModels/CobraConverter.py",  chasismodelPath, pathwayFile);
+        ProcessBuilder processBuilder = new ProcessBuilder("python3", "/Users/carol_gyz/IdeaProjects/SBOLmetPathDesign/cobrapyconverter/GenomeScaleModels/CobraConverter.py",  chasismodelPath, listOfPaths);
         processBuilder.redirectErrorStream(true);
         String[] paths = listOfPaths.split("//");
         Process process = processBuilder.start();
+
+        int exitCode = process.waitFor();
+
         Set<RankedPathsObj> ret = new HashSet<>();
         List<String> results = readProcessOutput(process.getInputStream());
 
         for (int i = 3; i < results.size(); i ++) {
+            if (results.get(i).equals("None") ){
+                continue;
+            }
             String[] tabs = results.get(i).split("\t");
             RankedPathsObj rankedPathsObj = new RankedPathsObj(Double.parseDouble(tabs[0]), Double.parseDouble(tabs[1]), Double.parseDouble(tabs[2]), Double.parseDouble(tabs[3]), Double.parseDouble(tabs[4]), paths[Integer.parseInt(tabs[5])]);
             ret.add(rankedPathsObj);

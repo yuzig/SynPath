@@ -3,6 +3,7 @@ package org.Retrosynthesis;
 import org.C5;
 import org.Retrosynthesis.models.*;
 
+import java.io.InputStream;
 import java.util.*;
 /**
  * function for enumerating all pathways leading to the production of target metabolite
@@ -34,15 +35,14 @@ public class PathEnum {
         er.initiate();
         ecm.initiate();
         ctc2.initiate();
-
-        String chempath = new C5().getClass().getResource("Data" + "/" + "compounds.dat").getFile();
-        String rxnpath = new C5().getClass().getResource("Data" + "/" + "reactions.dat").getFile();
-        String CoreMetpath = new C5().getClass().getResource("Data" + "/" + "e_coli_core_metabolites.csv").getFile();
-        String PathPath = new C5().getClass().getResource("Data" + "/" + "pathways.dat").getFile();
+        InputStream chempath = new C5().getClass().getResourceAsStream("Data/compounds.dat");
+        InputStream rxnpath = new C5().getClass().getResourceAsStream("Data" + "/" + "reactions.dat");
+        InputStream CoreMetpath = new C5().getClass().getResourceAsStream( "Data" + "/" + "e_coli_core_metabolites.csv");
+        InputStream PathPath = new C5().getClass().getResourceAsStream( "Data" + "/" + "pathways.dat");
 
         List<Chems> listofchems = ec.run(chempath);
         List<String> aminoacids = ec.getAAlists();
-        ep.run(PathPath);
+
         rxnsHashMap = er.getRxnsHashmap();
         chems = ec.getChemsHashMap();
         reactions = er.run(rxnpath,chems);
@@ -64,13 +64,13 @@ public class PathEnum {
 
     private void depthSearch(Chems chem, List<List<Rxns>> allPaths,List<Rxns> CurrPath,Set<String> visitedChem, String precursor, int layer){
         Cascade2 cascade = chemToCascadeMap.get(chem);
-        if (layer > 8 || cascade == null){
+        if (layer > 3 || cascade == null){
             return;
         }
-        if (cascade.getRxnsThatFormPdt().size() > 10 && containsPrecursor(CurrPath.get(CurrPath.size() - 1), precursor)) {
-            allPaths.add(CurrPath);
-            return;
-        }
+//        if (cascade.getRxnsThatFormPdt().size() > 20 && containsPrecursor(CurrPath.get(CurrPath.size() - 1), precursor)) {
+//            allPaths.add(CurrPath);
+//            return;
+//        }
 
         if (cascade.getRxnsThatFormPdt().size() == 0 && containsPrecursor(CurrPath.get(CurrPath.size() - 1), precursor)){
             allPaths.add(CurrPath);
@@ -89,12 +89,12 @@ public class PathEnum {
                 continue;
             }
             helperlist.add(r);
-            if (containsPrecursor(r, precursor)) {
+            if (containsPrecursor(r, precursor) && precursor != null) {
                 List<Rxns> newPath = new ArrayList<>(helperlist);
                 allPaths.add(newPath);
                 continue;
             }
-            if (allNatives(r.getSubstrates())) {
+            if (allNatives(r.getSubstrates()) && containsPrecursor(r, precursor)) {
                 List<Rxns> newPath = new ArrayList<>(helperlist);
                 allPaths.add(newPath);
                 continue;
