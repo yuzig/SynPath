@@ -4,6 +4,8 @@ from IPython.core.display import display
 from CobraConverter import CobraConverter
 import pandas as pd
 
+from SBOLDocumenter import SBOLDocumenter
+
 
 def pathEnumeratorReader():
     out = subprocess.Popen(["java", "-jar",
@@ -24,9 +26,13 @@ def ranker(df, order):
     if order == 0:
         return df
     if order == 1:
-        return df.sort_values(by=['Theoretical_yield'], ascending=False)
+        return df.sort_values(by=['theoretical_yield'], ascending=False)
     if order == 2:
         return df.sort_values(by=['fva_dif'])
+    if order == 3:
+        return df.sort_values(by=['yield_anaerobic'])
+    if order == 4:
+        return df.sort_values(by=['fva_dif_anaerobic'])
 
 
 if __name__ == "__main__":
@@ -41,8 +47,8 @@ if __name__ == "__main__":
     list_of_paths = list_of_paths.split("//")
     print("Enter path to chassis models: ")
     model_path = input()
-
     converter = CobraConverter(model_path)
+
     print('for carbon fixation? ')
     carbon_fixation = input()
 
@@ -57,10 +63,27 @@ if __name__ == "__main__":
 
     df_output = converter.run(list_of_paths)
     df = pd.DataFrame(df_output,
-                      columns=['index', 'Theoretical_yield', 'yield_anaerobic',  'ATPS4r',  'THD2', 'NADH16',
-                               'fva_dif', 'fva_dif_anaerobic',
-                               'eng_yield'])
-    rankingparameter = input("Enter ranking parameter: ")
+                      columns=['idx', 'theoretical_yield', 'eng_atp', 'eng_nad', 'eng_nadp', 'fva_dif',
+                               'yield_anaerobic', 'anaerobic_atp_use', 'anaerobic_nadh_use', 'anaerobic_nadph_use',
+                               'fva_dif_anaerobic', 'model'])
+    print("Enter ranking parameter: " + "\n"
+          "0: idx" + "\n"
+          "1: descending order of theoretical yield" + "\n"
+          "2: ascending order of FVA_aerobic" + "\n"
+          "3: descending order of anaerobic theoretical yield" + "\n"
+          "4: descending order of anaerobic FVA span" + "\n")
+    rankingparameter = input()
     rankingparameter = int(rankingparameter)
     ranked = ranker(df, rankingparameter)
     display(ranked)
+
+    print('Convert results to SBOL files?')
+    convert_to_SBOLf = input()
+    if convert_to_SBOLf == "yes":
+        rxn_dat_path = '/Users/carol_gyz/IdeaProjects/SBOLmetPathDesign/cobrapyconverter/GenomeScaleModels/reactions.txt'
+        chem_dat_path = '/Users/carol_gyz/IdeaProjects/SBOLmetPathDesign/cobrapyconverter/GenomeScaleModels/chems.txt'
+        file_writer = SBOLDocumenter(rxn_dat_path, chem_dat_path)
+        for params in ranked:
+            idx = params[0]
+            path = list_of_paths[idx]
+            file_writer.add_new_path(path, params)

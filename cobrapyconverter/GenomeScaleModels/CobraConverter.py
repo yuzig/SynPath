@@ -6,6 +6,7 @@ from cobra import Model, Reaction, Metabolite
 from cobra.util.solver import linear_reaction_coefficients
 from cobra.flux_analysis import flux_variability_analysis, single_reaction_deletion, moma
 import copy
+import math
 import numpy as np
 from numpy import loadtxt
 
@@ -17,10 +18,13 @@ class CobraConverter:
     dict_rxn = {}
     dict_metabolite2 = {}
     dict_rxn_coefficients = {}
-    model = model_copy = None
+    model = None
+    model_copy = None
     growth_rate = 0
-    ATPS4r = THD2 = NADH16 = biomass_rxn = None
-    cofactor_recyc_val = []
+    native_atp = 0
+    native_nadp = 0
+    native_nad = 0
+    biomass_rxn = None
 
     def __init__(self, model_file_path):
 
@@ -33,12 +37,6 @@ class CobraConverter:
                     self.dict_rxn[biocyc_id] = r
             if "BIOMASS" in r.id and not "WT" in r.id:
                 self.biomass_rxn = r.id
-            if 'ATPS4r' in r.id:
-                self.ATPS4r = r.id
-            if 'THD2' in r.id:
-                self.THD2 = r.id
-            if 'NADH16' in r.id:
-                self.NADH16 = r.id
 
         for c in self.model.metabolites:
             if c.annotation.get('biocyc') is not None and type(c.annotation.get('biocyc')) == str:
@@ -75,7 +73,8 @@ class CobraConverter:
                     except:
                         continue
 
-        with open('/Users/carol_gyz/IdeaProjects/SBOLmetPathDesign/cobrapyconverter/GenomeScaleModels/reactions.txt') as f:
+        with open(
+                '/Users/carol_gyz/IdeaProjects/SBOLmetPathDesign/cobrapyconverter/GenomeScaleModels/reactions.txt') as f:
             lines = f.readlines()
             coefficient_dict = {}
             reaction = None
@@ -116,15 +115,14 @@ class CobraConverter:
                     chem_list = []
                     coefficient_list = []
 
-        self.check_cofactor_recycling()
         linear_reaction_coefficients(self.model)
         self.model.optimize()
         self.growth_rate = self.model.reactions.get_by_id(self.biomass_rxn).flux
-        self.model.reactions.get_by_id(self.biomass_rxn).upper_bound = self.growth_rate * 0.8
+        self.model.reactions.get_by_id(self.biomass_rxn).upper_bound = 0.8 * self.growth_rate
         self.model.optimize()
-        self.cofactor_recyc_val.append(self.model.reactions.get_by_id(self.ATPS4r).flux)
-        self.cofactor_recyc_val.append(self.model.reactions.get_by_id(self.THD2).flux)
-        self.cofactor_recyc_val.append(self.model.reactions.get_by_id(self.NADH16).flux)
+        self.native_atp = self.model.metabolites.atp_c.summary().consuming_flux['flux'].sum()
+        self.native_nad = self.model.metabolites.nad_c.summary().consuming_flux['flux'].sum()
+        self.native_nadp = self.model.metabolites.nadp_c.summary().consuming_flux['flux'].sum()
 
     def add_rxn(self, list_of_rxns):
         list_of_rxns = list_of_rxns.split("\n")
@@ -154,8 +152,8 @@ class CobraConverter:
                 continue
             tabs = r.split("\t")
             t = tabs[0].replace(" ", "")
+            tabs[0] = tabs[0].replace('_rev', '')
             reaction = Reaction(t)
-
             if "META:" + tabs[0] in self.dict_rxn or tabs[0] == '':
                 if isLastRxn:
                     self.model_copy.objective = self.dict_rxn.get("META:" + tabs[0]).id
@@ -187,7 +185,7 @@ class CobraConverter:
                     reaction.add_metabolites({c.id: -1 * coefficient})
                     continue
 
-                if "ETR-Quinones" in c or "ETR-Quinols" in c or "Acceptor" in c or "Donor-H2" in c or "NADH-P-OR-NOP" in\
+                if "ETR-Quinones" in c or "ETR-Quinols" in c or "Acceptor" in c or "Donor-H2" in c or "NADH-P-OR-NOP" in \
                         c or "NAD-P-OR-NOP" in c:
                     print("detected generic compound name. Provide a native " + c)
                     quinone = input()
@@ -258,17 +256,6 @@ class CobraConverter:
         self.model_copy.add_metabolites(metabolite)
         return metabolite
 
-    def check_cofactor_recycling(self):
-        if self.ATPS4r is None:
-            reaction = Reaction('ATPS4r')
-            self.model.add_reactions([reaction])
-            reaction.add_metabolites({'adp_c': -1.0, 'pi_c': -1.0, 'h_e': -4.0, 'atp_c': 1.0, 'h_c': 3.0, 'h2o_c': 1.0})
-        if self.THD2 is None:
-            reaction = Reaction('THD2')
-            self.model.add_reactions([reaction])
-            reaction.add_metabolites(
-                {'nadh_c': -1.0, 'nadp_c': -1.0, 'h_e': -2.0, 'nad_c': 1.0, 'h_c': 2.0, 'nadph_c': 1.0})
-
     def run(self, list_of_pathways):
         idx = 0
         data_frame_out = []
@@ -281,81 +268,61 @@ class CobraConverter:
                 return data_frame_out
 
             # Theoretical yield calculation
-            linear_reaction_coefficients(self.model)
+            linear_reaction_coefficients(self.model_copy)
             solution = self.model_copy.optimize()
-            pfba_solution = cobra.flux_analysis.pfba(self.model_copy)
             theoretical_yield = solution.objective_value
+
             if theoretical_yield == 0.0:
                 idx = idx + 1
                 continue
-
-            eng_ATPS4r = self.model_copy.reactions.get_by_id(self.ATPS4r).flux
-            eng_THD2 = self.model_copy.reactions.get_by_id(self.THD2).flux
-            eng_NADH16 = self.model_copy.reactions.get_by_id(self.NADH16).flux
-
-            # cofactor calculation
-            # nadh_summary = self.model_copy.metabolites.nadh_c.summary()
-            # nadh_consumption = nadh_summary.consuming_flux["flux"].sum()
-
-            # fmnh2_summary = self.model_copy.metabolites.fmnh2_c.summary()
-            # fmnh2_consumption = fmnh2_summary.consuming_flux["flux"].sum()
-
-            # fadh2_summary = self.model_copy.metabolites.fadh2_c.summary()
-            # fadh2_consumption = fadh2_summary.consuming_flux["flux"].sum()
-
-            # nadph_summary = self.model_copy.metabolites.nadph_c.summary()
-            # nadph_consumption = nadph_summary.consuming_flux["flux"].sum()
-            #
-            # atp_summary = self.model_copy.metabolites.atp_c.summary()
-            # atp_consumption = atp_summary.consuming_flux["flux"].sum()
+            try:
+                eng_atp = self.model_copy.metabolites.atp_c.summary().consuming_flux['flux'].sum()
+                eng_nad = self.model_copy.metabolites.nad_c.summary().consuming_flux['flux'].sum()
+                eng_nadp = self.model_copy.metabolites.nadp_c.summary().consuming_flux['flux'].sum()
+            except:
+                eng_atp = 'NaN'
+                eng_nad = "NaN"
+                eng_nadp = "NaN"
 
             # FVA span calculation
             FVA = flux_variability_analysis(self.model_copy)
             dif = FVA["maximum"] - FVA["minimum"]
             fva_dif = dif.sum()
-            # deletion_results = single_reaction_deletion(self.model_copy)
-            # i = 0
-            # deletion_set = set()
-            # while i <= 3:
-            #     index = deletion_results["growth"].idxmax()
-            #     max_gene = deletion_results.loc[index, "ids"]
-            #     max_gene1 = "".join(max_gene)
-            #     if "BIOMASS" in max_gene1 or "ATPM" in max_gene1:
-            #         deletion_results.drop(index, axis=0, inplace=True)
-            #         continue
-            #     max_gene1 = self.model_copy.reactions.get_by_id(max_gene1)
-            #     deletion_set.add(max_gene1)
-            #     deletion_results.drop(index, axis=0, inplace=True)
-            #     i = i + 1
-            # #
-            # self.model_copy.remove_reactions(deletion_set)
-            eng_yield = 0
 
             anaerobic_medium = self.model.medium
             anaerobic_medium['EX_o2_e'] = 0.0
             self.model_copy.medium = anaerobic_medium
+            self.model_copy.reactions.EX_o2_e.lower_bound = 0
             yield_anaerobic = self.model_copy.slim_optimize()
             fva_dif_anaerobic = 'NaN'
-            if type(yield_anaerobic) is not float:
+            anaerobic_atp_use = 'NaN'
+            anaerobic_nadh_use = 'NaN'
+            anaerobic_nadph_use = 'NaN'
+            if not math.isnan(yield_anaerobic):
                 FVA = flux_variability_analysis(self.model_copy)
                 dif = FVA["maximum"] - FVA["minimum"]
                 fva_dif_anaerobic = dif.sum()
-                self.model_copy.medium = self.model.medium
+                anaerobic_atp_use = self.model_copy.metabolites.atp_c.summary().consuming_flux['flux'].sum()
+                anaerobic_nadh_use = self.model_copy.metabolites.nadh_c.summary().consuming_flux['flux'].sum()
+                anaerobic_nadph_use = self.model_copy.metabolites.nadph_c.summary().consuming_flux['flux'].sum()
 
-            entry = [idx, theoretical_yield, yield_anaerobic, self.cofactor_recyc_val[0] - eng_ATPS4r,
-                     self.cofactor_recyc_val[1] - eng_THD2, self.cofactor_recyc_val[2] - eng_NADH16,
-                     fva_dif, fva_dif_anaerobic, eng_yield]
+            entry = [idx, theoretical_yield, eng_atp, eng_nad, eng_nadp, fva_dif,
+                     yield_anaerobic, anaerobic_atp_use, anaerobic_nadh_use, anaerobic_nadph_use, fva_dif_anaerobic,
+                     self.model.id]
             data_frame_out.append(entry)
             #
             print('Theoretical_yield: ' + str(theoretical_yield) + '\n' +
+                  'Aerobic_atp: ' + str(eng_atp) + '\n' +
+                  'Aerobic_nadh: ' + str(eng_nad) + '\n' +
+                  'Aerobic_nadph: ' + str(eng_nadp) + '\n' +
+                  'Aerobic_FVA_span: ' + str(fva_dif) + '\n' +
                   "yield_anaerobic: " + str(yield_anaerobic) + '\n' +
-                  "eng_ATPS4r" + str(eng_ATPS4r) + '\n' +
-                  'eng_THD2' + str(eng_THD2) + '\n' +
-                  'eng_NAHD16' + str(eng_NADH16) + '\n' +
-                  'eng_yield' + str(eng_yield) + '\n' +
-                  'FVA_dif' + str(fva_dif) + '\n' +
-                  'FVA_dif_anaerobic ' + str(fva_dif_anaerobic) + '\n' +
-                  'idx' + str(idx) + '\n' + pathway)
+                  'Anaerobic_atp: ' + str(anaerobic_atp_use) + '\n' +
+                  'Anaerobic_nadh: ' + str(anaerobic_nadh_use) + '\n' +
+                  'Anaerobic_nadph: ' + str(anaerobic_nadph_use) + '\n' +
+                  'Anaerobic_FVA_span: ' + str(fva_dif_anaerobic) + '\n' +
+                  'idx: ' + str(idx))
+            print(pathway)
 
             self.model_copy = None
             idx = idx + 1
@@ -371,22 +338,11 @@ def runner(model_path, list_of_paths):
     display(out)
 
 
-#
-
 if __name__ == "__main__":
     runner(
-        "/Users/carol_gyz/IdeaProjects/SBOLmetPathDesign/cobrapyconverter/GenomeScaleModels/iML1515.xml",
-        'RXN-161\tBUTANAL NADH PROTON  --> BUTANOL NAD\n'
-        'BUTANAL-DEHYDROGENASE-RXN\tNADH-P-OR-NOP BUTYRYL-COA PROTON  --> CO-A NAD-P-OR-NOP BUTANAL\n'
-        'RXN-12558\tCROTONYL-COA NADH PROTON  --> NAD BUTYRYL-COA \n'
-        'GLUTARYL-COA-DEHYDROGENASE-RXN\tGLUTARYL-COA ETF-Oxidized PROTON  --> CROTONYL-COA CARBON-DIOXIDE ETF-Reduced\n'
-        '2-KETO-ADIPATE-DEHYDROG-RXN\t2K-ADIPATE CO-A NAD  --> CARBON-DIOXIDE GLUTARYL-COA NADH\n'
-        '2-AMINOADIPATE-AMINOTRANSFERASE-RXN\tCPD-468 2-KETOGLUTARATE  --> 2K-ADIPATE GLT \n'
-        '//ENZRXN-201-RXN\tNADPH BUTANAL PROTON  --> NADP BUTANOL \n'
-        'RXN0-6973\tOXYGEN-MOLECULE CPD-3744 FMNH2  --> FMN SO3 WATER BUTANAL PROTON \n'
-        '//ENZRXN-201-RXN\tNADPH BUTANAL PROTON  --> NADP BUTANOL \n'
-        'BUTANAL-DEHYDROGENASE-RXN\tNADH-P-OR-NOP BUTYRYL-COA PROTON  --> CO-A NAD-P-OR-NOP BUTANAL \n'
-        'ISOBUTYRYL-COA-MUTASE-RXN\tISOBUTYRYL-COA  --> BUTYRYL-COA \n'
-        '1.2.1.25-RXN\tCO-A 2-KETO-ISOVALERATE NAD  --> ISOBUTYRYL-COA CARBON-DIOXIDE NADH \n'
-        'VALINE-PYRUVATE-AMINOTRANSFER-RXN\tVAL PYRUVATE  --> L-ALPHA-ALANINE 2-KETO-ISOVALERATE  \n'
+        "/Users/carol_gyz/IdeaProjects/SBOLmetPathDesign/cobrapyconverter/GenomeScaleModels/iJN678.xml",
+        'ISOCIT-CLEAV-RXN\tTHREO-DS-ISO-CITRATE  --> SUC GLYOX\n'
+        'R23-RXN\tPROTON OXALO-SUCCINATE NADH  --> NAD THREO-DS-ISO-CITRATE\n'
+        'RXN-8457\tATP CARBON-DIOXIDE WATER 2-KETOGLUTARATE  --> PROTON OXALO-SUCCINATE Pi ADP\n'
     )
+

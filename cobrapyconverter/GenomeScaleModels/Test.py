@@ -13,7 +13,7 @@ class Test(unittest.TestCase):
 
     def test(self):
         """
-        Test that it can sum a list of integers
+
         """
         print('Enter target id, precursor id (optional), and max path length separated by space: ')
         out = subprocess.Popen(["java", "-jar",
@@ -41,20 +41,20 @@ class Test(unittest.TestCase):
             converter.model.reactions.EX_photon_e.lower_bound = -100
             converter.model.reactions.EX_glc__D_e.lower_bound = 0
             converter.model.reactions.EX_co2_e.lower_bound = -3.7
-            # converter.model.reactions.EX_hco3_e.lower_bound = -3.7
+            converter.model.reactions.EX_hco3_e.lower_bound = -3.7
             converter.model.medium = medium
 
         df_output = converter.run(list_of_paths)
         df = pd.DataFrame(df_output,
-                          columns=['index', 'Theoretical_yield', 'yield_anaerobic', 'eng_ATPM', 'eng_ATPS4r',
-                                   'eng_NADH16', 'fva_dif', 'fva_dif_anaerobic', 'eng_yield'])
-        rankingparameter = input("Enter ranking parameter: " + "\n"
+                          columns=['idx', 'theoretical_yield', 'eng_atp', 'eng_nad', 'eng_nadp', 'fva_dif',
+                     'yield_anaerobic', 'anaerobic_atp_use', 'anaerobic_nadh_use', 'anaerobic_nadph_use', 'fva_dif_anaerobic', 'model'])
+        print("Enter ranking parameter: " + "\n"
                                  "0: idx" + "\n"
                                  "1: descending order of theoretical yield" + "\n"
-                                 "2: ascending order of FVA" + "\n"
-                                 "3: descending order of ATP use" + "\n"
-                                 "4: descending order of NADH use" + "\n"
-                                 "5: descending order of NADPH use")
+                                 "2: ascending order of FVA_aerobic" + "\n"
+                                 "3: descending order of anaerobic theoretical yield" + "\n"
+                                 "4: descending order of anaerobic FVA span" + "\n")
+        rankingparameter = input()
         rankingparameter = int(rankingparameter)
         ranked = ranker(df, rankingparameter)
         display(ranked)
