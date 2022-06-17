@@ -83,7 +83,7 @@ if __name__ == "__main__":
         rxn_dat_path = '/Users/carol_gyz/IdeaProjects/SBOLmetPathDesign/cobrapyconverter/GenomeScaleModels/reactions.txt'
         chem_dat_path = '/Users/carol_gyz/IdeaProjects/SBOLmetPathDesign/cobrapyconverter/GenomeScaleModels/chems.txt'
         file_writer = SBOLDocumenter(rxn_dat_path, chem_dat_path)
-        for params in ranked:
-            idx = params[0]
+        for row in ranked.rows:
+            idx = row[0]
             path = list_of_paths[idx]
-            file_writer.add_new_path(path, params)
+            file_writer.add_new_path(path, row)
