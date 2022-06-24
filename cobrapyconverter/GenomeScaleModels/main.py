@@ -62,10 +62,22 @@ if __name__ == "__main__":
         converter.model.medium = medium
 
     df_output = converter.run(list_of_paths)
+    if carbon_fixation == "carbon_fixation":
+        medium = converter.model.medium
+        medium['EX_photon_e'] = 100
+        # medium['EX_glc__D_e'] = 0
+        converter.model.reactions.EX_photon_e.lower_bound = -100
+        converter.model.reactions.EX_glc__D_e.lower_bound = 0
+        converter.model.reactions.EX_co2_e.lower_bound = -3.7
+        converter.model.reactions.EX_hco3_e.lower_bound = -3.7
+        converter.model.medium = medium
+
+    df_output = converter.run(list_of_paths)
     df = pd.DataFrame(df_output,
                       columns=['idx', 'theoretical_yield', 'eng_atp', 'eng_nad', 'eng_nadp', 'fva_dif',
                                'yield_anaerobic', 'anaerobic_atp_use', 'anaerobic_nadh_use', 'anaerobic_nadph_use',
                                'fva_dif_anaerobic', 'model'])
+
     print("Enter ranking parameter: " + "\n"
           "0: idx" + "\n"
           "1: descending order of theoretical yield" + "\n"

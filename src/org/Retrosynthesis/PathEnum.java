@@ -64,7 +64,7 @@ public class PathEnum {
 
     private void depthSearch(Chems chem, List<List<Rxns>> allPaths,List<Rxns> CurrPath,Set<String> visitedChem, String precursor, int layer){
         Cascade2 cascade = chemToCascadeMap.get(chem);
-        if (layer > 3 || cascade == null){
+        if (layer > 5 || cascade == null){
             return;
         }
 //        if (cascade.getRxnsThatFormPdt().size() > 20 && containsPrecursor(CurrPath.get(CurrPath.size() - 1), precursor)) {

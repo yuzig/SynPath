@@ -3,6 +3,9 @@ package org.Retrosynthesis;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
+import java.util.HashMap;
+import java.util.List;
+
 import static org.junit.jupiter.api.Assertions.*;
 
 class PathRankerTest {
@@ -26,7 +29,10 @@ class PathRankerTest {
                 + "GUANIDINOBUTANAMIDE-NH3-RXN\t4-GUANIDO-BUTYRAMIDE WATER --> CPD-592 AMMONIUM\n"
                 + "ARGININE-2-MONOOXYGENASE-RXN\tOXYGEN-MOLECULE ARG --> 4-GUANIDO-BUTYRAMIDE WATER CARBON-DIOXIDE\n";
 
-        pathranker.runCobraPy(modelpath, apath);
+//        HashMap<String, Double> output = pathranker.runCobraPy(modelpath, apath);
+//        for (String str : output) {
+//            System.out.println(str);
+//        }
         assertTrue(true);
 
     }

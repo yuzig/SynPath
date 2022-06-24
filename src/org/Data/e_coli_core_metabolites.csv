@@ -73,3 +73,6 @@
 71,g3p_c,Glyceraldehyde 3-phosphate,META:GAP
 72,g6p_c,D-Glucose 6-phosphate,META:D-glucopyranose-6-phosphate
 73,Nadp/NOP,Carrier,META:NADH-P-OR-NOP
+74,glyc_c, Glycerol, META:GLYCEROL
+75,glyc_e, Glycerol, META:GLYCEROL
+76,glyc_p, Glycerol, META:GLYCEROL

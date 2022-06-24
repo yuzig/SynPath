@@ -31,7 +31,7 @@ class PathEnumTest {
     @Test
     void run() {
         Chems c = chemMaps.get("CPD-13560");
-        Set<List<Rxns>> output = PE.run(cascadeMap.get(c));
+        List<List<Rxns>> output = PE.run(cascadeMap.get(c), null);
         for (List<Rxns> pathways : output) {
             StringBuilder sb = new StringBuilder();
             for(Rxns r: pathways) {

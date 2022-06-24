@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/SBOLmetPathDesign.iml" filepath="$PROJECT_DIR$/SBOLmetPathDesign.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cobrapyconverter/cobrapyconverter.iml" filepath="$PROJECT_DIR$/cobrapyconverter/cobrapyconverter.iml" />
     </modules>
   </component>
 </project>
