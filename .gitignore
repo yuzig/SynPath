@@ -8,6 +8,8 @@ venv/
 #Java
 .gradle/
 
+#Python
+__pycache
+
 #Spotlight
 .DS_Store
-
