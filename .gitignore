@@ -9,7 +9,7 @@ venv/
 .gradle/
 
 #Python
-__pycache
+__pycache__
 
 #Spotlight
 .DS_Store
