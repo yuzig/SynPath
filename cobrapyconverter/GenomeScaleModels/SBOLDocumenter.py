@@ -1,8 +1,7 @@
 import sbol3
 import os
 
-from Chemicals import Chemicals
-import pandas as pd
+from data_models.Chemicals import Chemicals
 
 
 class SBOLDocumenter:
@@ -75,7 +74,7 @@ class SBOLDocumenter:
                     ecnum = ''
                     continue
             self.dict_reaction = dict_reaction
-        # os.mkdir(result_directory)
+
         here = os.path.dirname(os.path.realpath(__file__))
         self.result_directory = os.path.join(here, result_directory)
         os.mkdir(os.path.join(here, self.result_directory))
@@ -97,16 +96,17 @@ class SBOLDocumenter:
             if line == '':
                 continue
             self.add_rxn(line, doc, namespace, i, intro)
-            i += i
+            i += 1
         fileName = 'pathway' + str(idx) + '.xml'
         filepath = os.path.join(self.result_directory,fileName)
         doc.write(filepath)
-
+        print('pathway ' + str(idx) + ' successfully converted to SBOL file to ' + self.result_directory)
 
     def add_rxn(self, rxn_str, SBOL_doc, namespace, i, intro):
         line = rxn_str.split('\t')
         reaction = line[0]
-        reaction_str = reaction.replace('-', '_')
+        reaction= reaction.replace('-', '_')
+        reaction_str = 'r_' + reaction
         reaction_component = sbol3.Component(reaction_str, sbol3.SBO_BIOCHEMICAL_REACTION)
         reaction_component.description = self.dict_reaction.get(reaction)
         intro.members += [reaction_component]
@@ -133,10 +133,11 @@ class SBOLDocumenter:
             else:
                 reactant_component = sbol3.Component('c_' + reactant_str, sbol3.SBO_SIMPLE_CHEMICAL)
                 compound = self.dict_chemicals.get(reactant)
-                reactant_component.sequences = [
-                    sbol3.Sequence('seq_'+reactant_str, elements=compound.inchi, encoding=sbol3.INCHI_ENCODING)]
+                seq = sbol3.Sequence('seq_'+reactant_str, elements=compound.inchi, encoding=sbol3.INCHI_ENCODING)
+                reactant_component.sequences = [seq]
+                SBOL_doc.add(seq)
                 SBOL_doc.add(reactant_component)
-            interaction.participations = [sbol3.Participation('reactant+' + reactant_str, sbol3.SBO_REACTANT)]
+            interaction.participations += [sbol3.Participation('reactant+' + reactant_str, sbol3.SBO_REACTANT)]
             reactant_sc = sbol3.SubComponent(reactant_component)
             reaction_component.features += [reactant_sc]
 
@@ -150,31 +151,14 @@ class SBOLDocumenter:
             else:
                 product_component = sbol3.Component('c_' + product_str, sbol3.SBO_SIMPLE_CHEMICAL)
                 compound = self.dict_chemicals.get(product)
-                product_component.sequences = [
-                    sbol3.Sequence('seq_' + product_str, elements=compound.inchi, encoding=sbol3.INCHI_ENCODING)]
+                seq = sbol3.Sequence('seq_' + product_str, elements=compound.inchi, encoding=sbol3.INCHI_ENCODING)
+                product_component.sequences = [seq]
+                SBOL_doc.add(product_component)
+                SBOL_doc.add(seq)
 
-            interaction.participations = [sbol3.Participation('product_' + product_str, sbol3.SBO_PRODUCT)]
+            interaction.participations += [sbol3.Participation('product_' + product_str, sbol3.SBO_PRODUCT)]
             product_sc = sbol3.SubComponent(product_component)
             reaction_component.features += [product_sc]
 
         reaction_component.interactions = [interaction]
-
-
-if __name__ == "__main__":
-    rxn_dat = '/Users/carol_gyz/IdeaProjects/SBOLmetPathDesign/cobrapyconverter/GenomeScaleModels/reactions.txt'
-    chem_dat = '/Users/carol_gyz/IdeaProjects/SBOLmetPathDesign/cobrapyconverter/GenomeScaleModels/chems.txt'
-    SBOLDocumenter = SBOLDocumenter(rxn_dat, chem_dat,'results')
-    df_output = [[2,1,2,2,2,5,1,2,2,2,5,'a'],[0,1,2,2,2,5,1,2,2,2,5,'c']]
-    df = pd.DataFrame(df_output,
-                      columns=['idx', 'theoretical_yield', 'eng_atp', 'eng_nad', 'eng_nadp', 'fva_dif',
-                               'yield_anaerobic', 'anaerobic_atp_use', 'anaerobic_nadh_use', 'anaerobic_nadph_use',
-                               'fva_dif_anaerobic', 'model'])
-    # SBOLDocumenter.add_new_path("RXN-161\tCPD-347 --> CPD-347\n", [1, 2, 3])
-    list_of_paths = ["RXN-161\tCPD-347 --> CPD-347\nRXN-8457\tATP CARBON-DIOXIDE WATER 2-KETOGLUTARATE  --> PROTON OXALO-SUCCINATE Pi ADP\n",
-                     'R23-RXN\tPROTON OXALO-SUCCINATE NADH  --> NAD THREO-DS-ISO-CITRATE\n',
-                     'ISOCIT-CLEAV-RXN\tTHREO-DS-ISO-CITRATE  --> SUC GLYOX\n']
-    for row in df.iterrows():
-        idx = row[1].T.idx
-        path = list_of_paths[idx]
-        SBOLDocumenter.add_new_path(path, row, idx)
 

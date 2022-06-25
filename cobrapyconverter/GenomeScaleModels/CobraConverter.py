@@ -1,14 +1,10 @@
-import sys
-
 import cobra
 from IPython.core.display import display
 from cobra import Model, Reaction, Metabolite
 from cobra.util.solver import linear_reaction_coefficients
-from cobra.flux_analysis import flux_variability_analysis, single_reaction_deletion, moma
+from cobra.flux_analysis import flux_variability_analysis
 import copy
 import math
-import numpy as np
-from numpy import loadtxt
 
 
 class CobraConverter:
@@ -47,7 +43,7 @@ class CobraConverter:
             if c.annotation.get('metanetx.chemical') is not None:
                 self.dict_metabolite2metanetx[c.annotation.get('metanetx.chemical')] = c
         with open(
-                '/Users/carol_gyz/IdeaProjects/SBOLmetPathDesign/cobrapyconverter/GenomeScaleModels/biocyc2metanetx.txt') as f:
+                '/GenomeScaleModels/data/biocyc2metanetx.txt') as f:
             lines = f.readlines()
             for line in lines:
                 line = line.replace("\n", "")
@@ -58,7 +54,7 @@ class CobraConverter:
                     metanetx = line[1].replace('"', '')
                     self.dict_biocyc2metanetx[line[0]] = metanetx
         with open(
-                '/Users/carol_gyz/IdeaProjects/SBOLmetPathDesign/cobrapyconverter/GenomeScaleModels/biocyc2bigg.txt') as f:
+                '/GenomeScaleModels/data/biocyc2bigg.txt') as f:
             lines = f.readlines()
             for line in lines:
                 line = line.replace("\n", "")
@@ -74,7 +70,7 @@ class CobraConverter:
                         continue
 
         with open(
-                '/Users/carol_gyz/IdeaProjects/SBOLmetPathDesign/cobrapyconverter/GenomeScaleModels/reactions.txt') as f:
+                '/GenomeScaleModels/data/reactions.txt') as f:
             lines = f.readlines()
             coefficient_dict = {}
             reaction = None
@@ -330,19 +326,9 @@ class CobraConverter:
 
 
 def runner(model_path, list_of_paths):
-    # model_path = sys.argv[1]
-    # list_of_paths = sys.argv[2]
     list_of_paths = list_of_paths.split("//")
     converter = CobraConverter(model_path)
     out = converter.run(list_of_paths)
     display(out)
 
-
-if __name__ == "__main__":
-    runner(
-        "/Users/carol_gyz/IdeaProjects/SBOLmetPathDesign/cobrapyconverter/GenomeScaleModels/iJN678.xml",
-        'ISOCIT-CLEAV-RXN\tTHREO-DS-ISO-CITRATE  --> SUC GLYOX\n'
-        'R23-RXN\tPROTON OXALO-SUCCINATE NADH  --> NAD THREO-DS-ISO-CITRATE\n'
-        'RXN-8457\tATP CARBON-DIOXIDE WATER 2-KETOGLUTARATE  --> PROTON OXALO-SUCCINATE Pi ADP\n'
-    )
 

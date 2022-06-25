@@ -7,13 +7,6 @@ import pandas as pd
 from SBOLDocumenter import SBOLDocumenter
 
 
-def pathEnumeratorReader():
-    out = subprocess.Popen(["java", "-jar",
-                            "/Users/carol_gyz/IdeaProjects/SBOLmetPathDesign/cobrapyconverter/GenomeScaleModels/PathEnumerator.jar"],
-                           stdout=subprocess.PIPE, stderr=subprocess.STDOUT)
-    subprocess.Popen.kill(out)
-    return iter(out.stdout.readline, b'')
-
 def ranker(df, order):
     """
      0: idx
@@ -36,7 +29,12 @@ def ranker(df, order):
 
 
 if __name__ == "__main__":
-    output_itr = pathEnumeratorReader()
+    print('Enter target id, precursor id (optional), and max path length separated by space: ')
+    out = subprocess.Popen(["java", "-jar",
+                            "/Users/carol_gyz/IdeaProjects/SBOLmetPathDesign/cobrapyconverter/GenomeScaleModels/PathEnumerator.jar"],
+                           stdout=subprocess.PIPE, stderr=subprocess.STDOUT)
+    output_itr = iter(out.stdout.readline, b'')
+
     out_lst = []
     for line in output_itr:
         line = line.decode('utf-8')
@@ -45,7 +43,7 @@ if __name__ == "__main__":
     list_of_paths = ''.join(out_lst)
 
     list_of_paths = list_of_paths.split("//")
-    print("Enter path to chassis models: ")
+    print("Enter path to chassis bigg_models: ")
     model_path = input()
     converter = CobraConverter(model_path)
 
@@ -65,7 +63,6 @@ if __name__ == "__main__":
     if carbon_fixation == "carbon_fixation":
         medium = converter.model.medium
         medium['EX_photon_e'] = 100
-        # medium['EX_glc__D_e'] = 0
         converter.model.reactions.EX_photon_e.lower_bound = -100
         converter.model.reactions.EX_glc__D_e.lower_bound = 0
         converter.model.reactions.EX_co2_e.lower_bound = -3.7
@@ -91,11 +88,15 @@ if __name__ == "__main__":
 
     print('Convert results to SBOL files?')
     convert_to_SBOLf = input()
+    print('Save results to (provide directory): ')
+    result_directory = input()
     if convert_to_SBOLf == "yes":
-        rxn_dat_path = '/Users/carol_gyz/IdeaProjects/SBOLmetPathDesign/cobrapyconverter/GenomeScaleModels/reactions.txt'
-        chem_dat_path = '/Users/carol_gyz/IdeaProjects/SBOLmetPathDesign/cobrapyconverter/GenomeScaleModels/chems.txt'
-        file_writer = SBOLDocumenter(rxn_dat_path, chem_dat_path)
-        for row in ranked.rows:
-            idx = row[0]
+        rxn_dat_path = '/GenomeScaleModels/data/reactions.txt'
+        chem_dat_path = '/GenomeScaleModels/data/chems.txt'
+        file_writer = SBOLDocumenter(rxn_dat_path, chem_dat_path, result_directory)
+
+        for row in df.iterrows():
+            idx = row[1].T.idx
             path = list_of_paths[idx]
-            file_writer.add_new_path(path, row)
+            file_writer.add_new_path(path, row, idx)
+        print('task completed')
