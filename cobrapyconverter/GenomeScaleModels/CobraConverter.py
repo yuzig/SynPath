@@ -1,4 +1,5 @@
 import cobra
+import os
 from IPython.core.display import display
 from cobra import Model, Reaction, Metabolite
 from cobra.util.solver import linear_reaction_coefficients
@@ -21,10 +22,12 @@ class CobraConverter:
     native_nadp = 0
     native_nad = 0
     biomass_rxn = None
+    config = None
 
-    def __init__(self, model_file_path):
+    def __init__(self, model_file_path, cfg):
 
         self.model = cobra.io.read_sbml_model(model_file_path)
+        self.config = cfg
         for r in self.model.reactions:
             if r.annotation.get('biocyc') is not None and type(r.annotation.get('biocyc')) == str:
                 self.dict_rxn[r.annotation.get('biocyc')] = r
@@ -42,8 +45,9 @@ class CobraConverter:
                     self.dict_metabolite2biocyc[biocyc_id] = c
             if c.annotation.get('metanetx.chemical') is not None:
                 self.dict_metabolite2metanetx[c.annotation.get('metanetx.chemical')] = c
-        with open(
-                '/GenomeScaleModels/data/biocyc2metanetx.txt') as f:
+        dirname = os.path.dirname(__file__)
+        biocyc2metanetx_path = os.path.join(dirname,'data','biocyc2metanetx.txt')
+        with open(biocyc2metanetx_path) as f:
             lines = f.readlines()
             for line in lines:
                 line = line.replace("\n", "")
@@ -53,8 +57,8 @@ class CobraConverter:
                 else:
                     metanetx = line[1].replace('"', '')
                     self.dict_biocyc2metanetx[line[0]] = metanetx
-        with open(
-                '/GenomeScaleModels/data/biocyc2bigg.txt') as f:
+        biocyc2bigg_path = os.path.join(dirname, 'data','biocyc2bigg.txt')
+        with open(biocyc2bigg_path) as f:
             lines = f.readlines()
             for line in lines:
                 line = line.replace("\n", "")
@@ -68,9 +72,8 @@ class CobraConverter:
                         self.dict_metabolite2biocyc[line[0]] = self.model.metabolites.get_by_id(bigg_id)
                     except:
                         continue
-
-        with open(
-                '/GenomeScaleModels/data/reactions.txt') as f:
+        reactions_path = os.path.join(dirname, 'data','reactions.txt')
+        with open(reactions_path) as f:
             lines = f.readlines()
             coefficient_dict = {}
             reaction = None
@@ -110,7 +113,6 @@ class CobraConverter:
                     reaction = None
                     chem_list = []
                     coefficient_list = []
-
         linear_reaction_coefficients(self.model)
         self.model.optimize()
         self.growth_rate = self.model.reactions.get_by_id(self.biomass_rxn).flux
@@ -119,6 +121,12 @@ class CobraConverter:
         self.native_atp = self.model.metabolites.atp_c.summary().consuming_flux['flux'].sum()
         self.native_nad = self.model.metabolites.nad_c.summary().consuming_flux['flux'].sum()
         self.native_nadp = self.model.metabolites.nadp_c.summary().consuming_flux['flux'].sum()
+        self.dict_metabolite2biocyc["META:NAD-P-OR-NOP"] = self.model.metabolites.get_by_id(cfg.get('nad_or_nadp'))
+        self.dict_metabolite2biocyc["META:NADH-P-OR-NOP"] = self.model.metabolites.get_by_id(cfg.get('nadh_or_nadph'))
+        self.dict_metabolite2biocyc["META:Acceptors"] = self.model.metabolites.get_by_id(cfg.get('Acceptor'))
+        self.dict_metabolite2biocyc["META:Donor-H2"] = self.model.metabolites.get_by_id(cfg.get('donor_h2'))
+        self.dict_metabolite2biocyc["META:ETR-Quinones"] = self.model.metabolites.get_by_id(cfg.get('ETR-Quinones'))
+        self.dict_metabolite2biocyc["META:ETR-Quinols"] = self.model.metabolites.get_by_id(cfg.get('ETR-Quinols'))
 
     def add_rxn(self, list_of_rxns):
         list_of_rxns = list_of_rxns.split("\n")
@@ -181,18 +189,18 @@ class CobraConverter:
                     reaction.add_metabolites({c.id: -1 * coefficient})
                     continue
 
-                if "ETR-Quinones" in c or "ETR-Quinols" in c or "Acceptor" in c or "Donor-H2" in c or "NADH-P-OR-NOP" in \
-                        c or "NAD-P-OR-NOP" in c:
-                    print("detected generic compound name. Provide a native " + c)
-                    quinone = input()
-                    try:
-                        self.model_copy.metabolites.get_by_id(quinone)
-                    except:
-                        print('metabolite not found in model')
-                    reaction.add_metabolites({quinone: -1 * coefficient})
-                    self.dict_metabolite2biocyc["META:" + c] = self.model.metabolites.get_by_id(quinone)
-                    self.dict_metabolite2["META:" + c] = self.model.metabolites.get_by_id(quinone)
-                    continue
+                # if "ETR-Quinones" in c or "ETR-Quinols" in c or "Acceptor" in c or "Donor-H2" in c or "NADH-P-OR-NOP" in \
+                #         c or "NAD-P-OR-NOP" in c:
+                #     print("detected generic compound name. Provide a native " + c)
+                #     quinone = input()
+                #     try:
+                #         self.model_copy.metabolites.get_by_id(quinone)
+                #     except:
+                #         print('metabolite not found in model')
+                #     reaction.add_metabolites({quinone: -1 * coefficient})
+                #     self.dict_metabolite2biocyc["META:" + c] = self.model.metabolites.get_by_id(quinone)
+                #     self.dict_metabolite2["META:" + c] = self.model.metabolites.get_by_id(quinone)
+                #     continue
 
                 else:
                     metabolite = self.add_metabolite("META:" + c)
@@ -213,17 +221,17 @@ class CobraConverter:
                     reaction.add_metabolites({c.id: coefficient})
                     continue
 
-                if "ETR-Quinones" in c or "ETR-Quinols" in c or "Acceptor" in c or "Donor-H2" in c or "NADH-P-OR-NOP" in c or "NAD-P-OR-NOP" in c:
-                    print("detected generic compound name. Provide a native " + c)
-                    quinone = input()
-                    try:
-                        self.model_copy.metabolites.get_by_id(quinone)
-                    except:
-                        print('metabolite not found in model')
-                    reaction.add_metabolites({quinone: coefficient})
-                    self.dict_metabolite2biocyc["META:" + c] = self.model.metabolites.get_by_id(quinone)
-                    self.dict_metabolite2["META:" + c] = self.model.metabolites.get_by_id(quinone)
-                    continue
+                # if "ETR-Quinones" in c or "ETR-Quinols" in c or "Acceptor" in c or "Donor-H2" in c or "NADH-P-OR-NOP" in c or "NAD-P-OR-NOP" in c:
+                #     print("detected generic compound name. Provide a native " + c)
+                #     quinone = input()
+                #     try:
+                #         self.model_copy.metabolites.get_by_id(quinone)
+                #     except:
+                #         print('metabolite not found in model')
+                #     reaction.add_metabolites({quinone: coefficient})
+                #     self.dict_metabolite2biocyc["META:" + c] = self.model.metabolites.get_by_id(quinone)
+                #     self.dict_metabolite2["META:" + c] = self.model.metabolites.get_by_id(quinone)
+                #     continue
 
                 else:
                     metabolite = self.add_metabolite("META:" + c)

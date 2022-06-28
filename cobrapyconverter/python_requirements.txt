@@ -1,4 +1,0 @@
-IPython
-pandas
-sbol3
-cobra

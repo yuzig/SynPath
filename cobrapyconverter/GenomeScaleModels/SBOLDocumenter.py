@@ -79,7 +79,6 @@ class SBOLDocumenter:
         self.result_directory = os.path.join(here, result_directory)
         os.mkdir(os.path.join(here, self.result_directory))
 
-
     def add_new_path(self, reactions_str, pathway_param, idx):
 
         lines = reactions_str.split('\n')
