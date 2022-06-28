@@ -1,3 +1,5 @@
+import shutil
+
 import sbol3
 import os
 
@@ -77,6 +79,8 @@ class SBOLDocumenter:
 
         here = os.path.dirname(os.path.realpath(__file__))
         self.result_directory = os.path.join(here, result_directory)
+        if os.path.exists(self.result_directory):
+            shutil.rmtree(self.result_directory)
         os.mkdir(os.path.join(here, self.result_directory))
 
     def add_new_path(self, reactions_str, pathway_param, idx):
@@ -97,6 +101,7 @@ class SBOLDocumenter:
             self.add_rxn(line, doc, namespace, i, intro)
             i += 1
         fileName = 'pathway' + str(idx) + '.xml'
+
         filepath = os.path.join(self.result_directory,fileName)
         doc.write(filepath)
         print('pathway ' + str(idx) + ' successfully converted to SBOL file to ' + self.result_directory)
