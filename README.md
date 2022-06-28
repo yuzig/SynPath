@@ -7,7 +7,7 @@ The Docker image will run on any OS that Docker supports (e.g. macOS, Linux, Win
 Docker is the preferred environment, as it creates reproduceable runs in a tested runtime environment. Docker also avoids the installation headaches and potential pitfalls of directly installing applications into your system. Install docker here: https://docs.docker.com/get-docker/
 
 ## Running MetPathDesign
-1. First clone the package from git hub: `git clone https://github.com/yuzig/SBOLmetPathDesign.git`
+1. First clone the package: `git clone https://github.com/yuzig/SBOLmetPathDesign.git`
 2. Navigate to the docker directory within the project by `cd SBOLmetPathDesign/docker`
 3. Build and create a virtual environment within docker by using `make build`, and this should take several minutes 
 4. Enter the docker container by using this command `make dev` 
