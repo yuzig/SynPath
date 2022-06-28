@@ -8,7 +8,7 @@ Docker is the preferred environment, as it creates reproduceable runs in a teste
 
 ## Running MetPathDesign
 1. First clone the package from git hub: `git clone https://github.com/yuzig/SBOLmetPathDesign.git`
-2. Navigate to the docker directory within the project by `cd SBOLmetPathDesign/docker'
+2. Navigate to the docker directory within the project by `cd SBOLmetPathDesign/docker`
 3. Build and create a virtual environment within docker by using `make build`, and this should take several minutes 
 4. Enter the docker container by using this command `make dev` 
 5. Navigate to the directory where you saved this package to, and enter the SBOLmetPathDesign/cobrapyconverter/GenomeScaleModels 
