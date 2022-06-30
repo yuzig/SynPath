@@ -7,12 +7,12 @@ The Docker image will run on any OS that Docker supports (e.g. macOS, Linux, Win
 Docker is the preferred environment, as it creates reproduceable runs in a tested runtime environment. Docker also avoids the installation headaches and potential pitfalls of directly installing applications into your system. Install docker here: https://docs.docker.com/get-docker/
 
 ## Running MetPathDesign
-1. First clone the package from git hub: `git clone https://github.com/yuzig/SBOLmetPathDesign.git`
-2. Navigate to the docker directory within the project by `cd SBOLmetPathDesign/docker'
+1. First clone the package: `git clone https://github.com/yuzig/SBOLmetPathDesign.git`
+2. Navigate to the docker directory within the project by `cd SBOLmetPathDesign/docker`
 3. Build and create a virtual environment within docker by using `make build`, and this should take several minutes
 4. Enter the docker container by using this command `make dev`
 5. Navigate to the directory where you saved this package to, and enter the SBOLmetPathDesign/cobrapyconverter/GenomeScaleModels
-6. run `python main.py` to start running an example using 1,3-PDO as target within the E.cli model iML1515. The results will be saved to SBOLmetPathDesign/cobrapyconverter.GenomeScaleModels/result
+6. run `python main.py' to start running an example using 1,3-PDO as target within the E.cli model iML1515. The results will be printed on the terminal and the SBOL-format files saved to SBOLmetPathDesign/cobrapyconverter/GenomeScaleModels/result
 
 ## Instructions for use
 To run the software with other inputs, open SBOLmetPathDesign/cobrapyconverter/GenomeScaleModels/args.yml and change the inputs manually and then run `python main.py`.
