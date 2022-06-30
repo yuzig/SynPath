@@ -1,2 +1,5 @@
-sbol3
-cobra
+sbol3==1.0.1
+cobra==0.25.0
+ipython==7.25.0
+ipython-genutils==0.2.0
+PyYAML==5.4.1

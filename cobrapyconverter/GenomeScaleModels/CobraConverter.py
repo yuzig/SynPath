@@ -8,6 +8,7 @@ import copy
 import math
 
 
+
 class CobraConverter:
     dict_metabolite2biocyc = {}
     dict_metabolite2metanetx = {}
@@ -39,10 +40,16 @@ class CobraConverter:
 
         for c in self.model.metabolites:
             if c.annotation.get('biocyc') is not None and type(c.annotation.get('biocyc')) == str:
-                self.dict_metabolite2biocyc[c.annotation.get('biocyc')] = c
+                if c.annotation.get('biocyc') in self.dict_metabolite2biocyc:
+                    self.dict_metabolite2biocyc[c.annotation.get('biocyc')] += [c]
+                    continue
+                self.dict_metabolite2biocyc[c.annotation.get('biocyc')] = [c]
             if c.annotation.get('biocyc') is not None and type(c.annotation.get('biocyc')) == list:
                 for biocyc_id in c.annotation.get('biocyc'):
-                    self.dict_metabolite2biocyc[biocyc_id] = c
+                    if c.annotation.get(biocyc_id) in self.dict_metabolite2biocyc:
+                        self.dict_metabolite2biocyc[c.annotation.get(biocyc_id)] += [c]
+                        continue
+                    self.dict_metabolite2biocyc[c.annotation.get(biocyc_id)] = [c]
             if c.annotation.get('metanetx.chemical') is not None:
                 self.dict_metabolite2metanetx[c.annotation.get('metanetx.chemical')] = c
         dirname = os.path.dirname(__file__)
@@ -69,7 +76,7 @@ class CobraConverter:
                     bigg_id = line[1].replace('"', '')
                     bigg_id = bigg_id + "_c"
                     try:
-                        self.dict_metabolite2biocyc[line[0]] = self.model.metabolites.get_by_id(bigg_id)
+                        self.dict_metabolite2biocyc['META:' + line[0]] = [self.model.metabolites.get_by_id(bigg_id)]
                     except:
                         continue
         reactions_path = os.path.join(dirname, 'data','reactions.txt')
@@ -121,12 +128,12 @@ class CobraConverter:
         self.native_atp = self.model.metabolites.atp_c.summary().consuming_flux['flux'].sum()
         self.native_nad = self.model.metabolites.nad_c.summary().consuming_flux['flux'].sum()
         self.native_nadp = self.model.metabolites.nadp_c.summary().consuming_flux['flux'].sum()
-        self.dict_metabolite2biocyc["META:NAD-P-OR-NOP"] = self.model.metabolites.get_by_id(cfg.get('nad_or_nadp'))
-        self.dict_metabolite2biocyc["META:NADH-P-OR-NOP"] = self.model.metabolites.get_by_id(cfg.get('nadh_or_nadph'))
-        self.dict_metabolite2biocyc["META:Acceptors"] = self.model.metabolites.get_by_id(cfg.get('Acceptor'))
-        self.dict_metabolite2biocyc["META:Donor-H2"] = self.model.metabolites.get_by_id(cfg.get('donor_h2'))
-        self.dict_metabolite2biocyc["META:ETR-Quinones"] = self.model.metabolites.get_by_id(cfg.get('ETR-Quinones'))
-        self.dict_metabolite2biocyc["META:ETR-Quinols"] = self.model.metabolites.get_by_id(cfg.get('ETR-Quinols'))
+        self.dict_metabolite2biocyc["META:NAD-P-OR-NOP"] = [self.model.metabolites.get_by_id(cfg.get('nad_or_nadp'))]
+        self.dict_metabolite2biocyc["META:NADH-P-OR-NOP"] = [self.model.metabolites.get_by_id(cfg.get('nadh_or_nadph'))]
+        self.dict_metabolite2biocyc["META:Acceptors"] = [self.model.metabolites.get_by_id(cfg.get('Acceptor'))]
+        self.dict_metabolite2biocyc["META:Donor-H2"] = [self.model.metabolites.get_by_id(cfg.get('donor_h2'))]
+        self.dict_metabolite2biocyc["META:ETR-Quinones"] = [self.model.metabolites.get_by_id(cfg.get('ETR-Quinones'))]
+        self.dict_metabolite2biocyc["META:ETR-Quinols"] = [self.model.metabolites.get_by_id(cfg.get('ETR-Quinols'))]
 
     def add_rxn(self, list_of_rxns):
         list_of_rxns = list_of_rxns.split("\n")
@@ -180,7 +187,13 @@ class CobraConverter:
                     continue
                 coefficient = coefficient_dict.get(c)
                 if "META:" + c in self.dict_metabolite2:
-                    c = self.dict_metabolite2.get("META:" + c)
+                    c_list = self.dict_metabolite2.get("META:" + c)
+                    for cs in c_list:
+                        if cs.compartment == 'c':
+                            c = cs
+                            continue
+                    if not c:
+                        c = c_list[0]
                     reaction.add_metabolites({c.id: -1 * coefficient})
                     continue
 
@@ -188,19 +201,6 @@ class CobraConverter:
                     c = self.dict_metabolite2metanetx.get(self.dict_biocyc2metanetx.get(c))
                     reaction.add_metabolites({c.id: -1 * coefficient})
                     continue
-
-                # if "ETR-Quinones" in c or "ETR-Quinols" in c or "Acceptor" in c or "Donor-H2" in c or "NADH-P-OR-NOP" in \
-                #         c or "NAD-P-OR-NOP" in c:
-                #     print("detected generic compound name. Provide a native " + c)
-                #     quinone = input()
-                #     try:
-                #         self.model_copy.metabolites.get_by_id(quinone)
-                #     except:
-                #         print('metabolite not found in model')
-                #     reaction.add_metabolites({quinone: -1 * coefficient})
-                #     self.dict_metabolite2biocyc["META:" + c] = self.model.metabolites.get_by_id(quinone)
-                #     self.dict_metabolite2["META:" + c] = self.model.metabolites.get_by_id(quinone)
-                #     continue
 
                 else:
                     metabolite = self.add_metabolite("META:" + c)
@@ -213,25 +213,20 @@ class CobraConverter:
                     continue
                 coefficient = coefficient_dict.get(c)
                 if "META:" + c in self.dict_metabolite2:
-                    c = self.dict_metabolite2.get("META:" + c)
+                    c_list = self.dict_metabolite2.get("META:" + c)
+                    for cs in c_list:
+                        if cs.compartment == 'c':
+                            c = cs
+                            continue
+                    if not c:
+                        c = c_list[0]
+
                     reaction.add_metabolites({c.id: coefficient})
                     continue
                 if self.dict_biocyc2metanetx.get(c) in self.dict_metabolite2metanetx:
                     c = self.dict_metabolite2metanetx.get(self.dict_biocyc2metanetx.get(c))
                     reaction.add_metabolites({c.id: coefficient})
                     continue
-
-                # if "ETR-Quinones" in c or "ETR-Quinols" in c or "Acceptor" in c or "Donor-H2" in c or "NADH-P-OR-NOP" in c or "NAD-P-OR-NOP" in c:
-                #     print("detected generic compound name. Provide a native " + c)
-                #     quinone = input()
-                #     try:
-                #         self.model_copy.metabolites.get_by_id(quinone)
-                #     except:
-                #         print('metabolite not found in model')
-                #     reaction.add_metabolites({quinone: coefficient})
-                #     self.dict_metabolite2biocyc["META:" + c] = self.model.metabolites.get_by_id(quinone)
-                #     self.dict_metabolite2["META:" + c] = self.model.metabolites.get_by_id(quinone)
-                #     continue
 
                 else:
                     metabolite = self.add_metabolite("META:" + c)
@@ -256,8 +251,8 @@ class CobraConverter:
 
     def add_metabolite(self, biocyc_unique_id):
         metabolite = Metabolite(biocyc_unique_id, compartment='c')
-        self.dict_metabolite2[biocyc_unique_id] = metabolite
-        self.model_copy.add_metabolites(metabolite)
+        self.dict_metabolite2[biocyc_unique_id] = [metabolite]
+        self.model_copy.add_metabolites({metabolite})
         return metabolite
 
     def run(self, list_of_pathways):

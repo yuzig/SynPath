@@ -15,6 +15,7 @@ class SBOLDocumenter:
     dict_chemicals = None
     result_directory = None
 
+
     def __init__(self, rxn_dat_file, chem_dat_file, result_directory):
         dict_chemicals = {}
         dict_reaction = {}
@@ -110,6 +111,7 @@ class SBOLDocumenter:
         line = rxn_str.split('\t')
         reaction = line[0]
         reaction= reaction.replace('-', '_')
+        reaction = reaction.replace('.', '_')
         reaction_str = 'r_' + reaction
         reaction_component = sbol3.Component(reaction_str, sbol3.SBO_BIOCHEMICAL_REACTION)
         reaction_component.description = self.dict_reaction.get(reaction)
@@ -139,10 +141,10 @@ class SBOLDocumenter:
                 compound = self.dict_chemicals.get(reactant)
                 seq = sbol3.Sequence('seq_'+reactant_str, elements=compound.inchi, encoding=sbol3.INCHI_ENCODING)
                 reactant_component.sequences = [seq]
-                SBOL_doc.add(seq)
-                SBOL_doc.add(reactant_component)
-            interaction.participations += [sbol3.Participation('reactant+' + reactant_str, sbol3.SBO_REACTANT)]
-            reactant_sc = sbol3.SubComponent(reactant_component)
+                if SBOL_doc.find(namespace + '/' + 'seq_' + reactant_str) is None:
+                    SBOL_doc.add(seq)
+
+            reactant_sc = sbol3.SubComponent(reactant_component, roles=sbol3.SBO_REACTANT)
             reaction_component.features += [reactant_sc]
 
         for product in products:
@@ -157,11 +159,10 @@ class SBOLDocumenter:
                 compound = self.dict_chemicals.get(product)
                 seq = sbol3.Sequence('seq_' + product_str, elements=compound.inchi, encoding=sbol3.INCHI_ENCODING)
                 product_component.sequences = [seq]
-                SBOL_doc.add(product_component)
-                SBOL_doc.add(seq)
+                if SBOL_doc.find(namespace + '/' + 'seq_' + product_str) is None:
+                    SBOL_doc.add(seq)
 
-            interaction.participations += [sbol3.Participation('product_' + product_str, sbol3.SBO_PRODUCT)]
-            product_sc = sbol3.SubComponent(product_component)
+            product_sc = sbol3.SubComponent(product_component, roles=sbol3.SBO_PRODUCT)
             reaction_component.features += [product_sc]
 
         reaction_component.interactions = [interaction]

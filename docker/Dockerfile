@@ -2,7 +2,6 @@
 FROM amancevice/pandas:1.4.3-alpine
 COPY . ./
 
-
 ### 2. Get Java via the package manager
 RUN apk update \
 && apk upgrade \
@@ -27,5 +26,8 @@ if [ ! -e /usr/bin/pip ]; then ln -s pip3 /usr/bin/pip ; fi && \
 if [[ ! -e /usr/bin/python ]]; then ln -sf /usr/bin/python3 /usr/bin/python; fi && \
 rm -r /root/.cache
 
+CMD ["python", "./cobrapyconverter/GenomeScaleModels/main.py"]
+
 RUN java -version
 RUN python --version
+
