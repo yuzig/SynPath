@@ -112,6 +112,7 @@ class SBOLDocumenter:
         reaction = line[0]
         reaction= reaction.replace('-', '_')
         reaction = reaction.replace('.', '_')
+        reaction = reaction.replace('+','')
         reaction_str = 'r_' + reaction
         reaction_component = sbol3.Component(reaction_str, sbol3.SBO_BIOCHEMICAL_REACTION)
         reaction_component.description = self.dict_reaction.get(reaction)
@@ -139,10 +140,14 @@ class SBOLDocumenter:
             else:
                 reactant_component = sbol3.Component('c_' + reactant_str, sbol3.SBO_SIMPLE_CHEMICAL)
                 compound = self.dict_chemicals.get(reactant)
-                seq = sbol3.Sequence('seq_'+reactant_str, elements=compound.inchi, encoding=sbol3.INCHI_ENCODING)
-                reactant_component.sequences = [seq]
+                if compound:
+                    seq = sbol3.Sequence('seq_'+reactant_str, elements=compound.inchi, encoding=sbol3.INCHI_ENCODING)
+                    reactant_component.sequences = [seq]
                 if SBOL_doc.find(namespace + '/' + 'seq_' + reactant_str) is None:
-                    SBOL_doc.add(seq)
+                    try:
+                        SBOL_doc.add(seq)
+                    except ValueError:
+                        pass
 
             reactant_sc = sbol3.SubComponent(reactant_component, roles=sbol3.SBO_REACTANT)
             reaction_component.features += [reactant_sc]
@@ -157,10 +162,14 @@ class SBOLDocumenter:
             else:
                 product_component = sbol3.Component('c_' + product_str, sbol3.SBO_SIMPLE_CHEMICAL)
                 compound = self.dict_chemicals.get(product)
-                seq = sbol3.Sequence('seq_' + product_str, elements=compound.inchi, encoding=sbol3.INCHI_ENCODING)
-                product_component.sequences = [seq]
+                if compound:
+                    seq = sbol3.Sequence('seq_' + product_str, elements=compound.inchi, encoding=sbol3.INCHI_ENCODING)
+                    product_component.sequences = [seq]
                 if SBOL_doc.find(namespace + '/' + 'seq_' + product_str) is None:
-                    SBOL_doc.add(seq)
+                    try:
+                        SBOL_doc.add(seq)
+                    except ValueError:
+                        pass
 
             product_sc = sbol3.SubComponent(product_component, roles=sbol3.SBO_PRODUCT)
             reaction_component.features += [product_sc]

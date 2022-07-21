@@ -8,7 +8,7 @@ import copy
 import math
 
 
-class CobraConverter:
+class cobraConverterFromFile:
     dict_metabolite2biocyc = {}
     dict_metabolite2metanetx = {}
     dict_biocyc2metanetx = {}
@@ -25,9 +25,9 @@ class CobraConverter:
     config = None
     pathways = []
 
-    def __init__(self, model_file_path, cfg):
+    def __init__(self, file, cfg):
 
-        self.model = cobra.io.read_sbml_model(model_file_path)
+        self.model = cobra.io.read_sbml_model(file)
         self.config = cfg
         for r in self.model.reactions:
             if r.annotation.get('biocyc') is not None and type(r.annotation.get('biocyc')) == str:
@@ -123,22 +123,22 @@ class CobraConverter:
         linear_reaction_coefficients(self.model)
         self.model.optimize()
         self.growth_rate = self.model.reactions.get_by_id(self.biomass_rxn).flux
-        self.model.reactions.get_by_id(self.biomass_rxn).upper_bound = 0.8 * self.growth_rate
+        self.model.reactions.get_by_id(self.biomass_rxn).lower_bound= 0.1
         self.model.optimize()
         self.native_atp = self.model.metabolites.atp_c.summary().consuming_flux['flux'].sum()
         self.native_nad = self.model.metabolites.nad_c.summary().consuming_flux['flux'].sum()
         self.native_nadp = self.model.metabolites.nadp_c.summary().consuming_flux['flux'].sum()
         self.dict_metabolite2biocyc["META:NAD-P-OR-NOP"] = [self.model.metabolites.get_by_id(cfg.get('nad_or_nadp'))]
         self.dict_metabolite2biocyc["META:NADH-P-OR-NOP"] = [self.model.metabolites.get_by_id(cfg.get('nadh_or_nadph'))]
-        self.dict_metabolite2biocyc["META:Acceptors"] = [self.model.metabolites.get_by_id(cfg.get('Acceptor'))]
+        self.dict_metabolite2biocyc["META:Acceptor"] = [self.model.metabolites.get_by_id(cfg.get('Acceptor'))]
         self.dict_metabolite2biocyc["META:Donor-H2"] = [self.model.metabolites.get_by_id(cfg.get('donor_h2'))]
-        self.dict_metabolite2biocyc["META:ETR-Quinones"] = [self.model.metabolites.get_by_id(cfg.get('ETR-Quinones'))]
-        self.dict_metabolite2biocyc["META:ETR-Quinols"] = [self.model.metabolites.get_by_id(cfg.get('ETR-Quinols'))]
+        # self.dict_metabolite2biocyc["META:ETR-Quinones"] = [self.model.metabolites.get_by_id(cfg.get('ETR-Quinones'))]
+        # self.dict_metabolite2biocyc["META:ETR-Quinols"] = [self.model.metabolites.get_by_id(cfg.get('ETR-Quinols'))]
 
     def add_rxn(self, list_of_rxns):
         list_of_rxns = list_of_rxns.split("\n")
         self.model_copy = self.model.copy()
-        self.model_copy.reactions.get_by_id(self.biomass_rxn).lower_bound = 0.8 * self.growth_rate
+        self.model_copy.reactions.get_by_id(self.biomass_rxn).lower_bound = 0.05 * self.growth_rate
         self.dict_metabolite2 = copy.deepcopy(self.dict_metabolite2biocyc)
         isLastRxn = False
         for i in range(len(list_of_rxns)):
@@ -278,20 +278,23 @@ class CobraConverter:
                 eng_atp = self.model_copy.metabolites.atp_c.summary().consuming_flux['flux'].sum()
                 eng_nad = self.model_copy.metabolites.nad_c.summary().consuming_flux['flux'].sum()
                 eng_nadp = self.model_copy.metabolites.nadp_c.summary().consuming_flux['flux'].sum()
+                eng_o2 = self.model_copy.metabolites.o2_c.summary().consuming_flux['flux'].sum()
             except:
                 eng_atp = 'NaN'
                 eng_nad = "NaN"
                 eng_nadp = "NaN"
+                eng_o2 = "NaN"
 
-            # FVA span calculation
+                # FVA span calculation
             FVA = flux_variability_analysis(self.model_copy)
             dif = FVA["maximum"] - FVA["minimum"]
             fva_dif = dif.sum()
+            print(fva_dif)
 
             anaerobic_medium = self.model.medium
             anaerobic_medium['EX_o2_e'] = 0.0
             self.model_copy.medium = anaerobic_medium
-            self.model_copy.reactions.EX_o2_e.lower_bound = 0
+            # self.model_copy.reactions.EX_o2_e.lower_bound = 0
             yield_anaerobic = self.model_copy.slim_optimize()
             fva_dif_anaerobic = 'NaN'
             anaerobic_atp_use = 'NaN'
@@ -305,29 +308,13 @@ class CobraConverter:
                 anaerobic_nadh_use = self.model_copy.metabolites.nadh_c.summary().consuming_flux['flux'].sum()
                 anaerobic_nadph_use = self.model_copy.metabolites.nadph_c.summary().consuming_flux['flux'].sum()
 
-            entry = [idx, theoretical_yield, eng_atp, eng_nad, eng_nadp, fva_dif,
+            entry = [idx, theoretical_yield, eng_atp, eng_nad, eng_nadp, fva_dif, eng_o2,
                      yield_anaerobic, anaerobic_atp_use, anaerobic_nadh_use, anaerobic_nadph_use, fva_dif_anaerobic,
                      self.model.id]
             data_frame_out.append(entry)
-            #
-            # str_pathway = []
-            # str_pathway.append('Theoretical_yield: ' + str(theoretical_yield) + "<br />\n")
-            # str_pathway.append('Aerobic_atp: ' + str(eng_atp) + "<br />\n")
-            # str_pathway.append('Aerobic_atp: ' + str(eng_atp) + "<br />\n")
-            # str_pathway.append('Aerobic_nadph: ' + str(eng_nadp)+ "<br />\n")
-            # str_pathway.append('Aerobic_FVA_span: ' + str(fva_dif) + "<br />\n")
-            # str_pathway.append('yield_anaerobic: ' + str(yield_anaerobic) + "<br />\n")
-            # str_pathway.append('Anaerobic_atp: ' + str(anaerobic_atp_use) + "<br />\n")
-            # str_pathway.append('Anaerobic_nadh: ' + str(anaerobic_nadh_use) + "<br />\n")
-            # str_pathway.append('Anaerobic_nadph: ' + str(anaerobic_nadph_use) + "<br />\n")
-            # str_pathway.append('Anaerobic_FVA_span: ' + str(fva_dif_anaerobic) + "<br />\n")
-            # str_pathway.append('idx: ' + str(idx))
+
             str_pathway = pathway.split('\n')
             str_pathway.insert(0, 'idx: ' + str(idx))
-            # pathway = pathway.replace("\n","<br />\n")
-            # str_pathway.append('Reactions: ' + pathway)
-            # print(str_pathway)
-            # print(pathway)
 
             self.pathways.append(str_pathway)
             self.model_copy = None
@@ -336,9 +323,3 @@ class CobraConverter:
 
     def get_pathways(self):
         return self.pathways
-
-def runner(model_path, list_of_paths):
-    list_of_paths = list_of_paths.split("//")
-    converter = CobraConverter(model_path)
-    out = converter.run(list_of_paths)
-    display(out)

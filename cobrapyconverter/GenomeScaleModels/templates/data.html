@@ -1,0 +1,35 @@
+
+{% for str in lst_paths %}
+    <tr>{% for line in str %}
+        <th>
+            <p> {{line}} <br>
+        </th> </p>
+        {% endfor %}
+    </tr>
+<br>
+{% endfor %}
+
+<table>
+    <thead>
+        <tr>
+            {% for col in column_names %}
+            <th>
+                {{col}}
+            </th>
+            {% endfor %}
+        </tr>
+    </thead>
+        <tbody>
+            {% for row in row_data %}
+            <tr>
+            {% for col, row_ in zip(column_names, row) %}
+            <td>{{row_}}</td>
+            {% endfor %}
+            </tr>
+            {% endfor %}
+        </tbody>
+</table>
+
+<p>
+	<a href="{{ url_for('.download_file') }}">Download results as sbol</a>
+</p>

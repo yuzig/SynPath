@@ -6,8 +6,8 @@ bigg_model: iML1515
 carbon_fixation: false
 nad_or_nadp: nadp_c
 nadh_or_nadph: nadph_c
-Acceptor: fad_c
-donor_h2: fadh2_c
+Acceptor: fmn_c
+donor_h2: fmnh2_c
 ETR-Quinones: q8_c
 ETR-Quinols: q8h2_c
 rank_param: 2

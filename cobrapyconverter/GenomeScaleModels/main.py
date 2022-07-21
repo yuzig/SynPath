@@ -1,13 +1,100 @@
 import os
+import shutil
 import sys
 import subprocess
+from flask import Flask, render_template, request, send_file, jsonify
 
 from IPython.core.display import display
+from werkzeug.utils import secure_filename
+
 from CobraConverter import CobraConverter
+from cobraConverterFromFile import cobraConverterFromFile
 import pandas as pd
 
 from Config import Config
 from SBOLDocumenter import SBOLDocumenter
+
+app = Flask(__name__)
+
+list_of_paths  = []
+filename = None
+@app.route('/')
+def form():
+    return render_template('form.html')
+
+@app.route('/intermediate_step', methods=['POST', 'GET'])
+def intermediate_step():
+    global filename
+    if request.method == 'POST':
+        target = request.form['target_id']
+        precursor = request.form['precursor_id']
+        max_len = request.form['max_path_length']
+        file = request.files['myfile']
+        if file:
+            filename = secure_filename(file.filename)
+            file.save(filename)
+
+        dirname = os.path.dirname(__file__)
+
+        lst_input = [target, precursor, max_len]
+        lst_input = [i for i in lst_input if i]
+
+        PathEnumerator_jar = os.path.join(dirname, 'PathEnumerator.jar')
+        out = subprocess.Popen(["java", "-jar", PathEnumerator_jar] + lst_input,
+                               stdout=subprocess.PIPE, stderr=subprocess.STDOUT)
+        output_itr = iter(out.stdout.readline, b'')
+
+        out_lst = []
+        for line in output_itr:
+            line = line.decode('utf-8')
+            out_lst.append(line)
+        out.stdout.close()
+        global list_of_paths
+        try:
+            i = out_lst.index("//\n")
+            del out_lst[i]
+        except:
+            pass
+        list_of_paths = ''.join(out_lst)
+        list_of_paths = list_of_paths.split("//")
+        total_n_output = len(list_of_paths)
+        return render_template('intermediate_step.html',msg=total_n_output)
+
+@app.route('/data', methods=['POST', 'GET'])
+def data():
+    if request.method == 'GET':
+        return f"The URL /data is accessed directly. Try going to '/form' to submit form"
+    if request.method == 'POST':
+        dirname = os.path.dirname(__file__)
+        cfg_path = os.path.join(dirname, 'args.yml')
+        cfg = Config(cfg_path)
+
+        converter = cobraConverterFromFile(filename, cfg)
+        df_output = converter.run(list_of_paths)
+        df = pd.DataFrame(df_output,
+                          columns=['idx', 'theoretical_yield', 'eng_atp', 'eng_nad', 'eng_nadp', 'fva_dif','o2_use',
+                                   'yield_anaerobic', 'anaerobic_atp_use', 'anaerobic_nadh_use', 'anaerobic_nadph_use',
+                                   'fva_dif_anaerobic', 'model'])
+        rankingparameter = cfg.get('rank_param')
+        ranked = ranker(df, rankingparameter)
+        lst_paths = converter.get_pathways()
+        os.remove(filename)
+        rxn_dat_path = os.path.join(dirname, 'data','reactions.txt')
+        chem_dat_path = os.path.join(dirname, 'data','chems.txt')
+        file_writer = SBOLDocumenter(rxn_dat_path, chem_dat_path, cfg.get('save_SBOL_files_to'))
+
+        for row in df.iterrows():
+            idx = row[1].T.idx
+            paths = list_of_paths[idx]
+            file_writer.add_new_path(paths, row, idx)
+
+        if os.path.exists('results.zip'):
+            os.remove('results.zip')
+
+        shutil.make_archive('results', 'zip', 'results')
+
+        return render_template('data.html', lst_paths=lst_paths, column_names=ranked.columns.values,
+                               row_data=list(ranked.values.tolist()), zip=zip)
 
 
 def ranker(df, order):
@@ -29,69 +116,11 @@ def ranker(df, order):
         return df.sort_values(by=['yield_anaerobic'])
     if order == 4:
         return df.sort_values(by=['fva_dif_anaerobic'])
-
+#
+@app.route('/download')
+def download_file():
+    path = "results.zip"
+    return send_file(path, as_attachment=True)
 
 if __name__ == "__main__":
-    dirname = os.path.dirname(__file__)
-    cfg_path = os.path.join(dirname, 'args.yml')
-    cfg = Config(cfg_path)
-    target = cfg.get('target')
-    precursor = cfg.get('precursor')
-    max_len = str(cfg.get('max_path_len'))
-    target = input('target ID: ')
-    max_len = input('max len: ')
-    precursor = input('precursor: ')
-    model_path = input('enter model name: ')
-    lst_input = [target, precursor, max_len]
-    lst_input = [i for i in lst_input if i]
-
-    dirname = os.path.dirname(__file__)
-    PathEnumerator_jar = os.path.join(dirname, 'PathEnumerator.jar')
-    out = subprocess.Popen(["java", "-jar", PathEnumerator_jar] + lst_input,
-                           stdout=subprocess.PIPE, stderr=subprocess.STDOUT)
-    output_itr = iter(out.stdout.readline, b'')
-
-    out_lst = []
-    for line in output_itr:
-        line = line.decode('utf-8')
-        out_lst.append(line)
-
-    out.stdout.close()
-    list_of_paths = ''.join(out_lst)
-    list_of_paths = list_of_paths.split("//")
-    # model_path = cfg.get('bigg_model') + '.xml'
-    file_path = os.path.join(dirname, 'bigg_models', model_path)
-    converter = CobraConverter(file_path, cfg)
-
-    carbon_fixation = cfg.get('carbon_fixation')
-
-    if carbon_fixation:
-        medium = converter.model.medium
-        medium['EX_photon_e'] = 100
-        converter.model.reactions.EX_photon_e.lower_bound = -100
-        converter.model.reactions.EX_glc__D_e.lower_bound = 0
-        converter.model.reactions.EX_co2_e.lower_bound = -3.7
-        converter.model.reactions.EX_hco3_e.lower_bound = -3.7
-        converter.model.medium = medium
-
-    df_output = converter.run(list_of_paths)
-    df = pd.DataFrame(df_output,
-                      columns=['idx', 'theoretical_yield', 'eng_atp', 'eng_nad', 'eng_nadp', 'fva_dif',
-                               'yield_anaerobic', 'anaerobic_atp_use', 'anaerobic_nadh_use', 'anaerobic_nadph_use',
-                               'fva_dif_anaerobic', 'model'])
-
-
-    rankingparameter = cfg.get('rank_param')
-    ranked = ranker(df, rankingparameter)
-    display(ranked)
-
-    if cfg.get('to_SBOL_file'):
-        rxn_dat_path = os.path.join(dirname, 'data','reactions.txt')
-        chem_dat_path = os.path.join(dirname, 'data','chems.txt')
-        file_writer = SBOLDocumenter(rxn_dat_path, chem_dat_path, cfg.get('save_SBOL_files_to'))
-
-        for row in df.iterrows():
-            idx = row[1].T.idx
-            path = list_of_paths[idx]
-            file_writer.add_new_path(path, row, idx)
-        print('task completed')
+    app.run(debug=True, host='0.0.0.0', port=5000)
