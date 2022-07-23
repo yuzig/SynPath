@@ -83,6 +83,7 @@ class SBOLDocumenter:
         if os.path.exists(self.result_directory):
             shutil.rmtree(self.result_directory)
         os.mkdir(os.path.join(here, self.result_directory))
+        print('result directory created')
 
     def add_new_path(self, reactions_str, pathway_param, idx):
 

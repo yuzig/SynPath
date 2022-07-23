@@ -123,7 +123,7 @@ class cobraConverterFromFile:
         linear_reaction_coefficients(self.model)
         self.model.optimize()
         self.growth_rate = self.model.reactions.get_by_id(self.biomass_rxn).flux
-        self.model.reactions.get_by_id(self.biomass_rxn).lower_bound= 0.1
+        self.model.reactions.get_by_id(self.biomass_rxn).lower_bound = 0.1
         self.model.optimize()
         self.native_atp = self.model.metabolites.atp_c.summary().consuming_flux['flux'].sum()
         self.native_nad = self.model.metabolites.nad_c.summary().consuming_flux['flux'].sum()
@@ -138,7 +138,6 @@ class cobraConverterFromFile:
     def add_rxn(self, list_of_rxns):
         list_of_rxns = list_of_rxns.split("\n")
         self.model_copy = self.model.copy()
-        self.model_copy.reactions.get_by_id(self.biomass_rxn).lower_bound = 0.05 * self.growth_rate
         self.dict_metabolite2 = copy.deepcopy(self.dict_metabolite2biocyc)
         isLastRxn = False
         for i in range(len(list_of_rxns)):
@@ -271,6 +270,7 @@ class cobraConverterFromFile:
             solution = self.model_copy.optimize()
             theoretical_yield = solution.objective_value
 
+
             if theoretical_yield == 0.0:
                 idx = idx + 1
                 continue
@@ -289,7 +289,6 @@ class cobraConverterFromFile:
             FVA = flux_variability_analysis(self.model_copy)
             dif = FVA["maximum"] - FVA["minimum"]
             fva_dif = dif.sum()
-            print(fva_dif)
 
             anaerobic_medium = self.model.medium
             anaerobic_medium['EX_o2_e'] = 0.0
@@ -319,6 +318,7 @@ class cobraConverterFromFile:
             self.pathways.append(str_pathway)
             self.model_copy = None
             idx = idx + 1
+            print("pathway " + str(idx) + " done")
         return data_frame_out
 
     def get_pathways(self):

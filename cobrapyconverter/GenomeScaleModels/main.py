@@ -81,7 +81,7 @@ def data():
         os.remove(filename)
         rxn_dat_path = os.path.join(dirname, 'data','reactions.txt')
         chem_dat_path = os.path.join(dirname, 'data','chems.txt')
-        file_writer = SBOLDocumenter(rxn_dat_path, chem_dat_path, cfg.get('save_SBOL_files_to'))
+        file_writer = SBOLDocumenter(rxn_dat_path, chem_dat_path, "results")
 
         for row in df.iterrows():
             idx = row[1].T.idx
@@ -91,7 +91,9 @@ def data():
         if os.path.exists('results.zip'):
             os.remove('results.zip')
 
-        shutil.make_archive('results', 'zip', 'results')
+        here = os.path.dirname(os.path.realpath(__file__))
+        result_directory = os.path.join(here, "results")
+        shutil.make_archive('results', 'zip', result_directory)
 
         return render_template('data.html', lst_paths=lst_paths, column_names=ranked.columns.values,
                                row_data=list(ranked.values.tolist()), zip=zip)
