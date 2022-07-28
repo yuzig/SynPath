@@ -318,7 +318,7 @@ class cobraConverterFromFile:
             self.pathways.append(str_pathway)
             self.model_copy = None
             idx = idx + 1
-            print("pathway " + str(idx) + " done")
+            print("pathway " + str(idx) + "/" + str(len(list_of_pathways)) + " done")
         return data_frame_out
 
     def get_pathways(self):

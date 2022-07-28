@@ -16,7 +16,7 @@ from SBOLDocumenter import SBOLDocumenter
 
 app = Flask(__name__)
 
-list_of_paths  = []
+list_of_paths = []
 filename = None
 @app.route('/')
 def form():
@@ -30,6 +30,7 @@ def intermediate_step():
         precursor = request.form['precursor_id']
         max_len = request.form['max_path_length']
         file = request.files['myfile']
+        ranking_param = request.form['ranking_param']
         if file:
             filename = secure_filename(file.filename)
             file.save(filename)
@@ -50,6 +51,7 @@ def intermediate_step():
             out_lst.append(line)
         out.stdout.close()
         global list_of_paths
+        list_of_paths = []
         try:
             i = out_lst.index("//\n")
             del out_lst[i]
@@ -122,6 +124,11 @@ def ranker(df, order):
 @app.route('/download')
 def download_file():
     path = "results.zip"
+    return send_file(path, as_attachment=True)
+
+@app.route('/download_chem_data')
+def download_chem_data():
+    path = "data/chems.txt"
     return send_file(path, as_attachment=True)
 
 if __name__ == "__main__":
