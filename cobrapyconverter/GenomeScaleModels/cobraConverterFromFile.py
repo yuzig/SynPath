@@ -26,7 +26,7 @@ class cobraConverterFromFile:
     pathways = []
 
     def __init__(self, file, cfg):
-
+        self.pathways = []
         self.model = cobra.io.read_sbml_model(file)
         self.config = cfg
         for r in self.model.reactions:

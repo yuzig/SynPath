@@ -2,7 +2,7 @@ import os
 import shutil
 import sys
 import subprocess
-from flask import Flask, render_template, request, send_file, jsonify
+from flask import Flask, render_template, request, send_file
 
 from IPython.core.display import display
 from werkzeug.utils import secure_filename
@@ -30,7 +30,7 @@ def intermediate_step():
         precursor = request.form['precursor_id']
         max_len = request.form['max_path_length']
         file = request.files['myfile']
-        ranking_param = request.form['ranking_param']
+
         if file:
             filename = secure_filename(file.filename)
             file.save(filename)
@@ -96,6 +96,8 @@ def data():
         here = os.path.dirname(os.path.realpath(__file__))
         result_directory = os.path.join(here, "results")
         shutil.make_archive('results', 'zip', result_directory)
+        # lst_paths_copy = lst_paths.copy()
+        # lst_paths = []
 
         return render_template('data.html', lst_paths=lst_paths, column_names=ranked.columns.values,
                                row_data=list(ranked.values.tolist()), zip=zip)

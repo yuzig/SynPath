@@ -8,8 +8,11 @@
     </tr>
 <br>
 {% endfor %}
+<script src="https://www.w3schools.com/lib/w3.js"></script>
+<link href="https://www.w3schools.com/w3css/4/w3.css" rel="stylesheet" />
+<p>Click the <strong>table headers</strong> to sort the table accordingly:</p>
 
-<table>
+<table id = "usersTable" class="w3-table-all">
     <thead>
         <tr>
             {% for col in column_names %}
@@ -21,7 +24,7 @@
     </thead>
         <tbody>
             {% for row in row_data %}
-            <tr>
+            <tr class="item">
             {% for col, row_ in zip(column_names, row) %}
             <td>{{row_}}</td>
             {% endfor %}
@@ -33,3 +36,20 @@
 <p>
 	<a href="{{ url_for('.download_file') }}">Download results as sbol</a>
 </p>
+
+<script>
+    let tid = "#usersTable";
+    let headers = document.querySelectorAll(tid + " th");
+
+headers.forEach(function(element, i) {
+  element.addEventListener("click", function() {
+    w3.sortHTML(tid, ".item", "td:nth-child(" + (i + 1) + ")");
+  });
+});
+</script>
+<style>
+    th {
+  cursor: pointer;
+  background-color: coral;
+}
+</style>
