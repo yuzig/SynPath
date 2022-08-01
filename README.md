@@ -12,7 +12,9 @@ There are several ways of running SynPath.
 2. First clone the package: `git clone https://github.com/yuzig/SBOLmetPathDesign.git`. Navigate to the docker directory within the project by `cd SBOLmetPathDesign/docker`. Build and create a virtual environment within docker by using `make build`, and this should take several minutes. Enter the docker container by using this command `make dev`. Navigate to the directory where you saved this package to, and enter the `SBOLmetPathDesign/cobrapyconverter/GenomeScaleModels`. run `python main.py` to start running. Open `http://127.0.0.1:5000` in a broswer to see the interface.
 
 ## Screenshot of the workflow
-Figure 1.  screenshot of home page
+Figure 1. Overview of the SynPath workflow
+![overview](/demo_screenshots/overview.jpg)
+Figure 2.  screenshot of home page
 ![demo1](/demo_screenshots/home_page.jpg)
-Figure 2. screenshot of result page, with Lycopene, CPD1F-114, as in put, FARNESYL-PP as precursor, maximum step set to 7, and with the E.coli model iML1515
+Figure 3. screenshot of result page, with Lycopene, CPD1F-114, as in put, FARNESYL-PP as precursor, maximum step set to 7, and with the E.coli model iML1515
 ![demo2](/demo_screenshots/result_page.jpg )
