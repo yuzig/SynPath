@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:sbol="http://sbols.org/v3#"
+>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles11/r_RXN_11002">
+    <sbol:displayId>r_RXN_11002</sbol:displayId>
+    <rdf:type rdf:resource="http://sbols.org/v3#Component"/>
+    <sbol:hasNamespace rdf:resource="http://sbolstandard.org/testfiles11"/>
+    <sbol:type rdf:resource="https://identifiers.org/SBO:0000176"/>
+    <sbol:hasFeature rdf:resource="http://sbolstandard.org/testfiles11/r_RXN_11002/SubComponent1"/>
+    <sbol:hasFeature rdf:resource="http://sbolstandard.org/testfiles11/r_RXN_11002/SubComponent2"/>
+    <sbol:hasFeature rdf:resource="http://sbolstandard.org/testfiles11/r_RXN_11002/SubComponent3"/>
+    <sbol:hasFeature rdf:resource="http://sbolstandard.org/testfiles11/r_RXN_11002/SubComponent4"/>
+    <sbol:hasFeature rdf:resource="http://sbolstandard.org/testfiles11/r_RXN_11002/SubComponent5"/>
+    <sbol:hasInteraction rdf:resource="http://sbolstandard.org/testfiles11/r_RXN_11002/Interaction1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles11/r_RXN_12594/SubComponent4">
+    <sbol:displayId>SubComponent4</sbol:displayId>
+    <rdf:type rdf:resource="http://sbols.org/v3#SubComponent"/>
+    <sbol:role rdf:resource="https://identifiers.org/SBO:0000011"/>
+    <sbol:instanceOf rdf:resource="http://sbolstandard.org/testfiles11/c_CO_A"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles11/seq_ATP">
+    <sbol:displayId>seq_ATP</sbol:displayId>
+    <rdf:type rdf:resource="http://sbols.org/v3#Sequence"/>
+    <sbol:hasNamespace rdf:resource="http://sbolstandard.org/testfiles11"/>
+    <sbol:elements>InChI=1S/C10H16N5O13P3/c11-8-5-9(13-2-12-8)15(3-14-5)10-7(17)6(16)4(26-10)1-25-30(21,22)28-31(23,24)27-29(18,19)20/h2-4,6-7,10,16-17H,1H2,(H,21,22)(H,23,24)(H2,11,12,13)(H2,18,19,20)/p-4/t4-,6-,7-,10-/m1/s1</sbol:elements>
+    <sbol:encoding rdf:resource="https://identifiers.org/edam:format_1197"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles11/r_RXN_11002/SubComponent3">
+    <sbol:displayId>SubComponent3</sbol:displayId>
+    <rdf:type rdf:resource="http://sbols.org/v3#SubComponent"/>
+    <sbol:role rdf:resource="https://identifiers.org/SBO:0000010"/>
+    <sbol:instanceOf rdf:resource="http://sbolstandard.org/testfiles11/c_SUCC_S_ALD"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles11/r_RXN_12595/SubComponent1">
+    <sbol:displayId>SubComponent1</sbol:displayId>
+    <rdf:type rdf:resource="http://sbols.org/v3#SubComponent"/>
+    <sbol:role rdf:resource="https://identifiers.org/SBO:0000010"/>
+    <sbol:instanceOf rdf:resource="http://sbolstandard.org/testfiles11/c_PROTON"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles11/r_RXN_11002/SubComponent5">
+    <sbol:displayId>SubComponent5</sbol:displayId>
+    <rdf:type rdf:resource="http://sbols.org/v3#SubComponent"/>
+    <sbol:role rdf:resource="https://identifiers.org/SBO:0000011"/>
+    <sbol:instanceOf rdf:resource="http://sbolstandard.org/testfiles11/c_NADP"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles11/r_RXN_7774/SubComponent1">
+    <sbol:displayId>SubComponent1</sbol:displayId>
+    <rdf:type rdf:resource="http://sbols.org/v3#SubComponent"/>
+    <sbol:role rdf:resource="https://identifiers.org/SBO:0000010"/>
+    <sbol:instanceOf rdf:resource="http://sbolstandard.org/testfiles11/c_PROTON"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles11/seq_SUCC_S_ALD">
+    <sbol:displayId>seq_SUCC_S_ALD</sbol:displayId>
+    <rdf:type rdf:resource="http://sbols.org/v3#Sequence"/>
+    <sbol:hasNamespace rdf:resource="http://sbolstandard.org/testfiles11"/>
+    <sbol:elements>InChI=1S/C4H6O3/c5-3-1-2-4(6)7/h3H,1-2H2,(H,6,7)/p-1</sbol:elements>
+    <sbol:encoding rdf:resource="https://identifiers.org/edam:format_1197"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles11/r_RXN_7774">
+    <sbol:displayId>r_RXN_7774</sbol:displayId>
+    <rdf:type rdf:resource="http://sbols.org/v3#Component"/>
+    <sbol:hasNamespace rdf:resource="http://sbolstandard.org/testfiles11"/>
+    <sbol:type rdf:resource="https://identifiers.org/SBO:0000176"/>
+    <sbol:hasFeature rdf:resource="http://sbolstandard.org/testfiles11/r_RXN_7774/SubComponent1"/>
+    <sbol:hasFeature rdf:resource="http://sbolstandard.org/testfiles11/r_RXN_7774/SubComponent2"/>
+    <sbol:hasFeature rdf:resource="http://sbolstandard.org/testfiles11/r_RXN_7774/SubComponent3"/>
+    <sbol:hasFeature rdf:resource="http://sbolstandard.org/testfiles11/r_RXN_7774/SubComponent4"/>
+    <sbol:hasInteraction rdf:resource="http://sbolstandard.org/testfiles11/r_RXN_7774/Interaction1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles11/r_RXN_18387/SubComponent6">
+    <sbol:displayId>SubComponent6</sbol:displayId>
+    <rdf:type rdf:resource="http://sbols.org/v3#SubComponent"/>
+    <sbol:role rdf:resource="https://identifiers.org/SBO:0000011"/>
+    <sbol:instanceOf rdf:resource="http://sbolstandard.org/testfiles11/c_ADP"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles11/r_RXN_18387/SubComponent2">
+    <sbol:displayId>SubComponent2</sbol:displayId>
+    <rdf:type rdf:resource="http://sbols.org/v3#SubComponent"/>
+    <sbol:role rdf:resource="https://identifiers.org/SBO:0000010"/>
+    <sbol:instanceOf rdf:resource="http://sbolstandard.org/testfiles11/c_4_HYDROXY_BUTYRATE"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles11/r_RXN_12594/SubComponent6">
+    <sbol:displayId>SubComponent6</sbol:displayId>
+    <rdf:type rdf:resource="http://sbols.org/v3#SubComponent"/>
+    <sbol:role rdf:resource="https://identifiers.org/SBO:0000011"/>
+    <sbol:instanceOf rdf:resource="http://sbolstandard.org/testfiles11/c_NAD_P_OR_NOP"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles11/r_RXN_18387/SubComponent1">
+    <sbol:displayId>SubComponent1</sbol:displayId>
+    <rdf:type rdf:resource="http://sbols.org/v3#SubComponent"/>
+    <sbol:role rdf:resource="https://identifiers.org/SBO:0000010"/>
+    <sbol:instanceOf rdf:resource="http://sbolstandard.org/testfiles11/c_CO_A"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles11/r_RXN_7774/SubComponent4">
+    <sbol:displayId>SubComponent4</sbol:displayId>
+    <rdf:type rdf:resource="http://sbols.org/v3#SubComponent"/>
+    <sbol:role rdf:resource="https://identifiers.org/SBO:0000011"/>
+    <sbol:instanceOf rdf:resource="http://sbolstandard.org/testfiles11/c_SUCC_S_ALD"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles11/r_RXN_12594/SubComponent2">
+    <sbol:displayId>SubComponent2</sbol:displayId>
+    <rdf:type rdf:resource="http://sbols.org/v3#SubComponent"/>
+    <sbol:role rdf:resource="https://identifiers.org/SBO:0000010"/>
+    <sbol:instanceOf rdf:resource="http://sbolstandard.org/testfiles11/c_PROTON"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles11/seq_NADPH">
+    <sbol:displayId>seq_NADPH</sbol:displayId>
+    <rdf:type rdf:resource="http://sbols.org/v3#Sequence"/>
+    <sbol:hasNamespace rdf:resource="http://sbolstandard.org/testfiles11"/>
+    <sbol:elements>InChI=1S/C21H30N7O17P3/c22-17-12-19(25-7-24-17)28(8-26-12)21-16(44-46(33,34)35)14(30)11(43-21)6-41-48(38,39)45-47(36,37)40-5-10-13(29)15(31)20(42-10)27-3-1-2-9(4-27)18(23)32/h1,3-4,7-8,10-11,13-16,20-21,29-31H,2,5-6H2,(H2,23,32)(H,36,37)(H,38,39)(H2,22,24,25)(H2,33,34,35)/p-4/t10-,11-,13-,14-,15-,16-,20-,21-/m1/s1</sbol:elements>
+    <sbol:encoding rdf:resource="https://identifiers.org/edam:format_1197"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles11/r_RXN_12594/SubComponent3">
+    <sbol:displayId>SubComponent3</sbol:displayId>
+    <rdf:type rdf:resource="http://sbols.org/v3#SubComponent"/>
+    <sbol:role rdf:resource="https://identifiers.org/SBO:0000010"/>
+    <sbol:instanceOf rdf:resource="http://sbolstandard.org/testfiles11/c_NADH_P_OR_NOP"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles11/r_RXN_7774/Interaction1">
+    <sbol:displayId>Interaction1</sbol:displayId>
+    <rdf:type rdf:resource="http://sbols.org/v3#Interaction"/>
+    <sbol:type rdf:resource="rxn4"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles11/r_RXN_11002/SubComponent1">
+    <sbol:displayId>SubComponent1</sbol:displayId>
+    <rdf:type rdf:resource="http://sbols.org/v3#SubComponent"/>
+    <sbol:role rdf:resource="https://identifiers.org/SBO:0000010"/>
+    <sbol:instanceOf rdf:resource="http://sbolstandard.org/testfiles11/c_PROTON"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles11/seq_4_HYDROXY_BUTYRYL_COA">
+    <sbol:displayId>seq_4_HYDROXY_BUTYRYL_COA</sbol:displayId>
+    <rdf:type rdf:resource="http://sbols.org/v3#Sequence"/>
+    <sbol:hasNamespace rdf:resource="http://sbolstandard.org/testfiles11"/>
+    <sbol:elements>InChI=1S/C25H42N7O18P3S/c1-25(2,20(37)23(38)28-6-5-15(34)27-7-9-54-16(35)4-3-8-33)11-47-53(44,45)50-52(42,43)46-10-14-19(49-51(39,40)41)18(36)24(48-14)32-13-31-17-21(26)29-12-30-22(17)32/h12-14,18-20,24,33,36-37H,3-11H2,1-2H3,(H,27,34)(H,28,38)(H,42,43)(H,44,45)(H2,26,29,30)(H2,39,40,41)/p-4/t14-,18-,19-,20+,24-/m1/s1</sbol:elements>
+    <sbol:encoding rdf:resource="https://identifiers.org/edam:format_1197"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles11/r_RXN_18387">
+    <sbol:displayId>r_RXN_18387</sbol:displayId>
+    <rdf:type rdf:resource="http://sbols.org/v3#Component"/>
+    <sbol:hasNamespace rdf:resource="http://sbolstandard.org/testfiles11"/>
+    <sbol:type rdf:resource="https://identifiers.org/SBO:0000176"/>
+    <sbol:hasFeature rdf:resource="http://sbolstandard.org/testfiles11/r_RXN_18387/SubComponent1"/>
+    <sbol:hasFeature rdf:resource="http://sbolstandard.org/testfiles11/r_RXN_18387/SubComponent2"/>
+    <sbol:hasFeature rdf:resource="http://sbolstandard.org/testfiles11/r_RXN_18387/SubComponent3"/>
+    <sbol:hasFeature rdf:resource="http://sbolstandard.org/testfiles11/r_RXN_18387/SubComponent4"/>
+    <sbol:hasFeature rdf:resource="http://sbolstandard.org/testfiles11/r_RXN_18387/SubComponent5"/>
+    <sbol:hasFeature rdf:resource="http://sbolstandard.org/testfiles11/r_RXN_18387/SubComponent6"/>
+    <sbol:hasInteraction rdf:resource="http://sbolstandard.org/testfiles11/r_RXN_18387/Interaction1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles11/r_RXN_12595">
+    <sbol:displayId>r_RXN_12595</sbol:displayId>
+    <rdf:type rdf:resource="http://sbols.org/v3#Component"/>
+    <sbol:hasNamespace rdf:resource="http://sbolstandard.org/testfiles11"/>
+    <sbol:type rdf:resource="https://identifiers.org/SBO:0000176"/>
+    <sbol:hasFeature rdf:resource="http://sbolstandard.org/testfiles11/r_RXN_12595/SubComponent1"/>
+    <sbol:hasFeature rdf:resource="http://sbolstandard.org/testfiles11/r_RXN_12595/SubComponent2"/>
+    <sbol:hasFeature rdf:resource="http://sbolstandard.org/testfiles11/r_RXN_12595/SubComponent3"/>
+    <sbol:hasFeature rdf:resource="http://sbolstandard.org/testfiles11/r_RXN_12595/SubComponent4"/>
+    <sbol:hasFeature rdf:resource="http://sbolstandard.org/testfiles11/r_RXN_12595/SubComponent5"/>
+    <sbol:hasInteraction rdf:resource="http://sbolstandard.org/testfiles11/r_RXN_12595/Interaction1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles11/r_RXN_18387/SubComponent5">
+    <sbol:displayId>SubComponent5</sbol:displayId>
+    <rdf:type rdf:resource="http://sbols.org/v3#SubComponent"/>
+    <sbol:role rdf:resource="https://identifiers.org/SBO:0000011"/>
+    <sbol:instanceOf rdf:resource="http://sbolstandard.org/testfiles11/c_Pi"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles11/seq_4_HYDROXY_BUTYRATE">
+    <sbol:displayId>seq_4_HYDROXY_BUTYRATE</sbol:displayId>
+    <rdf:type rdf:resource="http://sbols.org/v3#Sequence"/>
+    <sbol:hasNamespace rdf:resource="http://sbolstandard.org/testfiles11"/>
+    <sbol:elements>InChI=1S/C4H8O3/c5-3-1-2-4(6)7/h5H,1-3H2,(H,6,7)/p-1</sbol:elements>
+    <sbol:encoding rdf:resource="https://identifiers.org/edam:format_1197"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles11/r_RXN_18387/SubComponent3">
+    <sbol:displayId>SubComponent3</sbol:displayId>
+    <rdf:type rdf:resource="http://sbols.org/v3#SubComponent"/>
+    <sbol:role rdf:resource="https://identifiers.org/SBO:0000010"/>
+    <sbol:instanceOf rdf:resource="http://sbolstandard.org/testfiles11/c_ATP"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles11/r_RXN_12594">
+    <sbol:displayId>r_RXN_12594</sbol:displayId>
+    <rdf:type rdf:resource="http://sbols.org/v3#Component"/>
+    <sbol:hasNamespace rdf:resource="http://sbolstandard.org/testfiles11"/>
+    <sbol:type rdf:resource="https://identifiers.org/SBO:0000176"/>
+    <sbol:hasFeature rdf:resource="http://sbolstandard.org/testfiles11/r_RXN_12594/SubComponent1"/>
+    <sbol:hasFeature rdf:resource="http://sbolstandard.org/testfiles11/r_RXN_12594/SubComponent2"/>
+    <sbol:hasFeature rdf:resource="http://sbolstandard.org/testfiles11/r_RXN_12594/SubComponent3"/>
+    <sbol:hasFeature rdf:resource="http://sbolstandard.org/testfiles11/r_RXN_12594/SubComponent4"/>
+    <sbol:hasFeature rdf:resource="http://sbolstandard.org/testfiles11/r_RXN_12594/SubComponent5"/>
+    <sbol:hasFeature rdf:resource="http://sbolstandard.org/testfiles11/r_RXN_12594/SubComponent6"/>
+    <sbol:hasInteraction rdf:resource="http://sbolstandard.org/testfiles11/r_RXN_12594/Interaction1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles11/r_RXN_7774/SubComponent3">
+    <sbol:displayId>SubComponent3</sbol:displayId>
+    <rdf:type rdf:resource="http://sbols.org/v3#SubComponent"/>
+    <sbol:role rdf:resource="https://identifiers.org/SBO:0000011"/>
+    <sbol:instanceOf rdf:resource="http://sbolstandard.org/testfiles11/c_CARBON_DIOXIDE"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles11/seq_NADH_P_OR_NOP">
+    <sbol:displayId>seq_NADH_P_OR_NOP</sbol:displayId>
+    <rdf:type rdf:resource="http://sbols.org/v3#Sequence"/>
+    <sbol:hasNamespace rdf:resource="http://sbolstandard.org/testfiles11"/>
+    <sbol:elements></sbol:elements>
+    <sbol:encoding rdf:resource="https://identifiers.org/edam:format_1197"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles11/seq_ADP">
+    <sbol:displayId>seq_ADP</sbol:displayId>
+    <rdf:type rdf:resource="http://sbols.org/v3#Sequence"/>
+    <sbol:hasNamespace rdf:resource="http://sbolstandard.org/testfiles11"/>
+    <sbol:elements>InChI=1S/C10H15N5O10P2/c11-8-5-9(13-2-12-8)15(3-14-5)10-7(17)6(16)4(24-10)1-23-27(21,22)25-26(18,19)20/h2-4,6-7,10,16-17H,1H2,(H,21,22)(H2,11,12,13)(H2,18,19,20)/p-3/t4-,6-,7-,10-/m1/s1</sbol:elements>
+    <sbol:encoding rdf:resource="https://identifiers.org/edam:format_1197"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles11/seq_Pi">
+    <sbol:displayId>seq_Pi</sbol:displayId>
+    <rdf:type rdf:resource="http://sbols.org/v3#Sequence"/>
+    <sbol:hasNamespace rdf:resource="http://sbolstandard.org/testfiles11"/>
+    <sbol:elements>InChI=1S/H3O4P/c1-5(2,3)4/h(H3,1,2,3,4)/p-2</sbol:elements>
+    <sbol:encoding rdf:resource="https://identifiers.org/edam:format_1197"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles11/r_RXN_12594/SubComponent5">
+    <sbol:displayId>SubComponent5</sbol:displayId>
+    <rdf:type rdf:resource="http://sbols.org/v3#SubComponent"/>
+    <sbol:role rdf:resource="https://identifiers.org/SBO:0000011"/>
+    <sbol:instanceOf rdf:resource="http://sbolstandard.org/testfiles11/c_CPD_13555"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles11/r_RXN_18387/Interaction1">
+    <sbol:displayId>Interaction1</sbol:displayId>
+    <rdf:type rdf:resource="http://sbols.org/v3#Interaction"/>
+    <sbol:type rdf:resource="rxn2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles11/r_RXN_12595/SubComponent3">
+    <sbol:displayId>SubComponent3</sbol:displayId>
+    <rdf:type rdf:resource="http://sbols.org/v3#SubComponent"/>
+    <sbol:role rdf:resource="https://identifiers.org/SBO:0000010"/>
+    <sbol:instanceOf rdf:resource="http://sbolstandard.org/testfiles11/c_CPD_13555"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles11/seq_NAD_P_OR_NOP">
+    <sbol:displayId>seq_NAD_P_OR_NOP</sbol:displayId>
+    <rdf:type rdf:resource="http://sbols.org/v3#Sequence"/>
+    <sbol:hasNamespace rdf:resource="http://sbolstandard.org/testfiles11"/>
+    <sbol:elements></sbol:elements>
+    <sbol:encoding rdf:resource="https://identifiers.org/edam:format_1197"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles11/r_RXN_11002/Interaction1">
+    <sbol:displayId>Interaction1</sbol:displayId>
+    <rdf:type rdf:resource="http://sbols.org/v3#Interaction"/>
+    <sbol:type rdf:resource="rxn3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles11/pathway">
+    <sbol:displayId>pathway</sbol:displayId>
+    <sbol:description>theoretical_yield = 9.085048313235195//eng_atp = -34.9155933264704//nad_aerobic = -29.305846339707866//nadp_aerobic = -19.588954026470677//fva_dif_aerobic = 79894.23281729866//yield_anaerobic = 2.0386001935896947//anaerobic_atp_use = -26.920456606409445//anaerobic_nad_use = -20.09891963333233//anaerobic_nadp_use = -5.4960130871793735//fva_dif_anaerobic = 72112.65150179673//index = 11//model = iML1515</sbol:description>
+    <rdf:type rdf:resource="http://sbols.org/v3#Collection"/>
+    <sbol:hasNamespace rdf:resource="http://sbolstandard.org/testfiles11"/>
+    <sbol:member rdf:resource="http://sbolstandard.org/testfiles11/r_RXN_12595"/>
+    <sbol:member rdf:resource="http://sbolstandard.org/testfiles11/r_RXN_12594"/>
+    <sbol:member rdf:resource="http://sbolstandard.org/testfiles11/r_RXN_18387"/>
+    <sbol:member rdf:resource="http://sbolstandard.org/testfiles11/r_RXN_11002"/>
+    <sbol:member rdf:resource="http://sbolstandard.org/testfiles11/r_RXN_7774"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles11/seq_CPD_13555">
+    <sbol:displayId>seq_CPD_13555</sbol:displayId>
+    <rdf:type rdf:resource="http://sbols.org/v3#Sequence"/>
+    <sbol:hasNamespace rdf:resource="http://sbolstandard.org/testfiles11"/>
+    <sbol:elements>InChI=1S/C4H8O2/c5-3-1-2-4-6/h3,6H,1-2,4H2</sbol:elements>
+    <sbol:encoding rdf:resource="https://identifiers.org/edam:format_1197"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles11/seq_NADP">
+    <sbol:displayId>seq_NADP</sbol:displayId>
+    <rdf:type rdf:resource="http://sbols.org/v3#Sequence"/>
+    <sbol:hasNamespace rdf:resource="http://sbolstandard.org/testfiles11"/>
+    <sbol:elements>InChI=1S/C21H28N7O17P3/c22-17-12-19(25-7-24-17)28(8-26-12)21-16(44-46(33,34)35)14(30)11(43-21)6-41-48(38,39)45-47(36,37)40-5-10-13(29)15(31)20(42-10)27-3-1-2-9(4-27)18(23)32/h1-4,7-8,10-11,13-16,20-21,29-31H,5-6H2,(H7-,22,23,24,25,32,33,34,35,36,37,38,39)/p-3/t10-,11-,13-,14-,15-,16-,20-,21-/m1/s1</sbol:elements>
+    <sbol:encoding rdf:resource="https://identifiers.org/edam:format_1197"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles11/r_RXN_12594/SubComponent1">
+    <sbol:displayId>SubComponent1</sbol:displayId>
+    <rdf:type rdf:resource="http://sbols.org/v3#SubComponent"/>
+    <sbol:role rdf:resource="https://identifiers.org/SBO:0000010"/>
+    <sbol:instanceOf rdf:resource="http://sbolstandard.org/testfiles11/c_4_HYDROXY_BUTYRYL_COA"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles11/seq_2_KETOGLUTARATE">
+    <sbol:displayId>seq_2_KETOGLUTARATE</sbol:displayId>
+    <rdf:type rdf:resource="http://sbols.org/v3#Sequence"/>
+    <sbol:hasNamespace rdf:resource="http://sbolstandard.org/testfiles11"/>
+    <sbol:elements>InChI=1S/C5H6O5/c6-3(5(9)10)1-2-4(7)8/h1-2H2,(H,7,8)(H,9,10)/p-2</sbol:elements>
+    <sbol:encoding rdf:resource="https://identifiers.org/edam:format_1197"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles11/r_RXN_12594/Interaction1">
+    <sbol:displayId>Interaction1</sbol:displayId>
+    <rdf:type rdf:resource="http://sbols.org/v3#Interaction"/>
+    <sbol:type rdf:resource="rxn1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles11/r_RXN_12595/SubComponent5">
+    <sbol:displayId>SubComponent5</sbol:displayId>
+    <rdf:type rdf:resource="http://sbols.org/v3#SubComponent"/>
+    <sbol:role rdf:resource="https://identifiers.org/SBO:0000011"/>
+    <sbol:instanceOf rdf:resource="http://sbolstandard.org/testfiles11/c_NAD_P_OR_NOP"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles11/r_RXN_12595/SubComponent2">
+    <sbol:displayId>SubComponent2</sbol:displayId>
+    <rdf:type rdf:resource="http://sbols.org/v3#SubComponent"/>
+    <sbol:role rdf:resource="https://identifiers.org/SBO:0000010"/>
+    <sbol:instanceOf rdf:resource="http://sbolstandard.org/testfiles11/c_NADH_P_OR_NOP"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles11/r_RXN_12595/Interaction1">
+    <sbol:displayId>Interaction1</sbol:displayId>
+    <rdf:type rdf:resource="http://sbols.org/v3#Interaction"/>
+    <sbol:type rdf:resource="rxn0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles11/r_RXN_11002/SubComponent4">
+    <sbol:displayId>SubComponent4</sbol:displayId>
+    <rdf:type rdf:resource="http://sbols.org/v3#SubComponent"/>
+    <sbol:role rdf:resource="https://identifiers.org/SBO:0000011"/>
+    <sbol:instanceOf rdf:resource="http://sbolstandard.org/testfiles11/c_4_HYDROXY_BUTYRATE"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles11/r_RXN_11002/SubComponent2">
+    <sbol:displayId>SubComponent2</sbol:displayId>
+    <rdf:type rdf:resource="http://sbols.org/v3#SubComponent"/>
+    <sbol:role rdf:resource="https://identifiers.org/SBO:0000010"/>
+    <sbol:instanceOf rdf:resource="http://sbolstandard.org/testfiles11/c_NADPH"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles11/r_RXN_7774/SubComponent2">
+    <sbol:displayId>SubComponent2</sbol:displayId>
+    <rdf:type rdf:resource="http://sbols.org/v3#SubComponent"/>
+    <sbol:role rdf:resource="https://identifiers.org/SBO:0000010"/>
+    <sbol:instanceOf rdf:resource="http://sbolstandard.org/testfiles11/c_2_KETOGLUTARATE"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles11/seq_CO_A">
+    <sbol:displayId>seq_CO_A</sbol:displayId>
+    <rdf:type rdf:resource="http://sbols.org/v3#Sequence"/>
+    <sbol:hasNamespace rdf:resource="http://sbolstandard.org/testfiles11"/>
+    <sbol:elements>InChI=1S/C21H36N7O16P3S/c1-21(2,16(31)19(32)24-4-3-12(29)23-5-6-48)8-41-47(38,39)44-46(36,37)40-7-11-15(43-45(33,34)35)14(30)20(42-11)28-10-27-13-17(22)25-9-26-18(13)28/h9-11,14-16,20,30-31,48H,3-8H2,1-2H3,(H,23,29)(H,24,32)(H,36,37)(H,38,39)(H2,22,25,26)(H2,33,34,35)/p-4/t11-,14-,15-,16+,20-/m1/s1</sbol:elements>
+    <sbol:encoding rdf:resource="https://identifiers.org/edam:format_1197"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles11/seq_PROTON">
+    <sbol:displayId>seq_PROTON</sbol:displayId>
+    <rdf:type rdf:resource="http://sbols.org/v3#Sequence"/>
+    <sbol:hasNamespace rdf:resource="http://sbolstandard.org/testfiles11"/>
+    <sbol:elements>InChI=1S/p+1</sbol:elements>
+    <sbol:encoding rdf:resource="https://identifiers.org/edam:format_1197"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles11/r_RXN_18387/SubComponent4">
+    <sbol:displayId>SubComponent4</sbol:displayId>
+    <rdf:type rdf:resource="http://sbols.org/v3#SubComponent"/>
+    <sbol:role rdf:resource="https://identifiers.org/SBO:0000011"/>
+    <sbol:instanceOf rdf:resource="http://sbolstandard.org/testfiles11/c_4_HYDROXY_BUTYRYL_COA"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles11/seq_CARBON_DIOXIDE">
+    <sbol:displayId>seq_CARBON_DIOXIDE</sbol:displayId>
+    <rdf:type rdf:resource="http://sbols.org/v3#Sequence"/>
+    <sbol:hasNamespace rdf:resource="http://sbolstandard.org/testfiles11"/>
+    <sbol:elements>InChI=1S/CO2/c2-1-3</sbol:elements>
+    <sbol:encoding rdf:resource="https://identifiers.org/edam:format_1197"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles11/r_RXN_12595/SubComponent4">
+    <sbol:displayId>SubComponent4</sbol:displayId>
+    <rdf:type rdf:resource="http://sbols.org/v3#SubComponent"/>
+    <sbol:role rdf:resource="https://identifiers.org/SBO:0000011"/>
+    <sbol:instanceOf rdf:resource="http://sbolstandard.org/testfiles11/c_CPD_13560"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles11/seq_CPD_13560">
+    <sbol:displayId>seq_CPD_13560</sbol:displayId>
+    <rdf:type rdf:resource="http://sbols.org/v3#Sequence"/>
+    <sbol:hasNamespace rdf:resource="http://sbolstandard.org/testfiles11"/>
+    <sbol:elements>InChI=1S/C4H10O2/c5-3-1-2-4-6/h5-6H,1-4H2</sbol:elements>
+    <sbol:encoding rdf:resource="https://identifiers.org/edam:format_1197"/>
+  </rdf:Description>
+</rdf:RDF>

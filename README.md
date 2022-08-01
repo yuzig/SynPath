@@ -18,3 +18,5 @@ Figure 2.  screenshot of home page
 ![demo1](/demo_screenshots/home_page.jpg)
 Figure 3. screenshot of result page, with Lycopene, CPD1F-114, as in put, FARNESYL-PP as precursor, maximum step set to 7, and with the E.coli model iML1515. Pathways are listed and indexed, followed by a table summarizing calculation results. The table is interactive, and can sort the rows based on any parameter by clicking on the headers. There is also an option to download pathway information as SBOL documents.
 ![demo2](/demo_screenshots/result_page.jpg )
+
+Sample results page and SBOL documents for for 1,4-BDO can be found under demo_screenshots/sample_results. 
