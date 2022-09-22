@@ -309,25 +309,8 @@ class CobraConverter:
                      yield_anaerobic, anaerobic_atp_use, anaerobic_nadh_use, anaerobic_nadph_use, fva_dif_anaerobic,
                      self.model.id]
             data_frame_out.append(entry)
-            #
-            # str_pathway = []
-            # str_pathway.append('Theoretical_yield: ' + str(theoretical_yield) + "<br />\n")
-            # str_pathway.append('Aerobic_atp: ' + str(eng_atp) + "<br />\n")
-            # str_pathway.append('Aerobic_atp: ' + str(eng_atp) + "<br />\n")
-            # str_pathway.append('Aerobic_nadph: ' + str(eng_nadp)+ "<br />\n")
-            # str_pathway.append('Aerobic_FVA_span: ' + str(fva_dif) + "<br />\n")
-            # str_pathway.append('yield_anaerobic: ' + str(yield_anaerobic) + "<br />\n")
-            # str_pathway.append('Anaerobic_atp: ' + str(anaerobic_atp_use) + "<br />\n")
-            # str_pathway.append('Anaerobic_nadh: ' + str(anaerobic_nadh_use) + "<br />\n")
-            # str_pathway.append('Anaerobic_nadph: ' + str(anaerobic_nadph_use) + "<br />\n")
-            # str_pathway.append('Anaerobic_FVA_span: ' + str(fva_dif_anaerobic) + "<br />\n")
-            # str_pathway.append('idx: ' + str(idx))
             str_pathway = pathway.split('\n')
             str_pathway.insert(0, 'idx: ' + str(idx))
-            # pathway = pathway.replace("\n","<br />\n")
-            # str_pathway.append('Reactions: ' + pathway)
-            # print(str_pathway)
-            # print(pathway)
 
             self.pathways.append(str_pathway)
             self.model_copy = None

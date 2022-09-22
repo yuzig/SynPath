@@ -24,6 +24,7 @@ class cobraConverterFromFile:
     biomass_rxn = None
     config = None
     pathways = []
+    all_added_rxns = set()
 
     def __init__(self, file, cfg):
         self.pathways = []
@@ -167,6 +168,7 @@ class cobraConverterFromFile:
             if "META:" + tabs[0] in self.dict_rxn or tabs[0] == '':
                 if isLastRxn:
                     self.model_copy.objective = self.dict_rxn.get("META:" + tabs[0]).id
+                    self.all_added_rxns.add(self.dict_rxn.get("META:" + tabs[0]))
                     isLastRxn = False
                 continue
 
@@ -191,8 +193,8 @@ class cobraConverterFromFile:
                         if cs.compartment == 'c':
                             c = cs
                             continue
-                    if not c:
-                        c = c_list[0]
+                    if not c or type(c) == str:
+                        continue
                     reaction.add_metabolites({c.id: -1 * coefficient})
                     continue
 
@@ -233,6 +235,7 @@ class cobraConverterFromFile:
                     if isLastRxn:
                         self.model_copy.add_boundary(self.model_copy.metabolites.get_by_id("META:" + c), type="demand")
 
+            self.all_added_rxns.add(reaction)
             isLastRxn = False
         return True
 
@@ -286,21 +289,21 @@ class cobraConverterFromFile:
                 eng_o2 = "NaN"
 
                 # FVA span calculation
-            FVA = flux_variability_analysis(self.model_copy)
+            FVA = flux_variability_analysis(self.model_copy,  processes=-1)
             dif = FVA["maximum"] - FVA["minimum"]
             fva_dif = dif.sum()
 
             anaerobic_medium = self.model.medium
-            anaerobic_medium['EX_o2_e'] = 0.0
+            # anaerobic_medium['EX_o2_e'] = 0.0
             self.model_copy.medium = anaerobic_medium
-            # self.model_copy.reactions.EX_o2_e.lower_bound = 0
+            self.model_copy.reactions.EX_o2_e.lower_bound = 0
             yield_anaerobic = self.model_copy.slim_optimize()
             fva_dif_anaerobic = 'NaN'
             anaerobic_atp_use = 'NaN'
             anaerobic_nadh_use = 'NaN'
             anaerobic_nadph_use = 'NaN'
             if not math.isnan(yield_anaerobic):
-                FVA = flux_variability_analysis(self.model_copy)
+                FVA = flux_variability_analysis(self.model_copy, processes=-1)
                 dif = FVA["maximum"] - FVA["minimum"]
                 fva_dif_anaerobic = dif.sum()
                 anaerobic_atp_use = self.model_copy.metabolites.atp_c.summary().consuming_flux['flux'].sum()
@@ -315,7 +318,8 @@ class cobraConverterFromFile:
             str_pathway = pathway.split('\n')
             str_pathway.insert(0, 'idx: ' + str(idx))
 
-            self.pathways.append(str_pathway)
+            self.pathways.append(str_pathway
+                                 )
             self.model_copy = None
             idx = idx + 1
             print("pathway " + str(idx) + "/" + str(len(list_of_pathways)) + " done")
@@ -323,3 +327,6 @@ class cobraConverterFromFile:
 
     def get_pathways(self):
         return self.pathways
+
+    def get_all_added_rxns(self):
+        return self.all_added_rxns

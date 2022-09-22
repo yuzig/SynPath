@@ -7,12 +7,14 @@ from flask import Flask, render_template, request, send_file
 from IPython.core.display import display
 from werkzeug.utils import secure_filename
 
-from CobraConverter import CobraConverter
+from GenomeScaleModels import Escher_visualizer
 from cobraConverterFromFile import cobraConverterFromFile
 import pandas as pd
 
 from Config import Config
 from SBOLDocumenter import SBOLDocumenter
+import d3flux as d3f
+from cobra.core import Model
 
 app = Flask(__name__)
 
@@ -85,6 +87,9 @@ def data():
         chem_dat_path = os.path.join(dirname, 'data','chems.txt')
         file_writer = SBOLDocumenter(rxn_dat_path, chem_dat_path, "results")
 
+        map = converter.get_all_added_rxns()
+        escher_map = visualizer(map)
+
         for row in df.iterrows():
             idx = row[1].T.idx
             paths = list_of_paths[idx]
@@ -96,12 +101,26 @@ def data():
         here = os.path.dirname(os.path.realpath(__file__))
         result_directory = os.path.join(here, "results")
         shutil.make_archive('results', 'zip', result_directory)
-        # lst_paths_copy = lst_paths.copy()
-        # lst_paths = []
 
         return render_template('data.html', lst_paths=lst_paths, column_names=ranked.columns.values,
-                               row_data=list(ranked.values.tolist()), zip=zip)
+                               row_data=list(ranked.values.tolist()), zip=zip, map=escher_map)
+def visualizer(reactions_set):
 
+    model = Model("escher_map")
+    for reaction in reactions_set:
+        try:
+            model.reactions.get_by_id(reaction.id)
+        except:
+            model.add_reactions([reaction])
+    list_of_common_cofactors = ['nadh_c','nad_c','nadp_c','nadph_c','h_c', 'atp_c','adp_c',
+                                 'amp_c','coa_c','h2o','o2_c','h2_c','co2_c','q8_c','q8h2_c',
+                                 'pi_c', 'nh4_c']
+    for c in list_of_common_cofactors:
+        try:
+            d3f.update_cofactors(model, [c])
+        except:
+            continue
+    return d3f.flux_map(model)
 
 def ranker(df, order):
     """
@@ -135,3 +154,4 @@ def download_chem_data():
 
 if __name__ == "__main__":
     app.run(debug=True, host='0.0.0.0', port=5000)
+

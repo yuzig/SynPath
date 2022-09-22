@@ -1,3 +1,9 @@
+<head><meta charset="utf-8" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+</head>
+
+{{map}}
 
 {% for str in lst_paths %}
     <tr>{% for line in str %}
@@ -32,9 +38,18 @@
             {% endfor %}
         </tbody>
 </table>
-
 <p>
 	<a href="{{ url_for('.download_file') }}">Download results as sbol</a>
+    ** Theoretical yield: calculated using the flux balance analysis (FBA) function from Cobrapy with the objective set to the final reaction producing the target metabolite.
+    ** Eng_atp: ATP consumptions in this pathway. Value obtained by summing the fluxes of all reactions using ATP. Lower value indicates that the pathway has lower energy use.
+    ** Eng_nad: NAD consumptions in this reactions. Value obtained by summing the fluxes of all reactions using NAD. Lower value indicates that the pathway has lower NAD use.
+    ** Eng_nadp: NADP consumptions in this reactions. Value obtained by summing the fluxes of all reactions using NADP. Lower value indicates that the pathway has lower NAD use.
+    ** FVA_dif:  The values are obtained by subtracting the sum of minimum flux for all reactions from the sum of maximum flux for all reactions as calculated using the flux variability analysis. Larger differences between minimum and maximum FVA suggest greater cofactor imbalance and greater metabolic burden.
+    ** O2_use: Oxygen consumptions in this pathway. Value obtained by summing the fluxes of all reactions using oxygen. Lower value indicates that the pathway has lower NAD use.
+    ** Anaerobic condition: Anaerobic conditions are simulated by setting the oxygen level in growth medium to 0 and setting the oxygen exchange reaction lower bound to 0.
+
+
+
 </p>
 
 <script>
@@ -47,9 +62,13 @@ headers.forEach(function(element, i) {
   });
 });
 </script>
+
+
 <style>
     th {
   cursor: pointer;
   background-color: coral;
 }
 </style>
+
+
